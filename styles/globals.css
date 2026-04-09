@@ -76,7 +76,7 @@
   }
 
   .textarea-field {
-    @apply input-field resize-vertical min-h-[120px];
+    @apply input-field resize-y min-h-[120px];
   }
 }
 
