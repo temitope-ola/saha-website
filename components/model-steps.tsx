@@ -13,7 +13,7 @@ export default function ModelSteps({ steps }: ModelStepsProps) {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
       {steps.map((step) => (
         <div key={step.number} className="flex gap-5">
-          <span className="text-display-sm font-serif text-stone-200 select-none shrink-0 leading-none mt-0.5">
+          <span className="text-display-sm font-serif text-accent-300 select-none shrink-0 leading-none mt-0.5">
             {step.number}
           </span>
           <div>

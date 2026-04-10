@@ -10,7 +10,7 @@ export default function CtaBanner({ heading, description, cta }: CtaBannerProps)
   return (
     <section className="section-padding">
       <div className="container-content">
-        <div className="bg-stone-900 text-stone-100 rounded-sm px-8 py-14 md:px-16 md:py-20 text-center">
+        <div className="bg-stone-900 text-stone-100 rounded-sm px-8 py-14 md:px-16 md:py-20 text-center border-t border-accent-400">
           <h2 className="text-heading md:text-display-sm font-serif text-stone-50 text-balance max-w-xl mx-auto">
             {heading}
           </h2>
