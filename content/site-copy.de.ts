@@ -15,8 +15,8 @@ export const siteConfig = {
 
 export const nav = {
   links: [
-    { label: "Für Gründer", href: "/founders" },
-    { label: "Für Investoren", href: "/investors" },
+    { label: "Gründer", href: "/founders" },
+    { label: "Investoren", href: "/investors" },
     { label: "Saha beitreten", href: "/join" },
     { label: "Über uns", href: "/about" },
     { label: "FAQ", href: "/faq" },
@@ -39,7 +39,7 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Gebaut für das unterversorgte Ende der Nachfolgeregelung",
     paragraphs: [
-      "Institutionelle Käufer konzentrieren sich auf das obere Marktsegment. Deals unter CHF 10 Mio. Jahresumsatz sind für klassische Private-Equity-Gesellschaften zu klein, für passive Investoren zu komplex und in der Regel nicht von etablierten M&A-Beratern abgedeckt. Bedeutende Schweizer Datensammlungen wie die M&A-Berichte von Deloitte definieren KMU ab CHF 10 Mio. — das bedeutet, dass Sahas Kernbereich in deren Analysen gar nicht erst vorkommt.",
+      "Institutionelle Käufer konzentrieren sich auf das obere Marktsegment. Deals unter CHF 10 Mio. Jahresumsatz sind für klassische Private-Equity-Gesellschaften zu klein, für passive Investoren zu komplex und in der Regel nicht von etablierten M&A-Beratern abgedeckt.",
       "Dabei sind diese Unternehmen alles andere als nebensächlich. Sie beschäftigen loyale Teams, betreuen etablierte Kundenstämme und generieren beständige Cashflows. Sie sind das Rückgrat der Lokalwirtschaften in der ganzen Schweiz. Wenn ihre Gründer ohne Plan in den Ruhestand gehen, ist der Schaden real — für Arbeitnehmer, Kunden und Gemeinden.",
       "Saha existiert für diese Lücke. Wir bauen eine diszipliniierte Akquisitionsgesellschaft speziell für dieses Segment: kleine, profitable, nachfolgezentrierte Betriebe, die zu wichtig sind, um zu verschwinden, und zu komplex für Käufer, die diese Arbeit nicht leisten wollen.",
     ],

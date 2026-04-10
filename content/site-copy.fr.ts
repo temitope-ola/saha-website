@@ -16,8 +16,8 @@ export const siteConfig = {
 
 export const nav = {
   links: [
-    { label: "Pour les fondateurs", href: "/founders" },
-    { label: "Pour les investisseurs", href: "/investors" },
+    { label: "Fondateurs", href: "/founders" },
+    { label: "Investisseurs", href: "/investors" },
     { label: "Rejoindre Saha", href: "/join" },
     { label: "À propos", href: "/about" },
     { label: "FAQ", href: "/faq" },
@@ -40,7 +40,7 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Conçu pour le segment mal desservi de la succession",
     paragraphs: [
-      "Les acquéreurs institutionnels se concentrent sur les opérations plus importantes. Les transactions en dessous de CHF 10 millions de chiffre d'affaires sont trop petites pour le capital-investissement traditionnel, trop complexes pour les investisseurs passifs, et rarement couvertes par les conseils en fusions et acquisitions traditionnels. Les grandes bases de données suisses, telles que les rapports M&A de Deloitte, définissent les PME comme des entreprises de plus de CHF 10 millions — ce qui signifie que le segment clé de Saha n'apparaît même pas dans ces analyses.",
+      "Les acquéreurs institutionnels se concentrent sur les opérations plus importantes. Les transactions en dessous de CHF 10 millions de chiffre d'affaires sont trop petites pour le capital-investissement traditionnel, trop complexes pour les investisseurs passifs, et rarement couvertes par les conseils en fusions et acquisitions traditionnels.",
       "Pourtant, ces entreprises sont loin d'être marginales. Elles emploient des équipes fidèles, servent des portefeuilles clients établis et génèrent des flux de trésorerie stables. Elles forment l'épine dorsale des économies locales dans toute la Suisse. Quand leurs fondateurs prennent leur retraite sans plan, la perte est réelle — pour les employés, les clients et les communautés.",
       "Saha existe pour combler ce vide. Nous construisons une entreprise d'acquisition disciplinée spécifiquement pour ce segment : des petites entreprises profitables, en transition successorale, qui sont trop importantes pour disparaître et trop complexes pour des acquéreurs qui ne sont pas disposés à faire le travail.",
     ],
