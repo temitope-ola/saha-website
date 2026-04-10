@@ -31,8 +31,8 @@ export const homepage = {
     headline: "A long-term home for Swiss\nbusinesses facing succession",
     subheadline:
       "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them permanently — preserving what works, supporting the team, and carrying the business forward when the founder is ready to step back.",
-    cta: { label: "Start a confidential conversation", href: "/contact" },
-    secondaryCta: { label: "Learn what we look for", href: "/founders" },
+    cta: { label: "Start a conversation", href: "/contact" },
+    secondaryCta: { label: "What we look for", href: "/founders" },
   },
 
   whatWeAreBuildingSectionLabel: "Why we exist",

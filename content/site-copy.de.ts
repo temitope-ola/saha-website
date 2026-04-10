@@ -32,8 +32,8 @@ export const homepage = {
     headline: "Ein langfristiges Zuhause für Schweizer\nUnternehmen im Übergangsprozess",
     subheadline:
       "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und behält sie dauerhaft — bewahrt, was funktioniert, unterstützt das Team und trägt das Unternehmen weiter, wenn der Gründer bereit ist, einen Schritt zurückzutreten.",
-    cta: { label: "Ein vertrauliches Gespräch führen", href: "/contact" },
-    secondaryCta: { label: "Erfahren Sie, worauf wir achten", href: "/founders" },
+    cta: { label: "Gespräch beginnen", href: "/contact" },
+    secondaryCta: { label: "Unsere Kriterien", href: "/founders" },
   },
 
   whatWeAreBuildingSectionLabel: "Unser Anliegen",
