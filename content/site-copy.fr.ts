@@ -6,7 +6,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "Un acquéreur sérieux pour les entreprises suisses en transition successorale",
+  tagline: "Un acquéreur fiable pour les PME suisses en transmission",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Suisse",
@@ -29,7 +29,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Un acquéreur sérieux pour les entreprises\nsuisses en transition successorale",
+    headline: "Un acquéreur fiable pour les\nPME suisses en transmission",
     subheadline:
       "Saha constitue une entreprise de propriété à long terme pour les entreprises suisses profitables de moins de CHF 10 millions de chiffre d'affaires, où le fondateur prépare son retrait et où la continuité compte autant que le prix.",
     cta: { label: "Discutez confidentiellement de votre succession", href: "/contact" },
@@ -791,7 +791,7 @@ export const termsPage = {
 /* ── Footer ─────────────────────────────────── */
 
 export const footer = {
-  tagline: "Un acquéreur sérieux pour les entreprises suisses en transition successorale.",
+  tagline: "Un acquéreur fiable pour les PME suisses en transmission.",
   columns: [
     {
       title: "Entreprise",
@@ -825,7 +825,7 @@ export const footer = {
 
 export const metadata = {
   home: {
-    title: "Saha — Un acquéreur sérieux pour les entreprises suisses en transition successorale",
+    title: "Saha — Un acquéreur fiable pour les PME suisses en transmission",
     description:
       "Saha acquiert les entreprises suisses profitables de moins de CHF 10 millions de chiffre d'affaires auprès des fondateurs à la retraite, structure les transitions minutieuses et les détient à long terme.",
   },
