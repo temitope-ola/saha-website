@@ -5,7 +5,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "A long-term buyer for Swiss businesses facing succession",
+  tagline: "A long-term home for Swiss businesses facing succession",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -28,20 +28,20 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "A serious buyer for Swiss\nbusinesses facing succession",
+    headline: "A long-term home for Swiss\nbusinesses facing succession",
     subheadline:
-      "Saha is building a long-term ownership company for profitable Swiss businesses below CHF 10m in revenue, where the founder is preparing to step back and continuity matters as much as price.",
-    cta: { label: "Speak confidentially about succession", href: "/contact" },
-    secondaryCta: { label: "See what we look for", href: "/founders" },
+      "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them permanently — preserving what works, supporting the team, and carrying the business forward when the founder is ready to step back.",
+    cta: { label: "Start a confidential conversation", href: "/contact" },
+    secondaryCta: { label: "Learn what we look for", href: "/founders" },
   },
 
-  whatWeAreBuildingSectionLabel: "The opportunity",
+  whatWeAreBuildingSectionLabel: "Why we exist",
   whatWeAreBuilding: {
-    heading: "Built for the underserved end of succession",
+    heading: "Many good businesses disappear for the wrong reasons",
     paragraphs: [
-      "Most institutional buyers focus higher up the market. Deals below CHF 10m in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory.",
-      "Yet these businesses are far from marginal. They employ loyal teams, serve established customer bases, and generate steady cash flows. They are the backbone of local economies across Switzerland. When their founders retire without a plan, the loss is real — for employees, customers, and communities.",
-      "Saha exists for that gap. We are building a disciplined acquisition company specifically for this segment: small, profitable, succession-driven businesses that are too important to disappear and too complex for buyers who are not willing to do the work.",
+      "Across Switzerland, thousands of profitable, well-run businesses face an uncertain future — not because they are failing, but because their founders are approaching retirement without a clear path forward. The options are often unsatisfying: sell to a distant corporate buyer, attempt a rushed handover, or simply close the doors.",
+      "Most institutional acquirers focus higher up the market. Deals below CHF 10m in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. These businesses fall through the cracks — not because they lack value, but because no one has built a model for them.",
+      "That is what Saha is for. We are building an acquisition company designed specifically for this segment: small, profitable, succession-driven businesses that employ loyal teams, serve established customers, and matter deeply to their communities.",
     ],
     callout: {
       type: "stat" as const,
@@ -51,33 +51,33 @@ export const homepage = {
     },
   },
 
-  whyNowSectionLabel: "Why this segment gets left behind",
+  whyNowSectionLabel: "A gap in the market",
   whyNow: {
-    heading: "Too small for most buyers, too valuable to lose",
+    heading: "These businesses deserve better than disappearing quietly",
     paragraphs: [
-      "Businesses below CHF 10m in revenue are too small for most lower-mid-market acquirers, who need larger deal sizes to justify their overhead and fund economics.",
-      "They are too founder-dependent for passive investors, who lack the appetite or capability to manage a hands-on transition from a retiring owner.",
-      "And they are too important — to employees, customers, and local communities — to simply close when no buyer appears. The challenge is not the absence of good businesses. It is the absence of a buyer model built for this segment.",
+      "Below CHF 10m in revenue, there are very few buyers willing to do the work these deals require. The transactions are too small for private equity funds to justify their overhead. The businesses are too founder-dependent for investors who want a hands-off role. And the transitions are too human — too reliant on trust, relationships, and care — to be handled by anyone unwilling to get close.",
+      "Yet these are often the businesses that matter most at a local level. They employ people who have been there for years. They serve customers who depend on them. When they close because no buyer appeared, the loss is quiet but real.",
+      "Saha was created because this gap should not exist. Good businesses should not disappear because of a timing problem.",
     ],
     callout: {
       type: "quote" as const,
-      text: "The issue is not volume. It is failed transferability.",
+      text: "Good businesses should not disappear because of a timing problem.",
     },
   },
 
   audiences: [
     {
       label: "For founders",
-      heading: "Your business deserves a serious next chapter",
+      heading: "Your business deserves a thoughtful next chapter",
       description:
-        "You built something that matters. Saha provides continuity — preserving what works, supporting your team, and carrying forward the business you spent decades creating.",
+        "You built something that matters — to your team, your customers, and your community. Saha exists to carry that forward with the seriousness and care it deserves.",
       cta: { label: "Learn more", href: "/founders" },
     },
     {
       label: "For investors",
-      heading: "A disciplined thesis in an underserved segment",
+      heading: "A disciplined model in an overlooked segment",
       description:
-        "Repeatable sourcing in a structural deal pipeline, disciplined entry valuations, hands-on transitions, and permanent hold. A model built for compounding, not exiting.",
+        "Repeatable sourcing in a structural deal pipeline, disciplined entry valuations, hands-on transitions, and permanent hold. Built for compounding, not for exits.",
       cta: { label: "Learn more", href: "/investors" },
     },
   ],
@@ -89,76 +89,76 @@ export const homepage = {
     cta: { label: "Learn more", href: "/join" },
   },
 
-  modelSectionLabel: "How the model works",
+  modelSectionLabel: "How we work",
   model: {
-    heading: "Identify. Transition. Support. Hold.",
+    heading: "Find the right businesses. Transition them well. Keep them forever.",
     steps: [
       {
         number: "01",
-        title: "Identify transferable businesses",
+        title: "Find businesses that can thrive beyond the founder",
         description:
-          "We focus on profitable, founder-led Swiss businesses below CHF 10m in revenue where succession is the primary reason for sale. Beyond financial health, we assess transferability: repeat or resilient demand, manageable customer concentration, stable teams, and a handover that can realistically be structured.",
+          "We look for profitable, founder-led Swiss businesses below CHF 10m in revenue where succession is the primary reason for sale. Beyond financial health, we pay close attention to whether the business can realistically continue without its founder — steady demand, a capable team, manageable customer concentration, and a handover that can be structured thoughtfully.",
       },
       {
         number: "02",
-        title: "Transition with care and discipline",
+        title: "Manage the transition with care",
         description:
-          "Each acquisition follows a structured transition process designed to preserve stability: founder handover, customer continuity, management stability, and close attention through the first twelve months. Transition is a capability, not just goodwill.",
+          "Every acquisition follows a structured transition designed to preserve what matters: founder handover, customer continuity, team stability, and close attention through the first twelve months. This is where deals succeed or fail, and we treat it as one of our most important capabilities.",
       },
       {
         number: "03",
-        title: "Support where it is useful",
+        title: "Provide support where it genuinely helps",
         description:
-          "Over time, our businesses benefit from shared capabilities where useful: financial discipline, reporting, hiring support, process improvement, and operating guidance. Support is selective, not industrialised — local teams remain responsible for running and growing the business.",
+          "Over time, our businesses can draw on shared capabilities — financial discipline, reporting, hiring support, process improvement, and operating guidance. But support is always selective. Local teams remain responsible for running and growing the business. We help where it is useful, not where it is convenient for us.",
       },
       {
         number: "04",
         title: "Hold for the long term",
         description:
-          "We do not buy to flip. Long-term ownership allows decisions that preserve teams, customer trust, and business quality. Each company stays in the Saha family, and the portfolio compounds in value, knowledge, and operating strength over time.",
+          "We do not buy businesses to resell them. Long-term ownership means we can make decisions that genuinely serve teams, customers, and business quality — without the pressure of an exit timeline. Each company stays in the Saha family, and the portfolio grows stronger over time.",
       },
     ],
   },
 
-  differentiatorsSectionLabel: "Why Saha can work in this segment",
+  differentiatorsSectionLabel: "What makes this different",
   differentiators: {
-    heading: "Built for smaller succession deals",
+    heading: "A model designed for smaller succession deals",
     items: [
       {
-        title: "Purpose-built for sub-CHF 10m deals",
+        title: "Built for businesses below CHF 10m",
         description:
-          "We operate in a segment most institutional buyers avoid. Our model, overhead, and expectations are designed for this deal size from day one.",
+          "We work in a segment most institutional buyers overlook. Our model, our costs, and our expectations are designed for this deal size from day one.",
       },
       {
-        title: "Transferability before acquisition",
+        title: "We think hard about what happens after the founder leaves",
         description:
-          "We assess whether a business can realistically outlast its founder before we acquire it. Not every good business is a good acquisition.",
+          "Before we acquire a business, we assess whether it can realistically continue without its founder. Not every good business is a good acquisition.",
       },
       {
-        title: "Hands-on transition discipline",
+        title: "Transition as a core skill",
         description:
-          "Transition is the highest-risk phase and requires human judgment, communication, and tact. We treat it as a core capability, not a formality.",
+          "The handover period is where the most can go wrong. It requires human judgment, empathy, and close attention. We treat transition as a discipline, not a formality.",
       },
       {
-        title: "Long-term ownership without forced exits",
+        title: "No exit timeline, no forced sales",
         description:
-          "No fund timeline, no exit pressure. Decisions are made for the health of each business, not for the optics of a portfolio review.",
+          "We hold permanently. Decisions are made for the health of each business, not to meet a fund deadline or impress a quarterly review.",
       },
     ],
   },
 
   finalCtaFounders: {
-    heading: "Thinking about succession?",
+    heading: "Thinking about what comes next?",
     description:
-      "If you are a founder beginning to consider what comes next for your business, we would welcome a confidential conversation.",
-    cta: { label: "Discuss succession confidentially", href: "/contact" },
+      "If you are a founder beginning to consider the future of your business, we would welcome a quiet, confidential conversation. No obligation, no pressure.",
+    cta: { label: "Start a conversation", href: "/contact" },
   },
 
   finalCtaOther: {
-    heading: "Investors and operators",
+    heading: "Investors and future team members",
     description:
-      "If you are an investor interested in the model or an operator who wants to build alongside us, we would be glad to hear from you.",
-    cta: { label: "Request an introduction", href: "/contact" },
+      "If you are an investor interested in the model, or someone who wants to help build Saha, we would be glad to hear from you.",
+    cta: { label: "Get in touch", href: "/contact" },
   },
 };
 
@@ -169,14 +169,14 @@ export const foundersPage = {
     eyebrow: "For Founders",
     headline: "You built something worth preserving",
     subheadline:
-      "Saha acquires profitable Swiss businesses below CHF 10m in revenue from founders preparing to step back. When the time comes, your business — and the people who depend on it — deserves more than an uncertain transition.",
+      "When the time comes to step back, your business — and the people who depend on it — deserves more than an uncertain transition. Saha acquires profitable Swiss businesses below CHF 10m in revenue from founders who are ready to pass the torch, and we hold them for good.",
   },
 
   intro: {
     heading: "We understand what is at stake",
     paragraphs: [
-      "Selling a business you built from nothing is not just a financial decision. It is personal. Your name is on it. Your team trusts you. Your customers rely on the standards you set.",
-      "Saha was built by people who understand this. Our model is designed to honour what you created — by preserving it, supporting it, and carrying it forward with the same seriousness you brought to building it.",
+      "Selling a business you built from nothing is not just a financial decision. It is personal. Your name is on it. Your team trusts you. Your customers rely on the standards you set. Finding the right next owner is one of the most important decisions you will ever make.",
+      "Saha was built by people who understand this. Our model is designed to honour what you created — by preserving it, supporting it, and carrying it forward with the same seriousness you brought to building it. We are not here to rebrand, restructure, or flip. We are here to continue what you started.",
     ],
     callout: {
       type: "quote" as const,
@@ -185,16 +185,15 @@ export const foundersPage = {
   },
 
   whatWeLookFor: {
-    heading: "A good fit for Saha",
-    description: "We look for businesses that can realistically outlast the founder:",
+    heading: "What makes a good fit",
+    description: "We look for businesses that can realistically thrive beyond the founder. Typically that means:",
     criteria: [
-      "Profitable and established — typically founder-led for many years",
+      "Profitable and established — usually founder-led for many years",
       "Revenue generally below CHF 10 million",
-      "Succession or retirement is the primary reason for considering a sale",
-      "Repeat or resilient demand — not project-based or one-off revenue",
-      "Manageable customer concentration — not dependent on a single contract",
-      "Stable team in place with operational capability beyond the founder",
-      "A realistic handover path that can be structured and executed",
+      "The founder is considering succession or retirement as the primary reason for a sale",
+      "Demand that is steady or recurring — not project-based or dependent on a few large contracts",
+      "A capable team already in place, with operational strength beyond the founder",
+      "A handover that can be realistically planned and executed over a reasonable timeframe",
     ],
     callout: {
       type: "quote" as const,
@@ -203,78 +202,78 @@ export const foundersPage = {
   },
 
   notAFit: {
-    heading: "Usually not a fit",
-    description: "We are selective by design. The following situations are typically outside our scope:",
+    heading: "When Saha is probably not the right fit",
+    description: "We are intentionally selective, and honest about what falls outside our model. We are unlikely to be the right buyer when:",
     criteria: [
-      "Businesses where revenue depends primarily on the founder's personal relationships or sales ability",
-      "Distressed or turnaround situations requiring immediate restructuring",
-      "Heavy dependence on a single customer or contract",
-      "Highly project-based or unpredictable revenue models",
-      "Businesses where the handover cannot be realistically structured within a reasonable timeframe",
-      "Structurally declining niches with limited long-term viability",
+      "The business depends heavily on the founder's personal relationships or individual sales ability",
+      "The situation requires immediate restructuring or a financial turnaround",
+      "Revenue is concentrated around a single customer or contract",
+      "The revenue model is highly project-based or unpredictable",
+      "There is no realistic path to a structured handover within a reasonable timeframe",
+      "The niche is in structural decline with limited long-term viability",
     ],
   },
 
   founderExpectations: {
-    heading: "What founders can expect from us",
+    heading: "What you can expect from us",
     items: [
       {
         title: "Your company keeps its identity",
         description:
-          "We preserve the name, brand, and local presence of every business we acquire. Your company continues to operate as itself.",
+          "We preserve the name, brand, and local presence of every business we acquire. Your company continues to operate as itself — in its own market, with its own team.",
       },
       {
         title: "Your involvement is on your terms",
         description:
-          "Some founders prefer a clean handover. Others stay involved in an advisory capacity. We design the transition around your preferences.",
+          "Some founders prefer a clean handover. Others stay involved in an advisory role for a time. We design the transition around what feels right for you.",
       },
       {
-        title: "Price is important, but not the only thing",
+        title: "A fair price — and more than just a number",
         description:
-          "We offer fair, transparent valuations. We also know that for many founders, continuity for the team and customers matters as much as the number.",
+          "We offer transparent, fair valuations. We also understand that for many founders, knowing the team and customers will be looked after matters as much as the price.",
       },
       {
         title: "Your team is protected",
         description:
-          "We do not acquire businesses to restructure headcount. Existing employees, their roles, and working relationships are preserved through the transition and beyond.",
+          "We do not acquire businesses to cut costs or restructure headcount. The people you hired, the roles you shaped, and the working relationships you built are preserved through the transition and beyond.",
       },
     ],
   },
 
   process: {
-    heading: "What engaging with Saha looks like",
+    heading: "What it looks like to work with us",
     description:
-      "There is no pressure and no obligation at any step. We move at a pace that feels right for you.",
+      "There is no pressure and no obligation at any stage. We move at a pace that feels right for you.",
     steps: [
       {
-        title: "Confidential first conversation",
+        title: "A confidential first conversation",
         description:
-          "We begin with a private, no-obligation conversation to understand your business, your goals, and your timeline.",
+          "We start with a private, no-obligation conversation to understand your business, your thinking, and your timeline. Nothing moves forward unless you want it to.",
       },
       {
-        title: "Initial fit assessment",
+        title: "Understanding whether there is a fit",
         description:
-          "If there is mutual interest, we assess whether your business fits our model — profitability, transferability, team stability, and handover potential.",
+          "If there is mutual interest, we take time to understand whether your business fits our model — profitability, team strength, customer stability, and whether the handover can be realistically structured.",
       },
       {
-        title: "Deeper review",
+        title: "Getting to know the business more deeply",
         description:
-          "We spend time understanding your business more deeply — operations, customers, team dynamics, and the founder's role in day-to-day operations.",
+          "We spend time understanding your operations, customers, team dynamics, and the role you play day to day. This is as much about people as it is about numbers.",
       },
       {
-        title: "Indicative proposal",
+        title: "A clear, fair proposal",
         description:
-          "We present a clear, straightforward proposal. No aggressive negotiation tactics. No last-minute surprises. Fair terms that reflect the value of what you have built.",
+          "We present a straightforward proposal with no aggressive tactics and no last-minute surprises. Fair terms that reflect the value of what you have built.",
       },
       {
-        title: "Diligence and transition planning",
+        title: "Due diligence and transition planning",
         description:
-          "Formal due diligence alongside detailed planning for the handover — who takes over what, how customers are managed, and what the first twelve months look like.",
+          "Formal diligence alongside detailed planning for the handover — who takes over what, how customers are communicated with, and what the first year looks like.",
       },
       {
-        title: "Structured handover",
+        title: "A careful, structured handover",
         description:
-          "We execute the transition with care: founder handover, management continuity, customer communication, and operational stability from day one.",
+          "We execute the transition with care: founder handover, team continuity, customer communication, and close attention to operational stability from day one.",
       },
     ],
   },
@@ -282,8 +281,8 @@ export const foundersPage = {
   closingCta: {
     heading: "Your business is worth a serious conversation",
     description:
-      "If you are beginning to think about what comes next, we would be glad to listen. Confidential, no obligation, and entirely on your terms.",
-    cta: { label: "Speak with us about your business", href: "/contact" },
+      "If you are beginning to think about what comes next, we would be glad to listen. Everything is confidential, there is no obligation, and the pace is entirely yours.",
+    cta: { label: "Speak with us", href: "/contact" },
   },
 };
 
@@ -292,17 +291,17 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "For Investors",
-    headline: "An acquisition model built for\nsmaller Swiss succession deals",
+    headline: "A permanent ownership model\nfor Swiss succession deals",
     subheadline:
-      "Saha focuses on profitable Swiss businesses below CHF 10m in revenue, where succession creates opportunity but conventional capital often does not engage. We acquire, transition, and hold — permanently.",
+      "Saha acquires profitable Swiss businesses below CHF 10m in revenue where succession creates opportunity but conventional capital rarely engages. We transition carefully and hold permanently.",
   },
 
   thesis: {
     heading: "The investment thesis",
     paragraphs: [
-      "Switzerland has a large, growing, and structurally underserved segment of profitable, founder-led businesses facing succession. These companies are often well-run, cash-generative, and deeply embedded in their local markets — yet they sit below the threshold where most institutional buyers operate.",
-      "Major Swiss M&A datasets, such as Deloitte's SME reports, define their lower bound at CHF 10m in revenue. Everything below that is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that 32% of Swiss SME owners expect a transfer within five years — and only about 65% of those are expected to conclude successfully.",
-      "The gap is not a lack of good businesses. It is a lack of buyers purpose-built for this segment. Deals below CHF 10m require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is being built specifically for this work.",
+      "Switzerland has a large and growing segment of profitable, founder-led businesses approaching succession. These companies are often well-run, cash-generative, and deeply embedded in their local markets — yet they sit below the threshold where most institutional buyers operate.",
+      "Everything below CHF 10m in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expects a transfer within five years — and only about two thirds of those successions are expected to conclude successfully.",
+      "The gap is not a lack of good businesses. It is the absence of a buyer model purpose-built for this segment. These deals require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is being built specifically for this work.",
       "Because we hold permanently, our returns compound. Every acquisition refines our sourcing, transition discipline, and operating capabilities — making the next one more efficient and less risky.",
     ],
     callout: {
@@ -380,14 +379,14 @@ export const investorsPage = {
     ],
     callout: {
       type: "quote" as const,
-      text: "We acquire businesses to keep them. Our incentives are fully aligned.",
+      text: "We acquire businesses to keep them. Our incentives are fully aligned with long-term success.",
     },
   },
 
   closingCta: {
     heading: "Interested in learning more?",
     description:
-      "We are structuring Saha for a small number of aligned, long-term investors. If the thesis resonates, we welcome a private conversation to explore fit. Full documentation is shared in direct discussions.",
+      "We are structuring Saha for a small number of aligned, long-term investors. If the thesis resonates, we welcome a private conversation to explore fit.",
     cta: { label: "Investor enquiries", href: "/contact" },
   },
 };
@@ -397,38 +396,38 @@ export const investorsPage = {
 export const joinPage = {
   hero: {
     eyebrow: "Join Saha",
-    headline: "Build Saha from the ground up",
+    headline: "Build something from the ground up",
     subheadline:
-      "Saha is at the formation stage — before first acquisition. We are assembling a small team to shape the sourcing model, diligence process, transition discipline, and operating approach. If you think in decades and care about craft, this is early, real work.",
+      "Saha is at the formation stage — before our first acquisition. We are assembling a small team to shape the sourcing model, diligence process, transition approach, and operating culture. If you think in decades and care about craft, this is early, meaningful work.",
   },
 
   whyJoin: {
     heading: "Why join at this stage",
     paragraphs: [
-      "Most professional opportunities are about optimising within existing structures. Saha is different. We are building a long-term ownership company for Swiss businesses from scratch — strategy, culture, systems, values are all being decided now.",
-      "The first hires will help shape the first acquisition model, the first transition, and the first operating playbook. This is pre-first-acquisition work. The people who join at this stage will define what Saha becomes.",
+      "Most professional opportunities are about optimising within existing structures. Saha is different. We are building a long-term ownership company for Swiss businesses from scratch — the strategy, the culture, the systems, the values are all being shaped right now.",
+      "The people who join at this stage will not just fill roles — they will define what Saha becomes. The first acquisition, the first transition, the first operating playbook. This is the kind of work where everything you do matters.",
     ],
   },
 
   roles: {
     heading: "What we need",
     description:
-      "We are not hiring for job titles. We are looking for people with the right skills, disposition, and ambition to build alongside us at the earliest stage.",
+      "We are not hiring for job titles. We are looking for people with the right skills, disposition, and ambition to build alongside us at the very beginning.",
     profiles: [
       {
         title: "Deal and diligence",
         description:
-          "People who can source, evaluate, and structure acquisitions in the sub-CHF 10m Swiss market. You understand what makes a small business transferable, you can read financials and assess operational risk, and you can build relationships with founders and advisors.",
+          "People who can source, evaluate, and structure acquisitions in the sub-CHF 10m Swiss market. You understand what makes a small business work, you can read financials and assess risk, and you know how to build trust with founders and advisors.",
       },
       {
         title: "Transition and operations",
         description:
-          "People who can step into acquired businesses and lead them through the handover. You manage the founder exit, stabilise the team, maintain customer relationships, and set the operational foundation for long-term health.",
+          "People who can step into an acquired business and guide it through the handover. You manage the founder exit, steady the team, maintain customer relationships, and lay the foundation for long-term health.",
       },
       {
         title: "Finance and infrastructure",
         description:
-          "People who can build the financial reporting, administrative systems, and operational processes that support a growing family of businesses. The connective tissue that makes the model work.",
+          "People who can build the financial reporting, administrative systems, and operational processes that hold a growing family of businesses together. The quiet infrastructure that makes everything else possible.",
       },
     ],
   },
@@ -462,7 +461,7 @@ export const joinPage = {
   closingCta: {
     heading: "This might be for you",
     description:
-      "If what you have read resonates — even if you do not fit neatly into one of the profiles above — we would like to hear from you. Send a note explaining who you are and what draws you to Saha.",
+      "If what you have read resonates — even if you do not fit neatly into one of the profiles above — we would like to hear from you. Tell us who you are and what draws you to Saha.",
     cta: { label: "Reach out", href: "/contact" },
   },
 };
@@ -474,31 +473,31 @@ export const aboutPage = {
     eyebrow: "About Saha",
     headline: "Why Saha exists",
     subheadline:
-      "Saha was founded on a simple observation: too many good Swiss businesses disappear not because they fail, but because their founders retire without a clear path forward.",
+      "Too many good Swiss businesses disappear not because they fail, but because their founders retire without a clear path forward. Saha was created to change that.",
   },
 
   story: {
     heading: "The problem we set out to solve",
     paragraphs: [
       "Switzerland's economy is built on small and medium-sized enterprises. Many are profitable, well-managed businesses with loyal teams and strong local reputations. They form the backbone of communities across the country.",
-      "But every year, thousands of these businesses face an uncertain future. Their founders — often the people who built them from nothing — reach retirement age with no succession plan. The options are often unsatisfying: sell to a large, impersonal acquirer; attempt a rushed handover to unprepared successors; or simply close.",
-      "Saha was created to offer a better answer. We believe that strong, profitable, well-run businesses should not disappear because of a timing problem. They deserve an owner who will respect their history, support their teams, and carry them forward with seriousness and care.",
+      "But every year, thousands of these businesses face an uncertain future. Their founders — often the people who built them from nothing — reach retirement age with no succession plan. The options are usually unsatisfying: sell to a large, impersonal acquirer; attempt a rushed handover to unprepared successors; or simply close.",
+      "Saha was created to offer something better. We believe that strong, profitable, well-run businesses should not disappear because of a timing problem. They deserve an owner who will respect their history, support their people, and carry them forward with seriousness and care.",
     ],
   },
 
   whyDifferentBuyer: {
-    heading: "Why this segment needs a different buyer",
+    heading: "Why these businesses need a different kind of buyer",
     paragraphs: [
       "Businesses below CHF 10m in revenue sit in a structural gap. They are too small for most institutional acquirers, who need larger deal sizes to justify their economics. They are too founder-dependent for passive investors, who lack the willingness or capability to manage a hands-on transition.",
-      "And they are too important — to employees, customers, and communities — to simply disappear when no buyer appears. This segment does not need more capital. It needs a buyer model built for the specific complexity of smaller succession deals.",
+      "And they are too important — to employees, to customers, to communities — to simply disappear when no buyer shows up. This segment does not need more capital. It needs a buyer who understands the human complexity of smaller succession deals and is willing to do the work.",
     ],
   },
 
   approach: {
-    heading: "Our approach",
+    heading: "How we think about ownership",
     paragraphs: [
       "We acquire businesses with the intention of keeping them. This is not a financial strategy dressed up as stewardship — it is a genuine conviction that long-term ownership produces better outcomes for businesses, their people, and their communities.",
-      "We provide each company with a structured transition, selective operating support, and the stability that comes from being part of something larger. In return, each business strengthens the whole — through shared knowledge, operating discipline, and the compounding advantages of a growing, permanent portfolio.",
+      "We provide each company with a careful transition, selective operating support, and the stability that comes from belonging to something larger. In return, each business strengthens the whole — through shared knowledge, operating discipline, and the compounding advantages of a growing, permanent portfolio.",
     ],
   },
 
@@ -532,14 +531,14 @@ export const aboutPage = {
     heading: "Where we are today",
     paragraphs: [
       "Saha is in formation. We are assembling the initial team, engaging early acquisition targets, and structuring the capital base. This is deliberate — we believe the first acquisitions define the company, and we intend to get them right.",
-      "We are building for the long term. Every decision is guided by a simple question: will this still make sense in twenty years?",
+      "We are building for the long term. Every decision we make is guided by a simple question: will this still make sense in twenty years?",
     ],
   },
 
   closingCta: {
-    heading: "We welcome your interest",
+    heading: "We would be glad to hear from you",
     description:
-      "Whether you are a founder, an investor, or someone who shares our vision — we would be glad to hear from you.",
+      "Whether you are a founder thinking about the future, an investor exploring the model, or someone who shares our vision — you are welcome to reach out.",
     cta: { label: "Get in touch", href: "/contact" },
   },
 };
@@ -559,7 +558,7 @@ export const contactPage = {
       id: "founder",
       title: "I am a founder considering succession",
       description:
-        "If you are thinking about the next chapter for your business, we would welcome a confidential, no-obligation conversation about how Saha might be the right fit.",
+        "If you are thinking about the next chapter for your business, we would welcome a confidential, no-obligation conversation about whether Saha might be a good fit.",
       fields: [
         { name: "name", label: "Your name", type: "text" as const, required: true },
         { name: "email", label: "Email address", type: "email" as const, required: true },
@@ -622,7 +621,7 @@ export const faqPage = {
         {
           question: "How long does the process take from first conversation to closing?",
           answer:
-            "Every situation is different, but a typical process runs three to six months from initial conversation to completion. We move at a pace that works for you — there is no pressure to rush. The first conversation is confidential and carries no obligation.",
+            "Every situation is different, but a typical process takes three to six months from initial conversation to completion. We move at a pace that works for you — there is no pressure to rush. The first conversation is confidential and carries no obligation.",
         },
         {
           question: "Will my company keep its name and brand?",
@@ -637,7 +636,7 @@ export const faqPage = {
         {
           question: "What size of business does Saha typically acquire?",
           answer:
-            "We focus on profitable, founder-led Swiss businesses generally below CHF 10 million in annual revenue. The most important factors are the quality of the business, the strength of the team, and whether the business can realistically function after the founder steps away.",
+            "We focus on profitable, founder-led Swiss businesses generally below CHF 10 million in annual revenue. The most important factors are the quality of the business, the strength of the team, and whether the business can realistically continue to thrive after the founder steps away.",
         },
       ],
     },
@@ -672,7 +671,7 @@ export const faqPage = {
         {
           question: "Why focus on businesses below CHF 10m in revenue?",
           answer:
-            "This segment is structurally underserved. Most institutional buyers, advisors, and datasets focus above CHF 10m — Deloitte's Swiss M&A reports, for example, define SMEs starting at that threshold. Below it, profitable succession-driven businesses exist in large numbers but lack a purpose-built buyer. That is the gap Saha is designed to fill.",
+            "This segment is structurally underserved. Most institutional buyers, advisors, and M&A datasets focus above CHF 10m. Below that threshold, profitable succession-driven businesses exist in large numbers but lack a purpose-built buyer. That is the gap Saha is designed to fill.",
         },
       ],
     },
@@ -687,12 +686,12 @@ export const faqPage = {
         {
           question: "Is Saha hiring for specific roles right now?",
           answer:
-            "We are at the formation stage — before first acquisition. We are always open to hearing from exceptional people. Even without a formal role, we welcome introductions from anyone who feels a strong alignment with what we are building.",
+            "We are at the formation stage — before our first acquisition. We are always open to hearing from exceptional people. Even without a formal opening, we welcome introductions from anyone who feels a strong alignment with what we are building.",
         },
         {
           question: "Where is Saha based?",
           answer:
-            "Saha is based in Switzerland. Our team works across the country, close to the businesses we acquire and support. We value presence and proximity — being close to the teams and communities we serve.",
+            "Saha is based in Switzerland. Our team works across the country, close to the businesses we acquire and support. We value presence and proximity — being near the teams and communities we serve.",
         },
       ],
     },
@@ -790,7 +789,7 @@ export const termsPage = {
 /* ── Footer ─────────────────────────────────── */
 
 export const footer = {
-  tagline: "A long-term buyer for Swiss businesses facing succession.",
+  tagline: "A long-term home for Swiss businesses facing succession.",
   columns: [
     {
       title: "Company",
@@ -803,8 +802,8 @@ export const footer = {
     {
       title: "For you",
       links: [
-        { label: "For Founders", href: "/founders" },
-        { label: "For Investors", href: "/investors" },
+        { label: "Founders", href: "/founders" },
+        { label: "Investors", href: "/investors" },
         { label: "Join Saha", href: "/join" },
       ],
     },
@@ -824,19 +823,19 @@ export const footer = {
 
 export const metadata = {
   home: {
-    title: "Saha — A long-term buyer for Swiss businesses facing succession",
+    title: "Saha — A long-term home for Swiss businesses facing succession",
     description:
-      "Saha acquires profitable Swiss businesses below CHF 10m in revenue from retiring founders, structures careful transitions, and holds them for the long term.",
+      "Saha acquires profitable Swiss businesses below CHF 10m in revenue from retiring founders, transitions them with care, and holds them for the long term.",
   },
   founders: {
     title: "For Founders — Saha",
     description:
-      "Your business deserves a serious next chapter. Saha acquires and preserves founder-built Swiss businesses below CHF 10m with care, structure, and long-term commitment.",
+      "You built something worth preserving. Saha acquires and keeps founder-built Swiss businesses below CHF 10m with care, structure, and a long-term commitment.",
   },
   investors: {
     title: "For Investors — Saha",
     description:
-      "A disciplined acquisition model for the underserved segment of Swiss succession deals below CHF 10m. Permanent hold, structured transitions, compounding value.",
+      "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10m. Structured transitions, disciplined sourcing, compounding value.",
   },
   join: {
     title: "Join Saha — Build from the ground up",
@@ -846,7 +845,7 @@ export const metadata = {
   about: {
     title: "About Saha — Why we exist",
     description:
-      "Too many good Swiss businesses disappear when their founders retire. Saha was created to provide a disciplined, long-term buyer for the underserved succession segment.",
+      "Too many good Swiss businesses disappear when their founders retire. Saha was created to provide a thoughtful, long-term buyer for the underserved succession segment.",
   },
   contact: {
     title: "Contact Saha",
