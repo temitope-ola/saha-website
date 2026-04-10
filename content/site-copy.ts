@@ -15,8 +15,8 @@ export const siteConfig = {
 
 export const nav = {
   links: [
-    { label: "For Founders", href: "/founders" },
-    { label: "For Investors", href: "/investors" },
+    { label: "Founders", href: "/founders" },
+    { label: "Investors", href: "/investors" },
     { label: "Join Saha", href: "/join" },
     { label: "About", href: "/about" },
     { label: "FAQ", href: "/faq" },
@@ -39,7 +39,7 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Built for the underserved end of succession",
     paragraphs: [
-      "Most institutional buyers focus higher up the market. Deals below CHF 10m in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. Major Swiss datasets such as Deloitte's M&A reports define SMEs as companies above CHF 10m — meaning Saha's core segment does not even appear in their analysis.",
+      "Most institutional buyers focus higher up the market. Deals below CHF 10m in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory.",
       "Yet these businesses are far from marginal. They employ loyal teams, serve established customer bases, and generate steady cash flows. They are the backbone of local economies across Switzerland. When their founders retire without a plan, the loss is real — for employees, customers, and communities.",
       "Saha exists for that gap. We are building a disciplined acquisition company specifically for this segment: small, profitable, succession-driven businesses that are too important to disappear and too complex for buyers who are not willing to do the work.",
     ],
