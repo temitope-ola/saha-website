@@ -46,8 +46,8 @@ export const homepage = {
     ],
     callout: {
       type: "stat" as const,
-      value: "32 %",
-      caption: "des propriétaires de PME suisses s'attendent à transférer leur entreprise dans les cinq ans — mais seulement environ 65 % de ces successions sont censées aboutir avec succès",
+      value: "~168 000",
+      caption: "PME suisses feront face à une succession d'ici 2030 — mais seulement environ deux tiers de ces transmissions devraient aboutir",
       source: "Étude 2026 CFB‐HSG / UBS",
     },
   },

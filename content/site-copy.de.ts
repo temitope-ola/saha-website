@@ -45,8 +45,8 @@ export const homepage = {
     ],
     callout: {
       type: "stat" as const,
-      value: "32 %",
-      caption: "der Schweizer KMU-Inhaber rechnen damit, ihr Unternehmen innerhalb von fünf Jahren zu übergeben — aber nur etwa 65 % dieser Nachfolgeregelungen werden voraussichtlich erfolgreich abgeschlossen",
+      value: "~168'000",
+      caption: "Schweizer KMU stehen bis 2030 vor einer Nachfolgeregelung — doch nur etwa zwei Drittel dieser Übergaben dürften erfolgreich abgeschlossen werden",
       source: "2026 CFB\u2011HSG / UBS Studie",
     },
   },

@@ -45,8 +45,8 @@ export const homepage = {
     ],
     callout: {
       type: "stat" as const,
-      value: "32%",
-      caption: "of Swiss SME owners expect to transfer their business within five years — but only about 65% of those successions are expected to conclude successfully",
+      value: "~168,000",
+      caption: "Swiss SMEs will face succession by 2030 — but only about two thirds of those transfers are expected to conclude successfully",
       source: "2026 CFB\u2011HSG / UBS study",
     },
   },
