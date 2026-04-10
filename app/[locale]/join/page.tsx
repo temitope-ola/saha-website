@@ -3,18 +3,23 @@ import PageHero from "@/components/page-hero";
 import SectionIntro from "@/components/section-intro";
 import ValueGrid from "@/components/value-grid";
 import CtaBanner from "@/components/cta-banner";
-import { joinPage, metadata as siteMeta } from "@/content/site-copy";
+import type { Locale } from "@/lib/i18n";
+import { localePath } from "@/lib/i18n";
+import { getDictionary } from "@/lib/get-dictionary";
 
-export const metadata: Metadata = {
-  title: siteMeta.join.title,
-  description: siteMeta.join.description,
-  openGraph: {
-    title: siteMeta.join.title,
-    description: siteMeta.join.description,
-  },
-};
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const dict = getDictionary((params.locale ?? "en") as Locale);
+  return {
+    title: dict.metadata.join.title,
+    description: dict.metadata.join.description,
+    openGraph: { title: dict.metadata.join.title, description: dict.metadata.join.description },
+  };
+}
 
-export default function JoinPage() {
+export default function JoinPage({ params }: { params: { locale: string } }) {
+  const locale = (params.locale ?? "en") as Locale;
+  const { joinPage } = getDictionary(locale);
+
   return (
     <>
       <PageHero
@@ -72,7 +77,7 @@ export default function JoinPage() {
       <CtaBanner
         heading={joinPage.closingCta.heading}
         description={joinPage.closingCta.description}
-        cta={joinPage.closingCta.cta}
+        cta={{ ...joinPage.closingCta.cta, href: localePath(locale, joinPage.closingCta.cta.href) }}
       />
     </>
   );

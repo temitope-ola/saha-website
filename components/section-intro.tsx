@@ -8,7 +8,7 @@ export default function SectionIntro({ label, heading, children }: SectionIntroP
   return (
     <div className="mb-10 md:mb-14">
       {label && (
-        <p className="text-caption font-sans font-medium text-stone-400 uppercase tracking-wider mb-4">
+        <p className="text-caption font-sans font-medium text-accent-600 uppercase tracking-wider mb-4">
           {label}
         </p>
       )}

@@ -9,8 +9,8 @@ interface AudienceCardProps {
 
 export default function AudienceCard({ label, heading, description, cta }: AudienceCardProps) {
   return (
-    <div className="group flex flex-col p-8 md:p-10 bg-white border border-stone-200 rounded-sm hover:border-stone-300 transition-colors duration-300">
-      <p className="text-caption font-sans font-medium text-stone-400 uppercase tracking-wider mb-3">
+    <div className="group flex flex-col p-8 md:p-10 bg-white border border-stone-200 rounded-sm hover:border-accent-300 transition-colors duration-300">
+      <p className="text-caption font-sans font-medium text-accent-600 uppercase tracking-wider mb-3">
         {label}
       </p>
       <h3 className="text-heading font-serif text-stone-900 mb-4">
@@ -21,7 +21,7 @@ export default function AudienceCard({ label, heading, description, cta }: Audie
       </p>
       <Link
         href={cta.href}
-        className="text-body-sm text-stone-800 font-medium link-underline self-start"
+        className="text-body-sm text-accent-700 font-medium link-underline self-start"
       >
         {cta.label}
         <span className="ml-1.5 inline-block transition-transform duration-200 group-hover:translate-x-1" aria-hidden="true">
