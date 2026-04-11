@@ -4,6 +4,7 @@ import PageHero from "@/components/page-hero";
 import SectionIntro from "@/components/section-intro";
 import ValueGrid from "@/components/value-grid";
 import CtaBanner from "@/components/cta-banner";
+import CalloutBox from "@/components/callout-box";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
@@ -33,19 +34,24 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <section className="section-padding">
         <div className="container-content">
           <SectionIntro heading={aboutPage.founderNote.heading} />
-          <div className="max-w-prose space-y-5">
-            {aboutPage.founderNote.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div>
+              <div className="space-y-5">
+                {aboutPage.founderNote.paragraphs.map((p, i) => (
+                  <p key={i} className="text-body-lg text-stone-600">
+                    {p}
+                  </p>
+                ))}
+              </div>
+              <p className="mt-8 text-body-lg font-serif text-stone-800">
+                {aboutPage.founderNote.attribution}
               </p>
-            ))}
+              <p className="mt-3 text-body text-stone-500">
+                {aboutPage.founderNote.bio}
+              </p>
+            </div>
+            <CalloutBox {...aboutPage.founderNote.callout} />
           </div>
-          <p className="mt-8 text-body-lg font-serif text-stone-800">
-            {aboutPage.founderNote.attribution}
-          </p>
-          <p className="mt-3 text-body text-stone-500 max-w-prose">
-            {aboutPage.founderNote.bio}
-          </p>
         </div>
       </section>
 
@@ -92,12 +98,15 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <section className="section-padding border-t border-stone-200">
         <div className="container-content">
           <SectionIntro heading={aboutPage.story.heading} />
-          <div className="max-w-prose space-y-5">
-            {aboutPage.story.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {aboutPage.story.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...aboutPage.story.callout} />
           </div>
         </div>
       </section>
@@ -106,12 +115,15 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whyDifferentBuyer.heading} />
-          <div className="max-w-prose space-y-5">
-            {aboutPage.whyDifferentBuyer.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {aboutPage.whyDifferentBuyer.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...aboutPage.whyDifferentBuyer.callout} />
           </div>
         </div>
       </section>
@@ -120,12 +132,15 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <section className="section-padding border-t border-stone-200">
         <div className="container-content">
           <SectionIntro heading={aboutPage.approach.heading} />
-          <div className="max-w-prose space-y-5">
-            {aboutPage.approach.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {aboutPage.approach.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...aboutPage.approach.callout} />
           </div>
         </div>
       </section>
@@ -134,7 +149,18 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={aboutPage.principles.heading} />
-          <ValueGrid items={aboutPage.principles.items} />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {aboutPage.principles.items.map((item) => (
+              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-body text-stone-600">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

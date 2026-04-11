@@ -19,7 +19,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       {/* ── Hero ──────────────────────────── */}
       <Hero
         headline={homepage.hero.headline}
-        openingLine={homepage.hero.openingLine}
         subheadline={homepage.hero.subheadline}
         cta={{ ...homepage.hero.cta, href: localePath(locale, homepage.hero.cta.href) }}
         secondaryCta={{ ...homepage.hero.secondaryCta, href: localePath(locale, homepage.hero.secondaryCta.href) }}
@@ -136,21 +135,29 @@ export default function HomePage({ params }: { params: { locale: string } }) {
           <p className="text-body-lg text-stone-600 max-w-prose mb-10">
             {homepage.moreThanBuyer.intro}
           </p>
-          <ValueGrid items={homepage.moreThanBuyer.items} />
-          <p className="mt-10 text-body-lg text-stone-600 text-center max-w-prose mx-auto">
-            {homepage.moreThanBuyer.closingLine}
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {homepage.moreThanBuyer.items.map((item) => (
+              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-body text-stone-600">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ── What makes Saha different ─────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro
             label={homepage.differentiatorsSectionLabel}
             heading={homepage.differentiators.heading}
           />
-          <ValueGrid items={homepage.differentiators.items} />
+          <ModelSteps steps={homepage.differentiators.steps} />
         </div>
       </section>
 

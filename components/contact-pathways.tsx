@@ -68,10 +68,10 @@ export default function ContactPathways({ pathways }: ContactPathwaysProps) {
             }`}
             aria-pressed={selected === pathway.id}
           >
-            <h3 className="text-body font-medium text-stone-900 mb-2">
+            <h3 className="text-body-lg font-medium text-stone-900 mb-2">
               {pathway.title}
             </h3>
-            <p className="text-body-sm text-stone-500 line-clamp-2">
+            <p className="text-body text-stone-500 line-clamp-2">
               {pathway.description}
             </p>
           </button>

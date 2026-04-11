@@ -3,14 +3,13 @@ import Link from "next/link";
 
 interface HeroProps {
   headline: string;
-  openingLine?: string;
   subheadline: string;
   cta?: { label: string; href: string };
   secondaryCta?: { label: string; href: string };
   image?: { src: string; alt: string };
 }
 
-export default function Hero({ headline, openingLine, subheadline, cta, secondaryCta, image }: HeroProps) {
+export default function Hero({ headline, subheadline, cta, secondaryCta, image }: HeroProps) {
   return (
     <section className="section-padding border-b border-accent-300" aria-label="Introduction">
       <div className="container-content">
@@ -19,12 +18,7 @@ export default function Hero({ headline, openingLine, subheadline, cta, secondar
             <h1 className="text-display-sm md:text-display lg:text-display-lg text-balance whitespace-pre-line">
               {headline}
             </h1>
-            {openingLine && (
-              <p className="mt-6 md:mt-8 text-subheading md:text-heading text-stone-700 max-w-2xl text-balance font-serif">
-                {openingLine}
-              </p>
-            )}
-            <p className={`${openingLine ? "mt-4" : "mt-6 md:mt-8"} text-body-lg md:text-subheading text-stone-600 max-w-2xl text-balance`}>
+            <p className="mt-6 md:mt-8 text-body-lg md:text-subheading text-stone-600 max-w-2xl text-balance">
               {subheadline}
             </p>
             {(cta || secondaryCta) && (

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/page-hero";
 import SectionIntro from "@/components/section-intro";
+import ModelSteps from "@/components/model-steps";
 import ValueGrid from "@/components/value-grid";
 import CtaBanner from "@/components/cta-banner";
 import CalloutBox from "@/components/callout-box";
@@ -54,7 +55,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
               {investorsPage.mustBeTrue.description}
             </p>
           </SectionIntro>
-          <ValueGrid items={investorsPage.mustBeTrue.items} />
+          <ModelSteps steps={investorsPage.mustBeTrue.steps} />
         </div>
       </section>
 
@@ -62,12 +63,15 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       <section className="section-padding border-t border-stone-200">
         <div className="container-content">
           <SectionIntro heading={investorsPage.howModelCompounds.heading} />
-          <div className="max-w-prose space-y-5">
-            {investorsPage.howModelCompounds.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {investorsPage.howModelCompounds.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...investorsPage.howModelCompounds.callout} />
           </div>
         </div>
       </section>
@@ -80,18 +84,18 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
               {investorsPage.willNotBuy.description}
             </p>
           </SectionIntro>
-          <ul className="max-w-prose space-y-4">
-            {investorsPage.willNotBuy.items.map((item, i) => (
-              <li key={i} className="flex items-start gap-3 text-body-lg text-stone-600">
-                <span className="text-stone-400 mt-1.5 shrink-0" aria-hidden="true">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M3 8h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </svg>
-                </span>
-                {item}
-              </li>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {investorsPage.willNotBuy.items.map((item) => (
+              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-body text-stone-600">
+                  {item.description}
+                </p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
@@ -107,18 +111,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
                 </p>
               ))}
             </div>
-            <div className="space-y-3">
-              {investorsPage.whereWeAre.items.map((item, i) => (
-                <div key={i} className="flex items-start gap-3 text-body text-stone-600">
-                  <span className="text-accent-400 mt-1.5 shrink-0" aria-hidden="true">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <circle cx="8" cy="8" r="3" fill="currentColor" />
-                    </svg>
-                  </span>
-                  {item}
-                </div>
-              ))}
-            </div>
+            <CalloutBox {...investorsPage.whereWeAre.callout} />
           </div>
         </div>
       </section>

@@ -34,15 +34,12 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       <section className="section-padding">
         <div className="container-content">
           <SectionIntro heading={foundersPage.intro.heading} />
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
-            <div className="space-y-5">
-              {foundersPage.intro.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
-                  {p}
-                </p>
-              ))}
-            </div>
-            <CalloutBox {...foundersPage.intro.callout} />
+          <div className="space-y-5">
+            {foundersPage.intro.paragraphs.map((p, i) => (
+              <p key={i} className="text-body-lg text-stone-600 max-w-prose">
+                {p}
+              </p>
+            ))}
           </div>
         </div>
       </section>
@@ -58,52 +55,22 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       {/* ── What we look for ──────────────── */}
       <section className="section-padding border-t border-stone-200">
         <div className="container-content">
-          <p className="text-body-lg text-stone-600 mb-8 max-w-prose">
+          <SectionIntro heading={foundersPage.whatWeLookFor.heading} />
+          <p className="text-body-lg text-stone-600 mb-10 max-w-prose">
             {foundersPage.whatWeLookFor.transitionLine}
           </p>
-          <SectionIntro heading={foundersPage.whatWeLookFor.heading}>
-            <p className="text-body-lg text-stone-600">
-              {foundersPage.whatWeLookFor.description}
-            </p>
-          </SectionIntro>
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
-            <ul className="space-y-4">
-              {foundersPage.whatWeLookFor.criteria.map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-body-lg text-stone-600">
-                  <span className="text-accent-400 mt-1.5 shrink-0" aria-hidden="true">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M3 8h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    </svg>
-                  </span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <CalloutBox {...foundersPage.whatWeLookFor.callout} />
-          </div>
-        </div>
-      </section>
-
-      {/* ── Usually not a fit ─────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
-        <div className="container-content">
-          <SectionIntro heading={foundersPage.notAFit.heading}>
-            <p className="text-body-lg text-stone-600">
-              {foundersPage.notAFit.description}
-            </p>
-          </SectionIntro>
-          <ul className="max-w-prose space-y-4">
-            {foundersPage.notAFit.criteria.map((item, i) => (
-              <li key={i} className="flex items-start gap-3 text-body-lg text-stone-600">
-                <span className="text-stone-400 mt-1.5 shrink-0" aria-hidden="true">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </svg>
-                </span>
-                {item}
-              </li>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {foundersPage.whatWeLookFor.items.map((item) => (
+              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-body text-stone-600">
+                  {item.description}
+                </p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
