@@ -559,7 +559,7 @@ export const aboutPage = {
         description: "Vision de sourçage, thèse d'acquisition et construction d'entreprise. Plus de 25 ans d'expérience en création d'entreprises, finance et exécution multi-pays.",
       },
       {
-        name: "Liesel Goveas PhD",
+        name: "Liesel Goveas, PhD",
         subtitle: "Fondatrice — Recherche & Intelligence d'Acquisition",
         description: "Doctorat en neurosciences, candidate au MBA à l'Université de Saint-Gall. Apporte une méthodologie de recherche rigoureuse et une profondeur analytique au sourçage, à la cartographie de marché et à la diligence.",
       },
@@ -727,7 +727,7 @@ export const faqPage = {
       items: [
         { question: "D'où vient le nom Saha ?", answer: "Saha est un mot enraciné dans la patience, l'endurance et la capacité à porter avec soin. Il reflète la mentalité à long terme au cœur de tout ce que nous faisons — acquérir et préserver les entreprises non pour un cycle, mais pour une génération." },
         { question: "Saha est-il un fonds ou une entreprise ?", answer: "Saha est une holding permanente. Contrairement à un fonds, il n'y a pas d'horizon de sortie prédéterminé. Les entreprises que nous acquérons rejoignent la famille Saha de manière pérenne. Cette structure aligne nos incitations avec la santé à long terme de chaque entreprise que nous possédons." },
-        { question: "Combien d'entreprises Saha possède-t-il actuellement ?", answer: "Saha est en formation. Nous construisons délibérément les fondations — équipe, processus et capital — avant de faire nos premières acquisitions. Nous croyons que bien faire le modèle est plus important que de se précipiter." },
+        { question: "Combien d'entreprises Saha possède-t-il actuellement ?", answer: "Nous construisons délibérément les fondations — équipe, processus et capital — avant de faire nos premières acquisitions. Nous croyons que bien faire le modèle est plus important que de se précipiter." },
         { question: "Comment puis-je vous contacter ?", answer: "Nous accueillons les conversations de fondateurs, investisseurs et futurs membres de l'équipe. Vous pouvez nous joindre via notre page de contact ou en envoyant un e-mail à hello@saha.ch. Chaque demande est traitée avec confidentialité et respect." },
       ],
     },

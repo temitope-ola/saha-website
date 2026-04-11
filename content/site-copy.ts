@@ -591,7 +591,7 @@ export const aboutPage = {
         description: "Sourcing vision, acquisition thesis, and company-building. Over 25 years across venture building, finance, and multi-country execution.",
       },
       {
-        name: "Liesel Goveas PhD",
+        name: "Liesel Goveas, PhD",
         subtitle: "Founder — Research & Acquisition Intelligence",
         description: "PhD in Neuroscience, MBA candidate at University of St. Gallen. Brings rigorous research methodology and analytical depth to sourcing, market mapping, and diligence.",
       },
@@ -860,7 +860,7 @@ export const faqPage = {
         {
           question: "How many businesses does Saha currently own?",
           answer:
-            "Saha is in formation. We are deliberately building the foundation — team, processes, and capital — before making our first acquisitions. We believe that getting the model right is more important than moving quickly.",
+            "We are deliberately building the foundation — team, processes, and capital — before making our first acquisitions. We believe that getting the model right is more important than moving quickly.",
         },
         {
           question: "How can I get in touch?",

@@ -599,7 +599,7 @@ export const aboutPage = {
         description: "Sourcing-Vision, Akquisitionsthese und Unternehmensaufbau. Über 25 Jahre Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung.",
       },
       {
-        name: "Liesel Goveas PhD",
+        name: "Liesel Goveas, PhD",
         subtitle: "Gründerin — Forschung & Akquisitionsintelligenz",
         description: "Doktorat in Neurowissenschaften, MBA-Kandidatin an der Universität St. Gallen. Bringt rigorose Forschungsmethodik und analytische Tiefe in Sourcing, Markt-Mapping und Due Diligence ein.",
       },
@@ -868,7 +868,7 @@ export const faqPage = {
         {
           question: "Wie viele Unternehmen besitzt Saha derzeit?",
           answer:
-            "Saha ist in Gründung. Wir bauen absichtlich die Grundlage — Team, Prozesse und Kapital — auf, bevor wir unsere ersten Übernahmen machen. Wir glauben, dass das Modell richtig zu machen wichtiger ist als schnell zu sein.",
+            "Wir bauen gezielt die Grundlage — Team, Prozesse und Kapital — auf, bevor wir unsere ersten Übernahmen machen. Wir glauben, dass das Modell richtig zu machen wichtiger ist als schnell zu sein.",
         },
         {
           question: "Wie kann ich Kontakt aufnehmen?",
