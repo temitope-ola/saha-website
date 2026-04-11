@@ -30,8 +30,10 @@ export const nav = {
 export const homepage = {
   hero: {
     headline: "Ein verlässlicher Käufer für\nSchweizer KMU in Nachfolge",
+    openingLine:
+      "Jedes Jahr schliessen Tausende guter Schweizer Unternehmen still — nicht weil sie gescheitert sind, sondern weil niemand da war, sie weiterzuführen.",
     subheadline:
-      "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und behält sie dauerhaft — bewahrt, was funktioniert, unterstützt das Team und trägt das Unternehmen weiter, wenn der Gründer bereit ist, einen Schritt zurückzutreten.",
+      "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und hält sie langfristig — während wir die Sourcing-, Übergabe- und Betriebsfähigkeiten aufbauen, die dieses Segment braucht.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
     secondaryCta: { label: "Unsere Kriterien", href: "/founders" },
   },
@@ -121,6 +123,35 @@ export const homepage = {
     ],
   },
 
+  moreThanBuyerSectionLabel: "Mehr als ein Käufer",
+  moreThanBuyer: {
+    heading: "Mehr als ein Käufer",
+    intro: "Nicht jedes kleine Unternehmen lässt sich einfach übergeben. Kleinere Unternehmen brauchen oft mehr als einen willigen Käufer — sie brauchen eine strukturierte Übergabe, operative Kontinuität und Unterstützung, die über die Transaktion hinaus besteht. Saha wird genau dafür aufgebaut.",
+    items: [
+      {
+        title: "Systematisches Sourcing",
+        description:
+          "Wir bauen einen bewussteren Weg auf, Unternehmen in der Übergabephase zu identifizieren — mit weniger Abhängigkeit von Vermittlern und einer direkteren, beziehungsbasierten Pipeline.",
+      },
+      {
+        title: "Führungskontinuität",
+        description:
+          "Im Verlauf der Zeit will Saha ein Netzwerk von Operatoren und zukünftigen Führungskräften aufbauen, die für Nachfolge-Übergänge trainiert sind — damit Unternehmen nach dem Weggang des Gründers weiter florieren können.",
+      },
+      {
+        title: "Übergabedisziplin",
+        description:
+          "Die Übergabeperiode ist dort, wo die meisten Deals Erfolg oder Misserfolg haben. Wir behandeln sie als Kernfähigkeit — strukturiert, gründerspezifisch und mit jeder Übernahme verfeinert.",
+      },
+      {
+        title: "Geteilte operative Fähigkeiten",
+        description:
+          "Wo nützlich, können Unternehmen im Saha-Portfolio auf geteilte Unterstützung in Finanzen, Reporting, Administration und Prozessverbesserung zugreifen. Hilfe, die selektiv ist, nicht aufgezwungen.",
+      },
+    ],
+    closingLine: "Jede Übernahme stärkt das Modell. So wird dieses Segment im grossen Massstab tragfähig.",
+  },
+
   differentiatorsSectionLabel: "Was uns unterscheidet",
   differentiators: {
     heading: "Ein Modell für kleinere Übergangstransaktionen",
@@ -187,6 +218,7 @@ export const foundersPage = {
 
   whatWeLookFor: {
     heading: "Was zu uns passt",
+    transitionLine: "Um sicherzustellen, dass wir füreinander die richtige Lösung sind, hier ist, worauf wir bei den Unternehmen achten, die wir erwerben.",
     description: "Wir suchen nach Unternehmen, die jenseits des Gründers realistisch florieren können. Typischerweise bedeutet das:",
     criteria: [
       "Profitable und etabliert — normalerweise lange Zeit von einem Gründer geleitet",
@@ -345,6 +377,15 @@ export const investorsPage = {
     ],
   },
 
+  howModelCompounds: {
+    heading: "Wie das Modell kumuliert",
+    paragraphs: [
+      "Saha stellt nicht einfach ein Portfolio kleiner Unternehmen zusammen. Saha baut die Infrastruktur auf, die dieses Segment erwerbbar und nachhaltig im grossen Massstab macht.",
+      "Diese Infrastruktur umfasst: einen systematischen Sourcing-Prozess, der die Abhängigkeit von Vermittlern reduziert; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operatives Playbook, das sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und leichte Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
+      "Jede Übernahme macht die nächste günstiger zu sourchen, schneller überzuleiten und besser begleitet. Das ist die Kumulationslogik hinter dem Modell — und was Saha von einer gut gemeinten Holding mit Kapital unterscheidet.",
+    ],
+  },
+
   willNotBuy: {
     heading: "Was wir nicht kaufen",
     description: "Disziplin bedeutet, Grenzen klar zu sein:",
@@ -364,10 +405,10 @@ export const investorsPage = {
       "Wir bauen für einen First Close, nicht für Masseneinsatz. Die ersten Deals werden die Sourcing-These, das Übergabe-Modell und die Betriebs-Disziplin beweisen. Alles danach hängt davon ab, das richtig zu machen.",
     ],
     items: [
-      "Kern-Team wird zusammengesetzt",
+      "Gründungs-CTO und -COO Rollen werden rekrutiert",
       "Kapitalstruktur wird finalisiert",
       "Erste Übergabegespräche laufen",
-      "Gründung läuft",
+      "Rechtsstruktur wird finalisiert",
       "Bauen für First Close, nicht für Scale",
     ],
   },
@@ -415,6 +456,26 @@ export const joinPage = {
       "Die meisten beruflichen Möglichkeiten sind Optimierungen innerhalb vorhandener Strukturen. Saha ist anders. Wir bauen ein langfristiges Eigentums-Unternehmen für Schweizer Unternehmen von Grund auf — die Strategie, die Kultur, die Systeme, die Werte, alles wird gerade geprägt.",
       "Die Menschen, die in dieser Phase beitreten, werden nicht nur Rollen ausfüllen — sie werden definieren, was Saha wird. Die erste Übernahme, die erste Übergabe, das erste Betriebs-Playbook. Das ist die Art von Arbeit, wo alles, was Sie tun, zählt.",
     ],
+  },
+
+  foundingRoles: {
+    heading: "Offene Gründungsrollen",
+    intro: "Wir rekrutieren für zwei Gründungsrollen, die die Arbeitsweise von Saha von Anfang an prägen werden. Das sind keine Angestellten — das sind Mitaufbauer.",
+    roles: [
+      {
+        title: "Gründungs-CTO — Plattform & Daten",
+        description: "Wird die operative Schicht hinter Saha aufbauen: Sourcing-Systeme, Due-Diligence-Workflows, Portfolio-Reporting, interne Tools und Dateninfrastruktur, die Übergaben wiederholbarer und skalierbarer machen.",
+        ctaLabel: "Interesse bekunden →",
+        ctaHref: "/contact",
+      },
+      {
+        title: "Gründungs-COO — Integration & Shared Services",
+        description: "Wird die Übergabe-Ausführung über akquirierte Unternehmen hinweg konzipieren und leiten: Playbooks für die ersten 100 Tage, Rollout geteilter Services, operative Kadenz und Performance-Management über das Portfolio.",
+        ctaLabel: "Interesse bekunden →",
+        ctaHref: "/contact",
+      },
+    ],
+    transitionLine: "Über diese zwei Rollen hinaus bauen wir auch ein kleines, breiteres Team in den folgenden Bereichen auf.",
   },
 
   roles: {
@@ -484,6 +545,43 @@ export const aboutPage = {
       "Zu viele gute Schweizer Unternehmen verschwinden nicht weil sie scheitern, sondern weil ihre Gründer ohne klaren Weg forward in den Ruhestand gehen. Saha wurde geschaffen, das zu ändern.",
   },
 
+  founderNote: {
+    heading: "Ein Wort des Gründers",
+    paragraphs: [
+      "Ich habe Jahre damit verbracht, in Frühphasen-Unternehmen und Firmen in verschiedenen Wachstumsphasen zu arbeiten — und das Muster, auf das ich immer wieder stiess, war dasselbe. Gute Unternehmen, geführt von fähigen Menschen, die still verschwanden — nicht weil sie gescheitert waren, sondern weil kein klarer Weg nach vorn existierte.",
+      "In der Schweiz zeigt sich das auf besondere Weise. Tausende gründergeführte Unternehmen — profitabel, lokal verankert, vom Team und den Kunden geschätzt — erreichen einen Punkt, an dem der Gründer bereit ist, sich zurückzuziehen, und niemand bereit ist, den nächsten Schritt zu tun. Nicht weil das Unternehmen keinen Wert hat. Weil die Transaktion komplex ist, das Dealvolumen für institutionelle Käufer zu klein, und die menschliche Dimension der Übergabe mehr erfordert, als die meisten Käufer bereit sind zu geben.",
+      "Saha ist mein Versuch, etwas zu bauen, das speziell für diese Lücke konzipiert ist — nicht nur als Käufer, sondern als Modell. Ein wiederholbarer Weg, diese Unternehmen zu identifizieren, sie sorgfältig überzuleiten und langfristig zu erhalten. Es ist noch früh. Aber ich glaube, dass die Infrastruktur hinter dieser Art von Eigentümerschaft das ist, was dem Segment bisher gefehlt hat.",
+      "Falls das bei Ihnen Resonanz findet — als Gründer, Investor, oder jemand, der mitaufbauen möchte — würde ich mich aufrichtig über ein Gespräch freuen.",
+    ],
+    attribution: "— Temitope Ola, Gründer — Strategie & M&A, Saha",
+    bio: "Gründer-Operator mit über 25 Jahren Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung. Bringt die Sourcing-Vision, die Akquisitionsthese und die Aufbauambition hinter Saha mit.",
+  },
+
+  foundingTeam: {
+    heading: "Das Gründungsteam",
+    intro: "Saha wird von einer kleinen Gruppe von Menschen mit komplementären Fähigkeiten in Akquisition, Betrieb und Infrastruktur zusammengestellt.",
+    members: [
+      {
+        name: "Temitope Ola",
+        subtitle: "Gründer — Strategie & M&A",
+        description: "Sourcing-Vision, Akquisitionsthese und Unternehmensaufbau. Über 25 Jahre Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung.",
+      },
+      {
+        name: "Gründungs-CTO",
+        subtitle: "Plattform & Daten",
+        description: "Baut die operative Schicht hinter Saha auf: Sourcing-Systeme, Due-Diligence-Workflows, Portfolio-Reporting, interne Tools und Dateninfrastruktur, die Übergaben wiederholbarer und skalierbarer machen.",
+        status: "Rolle offen — Rekrutierung läuft",
+      },
+      {
+        name: "Gründungs-COO",
+        subtitle: "Integration & Shared Services",
+        description: "Konzipiert und leitet die Übergabe-Ausführung über akquirierte Unternehmen hinweg: Playbooks für die ersten 100 Tage, Rollout geteilter Services, operative Kadenz und Performance-Management über das Portfolio.",
+        status: "Rolle offen — Rekrutierung läuft",
+      },
+    ],
+    closingLine: "Falls Sie die Erfahrung und Disposition haben, eine dieser Rollen auszufüllen, würden wir gerne von Ihnen hören.",
+  },
+
   story: {
     heading: "Das Problem, das wir lösen wollten",
     paragraphs: [
@@ -542,6 +640,8 @@ export const aboutPage = {
       "Wir bauen für das lange Geschäft. Jede Entscheidung, die wir treffen, wird von einer einfachen Frage geleitet: wird das noch in zwanzig Jahren Sinn machen?",
     ],
   },
+
+  ambition: "Saha wird nicht nur als Holding aufgebaut, sondern als langfristiges Modell für die Nachfolge kleiner Unternehmen in der Schweiz. Wir glauben, dass der Grund, warum dieses Segment unterversorgt ist, nicht ein Mangel an guten Unternehmen ist — es ist die Abwesenheit eines Käufers mit der Infrastruktur, diese Deals zum Funktionieren zu bringen. Diese Infrastruktur aufzubauen, schrittweise und mit Disziplin, ist der Zweck von Saha.",
 
   closingCta: {
     heading: "Wir würden uns freuen, von Ihnen zu hören",
@@ -652,6 +752,11 @@ export const faqPage = {
       label: "Für Investoren",
       items: [
         {
+          question: "Was unterscheidet Saha von einer geduldigen Holding mit Kapital?",
+          answer:
+            "Eine Holding mit geduldigem Kapital ist eine Positionierung. Saha baut die Sourcing-, Übergabe- und Betriebs-Infrastruktur auf, die kleinere Nachfolgetransaktionen tatsächlich tragfähig macht — nicht nur finanzierbar. Das Modell ist auf Kumulation ausgelegt: Jede Übernahme verbessert unsere Prozesse, stärkt unser Operatoren-Netzwerk und reduziert Reibung bei der nächsten Transaktion. Das ist der Unterschied zwischen dem Besitz einer Sammlung von Unternehmen und dem Aufbau eines Akquisitions- und Betriebsmotors.",
+        },
+        {
           question: "Was ist Sahas Investitionsstruktur?",
           answer:
             "Saha ist ein permanentes Holdingkonzern, nicht ein traditioneller Fonds mit einer festen Laufzeit. Kapital wird in Übernahmen eingesetzt, die auf unbestimmte Zeit gehalten werden. Renditen werden durch die langfristigen Cashflows, organisches Wachstum und kumulative operative Stärke des Portfolios generiert.",
@@ -659,7 +764,7 @@ export const faqPage = {
         {
           question: "Wie generiert Saha Renditen ohne Exits?",
           answer:
-            "Unsere Renditen kommen aus der Cash-generierenden Natur der Unternehmen, die wir akquirieren, Reinvestition freier Cashflows in neue Übernahmen und organisches Wachstum jedes Unternehmens über Zeit. Die Abwesenheit von Exit-Druck ermöglicht Entscheidungen, die langfristigen Wert optimieren statt kurzfristige Metriken.",
+            "Unsere Renditen kommen aus der Cash-generierenden Natur der Unternehmen, die wir akquirieren, Reinvestition freier Cashflows in neue Übernahmen und organisches Wachstum jedes Unternehmens über Zeit. Die Abwesenheit von Exit-Druck ermöglicht Entscheidungen, die langfristigen Wert optimieren statt kurzfristige Metriken. Richtungweisend zielen wir auf Einstiege bei 3–5× EBITDA in Cash-generierenden Unternehmen, mit Renditen aus operativem Cashflow, organischem Wachstum und Portfolio-Kumulation über Zeit. Wir optimieren nicht für eine einzelne IRR-Metrik — wir optimieren für dauerhaften, kumulierenden Wert. Vollständige Finanzdokumentation und Rendite-Modellierung werden in direkten Gesprächen geteilt.",
         },
         {
           question: "Was ist das Ziel-Rendite-Profil?",

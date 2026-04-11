@@ -47,9 +47,20 @@ export default function FoundersPage({ params }: { params: { locale: string } })
         </div>
       </section>
 
-      {/* ── What we look for ──────────────── */}
+      {/* ── What founders can expect ─────── */}
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
+          <SectionIntro heading={foundersPage.founderExpectations.heading} />
+          <ValueGrid items={foundersPage.founderExpectations.items} />
+        </div>
+      </section>
+
+      {/* ── What we look for ──────────────── */}
+      <section className="section-padding border-t border-stone-200">
+        <div className="container-content">
+          <p className="text-body-lg text-stone-600 mb-8 max-w-prose">
+            {foundersPage.whatWeLookFor.transitionLine}
+          </p>
           <SectionIntro heading={foundersPage.whatWeLookFor.heading}>
             <p className="text-body-lg text-stone-600">
               {foundersPage.whatWeLookFor.description}
@@ -74,7 +85,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── Usually not a fit ─────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={foundersPage.notAFit.heading}>
             <p className="text-body-lg text-stone-600">
@@ -93,14 +104,6 @@ export default function FoundersPage({ params }: { params: { locale: string } })
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* ── What founders can expect ─────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
-        <div className="container-content">
-          <SectionIntro heading={foundersPage.founderExpectations.heading} />
-          <ValueGrid items={foundersPage.founderExpectations.items} />
         </div>
       </section>
 

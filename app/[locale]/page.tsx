@@ -19,9 +19,14 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       {/* ── Hero ──────────────────────────── */}
       <Hero
         headline={homepage.hero.headline}
+        openingLine={homepage.hero.openingLine}
         subheadline={homepage.hero.subheadline}
         cta={{ ...homepage.hero.cta, href: localePath(locale, homepage.hero.cta.href) }}
         secondaryCta={{ ...homepage.hero.secondaryCta, href: localePath(locale, homepage.hero.secondaryCta.href) }}
+        // TODO: Replace senior-business.jpg with a more personal or Switzerland-specific image.
+        // The current stock photo contradicts the human, trust-based tone of the site copy.
+        // Options: a real photo of the founder, a Swiss landscape or business context, or a
+        // carefully chosen editorial image that does not read as generic corporate stock.
         image={{
           src: "/senior-business.jpg",
           alt: locale === "fr"
@@ -118,6 +123,23 @@ export default function HomePage({ params }: { params: { locale: string } }) {
             heading={homepage.model.heading}
           />
           <ModelSteps steps={homepage.model.steps} />
+        </div>
+      </section>
+
+      {/* ── More than a buyer ─────────────── */}
+      <section className="section-padding border-t border-stone-200">
+        <div className="container-content">
+          <SectionIntro
+            label={homepage.moreThanBuyerSectionLabel}
+            heading={homepage.moreThanBuyer.heading}
+          />
+          <p className="text-body-lg text-stone-600 max-w-prose mb-10">
+            {homepage.moreThanBuyer.intro}
+          </p>
+          <ValueGrid items={homepage.moreThanBuyer.items} />
+          <p className="mt-10 text-body-lg text-stone-600 text-center max-w-prose mx-auto">
+            {homepage.moreThanBuyer.closingLine}
+          </p>
         </div>
       </section>
 
