@@ -29,8 +29,10 @@ export const nav = {
 export const homepage = {
   hero: {
     headline: "A long-term home for Swiss\nbusinesses facing succession",
+    openingLine:
+      "Every year, thousands of good Swiss businesses quietly close — not because they failed, but because no one was there to carry them forward.",
     subheadline:
-      "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them permanently — preserving what works, supporting the team, and carrying the business forward when the founder is ready to step back.",
+      "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them for the long term — while building the sourcing, transition, and operating capabilities that make this segment work.",
     cta: { label: "Start a conversation", href: "/contact" },
     secondaryCta: { label: "What we look for", href: "/founders" },
   },
@@ -46,7 +48,7 @@ export const homepage = {
     callout: {
       type: "stat" as const,
       value: "~168,000",
-      caption: "Swiss SMEs will face succession by 2030 — but only about two thirds of those transfers are expected to conclude successfully",
+      caption: "Swiss SMEs are expected to face succession by 2030 — yet only two thirds of those transfers are expected to conclude successfully",
       source: "2026 CFB\u2011HSG / UBS study",
     },
   },
@@ -120,6 +122,35 @@ export const homepage = {
     ],
   },
 
+  moreThanBuyerSectionLabel: "More than a buyer",
+  moreThanBuyer: {
+    heading: "More than a buyer",
+    intro: "Not every small business is easy to transfer. Smaller companies often need more than a willing buyer — they need a structured handover, operating continuity, and support that endures beyond the transaction. Saha is being built to provide exactly that.",
+    items: [
+      {
+        title: "Systematic sourcing",
+        description:
+          "We are building a more deliberate way of identifying succession-stage businesses — reducing dependency on intermediaries and creating a more direct, relationship-based pipeline.",
+      },
+      {
+        title: "Leadership continuity",
+        description:
+          "Over time, Saha aims to develop a bench of operators and future leaders trained for succession transitions — so that businesses can continue to thrive after the founder steps away.",
+      },
+      {
+        title: "Transition discipline",
+        description:
+          "The handover period is where most deals succeed or fail. We treat it as a core capability — structured, founder-specific, and refined with every acquisition.",
+      },
+      {
+        title: "Shared operating capabilities",
+        description:
+          "Where useful, businesses in the Saha portfolio can draw on shared support in finance, reporting, administration, and process improvement. Help that is selective, not imposed.",
+      },
+    ],
+    closingLine: "Each acquisition strengthens the model. That is how this segment becomes viable at scale.",
+  },
+
   differentiatorsSectionLabel: "What makes this different",
   differentiators: {
     heading: "A model designed for smaller succession deals",
@@ -186,6 +217,7 @@ export const foundersPage = {
 
   whatWeLookFor: {
     heading: "What makes a good fit",
+    transitionLine: "To make sure we are the right fit for each other, here is what we look for in the businesses we acquire.",
     description: "We look for businesses that can realistically thrive beyond the founder. Typically that means:",
     criteria: [
       "Profitable and established — usually founder-led for many years",
@@ -344,6 +376,15 @@ export const investorsPage = {
     ],
   },
 
+  howModelCompounds: {
+    heading: "How the model compounds",
+    paragraphs: [
+      "Saha is not simply assembling a portfolio of small businesses. It is building the infrastructure that makes this segment acquirable and sustainable at scale.",
+      "That infrastructure includes: a systematic sourcing process that reduces dependency on intermediaries; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and lightweight technology that improves internal efficiency without replacing the human judgment succession requires.",
+      "Each acquisition makes the next one cheaper to source, faster to transition, and better supported. That is the compounding logic behind the model — and what separates Saha from a well-intentioned holding company with capital.",
+    ],
+  },
+
   willNotBuy: {
     heading: "What we will not buy",
     description: "Discipline means being explicit about boundaries:",
@@ -363,10 +404,10 @@ export const investorsPage = {
       "We are building for first close, not mass deployment. The first deals will prove the sourcing thesis, the transition model, and the operating discipline. Everything that follows depends on getting this right.",
     ],
     items: [
-      "Core team being assembled",
+      "Founding CTO and COO roles being recruited",
       "Capital structure being finalised",
       "First acquisition conversations underway",
-      "Incorporation in progress",
+      "Legal structure being finalised",
       "Building for first close, not scale",
     ],
   },
@@ -407,6 +448,26 @@ export const joinPage = {
       "Most professional opportunities are about optimising within existing structures. Saha is different. We are building a long-term ownership company for Swiss businesses from scratch — the strategy, the culture, the systems, the values are all being shaped right now.",
       "The people who join at this stage will not just fill roles — they will define what Saha becomes. The first acquisition, the first transition, the first operating playbook. This is the kind of work where everything you do matters.",
     ],
+  },
+
+  foundingRoles: {
+    heading: "Open founding roles",
+    intro: "We are recruiting for two founding roles that will shape how Saha operates from day one. These are not employees — they are co-builders.",
+    roles: [
+      {
+        title: "Founding CTO — Platform & Data",
+        description: "Will build the operating layer behind Saha: sourcing systems, diligence workflows, portfolio reporting, internal tools, and data infrastructure that make transitions more repeatable and scalable.",
+        ctaLabel: "Express interest →",
+        ctaHref: "/contact",
+      },
+      {
+        title: "Founding COO — Integration & Shared Services",
+        description: "Will design and run transition execution across acquired companies: first-100-day playbooks, shared services rollout, operating cadence, and performance management across the portfolio.",
+        ctaLabel: "Express interest →",
+        ctaHref: "/contact",
+      },
+    ],
+    transitionLine: "Beyond these two roles, we are also building a small broader team across the following areas.",
   },
 
   roles: {
@@ -476,6 +537,43 @@ export const aboutPage = {
       "Too many good Swiss businesses disappear not because they fail, but because their founders retire without a clear path forward. Saha was created to change that.",
   },
 
+  founderNote: {
+    heading: "A note from the founder",
+    paragraphs: [
+      "I have spent years working across early-stage companies and businesses at different stages of growth — and the pattern I kept encountering was the same. Good businesses, run by capable people, quietly disappearing not because they had failed but because no clear path forward existed.",
+      "In Switzerland especially, this plays out in a particular way. Thousands of founder-led businesses — profitable, locally embedded, trusted by their teams and customers — reach a point where the founder is ready to step back and finds no one ready to step forward. Not because the business lacks value. Because the transaction is complex, the deal size is too small for institutional buyers, and the human dimension of the handover requires more than most acquirers are willing to give.",
+      "Saha is my attempt to build something designed specifically for that gap — not just as a buyer, but as a model. A repeatable way of identifying these businesses, transitioning them carefully, and sustaining them over the long term. It is early. But I believe the infrastructure behind this kind of ownership is what the segment has been missing.",
+      "If this resonates with you — as a founder, an investor, or someone who wants to help build it — I would genuinely welcome a conversation.",
+    ],
+    attribution: "— Temitope Ola, Founder — Strategy & M&A, Saha",
+    bio: "Founder-operator with over 25 years of experience across venture building, finance, and multi-country execution. Brings the sourcing vision, acquisition thesis, and company-building ambition behind Saha.",
+  },
+
+  foundingTeam: {
+    heading: "The founding team",
+    intro: "Saha is being assembled by a small group of people with complementary skills across acquisition, operations, and infrastructure.",
+    members: [
+      {
+        name: "Temitope Ola",
+        subtitle: "Founder — Strategy & M&A",
+        description: "Sourcing vision, acquisition thesis, and company-building. Over 25 years across venture building, finance, and multi-country execution.",
+      },
+      {
+        name: "Founding CTO",
+        subtitle: "Platform & Data",
+        description: "Building the operating layer behind Saha: sourcing systems, diligence workflows, portfolio reporting, internal tools, and data infrastructure that make transitions more repeatable and scalable.",
+        status: "Role open — currently recruiting",
+      },
+      {
+        name: "Founding COO",
+        subtitle: "Integration & Shared Services",
+        description: "Designing and running transition execution across acquired companies: first-100-day playbooks, shared services rollout, operating cadence, and performance management across the portfolio.",
+        status: "Role open — currently recruiting",
+      },
+    ],
+    closingLine: "If you have the experience and disposition to fill one of these roles, we would like to hear from you.",
+  },
+
   story: {
     heading: "The problem we set out to solve",
     paragraphs: [
@@ -534,6 +632,8 @@ export const aboutPage = {
       "We are building for the long term. Every decision we make is guided by a simple question: will this still make sense in twenty years?",
     ],
   },
+
+  ambition: "Saha is being built not only as a holding company, but as a long-term model for small-business succession in Switzerland. We believe the reason this segment is underserved is not a lack of good businesses — it is the absence of a buyer with the infrastructure to make these deals work well. Building that infrastructure, gradually and with discipline, is what Saha is for.",
 
   closingCta: {
     heading: "We would be glad to hear from you",
@@ -644,6 +744,11 @@ export const faqPage = {
       label: "For Investors",
       items: [
         {
+          question: "How is Saha different from a patient holding company with capital?",
+          answer:
+            "A holding company with patient capital is a positioning claim. Saha is building the sourcing, transition, and operating infrastructure that makes smaller succession deals genuinely viable — not just fundable. The model is designed to compound: each acquisition improves our process, strengthens our operator network, and reduces friction on the next deal. That is the difference between owning a collection of businesses and building an acquisition and operating engine.",
+        },
+        {
           question: "What is Saha's investment structure?",
           answer:
             "Saha is a permanent holding company, not a traditional fund with a fixed life. Capital is deployed into acquisitions that are held indefinitely. Returns are generated through the long-term cash flows, organic growth, and compounding operational strength of the portfolio.",
@@ -651,7 +756,7 @@ export const faqPage = {
         {
           question: "How does Saha generate returns without exits?",
           answer:
-            "Our returns come from the cash-generative nature of the businesses we acquire, reinvestment of free cash flow into new acquisitions, and the organic growth of each company over time. The absence of exit pressure allows decisions that optimise for long-term value rather than short-term metrics.",
+            "Our returns come from the cash-generative nature of the businesses we acquire, reinvestment of free cash flow into new acquisitions, and the organic growth of each company over time. The absence of exit pressure allows decisions that optimise for long-term value rather than short-term metrics. Directionally, we target entry at 3–5× EBITDA in cash-generative businesses, with returns generated through operating cash flow, organic growth, and portfolio compounding over time. We do not optimise for a single IRR metric — we optimise for durable, compounding value. Full financial documentation and return modelling are shared in direct conversations.",
         },
         {
           question: "What is the target return profile?",

@@ -58,6 +58,20 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
         </div>
       </section>
 
+      {/* ── How the model compounds ─────── */}
+      <section className="section-padding border-t border-stone-200">
+        <div className="container-content">
+          <SectionIntro heading={investorsPage.howModelCompounds.heading} />
+          <div className="max-w-prose space-y-5">
+            {investorsPage.howModelCompounds.paragraphs.map((p, i) => (
+              <p key={i} className="text-body-lg text-stone-600">
+                {p}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── What we will not buy ──────────── */}
       <section className="section-padding border-t border-stone-200">
         <div className="container-content">

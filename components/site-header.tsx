@@ -29,11 +29,9 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
 
   /** Strip current locale prefix to get the bare path segment. */
   function barePath(): string {
-    let p = pathname;
-    if (!isDefaultLocale(locale)) {
-      p = pathname.replace(new RegExp(`^/${locale}`), "") || "/";
-    }
-    return p;
+    // Always strip the locale prefix — the internal route always includes it
+    // (middleware rewrites /about → /en/about, so pathname is always /<locale>/…)
+    return pathname.replace(new RegExp(`^/${locale}`), "") || "/";
   }
 
   /** Build the path to switch to a given locale. */
