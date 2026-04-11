@@ -30,7 +30,7 @@ export const homepage = {
   hero: {
     headline: "The permanent acquirer for Swiss\nbusinesses facing succession",
     subheadline:
-      "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them for the long term — while building the sourcing, transition, and operating capabilities that make this segment work.",
+      "Saha acquires profitable, founder-led Swiss businesses below CHF 10M in revenue and holds them for the long term — while building the sourcing, transition, and operating capabilities that make this segment work.",
     cta: { label: "Start a conversation", href: "/contact" },
     secondaryCta: { label: "What we look for", href: "/founders" },
   },
@@ -40,7 +40,7 @@ export const homepage = {
     heading: "Many good businesses disappear for the wrong reasons",
     paragraphs: [
       "Across Switzerland, thousands of profitable, well-run businesses face an uncertain future — not because they are failing, but because their founders are approaching retirement without a clear path forward. The options are often unsatisfying: sell to a distant corporate buyer, attempt a rushed handover, or simply close the doors.",
-      "Most institutional acquirers focus higher up the market. Deals below CHF 10m in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. These businesses fall through the cracks — not because they lack value, but because no one has built a model for them.",
+      "Most institutional acquirers focus higher up the market. Deals below CHF 10M in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. These businesses fall through the cracks — not because they lack value, but because no one has built a model for them.",
       "That is what Saha is for. We are building an acquisition company designed specifically for this segment: small, profitable, succession-driven businesses that employ loyal teams, serve established customers, and matter deeply to their communities.",
     ],
     callout: {
@@ -55,7 +55,7 @@ export const homepage = {
   whyNow: {
     heading: "These businesses deserve better than disappearing quietly",
     paragraphs: [
-      "Below CHF 10m in revenue, there are very few buyers willing to do the work these deals require. The transactions are too small for private equity funds to justify their overhead. The businesses are too founder-dependent for investors who want a hands-off role. And the transitions are too human — too reliant on trust, relationships, and care — to be handled by anyone unwilling to get close.",
+      "Below CHF 10M in revenue, there are very few buyers willing to do the work these deals require. The transactions are too small for private equity funds to justify their overhead. The businesses are too founder-dependent for investors who want a hands-off role. And the transitions are too human — too reliant on trust, relationships, and care — to be handled by anyone unwilling to get close.",
       "Yet these are often the businesses that matter most at a local level. They employ people who have been there for years. They serve customers who depend on them. When they close because no buyer appeared, the loss is quiet but real.",
       "Saha was created because this gap should not exist. Good businesses should not disappear because of a timing problem.",
     ],
@@ -97,7 +97,7 @@ export const homepage = {
         number: "01",
         title: "Find businesses that can thrive beyond the founder",
         description:
-          "We look for profitable, founder-led Swiss businesses below CHF 10m in revenue where succession is the primary reason for sale. Beyond financial health, we pay close attention to whether the business can realistically continue without its founder — steady demand, a capable team, manageable customer concentration, and a handover that can be structured thoughtfully.",
+          "We look for profitable, founder-led Swiss businesses below CHF 10M in revenue where succession is the primary reason for sale. Beyond financial health, we pay close attention to whether the business can realistically continue without its founder — steady demand, a capable team, manageable customer concentration, and a handover that can be structured thoughtfully.",
       },
       {
         number: "02",
@@ -155,7 +155,7 @@ export const homepage = {
     steps: [
       {
         number: "01",
-        title: "Built for businesses below CHF 10m",
+        title: "Built for businesses below CHF 10M",
         description:
           "We work in a segment most institutional buyers overlook. Our model, our costs, and our expectations are designed for this deal size from day one.",
       },
@@ -202,7 +202,7 @@ export const foundersPage = {
     eyebrow: "For Founders",
     headline: "You built something worth preserving",
     subheadline:
-      "When the time comes to step back, your business — and the people who depend on it — deserves more than an uncertain transition. Saha acquires profitable Swiss businesses below CHF 10m in revenue from founders who are ready to pass the torch, and we hold them for good.",
+      "When the time comes to step back, your business — and the people who depend on it — deserves more than an uncertain transition. Saha acquires profitable Swiss businesses below CHF 10M in revenue from founders who are ready to pass the torch, and we hold them for good.",
   },
 
   intro: {
@@ -224,7 +224,7 @@ export const foundersPage = {
       {
         title: "Profitable and established",
         description:
-          "Founder-led for many years, generally below CHF 10 million in revenue. Businesses with a proven track record and steady financial health.",
+          "Founder-led for many years, generally below CHF 10M in revenue. Businesses with a proven track record and steady financial health.",
       },
       {
         title: "Stable, recurring demand",
@@ -327,21 +327,21 @@ export const investorsPage = {
     eyebrow: "For Investors",
     headline: "A permanent ownership model\nfor Swiss succession deals",
     subheadline:
-      "Saha acquires profitable Swiss businesses below CHF 10m in revenue where succession creates opportunity but conventional capital rarely engages. We transition carefully and hold permanently.",
+      "Saha acquires profitable Swiss businesses below CHF 10M in revenue where succession creates opportunity but conventional capital rarely engages. We transition carefully and hold permanently.",
   },
 
   thesis: {
     heading: "The investment thesis",
     paragraphs: [
       "Switzerland has a large and growing segment of profitable, founder-led businesses approaching succession. These companies are often well-run, cash-generative, and deeply embedded in their local markets — yet they sit below the threshold where most institutional buyers operate.",
-      "Everything below CHF 10m in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expects a transfer within five years — and only about two thirds of those successions are expected to conclude successfully.",
+      "Everything below CHF 10M in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expects a transfer within five years — and only about two thirds of those successions are expected to conclude successfully.",
       "The gap is not a lack of good businesses. It is the absence of a buyer model purpose-built for this segment. These deals require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is being built specifically for this work.",
       "Because we hold permanently, our returns compound. Every acquisition refines our sourcing, transition discipline, and operating capabilities — making the next one more efficient and less risky.",
     ],
     callout: {
       type: "stat" as const,
       value: "1 in 3",
-      caption: "Swiss SME owners expects a transfer within five years — but the segment below CHF 10m is largely invisible to institutional capital",
+      caption: "Swiss SME owners expects a transfer within five years — but the segment below CHF 10M is largely invisible to institutional capital",
     },
   },
 
@@ -493,7 +493,7 @@ export const joinPage = {
       {
         title: "Deal and diligence",
         description:
-          "People who can source, evaluate, and structure acquisitions in the sub-CHF 10m Swiss market. You understand what makes a small business work, you can read financials and assess risk, and you know how to build trust with founders and advisors.",
+          "People who can source, evaluate, and structure acquisitions in the sub-CHF 10M Swiss market. You understand what makes a small business work, you can read financials and assess risk, and you know how to build trust with founders and advisors.",
       },
       {
         title: "Transition and operations",
@@ -608,7 +608,7 @@ export const aboutPage = {
   whyDifferentBuyer: {
     heading: "Why these businesses need a different kind of buyer",
     paragraphs: [
-      "Businesses below CHF 10m in revenue sit in a structural gap. They are too small for most institutional acquirers, who need larger deal sizes to justify their economics. They are too founder-dependent for passive investors, who lack the willingness or capability to manage a hands-on transition.",
+      "Businesses below CHF 10M in revenue sit in a structural gap. They are too small for most institutional acquirers, who need larger deal sizes to justify their economics. They are too founder-dependent for passive investors, who lack the willingness or capability to manage a hands-on transition.",
       "And they are too important — to employees, to customers, to communities — to simply disappear when no buyer shows up. This segment does not need more capital. It needs a buyer who understands the human complexity of smaller succession deals and is willing to do the work.",
     ],
     callout: {
@@ -766,7 +766,7 @@ export const faqPage = {
         {
           question: "What size of business does Saha typically acquire?",
           answer:
-            "We focus on profitable, founder-led Swiss businesses generally below CHF 10 million in annual revenue. The most important factors are the quality of the business, the strength of the team, and whether the business can realistically continue to thrive after the founder steps away.",
+            "We focus on profitable, founder-led Swiss businesses generally below CHF 10M in annual revenue. The most important factors are the quality of the business, the strength of the team, and whether the business can realistically continue to thrive after the founder steps away.",
         },
       ],
     },
@@ -804,9 +804,9 @@ export const faqPage = {
             "We are structuring Saha for a small number of aligned, long-term investors. At this stage, selectivity and structural fit matter more than scale. Minimum commitments and terms are discussed directly.",
         },
         {
-          question: "Why focus on businesses below CHF 10m in revenue?",
+          question: "Why focus on businesses below CHF 10M in revenue?",
           answer:
-            "This segment is structurally underserved. Most institutional buyers, advisors, and M&A datasets focus above CHF 10m. Below that threshold, profitable succession-driven businesses exist in large numbers but lack a purpose-built buyer. That is the gap Saha is designed to fill.",
+            "This segment is structurally underserved. Most institutional buyers, advisors, and M&A datasets focus above CHF 10M. Below that threshold, profitable succession-driven businesses exist in large numbers but lack a purpose-built buyer. That is the gap Saha is designed to fill.",
         },
       ],
     },
@@ -960,17 +960,17 @@ export const metadata = {
   home: {
     title: "Saha — A long-term home for Swiss businesses facing succession",
     description:
-      "Saha acquires profitable Swiss businesses below CHF 10m in revenue from retiring founders, transitions them with care, and holds them for the long term.",
+      "Saha acquires profitable Swiss businesses below CHF 10M in revenue from retiring founders, transitions them with care, and holds them for the long term.",
   },
   founders: {
     title: "For Founders — Saha",
     description:
-      "You built something worth preserving. Saha acquires and keeps founder-built Swiss businesses below CHF 10m with care, structure, and a long-term commitment.",
+      "You built something worth preserving. Saha acquires and keeps founder-built Swiss businesses below CHF 10M with care, structure, and a long-term commitment.",
   },
   investors: {
     title: "For Investors — Saha",
     description:
-      "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10m. Structured transitions, disciplined sourcing, compounding value.",
+      "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10M. Structured transitions, disciplined sourcing, compounding value.",
   },
   join: {
     title: "Join Saha — Build from the ground up",

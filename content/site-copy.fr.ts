@@ -26,7 +26,7 @@ export const homepage = {
   hero: {
     headline: "Le repreneur pérenne des\nPME suisses en transmission",
     subheadline:
-      "Saha reprend des PME suisses rentables de moins de CHF 10 millions de chiffre d'affaires pour les détenir dans la durée — en développant les capacités de sourcing, de transmission et d'appui opérationnel qui manquent encore à ce segment.",
+      "Saha reprend des PME suisses rentables de moins de CHF 10M de chiffre d'affaires pour les détenir dans la durée — en développant les capacités de sourcing, de transmission et d'appui opérationnel qui manquent encore à ce segment.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },
@@ -36,7 +36,7 @@ export const homepage = {
     heading: "Trop de bonnes entreprises disparaissent pour les mauvaises raisons",
     paragraphs: [
       "En Suisse, des milliers d'entreprises rentables, bien dirigées, font face à un avenir incertain — non pas parce qu'elles échouent, mais parce que leurs fondateurs approchent la retraite sans avoir de chemin tracé. Les options sont souvent peu satisfaisantes : vendre à un grand groupe lointain, tenter une transmission précipitée, ou simplement fermer les portes.",
-      "La plupart des acquéreurs institutionnels ciblent le haut du marché. Les transactions inférieures à CHF 10 millions de chiffre d'affaires sont trop petites pour le capital-investissement classique, trop complexes pour les investisseurs passifs, et rarement couvertes par les conseils en fusions et acquisitions traditionnels. Ces entreprises tombent entre les mailles du filet — non pas faute de valeur, mais parce que personne n'a construit un modèle pour elles.",
+      "La plupart des acquéreurs institutionnels ciblent le haut du marché. Les transactions inférieures à CHF 10M de chiffre d'affaires sont trop petites pour le capital-investissement classique, trop complexes pour les investisseurs passifs, et rarement couvertes par les conseils en fusions et acquisitions traditionnels. Ces entreprises tombent entre les mailles du filet — non pas faute de valeur, mais parce que personne n'a construit un modèle pour elles.",
       "C'est pour cela que Saha existe. Nous construisons une entreprise d'acquisition pensée spécifiquement pour ce segment : des PME petites, rentables, en phase de transmission, qui emploient des équipes fidèles, servent des clients établis et comptent réellement pour leurs communautés.",
     ],
     callout: {
@@ -51,7 +51,7 @@ export const homepage = {
   whyNow: {
     heading: "Ces entreprises méritent mieux que de disparaître silencieusement",
     paragraphs: [
-      "Sous CHF 10 millions de chiffre d'affaires, il existe très peu d'acquéreurs disposés à fournir l'effort que ces transactions exigent. Elles sont trop petites pour les fonds de capital-investissement, qui ne peuvent justifier leurs frais généraux. Elles sont trop liées à leurs fondateurs pour les investisseurs qui recherchent une approche passive. Et les transitions sont trop humaines — trop dépendantes de la confiance, des relations et de l'attention — pour être confiées à ceux qui refusent de s'impliquer.",
+      "Sous CHF 10M de chiffre d'affaires, il existe très peu d'acquéreurs disposés à fournir l'effort que ces transactions exigent. Elles sont trop petites pour les fonds de capital-investissement, qui ne peuvent justifier leurs frais généraux. Elles sont trop liées à leurs fondateurs pour les investisseurs qui recherchent une approche passive. Et les transitions sont trop humaines — trop dépendantes de la confiance, des relations et de l'attention — pour être confiées à ceux qui refusent de s'impliquer.",
       "Or ce sont souvent les entreprises qui comptent le plus localement. Elles emploient des collaborateurs présents depuis des années. Elles servent des clients qui en dépendent. Quand elles ferment faute d'acquéreur, la perte est discrète mais bien réelle.",
       "Saha a été créée parce que ce vide ne devrait pas exister. Les bonnes entreprises ne devraient pas disparaître à cause d'un problème de calendrier.",
     ],
@@ -93,7 +93,7 @@ export const homepage = {
         number: "01",
         title: "Trouver des entreprises qui peuvent prospérer sans le fondateur",
         description:
-          "Nous recherchons des PME suisses rentables, dirigées par leurs fondateurs, avec un chiffre d'affaires inférieur à CHF 10 millions, où la succession est la raison première de la vente. Au-delà de la santé financière, nous examinons attentivement si l'entreprise peut réellement continuer sans son fondateur — demande stable, équipe capable, concentration clients maîtrisée, et transmission qui peut être structurée avec réflexion.",
+          "Nous recherchons des PME suisses rentables, dirigées par leurs fondateurs, avec un chiffre d'affaires inférieur à CHF 10M, où la succession est la raison première de la vente. Au-delà de la santé financière, nous examinons attentivement si l'entreprise peut réellement continuer sans son fondateur — demande stable, équipe capable, concentration clients maîtrisée, et transmission qui peut être structurée avec réflexion.",
       },
       {
         number: "02",
@@ -151,7 +151,7 @@ export const homepage = {
     steps: [
       {
         number: "01",
-        title: "Pensé pour les entreprises sous CHF 10 millions",
+        title: "Pensé pour les entreprises sous CHF 10M",
         description:
           "Nous opérons dans un segment que la plupart des acquéreurs institutionnels négligent. Notre modèle, nos coûts et nos attentes sont conçus pour cette taille de transaction dès le départ.",
       },
@@ -196,7 +196,7 @@ export const foundersPage = {
     eyebrow: "Pour les fondateurs",
     headline: "Vous avez créé quelque chose qui mérite d'être préservé",
     subheadline:
-      "Quand vient le moment de passer le relais, votre entreprise — et les personnes qui en dépendent — mérite bien plus qu'une transmission incertaine. Saha acquiert les PME suisses rentables, sous CHF 10 millions de chiffre d'affaires, auprès des fondateurs prêts à céder le contrôle, et les conserve pour de bon.",
+      "Quand vient le moment de passer le relais, votre entreprise — et les personnes qui en dépendent — mérite bien plus qu'une transmission incertaine. Saha acquiert les PME suisses rentables, sous CHF 10M de chiffre d'affaires, auprès des fondateurs prêts à céder le contrôle, et les conserve pour de bon.",
   },
 
   intro: {
@@ -218,7 +218,7 @@ export const foundersPage = {
       {
         title: "Rentable et établie",
         description:
-          "Dirigée par le fondateur depuis de nombreuses années, généralement en-dessous de CHF 10 millions de chiffre d'affaires. Des entreprises avec un historique solide et une santé financière stable.",
+          "Dirigée par le fondateur depuis de nombreuses années, généralement en-dessous de CHF 10M de chiffre d'affaires. Des entreprises avec un historique solide et une santé financière stable.",
       },
       {
         title: "Une demande stable et récurrente",
@@ -319,21 +319,21 @@ export const investorsPage = {
     eyebrow: "Pour les investisseurs",
     headline: "Un modèle de détention permanente\npour les transmissions suisses",
     subheadline:
-      "Saha acquiert les PME suisses rentables, sous CHF 10 millions de chiffre d'affaires, où la succession crée une opportunité mais où le capital classique s'engage rarement. Nous gérons les transitions avec soin et détenons durablement.",
+      "Saha acquiert les PME suisses rentables, sous CHF 10M de chiffre d'affaires, où la succession crée une opportunité mais où le capital classique s'engage rarement. Nous gérons les transitions avec soin et détenons durablement.",
   },
 
   thesis: {
     heading: "La thèse d'investissement",
     paragraphs: [
       "La Suisse compte un large et croissant segment d'entreprises rentables dirigées par leurs fondateurs, qui font face à une transmission imminente. Ces entreprises sont souvent bien gérées, génératrices de cash, et profondément enracinées dans leurs marchés locaux — pourtant elles se situent sous le seuil où la plupart des acquéreurs institutionnels opèrent.",
-      "Tout ce qui est sous CHF 10 millions de chiffre d'affaires est effectivement invisible au flux de transactions institutionnel. Pourtant, l'étude de succession CFB-HSG / UBS estime qu'environ un propriétaire de PME suisse sur trois s'attend à une transmission dans les cinq ans — et seulement environ deux tiers de ces transmissions sont censées aboutir avec succès.",
+      "Tout ce qui est sous CHF 10M de chiffre d'affaires est effectivement invisible au flux de transactions institutionnel. Pourtant, l'étude de succession CFB-HSG / UBS estime qu'environ un propriétaire de PME suisse sur trois s'attend à une transmission dans les cinq ans — et seulement environ deux tiers de ces transmissions sont censées aboutir avec succès.",
       "Le vide n'est pas dû à l'absence de bonnes entreprises. C'est l'absence d'un modèle d'acquéreur pensé spécifiquement pour ce segment. Ces transactions exigent des compétences de transition menées de près, de l'empathie envers les fondateurs, et la volonté de conduire des opérations complexes et petites qui ne peuvent pas être standardisées. Saha est construite précisément pour ce travail.",
       "Parce que nous détenons durablement, nos rendements se composent. Chaque acquisition affine notre capacité de sourçage, notre discipline de transition et nos capacités opérationnelles — rendant la suivante plus efficace et moins risquée.",
     ],
     callout: {
       type: "stat" as const,
       value: "1 sur 3",
-      caption: "propriétaires de PME suisses s'attendent à une transmission dans les cinq ans — mais le segment en dessous de CHF 10 millions reste largement invisible au capital institutionnel",
+      caption: "propriétaires de PME suisses s'attendent à une transmission dans les cinq ans — mais le segment en dessous de CHF 10M reste largement invisible au capital institutionnel",
     },
   },
 
@@ -483,7 +483,7 @@ export const joinPage = {
       {
         title: "Deal et diligence",
         description:
-          "Des gens qui peuvent sourcer, évaluer et structurer les acquisitions sur le marché suisse sous CHF 10 millions. Vous comprenez ce qui fait fonctionner une petite entreprise, vous pouvez lire les états financiers et évaluer les risques, et vous savez comment construire la confiance avec les fondateurs et les conseillers.",
+          "Des gens qui peuvent sourcer, évaluer et structurer les acquisitions sur le marché suisse sous CHF 10M. Vous comprenez ce qui fait fonctionner une petite entreprise, vous pouvez lire les états financiers et évaluer les risques, et vous savez comment construire la confiance avec les fondateurs et les conseillers.",
       },
       {
         title: "Transition et opérations",
@@ -581,7 +581,7 @@ export const aboutPage = {
   whyDifferentBuyer: {
     heading: "Pourquoi ces entreprises ont besoin d'un acquéreur différent",
     paragraphs: [
-      "Les entreprises sous CHF 10 millions de chiffre d'affaires se situent dans un vide structurel. Elles sont trop petites pour la plupart des acquéreurs institutionnels, qui ont besoin de tailles de transactions plus grandes pour justifier leurs économies. Elles sont trop liées aux fondateurs pour les investisseurs passifs, qui manquent de volonté ou de capacité à gérer une transition menée de près.",
+      "Les entreprises sous CHF 10M de chiffre d'affaires se situent dans un vide structurel. Elles sont trop petites pour la plupart des acquéreurs institutionnels, qui ont besoin de tailles de transactions plus grandes pour justifier leurs économies. Elles sont trop liées aux fondateurs pour les investisseurs passifs, qui manquent de volonté ou de capacité à gérer une transition menée de près.",
       "Et elles comptent trop — pour les salariés, pour les clients, pour les communautés — pour simplement disparaître quand aucun acquéreur ne se présente. Ce segment n'a pas besoin de plus de capital. Il a besoin d'un acquéreur qui comprenne la complexité humaine des petites transmissions et soit disposé à faire le travail.",
     ],
     callout: {
@@ -690,7 +690,7 @@ export const faqPage = {
         { question: "Combien de temps faut-il du premier contact à la clôture ?", answer: "Chaque situation est différente, mais un processus typique prend trois à six mois du contact initial à la conclusion. Nous avançons à un rythme qui vous convient — il n'y a aucune pression à se précipiter. La première conversation est confidentielle et sans obligation." },
         { question: "Mon entreprise gardera-t-elle son nom et sa marque ?", answer: "Oui. Nous préservons l'identité, la marque et la présence locale de chaque entreprise que nous acquérons. Votre entreprise continue à fonctionner sous son propre nom, sur son propre marché, avec sa propre équipe. Saha fournit le soutien en arrière-plan." },
         { question: "Dois-je rester impliqué après la vente ?", answer: "C'est entièrement à vous de décider. Certains fondateurs préfèrent une transition nette, tandis que d'autres choisissent de rester impliqués dans un rôle consultatif ou à temps partiel pendant un certain temps. Nous structurons la transition selon vos préférences et votre calendrier." },
-        { question: "Quelle taille d'entreprise Saha acquiert-il généralement ?", answer: "Nous nous concentrons sur les PME suisses rentables, dirigées par leurs fondateurs, généralement sous CHF 10 millions de chiffre d'affaires annuel. Les facteurs les plus importants sont la qualité de l'entreprise, la force de l'équipe, et si l'entreprise peut réalistement continuer à prospérer après le départ du fondateur." },
+        { question: "Quelle taille d'entreprise Saha acquiert-il généralement ?", answer: "Nous nous concentrons sur les PME suisses rentables, dirigées par leurs fondateurs, généralement sous CHF 10M de chiffre d'affaires annuel. Les facteurs les plus importants sont la qualité de l'entreprise, la force de l'équipe, et si l'entreprise peut réalistement continuer à prospérer après le départ du fondateur." },
       ],
     },
     {
@@ -702,7 +702,7 @@ export const faqPage = {
         { question: "Quel est le profil de rendement cible ?", answer: "Nous visons à augmenter durablement la valeur du portefeuille à long terme par la discipline d'acquisition, l'amélioration opérationnelle et la croissance organique. Nous structurons Saha pour un petit nombre d'investisseurs alignés à long terme et partageons la documentation complète dans les discussions privées." },
         { question: "Comment Saha gère-t-il le risque sur le portefeuille ?", answer: "Le risque est géré par la diversification entre les industries et les géographies en Suisse, les valorisations disciplinées à l'entrée, les processus de transition structurés, et la surveillance financière partagée avec les systèmes d'alerte précoce. Chaque entreprise fonctionne de manière indépendante, limitant le risque de contagion." },
         { question: "Quel est l'engagement d'investissement minimum ?", answer: "Nous structurons Saha pour un petit nombre d'investisseurs alignés et à long terme. À ce stade, la sélectivité et l'adéquation structurelle importent plus que l'ampleur. Les engagements minimums et les conditions sont discutés directement." },
-        { question: "Pourquoi se concentrer sur les entreprises sous CHF 10 millions de chiffre d'affaires ?", answer: "Ce segment est structurellement mal desservi. La plupart des acquéreurs institutionnels, conseillers et ensembles de données M&A se concentrent au-dessus de CHF 10 millions. Sous ce seuil, les entreprises rentables en phase de transmission existent en grand nombre mais manquent d'un acquéreur pensé pour elles. C'est le vide que Saha est pensée pour combler." },
+        { question: "Pourquoi se concentrer sur les entreprises sous CHF 10M de chiffre d'affaires ?", answer: "Ce segment est structurellement mal desservi. La plupart des acquéreurs institutionnels, conseillers et ensembles de données M&A se concentrent au-dessus de CHF 10M. Sous ce seuil, les entreprises rentables en phase de transmission existent en grand nombre mais manquent d'un acquéreur pensé pour elles. C'est le vide que Saha est pensée pour combler." },
       ],
     },
     {
@@ -762,9 +762,9 @@ export const footer = {
 };
 
 export const metadata = {
-  home: { title: "Saha — Un acquéreur fiable pour les PME suisses en transmission", description: "Saha acquiert les PME suisses rentables sous CHF 10 millions auprès des fondateurs à la retraite, les accompagne avec soin, et les conserve durablement." },
-  founders: { title: "Pour les fondateurs — Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par des fondateurs sous CHF 10 millions avec soin, structure et engagement à long terme." },
-  investors: { title: "Pour les investisseurs — Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10 millions. Transitions structurées, sourçage discipliné, composition de valeur." },
+  home: { title: "Saha — Un acquéreur fiable pour les PME suisses en transmission", description: "Saha acquiert les PME suisses rentables sous CHF 10M auprès des fondateurs à la retraite, les accompagne avec soin, et les conserve durablement." },
+  founders: { title: "Pour les fondateurs — Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par des fondateurs sous CHF 10M avec soin, structure et engagement à long terme." },
+  investors: { title: "Pour les investisseurs — Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10M. Transitions structurées, sourçage discipliné, composition de valeur." },
   join: { title: "Rejoindre Saha — Construire dès zéro", description: "Saha est au stade de la formation, assemblant une équipe pour construire une entreprise de détention à long terme pour les PME suisses. Rôles en deal, transition, opérations et finance." },
   about: { title: "À propos de Saha — Pourquoi nous existons", description: "Trop de bonnes PME suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour fournir un acquéreur réfléchi et à long terme pour le segment de transmission mal desservi." },
   contact: { title: "Contact Saha", description: "Engager une conversation avec Saha. Que vous soyez fondateur, investisseur ou futur membre de l'équipe — nous serions heureux d'entendre parler de vous." },

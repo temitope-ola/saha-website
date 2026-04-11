@@ -31,7 +31,7 @@ export const homepage = {
   hero: {
     headline: "Der langfristige Erwerber für\nSchweizer KMU in der Nachfolge",
     subheadline:
-      "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und hält sie langfristig — während wir die Sourcing-, Übergabe- und Betriebsfähigkeiten aufbauen, die dieses Segment braucht.",
+      "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10M Umsatz und hält sie langfristig — während wir die Sourcing-, Übergabe- und Betriebsfähigkeiten aufbauen, die dieses Segment braucht.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
     secondaryCta: { label: "Unsere Kriterien", href: "/founders" },
   },
@@ -41,7 +41,7 @@ export const homepage = {
     heading: "Viele gute Unternehmen verschwinden aus den falschen Gründen",
     paragraphs: [
       "In der Schweiz stehen Tausende von profitablen, gut geführten Unternehmen vor einer unsicheren Zukunft — nicht weil sie scheitern, sondern weil ihre Gründer sich dem Ruhestand nähern, ohne dass ein klarer Weg vorwärts erkennbar ist. Die Optionen sind oft unbefriedigend: Verkauf an einen fernen Konzern, eine überstürzte Übergabe oder einfach Geschäftsschliessung.",
-      "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Transaktionen unter CHF 10 Millionen Umsatz sind für traditionelle Private-Equity-Fonds zu klein, für passive Investoren zu komplex und werden von klassischen M&A-Beratern kaum betreut. Diese Unternehmen fallen durch die Maschen — nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie entwickelt hat.",
+      "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Transaktionen unter CHF 10M Umsatz sind für traditionelle Private-Equity-Fonds zu klein, für passive Investoren zu komplex und werden von klassischen M&A-Beratern kaum betreut. Diese Unternehmen fallen durch die Maschen — nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie entwickelt hat.",
       "Dafür steht Saha. Wir bauen ein Übernahmeunternehmen auf, das speziell für dieses Segment konzipiert ist: kleine, profitable, übergangsorientierte Unternehmen, die loyale Teams beschäftigen, etablierte Kundenkreise bedienen und ihren Regionen viel bedeuten.",
     ],
     callout: {
@@ -56,7 +56,7 @@ export const homepage = {
   whyNow: {
     heading: "Diese Unternehmen verdienen mehr als stilles Verschwinden",
     paragraphs: [
-      "Unterhalb von CHF 10 Millionen Umsatz gibt es sehr wenige Käufer, die bereit sind, die Arbeit zu leisten, die solche Transaktionen erfordern. Deals sind für Private-Equity-Fonds zu klein, um deren Overhead zu rechtfertigen. Unternehmen sind für Investoren, die Distanz wünschen, zu gründerabhängig. Und die Übergänge sind zu menschlich — zu sehr auf Vertrauen, Beziehungen und Sorgfalt angewiesen — um von jemandem geleitet zu werden, der nicht bereit ist, sich einzubringen.",
+      "Unterhalb von CHF 10M Umsatz gibt es sehr wenige Käufer, die bereit sind, die Arbeit zu leisten, die solche Transaktionen erfordern. Deals sind für Private-Equity-Fonds zu klein, um deren Overhead zu rechtfertigen. Unternehmen sind für Investoren, die Distanz wünschen, zu gründerabhängig. Und die Übergänge sind zu menschlich — zu sehr auf Vertrauen, Beziehungen und Sorgfalt angewiesen — um von jemandem geleitet zu werden, der nicht bereit ist, sich einzubringen.",
       "Doch genau diese Unternehmen sind oft diejenigen, die lokal am meisten zählen. Sie beschäftigen Menschen, die schon Jahre dort sind. Sie bedienen Kundinnen und Kunden, die auf sie angewiesen sind. Wenn sie schliessen, weil sich kein Käufer zeigte, ist der Verlust leise, aber real.",
       "Saha existiert, weil diese Lücke nicht bestehen sollte. Gute Unternehmen sollten nicht verschwinden, bloss weil ein Zeitfenster zu engen ist.",
     ],
@@ -98,7 +98,7 @@ export const homepage = {
         number: "01",
         title: "Unternehmen finden, die jenseits des Gründers florieren können",
         description:
-          "Wir suchen profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz, bei denen Nachfolge der primäre Verkaufsgrund ist. Neben der finanziellen Gesundheit achten wir sorgfältig darauf, ob das Geschäft realistische Chancen hat, ohne seinen Gründer weiterzufunktionieren — stabile Nachfrage, ein fähiges Team, handhabbare Kundenkonzentration und eine gut strukturierbare Übergabe.",
+          "Wir suchen profitable, gründergeführte Schweizer Unternehmen unter CHF 10M Umsatz, bei denen Nachfolge der primäre Verkaufsgrund ist. Neben der finanziellen Gesundheit achten wir sorgfältig darauf, ob das Geschäft realistische Chancen hat, ohne seinen Gründer weiterzufunktionieren — stabile Nachfrage, ein fähiges Team, handhabbare Kundenkonzentration und eine gut strukturierbare Übergabe.",
       },
       {
         number: "02",
@@ -156,7 +156,7 @@ export const homepage = {
     steps: [
       {
         number: "01",
-        title: "Gebaut für Unternehmen unter CHF 10 Millionen",
+        title: "Gebaut für Unternehmen unter CHF 10M",
         description:
           "Wir arbeiten in einem Segment, das die meisten institutionellen Käufer übersehen. Unser Modell, unsere Kosten und unsere Erwartungen sind von Tag eins an für diese Dealgrössse ausgelegt.",
       },
@@ -203,7 +203,7 @@ export const foundersPage = {
     eyebrow: "Für Gründer",
     headline: "Sie haben etwas Bewahrenwertes aufgebaut",
     subheadline:
-      "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen — und die Menschen, die davon abhängen — mehr als eine unsichere Übergabe. Saha akquiriert profitable Schweizer Unternehmen unter CHF 10 Millionen Umsatz von Gründern, die bereit sind, die Fackel weiterzureichen, und behält sie langfristig.",
+      "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen — und die Menschen, die davon abhängen — mehr als eine unsichere Übergabe. Saha akquiriert profitable Schweizer Unternehmen unter CHF 10M Umsatz von Gründern, die bereit sind, die Fackel weiterzureichen, und behält sie langfristig.",
   },
 
   intro: {
@@ -225,7 +225,7 @@ export const foundersPage = {
       {
         title: "Profitabel und etabliert",
         description:
-          "Langjährig gründergeführt, in der Regel unter CHF 10 Millionen Umsatz. Unternehmen mit einem bewährten Track Record und solider finanzieller Gesundheit.",
+          "Langjährig gründergeführt, in der Regel unter CHF 10M Umsatz. Unternehmen mit einem bewährten Track Record und solider finanzieller Gesundheit.",
       },
       {
         title: "Stabile, wiederkehrende Nachfrage",
@@ -328,21 +328,21 @@ export const investorsPage = {
     eyebrow: "Für Investoren",
     headline: "Ein Langzeitmodell der\nEigentümerschaft für Schweizer Übergangstransaktionen",
     subheadline:
-      "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10 Millionen Umsatz, wo Nachfolge Gelegenheit schafft, aber konventionelles Kapital selten beteiligt ist. Wir führen Übergaben sorgfältig durch und halten dauerhaft.",
+      "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10M Umsatz, wo Nachfolge Gelegenheit schafft, aber konventionelles Kapital selten beteiligt ist. Wir führen Übergaben sorgfältig durch und halten dauerhaft.",
   },
 
   thesis: {
     heading: "Die Investitionsthese",
     paragraphs: [
       "In der Schweiz gibt es ein grosses und wachsendes Segment von profitablen, gründergeführten Unternehmen, die sich dem Übergangsprozess nähern. Diese Unternehmen sind oft gut geführt, cashflow-generativ und tief in ihren lokalen Märkten verwurzelt — doch sie liegen unter der Schwelle, wo die meisten institutionellen Käufer tätig sind.",
-      "Alles unter CHF 10 Millionen Umsatz ist praktisch unsichtbar für institutionelle Deal-Flows. Doch die CFB-HSG/UBS-Nachfolgestudie zeigt, dass etwa jeder dritte Schweizer KMU-Inhaber eine Übertragung innerhalb von fünf Jahren erwartet — und nur etwa zwei Drittel dieser Übergaben werden erwartet, erfolgreich abgeschlossen zu werden.",
+      "Alles unter CHF 10M Umsatz ist praktisch unsichtbar für institutionelle Deal-Flows. Doch die CFB-HSG/UBS-Nachfolgestudie zeigt, dass etwa jeder dritte Schweizer KMU-Inhaber eine Übertragung innerhalb von fünf Jahren erwartet — und nur etwa zwei Drittel dieser Übergaben werden erwartet, erfolgreich abgeschlossen zu werden.",
       "Die Lücke ist nicht ein Mangel an guten Unternehmen. Sie ist die Abwesenheit eines Käufermodells, das speziell für dieses Segment gebaut wurde. Diese Deals erfordern praktische Übergabefähigkeiten, Gründer-Einfühlungsvermögen und die Bereitschaft, komplexe, kleinere Transaktionen zu machen, die nicht standardisiert werden können. Saha wird speziell für diese Arbeit aufgebaut.",
       "Weil wir dauerhaft halten, kumulieren unsere Renditen. Jede Übernahme verfeinert unsere Sourcing-, Übergabe- und Betriebsfähigkeiten — was die nächste effizienter und weniger riskant macht.",
     ],
     callout: {
       type: "stat" as const,
       value: "1 von 3",
-      caption: "Schweizer KMU-Inhaber erwartet eine Übertragung innerhalb von fünf Jahren — aber das Segment unter CHF 10 Millionen ist institutionellem Kapital weitgehend unsichtbar",
+      caption: "Schweizer KMU-Inhaber erwartet eine Übertragung innerhalb von fünf Jahren — aber das Segment unter CHF 10M ist institutionellem Kapital weitgehend unsichtbar",
     },
   },
 
@@ -616,7 +616,7 @@ export const aboutPage = {
   whyDifferentBuyer: {
     heading: "Warum diese Unternehmen einen anderen Käufertyp brauchen",
     paragraphs: [
-      "Unternehmen unter CHF 10 Millionen Umsatz sitzen in einer strukturellen Lücke. Sie sind zu klein für die meisten institutionellen Käufer, die Dealgröszen brauchen, um ihre Ökonomie zu rechtfertigen. Sie sind zu gründerabhängig für passive Investoren, die keine Bereitschaft oder Kapazität für praktische Übergaben haben.",
+      "Unternehmen unter CHF 10M Umsatz sitzen in einer strukturellen Lücke. Sie sind zu klein für die meisten institutionellen Käufer, die Dealgröszen brauchen, um ihre Ökonomie zu rechtfertigen. Sie sind zu gründerabhängig für passive Investoren, die keine Bereitschaft oder Kapazität für praktische Übergaben haben.",
       "Und sie sind zu wichtig — für Angestellte, für Kundinnen und Kunden, für Gemeinschaften — um einfach zu verschwinden, wenn sich kein Käufer zeigt. Dieses Segment braucht nicht mehr Kapital. Es braucht einen Käufer, der die menschliche Komplexität kleinerer Übergabe-Deals versteht und bereit ist, die Arbeit zu machen.",
     ],
     callout: {
@@ -774,7 +774,7 @@ export const faqPage = {
         {
           question: "Welche Grösse von Unternehmen akquiriert Saha typischerweise?",
           answer:
-            "Wir konzentrieren uns auf profitable, gründergeführte Schweizer Unternehmen generell unter CHF 10 Millionen Jahresumsatz. Die wichtigsten Faktoren sind die Qualität des Unternehmens, die Stärke des Teams und ob das Unternehmen realistisch florieren kann, nachdem der Gründer weg ist.",
+            "Wir konzentrieren uns auf profitable, gründergeführte Schweizer Unternehmen generell unter CHF 10M Jahresumsatz. Die wichtigsten Faktoren sind die Qualität des Unternehmens, die Stärke des Teams und ob das Unternehmen realistisch florieren kann, nachdem der Gründer weg ist.",
         },
       ],
     },
@@ -812,9 +812,9 @@ export const faqPage = {
             "Wir strukturieren Saha für eine kleine Zahl von ausgerichteten, langfristigen Investoren. In dieser Phase zählt Selektivität und strukturelle Passung mehr als Skala. Minimale Verpflichtungen und Bedingungen werden direkt besprochen.",
         },
         {
-          question: "Warum konzentrieren sich auf Unternehmen unter CHF 10 Millionen Umsatz?",
+          question: "Warum konzentrieren sich auf Unternehmen unter CHF 10M Umsatz?",
           answer:
-            "Dieses Segment ist strukturell unterversorgt. Die meisten institutionellen Käufer, Berater und M&A-Datensets konzentrieren sich über CHF 10 Millionen. Darunter existieren profitable Nachfolgeunternehmen in grossen Mengen, aber es fehlt ein Käufermodell dafür. Das ist die Lücke, die Saha füllt.",
+            "Dieses Segment ist strukturell unterversorgt. Die meisten institutionellen Käufer, Berater und M&A-Datensets konzentrieren sich über CHF 10M. Darunter existieren profitable Nachfolgeunternehmen in grossen Mengen, aber es fehlt ein Käufermodell dafür. Das ist die Lücke, die Saha füllt.",
         },
       ],
     },
@@ -968,17 +968,17 @@ export const metadata = {
   home: {
     title: "Saha — Ein verlässlicher Käufer für Schweizer KMU in Nachfolge",
     description:
-      "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10 Millionen Umsatz von pensionierungsbereiten Gründern, führt sie sorgfältig über und hält sie langfristig.",
+      "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10M Umsatz von pensionierungsbereiten Gründern, führt sie sorgfältig über und hält sie langfristig.",
   },
   founders: {
     title: "Für Gründer — Saha",
     description:
-      "Sie haben etwas Bewahrenwertes aufgebaut. Saha akquiriert und behält gründergebaute Schweizer Unternehmen unter CHF 10 Millionen mit Sorgfalt, Struktur und langfristiger Verpflichtung.",
+      "Sie haben etwas Bewahrenwertes aufgebaut. Saha akquiriert und behält gründergebaute Schweizer Unternehmen unter CHF 10M mit Sorgfalt, Struktur und langfristiger Verpflichtung.",
   },
   investors: {
     title: "Für Investoren — Saha",
     description:
-      "Ein permanentes Eigentumsmodell für das unterversorgte Segment von Schweizer Übergangstransaktionen unter CHF 10 Millionen. Strukturierte Übergänge, disziplinierte Sourcing, kumulierender Wert.",
+      "Ein permanentes Eigentumsmodell für das unterversorgte Segment von Schweizer Übergangstransaktionen unter CHF 10M. Strukturierte Übergänge, disziplinierte Sourcing, kumulierender Wert.",
   },
   join: {
     title: "Saha beitreten — Bauen Sie von Grund auf auf",
