@@ -6,7 +6,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "Ein langfristiges Zuhause für Schweizer Unternehmen im Übergangsprozess",
+  tagline: "Ein Zuhause für Schweizer Unternehmen in Nachfolge",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -797,7 +797,7 @@ export const termsPage = {
 /* ── Footer ─────────────────────────────────── */
 
 export const footer = {
-  tagline: "Ein langfristiges Zuhause für Schweizer Unternehmen im Übergangsprozess.",
+  tagline: "Ein Zuhause für Schweizer Unternehmen in Nachfolge.",
   columns: [
     {
       title: "Unternehmen",
@@ -831,7 +831,7 @@ export const footer = {
 
 export const metadata = {
   home: {
-    title: "Saha — Ein langfristiges Zuhause für Schweizer Unternehmen im Übergangsprozess",
+    title: "Saha — Ein Zuhause für Schweizer Unternehmen in Nachfolge",
     description:
       "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10 Millionen Umsatz von pensionierungsbereiten Gründern, führt sie sorgfältig über und hält sie langfristig.",
   },
