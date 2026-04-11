@@ -26,7 +26,7 @@ export const homepage = {
   hero: {
     headline: "Un acquéreur fiable pour les\nPME suisses en transmission",
     subheadline:
-      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs et réalisant moins de CHF 10 millions de chiffre d'affaires, pour les inscrire dans la durée — préserver l'essentiel, soutenir l'équipe et préparer la relève.",
+      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs et de moins de CHF 10 millions de chiffre d'affaires, pour les conserver durablement — en préservant ce qui fonctionne, en soutenant l'équipe et en préparant la relève.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },
