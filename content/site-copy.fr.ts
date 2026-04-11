@@ -5,7 +5,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "Un acquéreur fiable pour les PME suisses en transmission",
+  tagline: "Le repreneur pérenne des PME suisses en transmission",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -24,9 +24,9 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Un acquéreur fiable pour les\nPME suisses en transmission",
+    headline: "Le repreneur pérenne des\nPME suisses en transmission",
     subheadline:
-      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs et de moins de CHF 10 millions de chiffre d'affaires, et les conserve durablement — tout en développant les capacités de sourçage, de transition et d'exploitation qui font fonctionner ce segment.",
+      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs et réalisant moins de CHF 10 millions de chiffre d'affaires, qu'elle détient durablement — tout en développant les capacités de sourcing, de transition et d'exploitation qui rendent ce segment viable.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },

@@ -5,7 +5,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "A long-term home for Swiss businesses facing succession",
+  tagline: "The permanent acquirer for Swiss businesses facing succession",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -28,7 +28,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "A long-term home for Swiss\nbusinesses facing succession",
+    headline: "The permanent acquirer for Swiss\nbusinesses facing succession",
     subheadline:
       "Saha acquires profitable, founder-led Swiss businesses below CHF 10m in revenue and holds them for the long term — while building the sourcing, transition, and operating capabilities that make this segment work.",
     cta: { label: "Start a conversation", href: "/contact" },
