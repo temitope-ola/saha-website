@@ -246,23 +246,27 @@ export const foundersPage = {
 
   founderExpectations: {
     heading: "What you can expect from us",
-    items: [
+    steps: [
       {
+        number: "01",
         title: "Your company keeps its identity",
         description:
           "We preserve the name, brand, and local presence of every business we acquire. Your company continues to operate as itself — in its own market, with its own team.",
       },
       {
+        number: "02",
         title: "Your involvement is on your terms",
         description:
           "Some founders prefer a clean handover. Others stay involved in an advisory role for a time. We design the transition around what feels right for you.",
       },
       {
+        number: "03",
         title: "A fair price — and more than just a number",
         description:
           "We offer transparent, fair valuations. We also understand that for many founders, knowing the team and customers will be looked after matters as much as the price.",
       },
       {
+        number: "04",
         title: "Your team is protected",
         description:
           "We do not acquire businesses to cut costs or restructure headcount. The people you hired, the roles you shaped, and the working relationships you built are preserved through the transition and beyond.",

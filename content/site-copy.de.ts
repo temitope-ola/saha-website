@@ -247,23 +247,27 @@ export const foundersPage = {
 
   founderExpectations: {
     heading: "Was Sie von uns erwarten können",
-    items: [
+    steps: [
       {
+        number: "01",
         title: "Ihr Unternehmen behält seine Identität",
         description:
           "Wir bewahren die Identität, Brand und lokale Präsenz jedes Unternehmens, das wir erwerben. Ihr Unternehmen operiert weiterhin als es selbst — in seinem Markt, mit seinem Team.",
       },
       {
+        number: "02",
         title: "Ihre Beteiligung liegt in Ihrer Hand",
         description:
           "Einige Gründer bevorzugen einen sauberen Übergang. Andere bleiben eine Zeitlang in einer Beratungsrolle beteiligt. Wir gestalten die Übergabe so, dass sie sich für Sie richtig anfühlt.",
       },
       {
+        number: "03",
         title: "Ein fairer Preis — und mehr als nur eine Zahl",
         description:
           "Wir bieten transparente, faire Bewertungen. Wir verstehen auch, dass für viele Gründer das Wissen, dass Team und Kunden gut betreut werden, genauso wichtig ist wie der Preis.",
       },
       {
+        number: "04",
         title: "Ihr Team ist geschützt",
         description:
           "Wir akquirieren Unternehmen nicht, um Kosten zu senken oder Stellen abzubauen. Die Menschen, die Sie eingestellt haben, die Rollen, die Sie geprägt haben, und die Arbeitsbeziehungen, die Sie aufgebaut haben, bleiben bei der Übergabe und darüber hinaus erhalten.",

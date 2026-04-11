@@ -240,23 +240,27 @@ export const foundersPage = {
 
   founderExpectations: {
     heading: "Ce que vous pouvez attendre de nous",
-    items: [
+    steps: [
       {
+        number: "01",
         title: "Votre entreprise garde son identité",
         description:
           "Nous préservons le nom, la marque et la présence locale de chaque entreprise que nous acquérons. Votre entreprise continue à fonctionner en tant que telle — sur son marché, avec son équipe.",
       },
       {
+        number: "02",
         title: "Votre implication se fait selon vos termes",
         description:
           "Certains fondateurs préfèrent une passation nette. D'autres choisissent de rester impliqués dans un rôle consultatif pendant un certain temps. Nous structurons la transition autour de ce qui vous convient.",
       },
       {
+        number: "03",
         title: "Un prix juste — et bien plus qu'un simple chiffre",
         description:
           "Nous offrons des valorisations transparentes et équitables. Nous comprenons aussi que pour beaucoup de fondateurs, savoir que l'équipe et les clients seront bien traités compte autant que le prix.",
       },
       {
+        number: "04",
         title: "Votre équipe est protégée",
         description:
           "Nous n'achetons pas les entreprises pour réduire les coûts ou restructurer l'effectif. Les personnes que vous avez recrutées, les rôles que vous avez façonnés, et les relations de travail que vous avez construites sont préservés pendant la transition et après.",

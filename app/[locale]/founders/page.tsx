@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageHero from "@/components/page-hero";
 import SectionIntro from "@/components/section-intro";
 import ProcessSteps from "@/components/process-steps";
-import ValueGrid from "@/components/value-grid";
+import ModelSteps from "@/components/model-steps";
 import CtaBanner from "@/components/cta-banner";
 import CalloutBox from "@/components/callout-box";
 import type { Locale } from "@/lib/i18n";
@@ -34,12 +34,15 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       <section className="section-padding">
         <div className="container-content">
           <SectionIntro heading={foundersPage.intro.heading} />
-          <div className="space-y-5">
-            {foundersPage.intro.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600 max-w-prose">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {foundersPage.intro.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...foundersPage.intro.callout} />
           </div>
         </div>
       </section>
@@ -48,7 +51,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={foundersPage.founderExpectations.heading} />
-          <ValueGrid items={foundersPage.founderExpectations.items} />
+          <ModelSteps steps={foundersPage.founderExpectations.steps} />
         </div>
       </section>
 
