@@ -6,7 +6,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "Ein Zuhause für Schweizer Unternehmen in Nachfolge",
+  tagline: "Ein vertrauenswürdiger Käufer für Schweizer KMU in Nachfolge",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -29,7 +29,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Ein langfristiges Zuhause für Schweizer\nUnternehmen im Übergangsprozess",
+    headline: "Ein vertrauenswürdiger Käufer für\nSchweizer KMU in Nachfolge",
     subheadline:
       "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und behält sie dauerhaft — bewahrt, was funktioniert, unterstützt das Team und trägt das Unternehmen weiter, wenn der Gründer bereit ist, einen Schritt zurückzutreten.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
@@ -797,7 +797,7 @@ export const termsPage = {
 /* ── Footer ─────────────────────────────────── */
 
 export const footer = {
-  tagline: "Ein Zuhause für Schweizer Unternehmen in Nachfolge.",
+  tagline: "Ein vertrauenswürdiger Käufer für Schweizer KMU in Nachfolge.",
   columns: [
     {
       title: "Unternehmen",
@@ -831,7 +831,7 @@ export const footer = {
 
 export const metadata = {
   home: {
-    title: "Saha — Ein Zuhause für Schweizer Unternehmen in Nachfolge",
+    title: "Saha — Ein vertrauenswürdiger Käufer für Schweizer KMU in Nachfolge",
     description:
       "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10 Millionen Umsatz von pensionierungsbereiten Gründern, führt sie sorgfältig über und hält sie langfristig.",
   },
