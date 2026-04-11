@@ -87,29 +87,29 @@ export const homepage = {
 
   modelSectionLabel: "Notre approche",
   model: {
-    heading: "Identifier les bonnes entreprises. Les accompagner dans la transition. Les conserver pour toujours.",
+    heading: "Identifier les bonnes entreprises. Accompagner la transmission. Les conserver durablement.",
     steps: [
       {
         number: "01",
-        title: "Trouver des entreprises qui peuvent prospérer sans le fondateur",
+        title: "Identifier des entreprises capables de prospérer au-delà du fondateur",
         description:
           "Nous recherchons des PME suisses rentables, dirigées par leurs fondateurs, avec un chiffre d'affaires inférieur à CHF 10M, où la succession est la raison première de la vente. Au-delà de la santé financière, nous examinons attentivement si l'entreprise peut réellement continuer sans son fondateur — demande stable, équipe capable, concentration clients maîtrisée, et transmission qui peut être structurée avec réflexion.",
       },
       {
         number: "02",
-        title: "Gérer la transition avec soin",
+        title: "Accompagner la transmission avec rigueur",
         description:
           "Chaque acquisition est suivie d'une transition structurée pour préserver l'essentiel : passation du fondateur, continuité client, stabilité de l'équipe, et attention soutenue pendant les douze premiers mois. C'est là que les opérations réussissent ou échouent, et nous la considérons comme l'une de nos capacités fondamentales.",
       },
       {
         number: "03",
-        title: "Fournir le soutien qui aide vraiment",
+        title: "Apporter un appui ciblé, là où il fait la différence",
         description:
           "Au fil du temps, nos entreprises peuvent s'appuyer sur des capacités partagées — discipline financière, reporting, accompagnement en recrutement, amélioration de processus, guidance opérationnelle. Mais ce soutien est toujours sélectif. Les équipes locales restent responsables de la gestion et de la croissance de l'entreprise. Nous aidons là où c'est utile, pas là où c'est commode pour nous.",
       },
       {
         number: "04",
-        title: "Détenir pour le long terme",
+        title: "Détenir dans la durée",
         description:
           "Nous n'achetons pas les entreprises pour les revendre. La détention à long terme signifie que nous pouvons prendre des décisions qui servent réellement les équipes, les clients et la qualité de l'entreprise — sans la pression d'une échéance de sortie. Chaque société reste dans la famille Saha, et le portefeuille s'en trouve renforcé avec le temps.",
       },
@@ -119,7 +119,7 @@ export const homepage = {
   moreThanBuyerSectionLabel: "Plus qu'un acquéreur",
   moreThanBuyer: {
     heading: "Plus qu'un acquéreur",
-    intro: "Transmettre une petite entreprise ne se résume pas à trouver un acheteur. Ces entreprises ont besoin d'une passation structurée, d'une continuité opérationnelle et d'un accompagnement qui perdure au-delà de la transaction. Saha est conçue pour offrir exactement cela.",
+    intro: "La transmission d'une PME ne se résume pas à trouver un repreneur. Ces entreprises ont besoin d'une passation structurée, d'une continuité opérationnelle et d'un accompagnement qui perdure au-delà de la transaction. Saha est conçue pour offrir exactement cela.",
     items: [
       {
         title: "Sourçage systématique",
@@ -142,7 +142,7 @@ export const homepage = {
           "Lorsque c'est utile, les entreprises du portefeuille Saha peuvent s'appuyer sur un soutien partagé en finance, reporting, administration et amélioration de processus. Une aide sélective, jamais imposée.",
       },
     ],
-    closingLine: "Chaque acquisition renforce le modèle. C'est ainsi que ce segment devient viable à grande échelle.",
+    closingLine: "Chaque acquisition renforce le modèle. C'est ainsi que ce segment devient viable à l'échelle.",
   },
 
   differentiatorsSectionLabel: "Ce qui nous distingue",
@@ -157,21 +157,21 @@ export const homepage = {
       },
       {
         number: "02",
-        title: "Nous réfléchissons sérieusement à ce qui se passe après le départ du fondateur",
+        title: "Nous anticipons ce qui se passe après le départ du cédant",
         description:
-          "Avant d'acquérir une entreprise, nous évaluons si elle peut réellement continuer sans son fondateur. Pas toute bonne entreprise est une bonne acquisition.",
+          "Avant d'acquérir une entreprise, nous évaluons si elle peut réellement continuer sans son fondateur. Toute bonne entreprise n'est pas forcément une bonne acquisition.",
       },
       {
         number: "03",
-        title: "La transition comme discipline centrale",
+        title: "La passation comme discipline à part entière",
         description:
           "La période de passation est celle où les choses peuvent le plus mal tourner. Elle exige du jugement humain, de l'empathie et une attention soutenue. Nous traitons la transition comme une discipline, pas une formalité.",
       },
       {
         number: "04",
-        title: "Pas de calendrier de sortie, pas de ventes forcées",
+        title: "Aucun horizon de sortie, aucune cession forcée",
         description:
-          "Nous détenons durablement. Les décisions sont prises pour la santé de chaque entreprise, non pour respecter une échéance de fonds ou impressionner un bilan trimestriel.",
+          "Nous détenons sans limite de temps. Les décisions sont prises pour la santé de chaque entreprise, non pour respecter une échéance de fonds ni satisfaire un reporting trimestriel.",
       },
     ],
   },
@@ -194,26 +194,26 @@ export const homepage = {
 export const foundersPage = {
   hero: {
     eyebrow: "Pour les fondateurs",
-    headline: "Vous avez créé quelque chose qui mérite d'être préservé",
+    headline: "Vous avez bâti quelque chose qui mérite d'être préservé",
     subheadline:
-      "Quand vient le moment de passer le relais, votre entreprise — et les personnes qui en dépendent — mérite bien plus qu'une transmission incertaine. Saha acquiert les PME suisses rentables, sous CHF 10M de chiffre d'affaires, auprès des fondateurs prêts à céder le contrôle, et les conserve pour de bon.",
+      "Quand vient le moment de passer le relais, votre entreprise — et les personnes qui en dépendent — mérite bien plus qu'une transmission incertaine. Saha acquiert les PME suisses rentables, sous CHF 10M de chiffre d'affaires, auprès de cédants prêts à transmettre, et les détient dans la durée.",
   },
 
   intro: {
     heading: "Nous comprenons ce qui est en jeu",
     paragraphs: [
       "Vendre une entreprise que vous avez bâtie de rien n'est pas seulement une décision financière. C'est personnel. Votre nom y est attaché. Votre équipe vous fait confiance. Vos clients comptent sur les normes que vous avez fixées. Trouver le bon propriétaire suivant est l'une des décisions les plus importantes de votre vie.",
-      "Saha a été construite par des gens qui comprennent cela. Notre modèle est pensé pour honorer ce que vous avez créé — en le préservant, en le soutenant, et en le portant de l'avant avec le même sérieux que celui que vous avez mis à le bâtir. Nous ne sommes pas là pour rebaptiser, restructurer ou vendre vite. Nous sommes là pour continuer ce que vous avez commencé.",
+      "Saha a été construite par des gens qui comprennent cela. Notre modèle est pensé pour honorer ce que vous avez créé — en le préservant, en le soutenant, et en le faisant perdurer avec le même sérieux que celui que vous avez mis à le bâtir. Nous ne sommes pas là pour rebaptiser, restructurer ou revendre. Nous sommes là pour continuer ce que vous avez commencé.",
     ],
     callout: {
       type: "quote" as const,
-      text: "Votre nom y est attaché. Votre équipe vous fait confiance. Nous prenons cela au sérieux.",
+      text: "Votre nom y est attaché. Votre équipe vous fait confiance. Nous en mesurons la responsabilité.",
     },
   },
 
   whatWeLookFor: {
-    heading: "Ce qui constitue une bonne adéquation",
-    transitionLine: "Pour nous assurer que nous sommes la bonne solution l'un pour l'autre, voici ce que nous recherchons dans les entreprises que nous acquérons.",
+    heading: "Ce que nous recherchons",
+    transitionLine: "Pour vérifier l'adéquation mutuelle, voici ce que nous recherchons dans les entreprises que nous acquérons.",
     items: [
       {
         title: "Rentable et établie",
@@ -231,7 +231,7 @@ export const foundersPage = {
           "Une force opérationnelle qui dépasse le fondateur, avec des personnes déjà en place capables de porter l'entreprise vers l'avant.",
       },
       {
-        title: "Un chemin réaliste vers la transmission",
+        title: "Une passation réaliste et structurable",
         description:
           "Une transition qui peut être planifiée et exécutée de manière réfléchie sur un délai raisonnable, avec l'implication du fondateur.",
       },
@@ -239,7 +239,7 @@ export const foundersPage = {
   },
 
   founderExpectations: {
-    heading: "Ce que vous pouvez attendre de nous",
+    heading: "Ce à quoi vous pouvez vous attendre",
     steps: [
       {
         number: "01",
@@ -249,7 +249,7 @@ export const foundersPage = {
       },
       {
         number: "02",
-        title: "Votre implication se fait selon vos termes",
+        title: "Votre rôle après la cession vous appartient",
         description:
           "Certains fondateurs préfèrent une passation nette. D'autres choisissent de rester impliqués dans un rôle consultatif pendant un certain temps. Nous structurons la transition autour de ce qui vous convient.",
       },
@@ -269,7 +269,7 @@ export const foundersPage = {
   },
 
   process: {
-    heading: "À quoi ressemble notre collaboration",
+    heading: "Comment se déroule le processus",
     description:
       "Aucune pression et aucune obligation à aucun stade. Nous avançons au rythme qui vous convient.",
     steps: [
@@ -279,12 +279,12 @@ export const foundersPage = {
           "Nous commençons par une conversation privée, sans obligation, pour comprendre votre entreprise, votre réflexion et votre calendrier. Rien ne progresse à moins que vous ne le souhaitiez.",
       },
       {
-        title: "Évaluer s'il y a une adéquation",
+        title: "Évaluer l'adéquation",
         description:
           "S'il y a un intérêt mutuel, nous prenons le temps de comprendre si votre entreprise correspond à notre modèle — rentabilité, force de l'équipe, stabilité client, et possibilité de structurer la transmission réalistement.",
       },
       {
-        title: "Mieux connaître l'entreprise",
+        title: "Approfondir la connaissance de l'entreprise",
         description:
           "Nous passons du temps à comprendre vos opérations, vos clients, la dynamique de l'équipe et le rôle que vous jouez au quotidien. Il s'agit autant de gens que de chiffres.",
       },
@@ -294,7 +294,7 @@ export const foundersPage = {
           "Nous présentons une proposition directe sans tactiques agressives et sans surprises de dernière minute. Des conditions équitables qui reflètent la valeur de ce que vous avez créé.",
       },
       {
-        title: "Diligence et planification de la transition",
+        title: "Due diligence et planification de la passation",
         description:
           "Diligence formelle et planification détaillée de la passation — qui prend quoi en charge, comment communiquer avec les clients, et à quoi ressemble la première année.",
       },
@@ -307,7 +307,7 @@ export const foundersPage = {
   },
 
   closingCta: {
-    heading: "Votre entreprise mérite une conversation sérieuse",
+    heading: "Votre entreprise mérite une discussion approfondie",
     description:
       "Si vous commencez à envisager la suite, nous serions heureux de vous écouter. Tout est confidentiel, il n'y a aucune obligation, et le rythme est entièrement le vôtre.",
     cta: { label: "Nous parler", href: "/contact" },
@@ -317,13 +317,13 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Pour les investisseurs",
-    headline: "Un modèle de détention permanente\npour les transmissions suisses",
+    headline: "Un modèle de détention pérenne\npour les transmissions suisses",
     subheadline:
       "Saha acquiert les PME suisses rentables, sous CHF 10M de chiffre d'affaires, où la succession crée une opportunité mais où le capital classique s'engage rarement. Nous gérons les transitions avec soin et détenons durablement.",
   },
 
   thesis: {
-    heading: "La thèse d'investissement",
+    heading: "Notre thèse d'investissement",
     paragraphs: [
       "La Suisse compte un large et croissant segment d'entreprises rentables dirigées par leurs fondateurs, qui font face à une transmission imminente. Ces entreprises sont souvent bien gérées, génératrices de cash, et profondément enracinées dans leurs marchés locaux — pourtant elles se situent sous le seuil où la plupart des acquéreurs institutionnels opèrent.",
       "Tout ce qui est sous CHF 10M de chiffre d'affaires est effectivement invisible au flux de transactions institutionnel. Pourtant, l'étude de succession CFB-HSG / UBS estime qu'environ un propriétaire de PME suisse sur trois s'attend à une transmission dans les cinq ans — et seulement environ deux tiers de ces transmissions sont censées aboutir avec succès.",
@@ -338,37 +338,37 @@ export const investorsPage = {
   },
 
   mustBeTrue: {
-    heading: "Ce qui doit être vrai pour que ce modèle fonctionne",
+    heading: "Les conditions de réussite de ce modèle",
     description:
-      "Nous réfléchissons clairement à nos propres hypothèses. Pour que Saha réussisse, les conditions suivantes doivent être remplies :",
+      "Nous réfléchissons clairement à nos propres hypothèses. Pour que Saha réussisse, les hypothèses suivantes doivent se vérifier :",
     steps: [
       {
         number: "01",
-        title: "Nous devons acquérir des entreprises transmissibles, pas seulement bon marché",
+        title: "Acquérir des entreprises transmissibles, et non simplement bon marché",
         description:
           "Un prix bas ne fait pas une bonne acquisition. L'entreprise doit pouvoir fonctionner, conserver ses clients et générer des revenus après le départ du fondateur. La transmissibilité est le filtre critique.",
       },
       {
         number: "02",
-        title: "Les transitions doivent être structurées et spécifiques au fondateur",
+        title: "Chaque passation doit être structurée et adaptée au cédant",
         description:
-          "Chaque passation est différente. Il n'existe pas de playbook générique. Le succès dépend de la compréhension de ce que fait réellement le fondateur, de qui peut prendre la relève, et de comment préserver la confiance des clients et de l'équipe pendant le changement.",
+          "Chaque passation est différente. Il n'existe pas de référentiel générique. Le succès dépend de la compréhension de ce que fait réellement le fondateur, de qui peut prendre la relève, et de comment préserver la confiance des clients et de l'équipe pendant le changement.",
       },
       {
         number: "03",
-        title: "Le soutien doit être utile sans gonfler les frais généraux",
+        title: "L'appui doit être utile sans alourdir la structure",
         description:
           "Les capacités partagées ne sont utiles que si elles aident réellement chaque entreprise. Nous devons éviter de construire des fonctions centrales qui servent la holding plus que le portefeuille.",
       },
       {
         number: "04",
-        title: "Les premières acquisitions importent de manière disproportionnée",
+        title: "Les premières acquisitions ont un poids déterminant",
         description:
-          "Les premières opérations fixent le ton pour le sourçage, la qualité de la transition et la réputation. Les bien exécuter compte plus que de les faire rapidement.",
+          "Les premières opérations donnent le ton pour le sourçage, la qualité de la transition et la réputation. Les bien exécuter compte plus que de les faire rapidement.",
       },
       {
         number: "05",
-        title: "La discipline compte plus que la vitesse",
+        title: "La rigueur prime sur la rapidité",
         description:
           "Le modèle dépend de dire non plus souvent que oui. Le volume de pipeline n'est pas le facteur limitant — le jugement et la sélectivité le sont.",
       },
@@ -376,11 +376,11 @@ export const investorsPage = {
   },
 
   howModelCompounds: {
-    heading: "Comment le modèle se compose",
+    heading: "Comment le modèle se renforce avec le temps",
     paragraphs: [
       "Saha ne se contente pas d'assembler un portefeuille de petites entreprises. Elle construit l'infrastructure qui rend ce segment acquérable et viable à grande échelle.",
-      "Cette infrastructure comprend : un processus de sourçage systématique qui réduit la dépendance aux intermédiaires ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; un vivier croissant d'opérateurs formés aux transitions successorales ; un playbook opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie légère qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
-      "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à transitionner et mieux accompagnée. C'est la logique de composition derrière le modèle — et ce qui distingue Saha d'une holding bien intentionnée disposant de capital.",
+      "Cette infrastructure comprend : un processus de sourçage systématique qui réduit la dépendance aux intermédiaires ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; un vivier croissant d'opérateurs formés aux transitions successorales ; un référentiel opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie légère qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
+      "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à accompagner et mieux encadrée. C'est la logique de composition derrière le modèle — et ce qui distingue Saha d'une holding bien intentionnée disposant de capital.",
     ],
     callout: {
       type: "stat" as const,
@@ -390,65 +390,65 @@ export const investorsPage = {
   },
 
   willNotBuy: {
-    heading: "Ce que nous n'achèterons pas",
-    description: "La discipline signifie être explicite sur les limites :",
+    heading: "Ce que nous n'acquérons pas",
+    description: "La discipline implique d'être clair sur nos limites :",
     items: [
       {
-        title: "Redressements en détresse",
+        title: "Entreprises en difficulté",
         description: "Les entreprises nécessitant une restructuration immédiate ou un sauvetage financier sont en dehors de notre modèle.",
       },
       {
         title: "Entreprises dépendantes du fondateur",
-        description: "S'il n'existe pas de chemin réaliste vers une passation — si l'entreprise ne peut fonctionner sans le fondateur — ce n'est pas un bon fit.",
+        description: "S'il n'existe pas de chemin réaliste vers une passation — si l'entreprise ne peut fonctionner sans le fondateur — ce n'est pas un profil adapté.",
       },
       {
-        title: "Niches capitalistiques ou en déclin",
+        title: "Secteurs à forte intensité capitalistique ou en déclin structurel",
         description: "Les entreprises avec de forts besoins en capital limitant le cash-flow libre, ou opérant dans des marchés en déclin structurel sans viabilité à long terme.",
       },
       {
-        title: "Trop petite pour une transition structurée",
+        title: "Trop petites pour une passation structurée",
         description: "Les entreprises qui ne peuvent supporter l'économie d'une transition de propriété réfléchie et bien menée.",
       },
     ],
   },
 
   whereWeAre: {
-    heading: "Où nous en sommes",
+    heading: "Où nous en sommes aujourd'hui",
     paragraphs: [
-      "Saha construit délibérément : assemblage de l'équipe fondatrice, structuration de la base de capital, et engagement dans les premières conversations d'acquisition. Nous n'avons pas encore complété notre première acquisition — par design, pas par retard.",
-      "Nous construisons pour la première clôture, pas pour le déploiement massif. Les premières opérations prouveront la thèse de sourçage, le modèle de transition et la discipline opérationnelle. Tout ce qui suivra en dépend.",
+      "Saha avance méthodiquement : constitution de l'équipe fondatrice, structuration de la base de capital, et engagement dans les premières conversations d'acquisition. Nous n'avons pas encore complété notre première acquisition — par design, pas par retard.",
+      "Nous préparons un premier closing, pas un déploiement de masse. Les premières opérations prouveront la thèse de sourçage, le modèle de transition et la discipline opérationnelle. Tout ce qui suivra en dépend.",
     ],
     callout: {
       type: "stat" as const,
       value: "Pré-clôture",
-      caption: "Structure de capital en finalisation, équipe fondatrice en place, premières conversations d'acquisition en cours",
+      caption: "Structuration du capital en cours de finalisation, équipe fondatrice en place, premières conversations d'acquisition en cours",
     },
   },
 
   whyDifferent: {
-    heading: "Pourquoi Saha est différent d'un fonds classique",
+    heading: "Ce qui distingue Saha d'un fonds classique",
     paragraphs: [
       "La plupart des véhicules d'acquisition sont construits autour d'une vie de fonds finie — acheter, améliorer, sortir dans un horizon défini. Cette structure crée une tension inhérente entre la performance à court terme et la santé de l'entreprise à long terme.",
       "Saha est une holding permanente. Nous acquérons les entreprises pour les conserver. Nos incitations sont totalement alignées sur le succès à long terme de chaque entreprise et du portefeuille global. Il n'y a pas d'horloge de sortie, pas de réalisations forcées, et pas de pression pour optimiser l'apparence trimestrielle.",
     ],
     callout: {
       type: "quote" as const,
-      text: "Nous acquérons les entreprises pour les conserver. Nos incitations sont totalement alignées sur le succès à long terme.",
+      text: "Nous acquérons les entreprises pour les conserver. Nos intérêts sont pleinement alignés sur la réussite à long terme.",
     },
   },
 
   closingCta: {
-    heading: "Intéressé pour en savoir plus ?",
+    heading: "Vous souhaitez en savoir plus ?",
     description:
-      "Nous structurons Saha pour un petit nombre d'investisseurs alignés et à long terme. Si la thèse vous plaît, nous accueillons une conversation privée pour explorer l'adéquation.",
-    cta: { label: "Demandes d'investisseurs", href: "/contact" },
+      "Nous structurons Saha pour un petit nombre d'investisseurs alignés et à long terme. Si la thèse vous parle, nous accueillons une conversation privée pour explorer l'adéquation.",
+    cta: { label: "Échanges investisseurs", href: "/contact" },
   },
 };
 
 export const joinPage = {
   hero: {
     eyebrow: "Rejoindre Saha",
-    headline: "Construire quelque chose dès zéro",
+    headline: "Construire quelque chose de neuf",
     subheadline:
       "Nous assemblons une petite équipe pour façonner le modèle de sourçage, le processus de diligence, l'approche de transition et la culture opérationnelle — avant notre première acquisition. Si vous pensez en décennies et que vous vous souciez du travail bien fait, c'est un travail précoce et significatif.",
   },
@@ -456,8 +456,8 @@ export const joinPage = {
   whyJoin: {
     heading: "Pourquoi nous rejoindre à ce stade",
     paragraphs: [
-      "La plupart des opportunités professionnelles consistent à optimiser dans des structures existantes. Saha est différent. Nous construisons une entreprise de détention à long terme pour les entreprises suisses à partir de zéro — la stratégie, la culture, les systèmes, les valeurs sont tous en cours de formation.",
-      "Les personnes qui nous rejoignent à ce stade ne feront pas que remplir des rôles — elles définiront ce que Saha devient. La première acquisition, la première transition, le premier playbook opérationnel. C'est le type de travail où tout ce que vous faites compte.",
+      "La plupart des parcours professionnels consistent à optimiser au sein de structures existantes. Saha est différent. Nous construisons une entreprise de détention à long terme pour les entreprises suisses à partir de zéro — la stratégie, la culture, les systèmes, les valeurs sont tous en cours de formation.",
+      "Ceux qui nous rejoignent à ce stade ne se contentent pas d'occuper un poste — ils façonnent ce que Saha deviendra. La première acquisition, la première transition, le premier référentiel opérationnel. C'est le type de travail où tout ce que vous faites compte.",
     ],
     callout: {
       type: "quote" as const,
@@ -467,7 +467,7 @@ export const joinPage = {
 
   foundingRoles: {
     heading: "Rôles fondateurs ouverts",
-    intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes salariés — ce sont des rôles de co-bâtisseurs.",
+    intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes classiques — ce sont des rôles de co-fondateurs opérationnels.",
     roles: [
       {
         title: "CTO fondateur — Plateforme & Données",
@@ -485,19 +485,19 @@ export const joinPage = {
   },
 
   roles: {
-    heading: "De quoi nous avons besoin",
+    heading: "Les profils que nous recherchons",
     description:
-      "Nous n'embauchons pas pour des titres de poste. Nous recherchons des personnes ayant les bonnes compétences, la bonne disposition et l'ambition de construire avec nous dès le début.",
+      "Nous ne recrutons pas sur la base de titres. Nous recherchons des personnes ayant les bonnes compétences, la bonne disposition et l'ambition de construire avec nous dès le début.",
     profiles: [
       {
-        title: "Deal et diligence",
+        title: "Origination et due diligence",
         description:
           "Des gens qui peuvent sourcer, évaluer et structurer les acquisitions sur le marché suisse sous CHF 10M. Vous comprenez ce qui fait fonctionner une petite entreprise, vous pouvez lire les états financiers et évaluer les risques, et vous savez comment construire la confiance avec les fondateurs et les conseillers.",
       },
       {
-        title: "Transition et opérations",
+        title: "Transmission et opérations",
         description:
-          "Des gens qui peuvent entrer dans une entreprise acquise et la guider à travers la transmission. Vous gérez la sortie du fondateur, stabilisez l'équipe, maintenez les relations client, et posez les bases de la santé à long terme.",
+          "Des gens qui peuvent entrer dans une entreprise acquise et l'accompagner dans la passation. Vous gérez la sortie du fondateur, stabilisez l'équipe, maintenez les relations client, et posez les bases de la santé à long terme.",
       },
       {
         title: "Finance et infrastructure",
@@ -508,20 +508,20 @@ export const joinPage = {
   },
 
   values: {
-    heading: "Ce que nous valorisons",
+    heading: "Nos valeurs",
     steps: [
-      { number: "01", title: "Penser à long terme", description: "Nous prenons les décisions pour les décennies, pas les trimestres." },
-      { number: "02", title: "Métier et rigueur", description: "Nous tenons à faire les choses bien, pas seulement rapidement." },
-      { number: "03", title: "Ambition tranquille", description: "Nous visons à construire quelque chose de significatif sans avoir besoin de crier." },
+      { number: "01", title: "Vision à long terme", description: "Nous prenons les décisions pour les décennies, pas les trimestres." },
+      { number: "02", title: "Exigence et rigueur", description: "Nous tenons à faire les choses bien, pas seulement rapidement." },
+      { number: "03", title: "Ambition discrète", description: "Nous visons à construire quelque chose de significatif sans chercher la mise en avant." },
       { number: "04", title: "Empathie et respect", description: "Nous travaillons avec les fondateurs, les équipes et les communautés. Les relations comptent." },
-      { number: "05", title: "Mentalité de propriétaire", description: "Tous ceux qui construisent Saha devraient penser et agir comme des propriétaires." },
+      { number: "05", title: "Mentalité d'entrepreneur", description: "Chez Saha, chacun pense et agit en propriétaire." },
     ],
   },
 
   closingCta: {
-    heading: "C'est peut-être pour vous",
+    heading: "Cela vous parle ?",
     description:
-      "Si ce que vous avez lu résonne — même si vous ne correspondez pas parfaitement à l'un des profils ci-dessus — nous aimerions vous entendre. Dites-nous qui vous êtes et ce qui vous attire chez Saha.",
+      "Si ce que vous avez lu vous parle — même si vous ne correspondez pas parfaitement à l'un des profils ci-dessus — nous aimerions vous entendre. Dites-nous qui vous êtes et ce qui vous attire chez Saha.",
     cta: { label: "Nous contacter", href: "/contact" },
   },
 };
@@ -531,15 +531,15 @@ export const aboutPage = {
     eyebrow: "À propos",
     headline: "Pourquoi Saha existe",
     subheadline:
-      "Trop d'excellentes entreprises suisses disparaissent non pas parce qu'elles échouent, mais parce que leurs fondateurs prennent leur retraite sans un chemin tracé. Saha a été créée pour changer cela.",
+      "Trop d'excellentes entreprises suisses disparaissent non pas parce qu'elles échouent, mais parce que leurs fondateurs prennent leur retraite sans solution de succession claire. Saha a été créée pour changer cela.",
   },
 
   founderNote: {
     heading: "Un mot du fondateur",
     paragraphs: [
-      "J'ai passé des années à travailler au sein de start-ups et d'entreprises à différents stades de croissance — et le schéma que je rencontrais sans cesse était le même. De bonnes entreprises, dirigées par des gens compétents, disparaissant silencieusement non pas parce qu'elles avaient échoué, mais parce qu'aucun chemin clair ne s'offrait à elles.",
-      "En Suisse en particulier, cela se manifeste d'une façon bien précise. Des milliers d'entreprises dirigées par leurs fondateurs — rentables, ancrées localement, respectées par leurs équipes et leurs clients — arrivent à un point où le fondateur est prêt à se retirer sans que personne ne soit prêt à prendre la suite. Non pas parce que l'entreprise manque de valeur. Parce que la transaction est complexe, que le montant est trop faible pour les acquéreurs institutionnels, et que la dimension humaine de la passation exige plus que ce que la plupart des acquéreurs sont disposés à donner.",
-      "Saha est ma tentative de construire quelque chose pensé spécifiquement pour ce vide — pas seulement comme acquéreur, mais comme modèle. Une façon reproductible d'identifier ces entreprises, de les accompagner dans la transition avec soin, et de les pérenniser sur le long terme. C'est encore tôt. Mais je crois que l'infrastructure derrière ce type de propriété est ce qui a toujours manqué à ce segment.",
+      "J'ai passé des années à travailler au sein de start-ups et d'entreprises à différents stades de croissance — et le schéma que je rencontrais sans cesse était le même. De bonnes entreprises, dirigées par des dirigeants compétents, disparaissant en silence non pas parce qu'elles avaient échoué, mais parce qu'aucun chemin clair ne s'offrait à elles.",
+      "En Suisse en particulier, cela se manifeste d'une façon bien précise. Des milliers d'entreprises dirigées par leurs fondateurs — rentables, ancrées dans leur région, portées par la confiance de leurs équipes et de leurs clients — arrivent à un point où le fondateur est prêt à se retirer sans que personne ne soit prêt à prendre la suite. Non pas parce que l'entreprise manque de valeur. Parce que la transaction est complexe, que le montant est trop faible pour les acquéreurs institutionnels, et que la dimension humaine de la passation requiert un engagement que la plupart des repreneurs ne sont pas prêts à assumer.",
+      "Saha est ma tentative de construire quelque chose pensé spécifiquement pour ce vide — pas simplement comme acquéreur, mais comme modèle reproductible. Une façon d'identifier ces entreprises, de les accompagner dans la transition avec soin, et de les pérenniser. C'est encore tôt. Mais je crois que l'infrastructure derrière ce type de propriété est ce qui a toujours manqué à ce segment.",
     ],
     attribution: "— Temitope Ola, Fondateur",
     bio: "Fondateur-opérateur avec plus de 25 ans d'expérience en création d'entreprises, finance et exécution multi-pays. À l'origine de la vision de sourçage, de la thèse d'acquisition et de l'ambition de construction d'entreprise derrière Saha.",
@@ -574,7 +574,7 @@ export const aboutPage = {
   },
 
   story: {
-    heading: "Le problème que nous nous sommes proposé de résoudre",
+    heading: "Le problème auquel nous répondons",
     paragraphs: [
       "L'économie suisse est construite sur les petites et moyennes entreprises. Beaucoup sont des entreprises rentables, bien gérées, avec des équipes fidèles et de solides réputations locales. Elles forment l'épine dorsale des communautés à travers le pays.",
       "Mais chaque année, des milliers de ces entreprises font face à un avenir incertain. Leurs fondateurs — souvent les personnes qui les ont construites de rien — atteignent l'âge de la retraite sans plan de succession. Les options sont généralement peu satisfaisantes : vendre à un grand acquéreur impersonnel ; tenter une transmission précipitée à des successeurs non préparés ; ou simplement fermer.",
@@ -588,22 +588,22 @@ export const aboutPage = {
   },
 
   whyDifferentBuyer: {
-    heading: "Pourquoi ces entreprises ont besoin d'un acquéreur différent",
+    heading: "Pourquoi ce segment a besoin d'un repreneur d'un nouveau genre",
     paragraphs: [
       "Les entreprises sous CHF 10M de chiffre d'affaires se situent dans un vide structurel. Elles sont trop petites pour la plupart des acquéreurs institutionnels, qui ont besoin de tailles de transactions plus grandes pour justifier leurs économies. Elles sont trop liées aux fondateurs pour les investisseurs passifs, qui manquent de volonté ou de capacité à gérer une transition menée de près.",
-      "Et elles comptent trop — pour les salariés, pour les clients, pour les communautés — pour simplement disparaître quand aucun acquéreur ne se présente. Ce segment n'a pas besoin de plus de capital. Il a besoin d'un acquéreur qui comprenne la complexité humaine des petites transmissions et soit disposé à faire le travail.",
+      "Et elles comptent trop — pour les salariés, pour les clients, pour les communautés — pour simplement disparaître quand aucun acquéreur ne se présente. Ce segment ne manque pas de capital. Il manque d'un repreneur prêt à s'engager.",
     ],
     callout: {
       type: "quote" as const,
-      text: "Ce segment n'a pas besoin de plus de capital. Il a besoin d'un acquéreur disposé à faire le travail.",
+      text: "Ce segment ne manque pas de capital. Il manque d'un repreneur prêt à s'engager.",
     },
   },
 
   approach: {
-    heading: "Comment nous pensons la propriété",
+    heading: "Notre vision de la détention",
     paragraphs: [
-      "Nous acquérons les entreprises avec l'intention de les conserver. Ce n'est pas une stratégie financière déguisée en intendance — c'est une conviction authentique que la propriété à long terme produit de meilleurs résultats pour les entreprises, leurs gens, et leurs communautés.",
-      "Nous fournissons à chaque entreprise une transition soignée, un soutien opérationnel sélectif, et la stabilité qui vient d'appartenir à quelque chose de plus grand. En retour, chaque entreprise renforce l'ensemble — par le partage de connaissances, la discipline opérationnelle, et les avantages composés d'un portefeuille permanent et croissant.",
+      "Nous acquérons les entreprises avec l'intention de les conserver. Ce n'est pas une stratégie financière habillée en gestion responsable — c'est une conviction authentique que la propriété à long terme produit de meilleurs résultats pour les entreprises, leurs gens, et leurs communautés.",
+      "Nous fournissons à chaque entreprise une transition soignée, un appui opérationnel ciblé, et la stabilité qui vient d'appartenir à quelque chose de plus grand. En retour, chaque entreprise renforce l'ensemble — par le partage de connaissances, la discipline opérationnelle, et les avantages composés d'un portefeuille permanent et croissant.",
     ],
     callout: {
       type: "quote" as const,
@@ -612,19 +612,19 @@ export const aboutPage = {
   },
 
   principles: {
-    heading: "Ce que nous croyons",
+    heading: "Nos convictions",
     items: [
-      { title: "Continuité plutôt que disruption", description: "Les bonnes entreprises devraient être préservées et renforcées, pas démontées." },
-      { title: "Intendance plutôt qu'extraction", description: "La propriété porte une responsabilité. Nous visons à laisser chaque entreprise plus forte que nous l'avons trouvée." },
-      { title: "Patience plutôt que urgence", description: "La valeur durable se construit lentement. Nous résistons à la pression d'optimiser les résultats à court terme." },
-      { title: "Clarté plutôt que complexité", description: "Notre modèle est simple par design. La complexité doit servir l'entreprise, non le modèle économique." },
+      { title: "La continuité plutôt que la rupture", description: "Les bonnes entreprises devraient être préservées et renforcées, pas démembrées." },
+      { title: "La gestion responsable plutôt que l'extraction", description: "La propriété porte une responsabilité. Notre ambition : laisser chaque entreprise plus forte que nous ne l'avons trouvée." },
+      { title: "La patience plutôt que l'urgence", description: "La valeur durable se construit lentement. Nous résistons à la pression d'optimiser les résultats à court terme." },
+      { title: "La clarté plutôt que la complexité", description: "Notre modèle est simple par design. La complexité doit servir l'entreprise, pas le modèle d'affaires." },
     ],
   },
 
   whereWeAreToday: {
     heading: "Où nous en sommes aujourd'hui",
     paragraphs: [
-      "Nous construisons sans relâche : l'équipe fondatrice est en place, la structure de capital est en cours de finalisation, et les premières conversations d'acquisition sont en cours. C'est délibéré — nous croyons que les premières acquisitions définissent l'entreprise, et nous avons l'intention de les bien exécuter.",
+      "Nous avançons avec détermination : l'équipe fondatrice est en place, la structure de capital est en cours de finalisation, et les premières conversations d'acquisition sont en cours. C'est délibéré — nous croyons que les premières acquisitions définissent l'entreprise, et nous entendons les réussir.",
       "Chaque décision que nous prenons est guidée par une simple question : cela aura-t-il toujours du sens dans vingt ans ?",
     ],
   },
@@ -632,9 +632,9 @@ export const aboutPage = {
   ambition: "Saha est construite non seulement comme une holding, mais comme un modèle à long terme pour la succession des petites entreprises en Suisse. Nous croyons que la raison pour laquelle ce segment est mal desservi n'est pas l'absence de bonnes entreprises — c'est l'absence d'un acquéreur disposant de l'infrastructure pour faire fonctionner ces opérations. Construire cette infrastructure, progressivement et avec discipline, est la raison d'être de Saha.",
 
   closingCta: {
-    heading: "Nous serions heureux de vous entendre",
+    heading: "Prenons contact",
     description:
-      "Que vous soyez un fondateur réfléchissant à l'avenir, un investisseur explorant le modèle, ou quelqu'un qui partage notre vision — vous êtes le bienvenu de nous contacter.",
+      "Que vous soyez un fondateur réfléchissant à l'avenir, un investisseur explorant le modèle, ou quelqu'un qui partage notre vision — n'hésitez pas à nous écrire.",
     cta: { label: "Nous contacter", href: "/contact" },
   },
 };
@@ -666,7 +666,7 @@ export const contactPage = {
       fields: [
         { name: "name", label: "Votre nom", type: "text" as const, required: true },
         { name: "email", label: "Adresse e-mail", type: "email" as const, required: true },
-        { name: "firm", label: "Firme ou affiliation (optionnel)", type: "text" as const, required: false },
+        { name: "firm", label: "Société ou affiliation (facultatif)", type: "text" as const, required: false },
         { name: "message", label: "Qu'est-ce qui vous intéresse chez Saha ?", type: "textarea" as const, required: false },
       ],
     },
@@ -678,7 +678,7 @@ export const contactPage = {
         { name: "name", label: "Votre nom", type: "text" as const, required: true },
         { name: "email", label: "Adresse e-mail", type: "email" as const, required: true },
         { name: "linkedin", label: "Profil LinkedIn (optionnel)", type: "url" as const, required: false },
-        { name: "message", label: "Qui êtes-vous et ce qui vous attire chez Saha ?", type: "textarea" as const, required: false },
+        { name: "message", label: "Qui êtes-vous et qu'est-ce qui vous attire chez Saha ?", type: "textarea" as const, required: false },
       ],
     },
   ],
@@ -694,7 +694,7 @@ export const faqPage = {
     {
       label: "Pour les fondateurs",
       items: [
-        { question: "En quoi Saha est-il différent d'un acquéreur de capital-investissement ?", answer: "Les sociétés de capital-investissement acquièrent généralement les entreprises avec l'intention de les vendre dans trois à sept ans. Saha acquiert les entreprises pour les conserver durablement. Il n'y a pas de calendrier de sortie, pas de pression pour restructurer pour la revente, et aucune incitation à extraire la valeur à court terme. Notre modèle est construit autour de la continuité, pas des transactions." },
+        { question: "En quoi Saha se distingue-t-il d'un fonds de capital-investissement ?", answer: "Les sociétés de capital-investissement acquièrent généralement les entreprises avec l'intention de les vendre dans trois à sept ans. Saha acquiert les entreprises pour les conserver durablement. Il n'y a pas de calendrier de sortie, pas de pression pour restructurer pour la revente, et aucune incitation à extraire la valeur à court terme. Notre modèle est construit autour de la continuité, pas des transactions." },
         { question: "Qu'advient-il de mes employés après une vente ?", answer: "Préserver votre équipe est central dans notre approche. Nous n'achetons pas les entreprises pour réduire les coûts ou restructurer l'effectif. Les employés existants, les rôles et les relations de travail sont maintenus pendant la transition et après. Nous investissons dans l'équipe que vous avez construite." },
         { question: "Combien de temps faut-il du premier contact à la clôture ?", answer: "Chaque situation est différente, mais un processus typique prend trois à six mois du contact initial à la conclusion. Nous avançons à un rythme qui vous convient — il n'y a aucune pression à se précipiter. La première conversation est confidentielle et sans obligation." },
         { question: "Mon entreprise gardera-t-elle son nom et sa marque ?", answer: "Oui. Nous préservons l'identité, la marque et la présence locale de chaque entreprise que nous acquérons. Votre entreprise continue à fonctionner sous son propre nom, sur son propre marché, avec sa propre équipe. Saha fournit le soutien en arrière-plan." },
@@ -705,7 +705,7 @@ export const faqPage = {
     {
       label: "Pour les investisseurs",
       items: [
-        { question: "En quoi Saha est-il différent d'une holding patiente disposant de capital ?", answer: "Une holding avec un capital patient est un positionnement. Saha construit l'infrastructure de sourçage, de transition et d'exploitation qui rend les petites opérations de succession réellement viables — pas seulement finançables. Le modèle est conçu pour se composer : chaque acquisition améliore notre processus, renforce notre réseau d'opérateurs et réduit les frictions sur l'opération suivante. C'est la différence entre posséder un ensemble d'entreprises et construire un moteur d'acquisition et d'exploitation." },
+        { question: "Qu'est-ce qui distingue Saha d'une holding patiente disposant de capital ?", answer: "Une holding avec un capital patient est un positionnement. Saha construit l'infrastructure de sourçage, de transition et d'exploitation qui rend les petites opérations de succession réellement viables — pas seulement finançables. Le modèle est conçu pour se composer : chaque acquisition améliore notre processus, renforce notre réseau d'opérateurs et réduit les frictions sur l'opération suivante. C'est la différence entre posséder un ensemble d'entreprises et construire un moteur d'acquisition et d'exploitation." },
         { question: "Quelle est la structure d'investissement de Saha ?", answer: "Saha est une holding permanente, non un fonds classique avec une vie finie. Le capital est déployé dans les acquisitions qui sont détenues indéfiniment. Les rendements sont générés par les flux de trésorerie à long terme, la croissance organique et le renforcement opérationnel composé du portefeuille." },
         { question: "Comment Saha génère-t-il des rendements sans sorties ?", answer: "Nos rendements proviennent de la nature génératrice de cash des entreprises que nous acquérons, du réinvestissement du flux de trésorerie libre dans de nouvelles acquisitions, et de la croissance organique de chaque entreprise au fil du temps. L'absence de pression de sortie permet des décisions qui optimisent la valeur à long terme plutôt que les métriques à court terme. Nous ciblons indicativement une entrée à 3–5× l'EBITDA dans des entreprises génératrices de cash, avec des rendements provenant du flux de trésorerie opérationnel, de la croissance organique et de la composition du portefeuille dans le temps. Nous n'optimisons pas pour un seul indicateur de TRI — nous optimisons pour une valeur durable et composée. La documentation financière complète et la modélisation des rendements sont partagées dans les conversations directes." },
         { question: "Quel est le profil de rendement cible ?", answer: "Nous visons à augmenter durablement la valeur du portefeuille à long terme par la discipline d'acquisition, l'amélioration opérationnelle et la croissance organique. Nous structurons Saha pour un petit nombre d'investisseurs alignés à long terme et partageons la documentation complète dans les discussions privées." },
@@ -725,8 +725,8 @@ export const faqPage = {
     {
       label: "Général",
       items: [
-        { question: "Pourquoi le nom Saha ?", answer: "Saha est un mot enraciné dans la patience, l'endurance et la capacité à porter avec soin. Il reflète la mentalité à long terme au cœur de tout ce que nous faisons — acquérir et intendancer les entreprises non pour un cycle, mais pour une génération." },
-        { question: "Saha est-il un fonds ou une entreprise ?", answer: "Saha est une holding permanente. Contrairement à un fonds, il n'y a pas de calendrier de sortie prédéterminé. Les entreprises que nous acquérons deviennent partie de la famille Saha durablement. Cette structure aligne nos incitations avec la santé à long terme de chaque entreprise que nous possédons." },
+        { question: "D'où vient le nom Saha ?", answer: "Saha est un mot enraciné dans la patience, l'endurance et la capacité à porter avec soin. Il reflète la mentalité à long terme au cœur de tout ce que nous faisons — acquérir et préserver les entreprises non pour un cycle, mais pour une génération." },
+        { question: "Saha est-il un fonds ou une entreprise ?", answer: "Saha est une holding permanente. Contrairement à un fonds, il n'y a pas d'horizon de sortie prédéterminé. Les entreprises que nous acquérons rejoignent la famille Saha de manière pérenne. Cette structure aligne nos incitations avec la santé à long terme de chaque entreprise que nous possédons." },
         { question: "Combien d'entreprises Saha possède-t-il actuellement ?", answer: "Saha est en formation. Nous construisons délibérément les fondations — équipe, processus et capital — avant de faire nos premières acquisitions. Nous croyons que bien faire le modèle est plus important que de se précipiter." },
         { question: "Comment puis-je vous contacter ?", answer: "Nous accueillons les conversations de fondateurs, investisseurs et futurs membres de l'équipe. Vous pouvez nous joindre via notre page de contact ou en envoyant un e-mail à hello@saha.ch. Chaque demande est traitée avec confidentialité et respect." },
       ],
@@ -760,7 +760,7 @@ export const termsPage = {
 };
 
 export const footer = {
-  tagline: "Un acquéreur fiable pour les PME suisses en transmission.",
+  tagline: "Un repreneur pérenne pour les PME suisses en transmission.",
   columns: [
     { title: "Entreprise", links: [{ label: "À propos", href: "/about" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
     { title: "Pour vous", links: [{ label: "Fondateurs", href: "/founders" }, { label: "Investisseurs", href: "/investors" }, { label: "Rejoindre Saha", href: "/join" }] },
@@ -771,10 +771,10 @@ export const footer = {
 };
 
 export const metadata = {
-  home: { title: "Saha — Un acquéreur fiable pour les PME suisses en transmission", description: "Saha acquiert les PME suisses rentables sous CHF 10M auprès des fondateurs à la retraite, les accompagne avec soin, et les conserve durablement." },
+  home: { title: "Saha — Le repreneur pérenne des PME suisses en transmission", description: "Saha acquiert les PME suisses rentables sous CHF 10M auprès des fondateurs à la retraite, les accompagne avec soin, et les conserve durablement." },
   founders: { title: "Pour les fondateurs — Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par des fondateurs sous CHF 10M avec soin, structure et engagement à long terme." },
   investors: { title: "Pour les investisseurs — Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10M. Transitions structurées, sourçage discipliné, composition de valeur." },
-  join: { title: "Rejoindre Saha — Construire dès zéro", description: "Saha est au stade de la formation, assemblant une équipe pour construire une entreprise de détention à long terme pour les PME suisses. Rôles en deal, transition, opérations et finance." },
+  join: { title: "Rejoindre Saha — Construire de neuf", description: "Saha est au stade de la formation, assemblant une équipe pour construire une entreprise de détention à long terme pour les PME suisses. Rôles en deal, transition, opérations et finance." },
   about: { title: "À propos de Saha — Pourquoi nous existons", description: "Trop de bonnes PME suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour fournir un acquéreur réfléchi et à long terme pour le segment de transmission mal desservi." },
   contact: { title: "Contact Saha", description: "Engager une conversation avec Saha. Que vous soyez fondateur, investisseur ou futur membre de l'équipe — nous serions heureux d'entendre parler de vous." },
   faq: { title: "FAQ — Saha", description: "Réponses aux questions courantes sur Saha de la part des fondateurs, investisseurs et futurs membres de l'équipe." },
