@@ -477,11 +477,15 @@ export const joinPage = {
       "Die meisten beruflichen Möglichkeiten sind Optimierungen innerhalb vorhandener Strukturen. Saha ist anders. Wir bauen ein langfristiges Eigentums-Unternehmen für Schweizer Unternehmen von Grund auf — die Strategie, die Kultur, die Systeme, die Werte, alles wird gerade geprägt.",
       "Die Menschen, die in dieser Phase beitreten, werden nicht nur Rollen ausfüllen — sie werden definieren, was Saha wird. Die erste Übernahme, die erste Übergabe, das erste Betriebs-Playbook. Das ist die Art von Arbeit, wo alles, was Sie tun, zählt.",
     ],
+    callout: {
+      type: "quote" as const,
+      text: "Die Menschen, die jetzt beitreten, werden definieren, was Saha wird.",
+    },
   },
 
   foundingRoles: {
     heading: "Offene Gründungsrollen",
-    intro: "Wir rekrutieren für eine Gründungsrolle, die die Arbeitsweise von Saha von Anfang an prägen wird. Das ist keine Angestelltenposition — es ist eine Mitaufbauer-Rolle.",
+    intro: "Wir rekrutieren für Gründungsrollen, die die Arbeitsweise von Saha von Anfang an prägen werden. Das sind keine Angestelltenpositionen — es sind Mitaufbauer-Rollen.",
     roles: [
       {
         title: "Gründungs-CTO — Plattform & Daten",
@@ -489,8 +493,13 @@ export const joinPage = {
         ctaLabel: "Interesse bekunden →",
         ctaHref: "/contact",
       },
+      {
+        title: "Finance Lead — Kapital & Reporting",
+        description: "Wird die Finanzarchitektur über Saha und sein Portfolio hinweg verantworten: Kapitalstrukturierung, Akquisitionsmodellierung, Portfolio-Reporting und das administrative Rückgrat, das einer wachsenden Unternehmensfamilie ermöglicht, mit Klarheit und Disziplin zu operieren.",
+        ctaLabel: "Interesse bekunden →",
+        ctaHref: "/contact",
+      },
     ],
-    transitionLine: "Über diese Rolle hinaus bauen wir auch ein kleines, breiteres Team in den folgenden Bereichen auf.",
   },
 
   roles: {
@@ -518,24 +527,29 @@ export const joinPage = {
 
   values: {
     heading: "Was wir schätzen",
-    items: [
+    steps: [
       {
+        number: "01",
         title: "Langfristiges Denken",
         description: "Wir treffen Entscheidungen für Jahrzehnte, nicht Quartale.",
       },
       {
+        number: "02",
         title: "Handwerk und Strenge",
         description: "Wir kümmern uns darum, Dinge gut zu machen, nicht nur sie schnell zu machen.",
       },
       {
+        number: "03",
         title: "Stille Ambition",
         description: "Wir zielen darauf ab, etwas Bedeutsames aufzubauen, ohne laut darüber zu sein.",
       },
       {
+        number: "04",
         title: "Empathie und Respekt",
         description: "Wir arbeiten mit Gründern, Teams und Gemeinschaften. Beziehungen zählen.",
       },
       {
+        number: "05",
         title: "Eigentums-Mentalität",
         description: "Jeder, der Saha aufbaut, sollte wie ein Eigentümer denken und handeln.",
       },

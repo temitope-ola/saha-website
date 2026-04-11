@@ -469,11 +469,15 @@ export const joinPage = {
       "Most professional opportunities are about optimising within existing structures. Saha is different. We are building a long-term ownership company for Swiss businesses from scratch — the strategy, the culture, the systems, the values are all being shaped right now.",
       "The people who join at this stage will not just fill roles — they will define what Saha becomes. The first acquisition, the first transition, the first operating playbook. This is the kind of work where everything you do matters.",
     ],
+    callout: {
+      type: "quote" as const,
+      text: "The people who join now will define what Saha becomes.",
+    },
   },
 
   foundingRoles: {
     heading: "Open founding roles",
-    intro: "We are recruiting for a founding role that will shape how Saha operates from day one. This is not an employee position — it is a co-builder role.",
+    intro: "We are recruiting for founding roles that will shape how Saha operates from day one. These are not employee positions — they are co-builder roles.",
     roles: [
       {
         title: "Founding CTO — Platform & Data",
@@ -481,8 +485,13 @@ export const joinPage = {
         ctaLabel: "Express interest →",
         ctaHref: "/contact",
       },
+      {
+        title: "Finance Lead — Capital & Reporting",
+        description: "Will own the financial architecture across Saha and its portfolio: capital structuring, acquisition modelling, portfolio-level reporting, and the administrative backbone that allows a growing family of businesses to operate with clarity and discipline.",
+        ctaLabel: "Express interest →",
+        ctaHref: "/contact",
+      },
     ],
-    transitionLine: "Beyond this role, we are also building a small broader team across the following areas.",
   },
 
   roles: {
@@ -510,24 +519,29 @@ export const joinPage = {
 
   values: {
     heading: "What we value",
-    items: [
+    steps: [
       {
+        number: "01",
         title: "Long-term thinking",
         description: "We make decisions for decades, not quarters.",
       },
       {
+        number: "02",
         title: "Craft and rigour",
         description: "We care about doing things well, not just doing them quickly.",
       },
       {
+        number: "03",
         title: "Quiet ambition",
         description: "We aim to build something significant without needing to be loud about it.",
       },
       {
+        number: "04",
         title: "Empathy and respect",
         description: "We work with founders, teams, and communities. Relationships matter.",
       },
       {
+        number: "05",
         title: "Ownership mentality",
         description: "Everyone who builds Saha should think and act like an owner.",
       },

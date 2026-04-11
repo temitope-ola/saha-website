@@ -459,11 +459,15 @@ export const joinPage = {
       "La plupart des opportunités professionnelles consistent à optimiser dans des structures existantes. Saha est différent. Nous construisons une entreprise de détention à long terme pour les entreprises suisses à partir de zéro — la stratégie, la culture, les systèmes, les valeurs sont tous en cours de formation.",
       "Les personnes qui nous rejoignent à ce stade ne feront pas que remplir des rôles — elles définiront ce que Saha devient. La première acquisition, la première transition, le premier playbook opérationnel. C'est le type de travail où tout ce que vous faites compte.",
     ],
+    callout: {
+      type: "quote" as const,
+      text: "Les personnes qui nous rejoignent maintenant définiront ce que Saha devient.",
+    },
   },
 
   foundingRoles: {
     heading: "Rôles fondateurs ouverts",
-    intro: "Nous recrutons pour un rôle fondateur qui façonnera le fonctionnement de Saha dès le premier jour. Ce n'est pas un poste de salarié — c'est un rôle de co-bâtisseur.",
+    intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes salariés — ce sont des rôles de co-bâtisseurs.",
     roles: [
       {
         title: "CTO fondateur — Plateforme & Données",
@@ -471,8 +475,13 @@ export const joinPage = {
         ctaLabel: "Exprimer mon intérêt →",
         ctaHref: "/contact",
       },
+      {
+        title: "Responsable Finance — Capital & Reporting",
+        description: "Prendra en charge l'architecture financière de Saha et de son portefeuille : structuration du capital, modélisation des acquisitions, reporting consolidé et infrastructure administrative permettant à une famille croissante d'entreprises de fonctionner avec clarté et discipline.",
+        ctaLabel: "Exprimer mon intérêt →",
+        ctaHref: "/contact",
+      },
     ],
-    transitionLine: "Au-delà de ce rôle, nous constituons également une petite équipe élargie dans les domaines suivants.",
   },
 
   roles: {
@@ -500,12 +509,12 @@ export const joinPage = {
 
   values: {
     heading: "Ce que nous valorisons",
-    items: [
-      { title: "Penser à long terme", description: "Nous prenons les décisions pour les décennies, pas les trimestres." },
-      { title: "Métier et rigueur", description: "Nous tenons à faire les choses bien, pas seulement rapidement." },
-      { title: "Ambition tranquille", description: "Nous visons à construire quelque chose de significatif sans avoir besoin de crier." },
-      { title: "Empathie et respect", description: "Nous travaillons avec les fondateurs, les équipes et les communautés. Les relations comptent." },
-      { title: "Mentalité de propriétaire", description: "Tous ceux qui construisent Saha devraient penser et agir comme des propriétaires." },
+    steps: [
+      { number: "01", title: "Penser à long terme", description: "Nous prenons les décisions pour les décennies, pas les trimestres." },
+      { number: "02", title: "Métier et rigueur", description: "Nous tenons à faire les choses bien, pas seulement rapidement." },
+      { number: "03", title: "Ambition tranquille", description: "Nous visons à construire quelque chose de significatif sans avoir besoin de crier." },
+      { number: "04", title: "Empathie et respect", description: "Nous travaillons avec les fondateurs, les équipes et les communautés. Les relations comptent." },
+      { number: "05", title: "Mentalité de propriétaire", description: "Tous ceux qui construisent Saha devraient penser et agir comme des propriétaires." },
     ],
   },
 

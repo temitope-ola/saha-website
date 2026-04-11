@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageHero from "@/components/page-hero";
 import SectionIntro from "@/components/section-intro";
-import ValueGrid from "@/components/value-grid";
+import ModelSteps from "@/components/model-steps";
 import CtaBanner from "@/components/cta-banner";
+import CalloutBox from "@/components/callout-box";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
@@ -33,12 +34,15 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       <section className="section-padding">
         <div className="container-content">
           <SectionIntro heading={joinPage.whyJoin.heading} />
-          <div className="max-w-prose space-y-5">
-            {joinPage.whyJoin.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
-                {p}
-              </p>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+            <div className="space-y-5">
+              {joinPage.whyJoin.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-stone-600">
+                  {p}
+                </p>
+              ))}
+            </div>
+            <CalloutBox {...joinPage.whyJoin.callout} />
           </div>
         </div>
       </section>
@@ -68,9 +72,6 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
               </div>
             ))}
           </div>
-          <p className="mt-8 text-body-lg text-stone-600 max-w-prose">
-            {joinPage.foundingRoles.transitionLine}
-          </p>
         </div>
       </section>
 
@@ -101,7 +102,7 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={joinPage.values.heading} />
-          <ValueGrid items={joinPage.values.items} />
+          <ModelSteps steps={joinPage.values.steps} />
         </div>
       </section>
 
