@@ -6,7 +6,7 @@
 
 export const siteConfig = {
   name: "Saha",
-  tagline: "Der langfristige Erwerber von Schweizer KMU in Nachfolgesituationen",
+  tagline: "Der langfristige Erwerber für Schweizer KMU in der Nachfolge",
   url: "https://saha.ch",
   email: "hello@saha.ch",
   location: "Switzerland",
@@ -29,7 +29,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Der langfristige Erwerber von\nSchweizer KMU in Nachfolgesituationen",
+    headline: "Der langfristige Erwerber für\nSchweizer KMU in der Nachfolge",
     subheadline:
       "Saha erwirbt profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Millionen Umsatz und hält sie langfristig — während wir die Sourcing-, Übergabe- und Betriebsfähigkeiten aufbauen, die dieses Segment braucht.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
