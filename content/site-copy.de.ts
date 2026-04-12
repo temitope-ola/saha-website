@@ -86,7 +86,7 @@ export const homepage = {
   buildersStrip: {
     heading: "Helfen Sie uns, Saha von Grund auf aufzubauen",
     description:
-      "Wir stellen ein kleines Team in der Gründungsphase zusammen. Wenn Sie die ersten Akquisitionen, den Due-Diligence-Prozess und das Betriebsmodell mitgestalten möchten — das ist frühe, substanzielle Arbeit.",
+      "Wir bauen ein kleines, fokussiertes Team auf, um unsere ersten Akquisitionen, den Due-Diligence-Prozess und das Betriebsmodell zu gestalten. Wenn Sie etwas von Grund auf aufbauen möchten — das ist frühe, substanzielle Arbeit.",
     cta: { label: "Mehr erfahren", href: "/join" },
   },
 
@@ -600,7 +600,7 @@ export const aboutPage = {
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Forschung & Akquisitionsintelligenz",
+        subtitle: "Gründerin — Forschung & Akquisitionsintelligenz",
         description: "Doktorat in Neurowissenschaften, MBA an der Universität St. Gallen. Bringt rigorose Forschungsmethodik und analytische Tiefe in Sourcing, Markt-Mapping und Due Diligence ein. Ihre wissenschaftliche Karriere an Schweizer und europäischen Institutionen verleiht Saha direkte Fachkompetenz in den Bereichen Life Sciences, Medtech und Biotech.",
       },
     ],

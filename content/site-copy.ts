@@ -85,7 +85,7 @@ export const homepage = {
   buildersStrip: {
     heading: "Help build Saha from the ground up",
     description:
-      "We are assembling a small team at the formation stage. If you want to shape a company's first acquisitions, diligence process, and operating model — this is early, real work.",
+      "We are assembling a small, focused team to shape our first acquisitions, diligence process, and operating model. If you want to build something from the ground up — this is early, real work.",
     cta: { label: "Learn more", href: "/join" },
   },
 
@@ -592,7 +592,7 @@ export const aboutPage = {
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Research & Acquisition Intelligence",
+        subtitle: "Founder — Research & Acquisition Intelligence",
         description: "PhD in Neuroscience, MBA at the University of St. Gallen. Brings rigorous research methodology and analytical depth to sourcing, market mapping, and diligence. Her scientific career across Swiss and European institutions gives Saha direct domain fluency in life sciences, medtech, and biotech.",
       },
     ],
