@@ -180,14 +180,14 @@ export const homepage = {
     heading: "Vous pensez à la suite ?",
     description:
       "Si vous êtes fondateur et commencez à envisager l'avenir de votre entreprise, nous serions heureux d'une conversation discrète et confidentielle. Aucune obligation, aucune pression.",
-    cta: { label: "Engager une conversation", href: "/contact" },
+    cta: { label: "Engager une conversation", href: "/contact?pathway=founder" },
   },
 
   finalCtaOther: {
     heading: "Investisseurs et futurs membres de l'équipe",
     description:
       "Si vous êtes un investisseur intéressé par le modèle, ou quelqu'un qui veut aider à construire Saha, nous serions ravis de vous entendre.",
-    cta: { label: "Nous contacter", href: "/contact" },
+    cta: { label: "Nous contacter", href: "/contact?pathway=investor" },
   },
 };
 
@@ -310,7 +310,7 @@ export const foundersPage = {
     heading: "Votre entreprise mérite une discussion approfondie",
     description:
       "Si vous commencez à envisager la suite, nous serions heureux de vous écouter. Tout est confidentiel, il n'y a aucune obligation, et le rythme est entièrement le vôtre.",
-    cta: { label: "Nous parler", href: "/contact" },
+    cta: { label: "Nous parler", href: "/contact?pathway=founder" },
   },
 };
 
@@ -441,7 +441,7 @@ export const investorsPage = {
     heading: "Vous souhaitez en savoir plus ?",
     description:
       "Nous structurons Saha pour un petit nombre d'investisseurs alignés et à long terme. Si la thèse vous parle, nous accueillons une conversation privée pour explorer l'adéquation.",
-    cta: { label: "Échanges investisseurs", href: "/contact" },
+    cta: { label: "Échanges investisseurs", href: "/contact?pathway=investor" },
   },
 };
 
@@ -522,7 +522,7 @@ export const joinPage = {
     heading: "Cela vous parle ?",
     description:
       "Si ce que vous avez lu vous parle — même si vous ne correspondez pas parfaitement à l'un des profils ci-dessus — nous aimerions vous entendre. Dites-nous qui vous êtes et ce qui vous attire chez Saha.",
-    cta: { label: "Nous contacter", href: "/contact" },
+    cta: { label: "Nous contacter", href: "/contact?pathway=builder" },
   },
 };
 

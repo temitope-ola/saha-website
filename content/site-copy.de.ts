@@ -185,14 +185,14 @@ export const homepage = {
     heading: "Denken Sie über die Zukunft nach?",
     description:
       "Falls Sie als Gründer die Zukunft Ihres Unternehmens in Betracht ziehen, würden wir uns über ein ruhiges, vertrauliches Gespräch freuen. Unverbindlich und vertraulich.",
-    cta: { label: "Ein Gespräch führen", href: "/contact" },
+    cta: { label: "Ein Gespräch führen", href: "/contact?pathway=founder" },
   },
 
   finalCtaOther: {
     heading: "Investoren und zukünftige Team-Mitglieder",
     description:
       "Ob als Investor oder als jemand, der Saha mitaufbauen möchte — wir freuen uns auf Ihre Nachricht.",
-    cta: { label: "Kontaktieren Sie uns", href: "/contact" },
+    cta: { label: "Kontaktieren Sie uns", href: "/contact?pathway=investor" },
   },
 };
 
@@ -317,7 +317,7 @@ export const foundersPage = {
     heading: "Ihr Unternehmen verdient ein ernsthaftes Gespräch",
     description:
       "Wenn Sie als Gründer beginnen, über die Zukunft nachzudenken, würden wir uns freuen, Ihnen zuzuhören. Vertraulich, unverbindlich und in Ihrem Tempo.",
-    cta: { label: "Mit uns sprechen", href: "/contact" },
+    cta: { label: "Mit uns sprechen", href: "/contact?pathway=founder" },
   },
 };
 
@@ -450,7 +450,7 @@ export const investorsPage = {
     heading: "Interessiert an mehr Informationen?",
     description:
       "Wir strukturieren Saha für eine kleine Zahl von ausgerichteten, langfristigen Investoren. Wenn die These Sie anspricht, freuen wir uns auf ein persönliches Gespräch.",
-    cta: { label: "Investor-Anfragen", href: "/contact" },
+    cta: { label: "Investor-Anfragen", href: "/contact?pathway=investor" },
   },
 };
 
@@ -560,7 +560,7 @@ export const joinPage = {
     heading: "Das könnte etwas für Sie sein",
     description:
       "Wenn Sie sich in dem wiedererkennen, was Sie gelesen haben — auch wenn Sie nicht genau in eines der oben genannten Profile passen — würden wir gerne von Ihnen hören. Erzählen Sie uns, wer Sie sind und was Sie zu Saha zieht.",
-    cta: { label: "Kontaktieren Sie uns", href: "/contact" },
+    cta: { label: "Kontaktieren Sie uns", href: "/contact?pathway=builder" },
   },
 };
 

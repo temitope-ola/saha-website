@@ -184,14 +184,14 @@ export const homepage = {
     heading: "Thinking about what comes next?",
     description:
       "If you are a founder beginning to consider the future of your business, we would welcome a quiet, confidential conversation. No obligation, no pressure.",
-    cta: { label: "Start a conversation", href: "/contact" },
+    cta: { label: "Start a conversation", href: "/contact?pathway=founder" },
   },
 
   finalCtaOther: {
     heading: "Investors and future team members",
     description:
       "If you are an investor interested in the model, or someone who wants to help build Saha, we would be glad to hear from you.",
-    cta: { label: "Get in touch", href: "/contact" },
+    cta: { label: "Get in touch", href: "/contact?pathway=investor" },
   },
 };
 
@@ -316,7 +316,7 @@ export const foundersPage = {
     heading: "Your business is worth a serious conversation",
     description:
       "If you are beginning to think about what comes next, we would be glad to listen. Everything is confidential, there is no obligation, and the pace is entirely yours.",
-    cta: { label: "Speak with us", href: "/contact" },
+    cta: { label: "Speak with us", href: "/contact?pathway=founder" },
   },
 };
 
@@ -449,7 +449,7 @@ export const investorsPage = {
     heading: "Interested in learning more?",
     description:
       "We are structuring Saha for a small number of aligned, long-term investors. If the thesis resonates, we welcome a private conversation to explore fit.",
-    cta: { label: "Investor enquiries", href: "/contact" },
+    cta: { label: "Investor enquiries", href: "/contact?pathway=investor" },
   },
 };
 
@@ -552,7 +552,7 @@ export const joinPage = {
     heading: "This might be for you",
     description:
       "If what you have read resonates — even if you do not fit neatly into one of the profiles above — we would like to hear from you. Tell us who you are and what draws you to Saha.",
-    cta: { label: "Reach out", href: "/contact" },
+    cta: { label: "Reach out", href: "/contact?pathway=builder" },
   },
 };
 

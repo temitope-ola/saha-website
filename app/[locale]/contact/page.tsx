@@ -13,9 +13,16 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
-export default function ContactPage({ params }: { params: { locale: string } }) {
+export default function ContactPage({
+  params,
+  searchParams,
+}: {
+  params: { locale: string };
+  searchParams: { pathway?: string };
+}) {
   const locale = (params.locale ?? "en") as Locale;
   const { contactPage } = getDictionary(locale);
+  const initialPathway = searchParams.pathway ?? null;
 
   return (
     <>
@@ -27,7 +34,7 @@ export default function ContactPage({ params }: { params: { locale: string } }) 
 
       <section className="section-padding">
         <div className="container-content">
-          <ContactPathways pathways={contactPage.pathways} />
+          <ContactPathways pathways={contactPage.pathways} initialPathway={initialPathway} />
         </div>
       </section>
     </>

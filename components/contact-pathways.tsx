@@ -18,10 +18,11 @@ interface Pathway {
 
 interface ContactPathwaysProps {
   pathways: Pathway[];
+  initialPathway?: string | null;
 }
 
-export default function ContactPathways({ pathways }: ContactPathwaysProps) {
-  const [selected, setSelected] = useState<string | null>(null);
+export default function ContactPathways({ pathways, initialPathway }: ContactPathwaysProps) {
+  const [selected, setSelected] = useState<string | null>(initialPathway ?? null);
   const [submitted, setSubmitted] = useState(false);
 
   const activePathway = pathways.find((p) => p.id === selected);
