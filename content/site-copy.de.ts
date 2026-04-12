@@ -388,7 +388,7 @@ export const investorsPage = {
     heading: "Wie das Modell Wert aufbaut",
     paragraphs: [
       "Saha stellt nicht einfach ein Portfolio kleiner Unternehmen zusammen. Saha baut die Infrastruktur auf, die dieses Segment erwerbbar und nachhaltig im grossen Massstab macht.",
-      "Diese Infrastruktur umfasst: einen Sourcing-Ansatz, der darauf aufbaut, zur vertrauenswürdigen Gegenpartei für die Treuhänder, Notare und lokalen Berater zu werden, die den Transaktionsfluss in diesem Segment steuern; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und leichte Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
+      "Diese Infrastruktur umfasst: einen Sourcing-Ansatz, der darauf aufbaut, zur vertrauenswürdigen Gegenpartei für die Treuhänder, Notare und lokalen Berater zu werden, die den Transaktionsfluss in diesem Segment steuern; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
       "Jede Übernahme macht die nächste günstiger zu sourchen, schneller überzuleiten und besser begleitet. Das ist die Wertschöpfungslogik hinter dem Modell — und was Saha von einer wohlmeinenden Beteiligungsgesellschaft mit Kapital unterscheidet.",
     ],
     callout: {
@@ -577,12 +577,12 @@ export const aboutPage = {
   founderNote: {
     heading: "Ein Wort des Gründers",
     paragraphs: [
-      "Ich habe Jahre damit verbracht, in Frühphasen-Unternehmen und Firmen in verschiedenen Wachstumsphasen zu arbeiten — und das Muster, auf das ich immer wieder stiess, war dasselbe. Gute Unternehmen, geführt von fähigen Menschen, die still verschwanden — nicht weil sie gescheitert waren, sondern weil kein klarer Weg nach vorn existierte.",
-      "In der Schweiz zeigt sich das auf besondere Weise. Tausende gründergeführte Unternehmen — profitabel, lokal verankert, vom Team und den Kunden geschätzt — erreichen einen Punkt, an dem der Gründer bereit ist, sich zurückzuziehen, und niemand bereit ist, den nächsten Schritt zu tun. Nicht weil das Unternehmen keinen Wert hat. Weil die Transaktion komplex ist, das Transaktionsvolumen für institutionelle Käufer zu klein, und die menschliche Dimension der Übergabe mehr erfordert, als die meisten Käufer bereit sind zu geben.",
-      "Saha ist mein Versuch, etwas zu bauen, das speziell für diese Lücke konzipiert ist — nicht nur als Käufer, sondern als Modell. Ein wiederholbarer Weg, diese Unternehmen zu identifizieren, sie sorgfältig überzuleiten und langfristig zu erhalten. Wir stehen noch am Anfang. Aber ich glaube, dass die Infrastruktur hinter dieser Art von Eigentümerschaft das ist, was dem Segment bisher gefehlt hat.",
+      "Ich habe 35 Jahre in der Schweiz verbracht, Unternehmen in Technologie und Finanzen aufgebaut und beraten. 2014 habe ich ein Schweizer Technologieunternehmen, das ich gegründet hatte, an einen an der Zürcher Börse kotierten strategischen Käufer verkauft. Wenn man selbst etwas aufgebaut und übergeben hat, versteht man klarer, was wirklich auf dem Spiel steht.",
+      "Zwei Momente sind mir geblieben. Ein Gründer schloss ein Unternehmen, das er über dreissig Jahre geführt hatte — profitabel, gut geführt, von seiner Gemeinschaft geschätzt — weil niemand da war, um es weiterzuführen. Kurz darauf sah ich das Gegenteil: Zwei ehemalige Lehrlinge kehrten Jahre später zurück, kauften ihrem Gründer das Unternehmen ab und bauten etwas noch Stärkeres auf als das, was sie geerbt hatten.",
+      "Derselbe Markt. Sehr unterschiedliche Ergebnisse. Der Unterschied lag nicht in der Qualität des Unternehmens. Er lag darin, ob der richtige Erwerber im richtigen Moment existierte.",
+      "Saha wurde geschaffen, um dieser Erwerber zu sein — systematisch und auf Dauer.",
     ],
     attribution: "— Temitope Ola, Gründer",
-    bio: "Gründer-Operator mit über 25 Jahren Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung. 2014 führte er den vollständigen Exit eines von ihm gegründeten Schweizer Technologieunternehmens an einen an der Zürcher Börse kotierten strategischen Käufer durch — vom ersten Kontakt über die Due Diligence bis zum Closing, als Gründer auf der anderen Seite des Tisches. Diese Erfahrung prägt alles an der Art, wie Saha mit den Gründern arbeitet, die es begleitet: nicht als Konzept, sondern als gelebte Entscheidung mit realen Konsequenzen. Er bringt die Sourcing-Vision, die Akquisitionsthese und die Aufbauambition hinter Saha mit.",
     callout: {
       type: "quote" as const,
       text: "Gute Unternehmen sollten nicht verschwinden, bloss weil das Zeitfenster fehlt.",
@@ -600,14 +600,8 @@ export const aboutPage = {
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Leiterin Forschung & Akquisitionsintelligenz",
+        subtitle: "Forschung & Akquisitionsintelligenz",
         description: "Doktorat in Neurowissenschaften, MBA an der Universität St. Gallen. Bringt rigorose Forschungsmethodik und analytische Tiefe in Sourcing, Markt-Mapping und Due Diligence ein. Ihre wissenschaftliche Karriere an Schweizer und europäischen Institutionen verleiht Saha direkte Fachkompetenz in den Bereichen Life Sciences, Medtech und Biotech.",
-      },
-      {
-        name: "Technische Leitung",
-        subtitle: "Plattform & Daten",
-        description: "Baut die schlanke operative Infrastruktur auf, die Sahas erste Akquisitionen ermöglicht: Sourcing-Pipeline, Due-Diligence-Workflow, Transaktions-Tracking und die internen Tools, die einem kleinen Team erlauben, mit Rigor und ohne unnötigen Overhead zu arbeiten.",
-        status: "Rolle offen — Rekrutierung läuft",
       },
     ],
     closingLine: "Wenn Sie die Erfahrung und den Antrieb mitbringen, uns zu begleiten, würden wir uns freuen, von Ihnen zu hören.",

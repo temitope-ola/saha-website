@@ -387,7 +387,7 @@ export const investorsPage = {
     heading: "How the model compounds",
     paragraphs: [
       "Saha is not simply assembling a portfolio of small businesses. It is building the infrastructure that makes this segment acquirable and sustainable at scale.",
-      "That infrastructure includes: a sourcing approach built on becoming the trusted counterparty for the fiduciaries, Treuhänder, and local advisors who control deal flow in this segment; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and lightweight technology that improves internal efficiency without replacing the human judgment succession requires.",
+      "That infrastructure includes: a sourcing approach built on becoming the trusted counterparty for the fiduciaries, Treuhänder, and local advisors who control deal flow in this segment; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and technology that improves internal efficiency without replacing the human judgment succession requires.",
       "Each acquisition makes the next one cheaper to source, faster to transition, and better supported. That is the compounding logic behind the model — and what separates Saha from a well-intentioned holding company with capital.",
     ],
     callout: {
@@ -569,12 +569,12 @@ export const aboutPage = {
   founderNote: {
     heading: "A note from the founder",
     paragraphs: [
-      "I have spent years working across early-stage companies and businesses at different stages of growth — and the pattern I kept encountering was the same. Good businesses, run by capable people, quietly disappearing not because they had failed but because no clear path forward existed.",
-      "In Switzerland especially, this plays out in a particular way. Thousands of founder-led businesses — profitable, locally embedded, trusted by their teams and customers — reach a point where the founder is ready to step back and finds no one ready to step forward. Not because the business lacks value. Because the transaction is complex, the deal size is too small for institutional buyers, and the human dimension of the handover requires more than most acquirers are willing to give.",
-      "Saha is my attempt to build something designed specifically for that gap — not just as a buyer, but as a model. A repeatable way of identifying these businesses, transitioning them carefully, and sustaining them over the long term. It is early. But I believe the infrastructure behind this kind of ownership is what the segment has been missing.",
+      "I have spent 35 years in Switzerland, building and advising companies across technology and finance. In 2014, I sold a Swiss tech company I had founded to a Zurich-listed strategic buyer. Once you have built something and handed it over, you understand more clearly what is truly at stake.",
+      "Two moments stayed with me. A founder closed a business he had run for more than thirty years — profitable, well managed, and trusted by its community — because no one was there to take it forward. Not long after, I saw the opposite: two former apprentices returned years later, bought out their founder, and built something even stronger than what they had inherited.",
+      "Same market. Very different outcomes. The difference was not the quality of the business. It was whether the right buyer existed at the right moment.",
+      "Saha was created to be that buyer — systematically, and for the long term.",
     ],
     attribution: "— Temitope Ola, Founder",
-    bio: "Founder-operator with over 25 years across venture building, finance, and multi-country execution. In 2014 he completed the full exit of a Swiss tech company he founded to a Zurich-listed strategic buyer — navigating the process from first approach through due diligence to close as the founder on the other side of the table. That experience informs everything about how Saha approaches the founders it works with: not as a concept, but as a lived decision with real stakes. He brings the sourcing vision, acquisition thesis, and company-building ambition behind Saha.",
     callout: {
       type: "quote" as const,
       text: "Good businesses should not disappear because of a timing problem.",
@@ -592,14 +592,8 @@ export const aboutPage = {
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Head of Research & Acquisition Intelligence",
+        subtitle: "Research & Acquisition Intelligence",
         description: "PhD in Neuroscience, MBA at the University of St. Gallen. Brings rigorous research methodology and analytical depth to sourcing, market mapping, and diligence. Her scientific career across Swiss and European institutions gives Saha direct domain fluency in life sciences, medtech, and biotech.",
-      },
-      {
-        name: "Technical Lead",
-        subtitle: "Platform & Data",
-        description: "Will build the lean operational infrastructure that makes Saha's first acquisitions possible: sourcing pipeline, diligence workflow, deal tracking, and the internal tools that allow a small team to move with rigour and without unnecessary overhead.",
-        status: "Role open — currently recruiting",
       },
     ],
     closingLine: "If you have the experience and disposition to join us, we would like to hear from you.",

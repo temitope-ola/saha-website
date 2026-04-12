@@ -11,10 +11,12 @@ interface ProcessStepsProps {
 export default function ProcessSteps({ steps, columns = 1 }: ProcessStepsProps) {
   return (
     <div className={columns === 2 ? "grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0" : "space-y-0"}>
-      {steps.map((step, index) => (
+      {steps.map((step, index) => {
+        const isFirstRow = columns === 2 ? index < 2 : index === 0;
+        return (
         <div
           key={step.title}
-          className="flex gap-6 md:gap-8 py-8 border-b border-stone-200 last:border-b-0 first:pt-0"
+          className={`flex gap-6 md:gap-8 py-8 border-b border-stone-200 last:border-b-0 ${isFirstRow ? "pt-0" : ""}`}
         >
           <span className="text-display-sm font-serif text-accent-300 select-none shrink-0 leading-none mt-0.5">
             {String(index + 1).padStart(2, "0")}
@@ -28,7 +30,8 @@ export default function ProcessSteps({ steps, columns = 1 }: ProcessStepsProps) 
             </p>
           </div>
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

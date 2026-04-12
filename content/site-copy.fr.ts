@@ -379,7 +379,7 @@ export const investorsPage = {
     heading: "Comment le modèle se renforce avec le temps",
     paragraphs: [
       "Saha ne se contente pas d'assembler un portefeuille de petites entreprises. Elle construit l'infrastructure qui rend ce segment acquérable et viable à grande échelle.",
-      "Cette infrastructure comprend : une approche de sourcing fondée sur le fait de devenir le partenaire de confiance des fiduciaires, Treuhänder et conseillers locaux qui contrôlent le flux de transactions dans ce segment ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; un vivier croissant d'opérateurs formés aux transitions successorales ; un référentiel opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie légère qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
+      "Cette infrastructure comprend : une approche de sourcing fondée sur le fait de devenir le partenaire de confiance des fiduciaires, Treuhänder et conseillers locaux qui contrôlent le flux de transactions dans ce segment ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; un vivier croissant d'opérateurs formés aux transitions successorales ; un référentiel opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
       "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à accompagner et mieux encadrée. C'est la logique de composition derrière le modèle — et ce qui distingue Saha d'une holding bien intentionnée disposant de capital.",
     ],
     callout: {
@@ -537,12 +537,12 @@ export const aboutPage = {
   founderNote: {
     heading: "Un mot du fondateur",
     paragraphs: [
-      "J'ai passé des années à travailler au sein de start-ups et d'entreprises à différents stades de croissance — et le schéma que je rencontrais sans cesse était le même. De bonnes entreprises, dirigées par des dirigeants compétents, disparaissant en silence non pas parce qu'elles avaient échoué, mais parce qu'aucun chemin clair ne s'offrait à elles.",
-      "En Suisse en particulier, cela se manifeste d'une façon bien précise. Des milliers d'entreprises dirigées par leurs fondateurs — rentables, ancrées dans leur région, portées par la confiance de leurs équipes et de leurs clients — arrivent à un point où le fondateur est prêt à se retirer sans que personne ne soit prêt à prendre la suite. Non pas parce que l'entreprise manque de valeur. Parce que la transaction est complexe, que le montant est trop faible pour les acquéreurs institutionnels, et que la dimension humaine de la passation requiert un engagement que la plupart des repreneurs ne sont pas prêts à assumer.",
-      "Saha est ma tentative de construire quelque chose pensé spécifiquement pour ce vide — pas simplement comme acquéreur, mais comme modèle reproductible. Une façon d'identifier ces entreprises, de les accompagner dans la transition avec soin, et de les pérenniser. C'est encore tôt. Mais je crois que l'infrastructure derrière ce type de propriété est ce qui a toujours manqué à ce segment.",
+      "J'ai passé 35 ans en Suisse, à créer et conseiller des entreprises dans la technologie et la finance. En 2014, j'ai cédé une entreprise technologique suisse que j'avais fondée à un acquéreur stratégique coté à Zurich. Quand on a soi-même bâti quelque chose et qu'on l'a transmis, on comprend mieux ce qui est véritablement en jeu.",
+      "Deux moments m'ont marqué. Un fondateur a fermé une entreprise qu'il dirigeait depuis plus de trente ans — rentable, bien gérée, reconnue par sa communauté — parce que personne n'était là pour prendre la relève. Peu après, j'ai vu l'inverse : deux anciens apprentis sont revenus des années plus tard, ont racheté leur fondateur, et ont construit quelque chose d'encore plus solide que ce dont ils avaient hérité.",
+      "Même marché. Des issues très différentes. La différence ne tenait pas à la qualité de l'entreprise. Elle tenait à la présence du bon repreneur au bon moment.",
+      "Saha a été créée pour être ce repreneur — de manière systématique et dans la durée.",
     ],
     attribution: "— Temitope Ola, Fondateur",
-    bio: "Fondateur-opérateur avec plus de 25 ans d'expérience en création d'entreprises, finance et exécution multi-pays. En 2014, il a mené à bien la cession complète d'une entreprise technologique suisse qu'il avait fondée à un acquéreur stratégique coté à Zurich — en pilotant le processus de la première prise de contact à la due diligence jusqu'au closing, en tant que fondateur de l'autre côté de la table. Cette expérience nourrit chaque aspect de l'approche de Saha envers les fondateurs : non pas comme un concept, mais comme une décision vécue avec des enjeux réels. Il porte la vision de sourcing, la thèse d'acquisition et l'ambition de construction derrière Saha.",
     callout: {
       type: "quote" as const,
       text: "Les bonnes entreprises ne devraient pas disparaître à cause d'un problème de calendrier.",
@@ -560,14 +560,8 @@ export const aboutPage = {
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Directrice Recherche & Intelligence d'Acquisition",
+        subtitle: "Recherche & Intelligence d'Acquisition",
         description: "Doctorat en neurosciences, MBA à l'Université de Saint-Gall. Apporte une méthodologie de recherche rigoureuse et une profondeur analytique au sourcing, à la cartographie de marché et à la diligence. Sa carrière scientifique au sein d'institutions suisses et européennes confère à Saha une maîtrise directe des domaines des sciences de la vie, du medtech et de la biotech.",
-      },
-      {
-        name: "Responsable Technique",
-        subtitle: "Plateforme & Données",
-        description: "Construira l'infrastructure opérationnelle allégée qui rend les premières acquisitions de Saha possibles : pipeline de sourcing, workflow de diligence, suivi des transactions, et les outils internes permettant à une petite équipe d'avancer avec rigueur et sans surcharge inutile.",
-        status: "Rôle ouvert — recrutement en cours",
       },
     ],
     closingLine: "Si vous avez l'expérience et la disposition pour nous rejoindre, nous aimerions vous entendre.",

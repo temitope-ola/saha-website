@@ -46,9 +46,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
               <p className="mt-8 text-body-lg font-serif text-stone-800">
                 {aboutPage.founderNote.attribution}
               </p>
-              <p className="mt-3 text-body text-stone-500">
-                {aboutPage.founderNote.bio}
-              </p>
+              {/* Bio removed — attribution only */}
             </div>
             <CalloutBox {...aboutPage.founderNote.callout} />
           </div>
@@ -62,7 +60,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
           <p className="text-body-lg text-stone-600 mb-10 max-w-prose">
             {aboutPage.foundingTeam.intro}
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {aboutPage.foundingTeam.members.map((member) => (
               <div key={member.name} className="p-8 bg-white border border-stone-200 rounded-sm">
                 <h3 className="text-subheading font-serif text-stone-900 mb-1">
@@ -74,11 +72,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
                 <p className="text-body text-stone-600">
                   {member.description}
                 </p>
-                {"status" in member && member.status && (
-                  <p className="mt-4 text-body-sm text-stone-400 italic">
-                    {member.status}
-                  </p>
-                )}
+                {/* Status badge removed — no open roles displayed here */}
               </div>
             ))}
           </div>
