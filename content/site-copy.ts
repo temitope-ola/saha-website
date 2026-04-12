@@ -16,6 +16,7 @@ export const siteConfig = {
 export const nav = {
   links: [
     { label: "Founders", href: "/founders" },
+    { label: "Advisors", href: "/advisors" },
     { label: "Investors", href: "/investors" },
     { label: "Join Saha", href: "/join" },
     { label: "About", href: "/about" },
@@ -334,14 +335,14 @@ export const investorsPage = {
     heading: "The investment thesis",
     paragraphs: [
       "Switzerland has a large and growing segment of profitable, founder-led businesses approaching succession. These companies are often well-run, cash-generative, and deeply embedded in their local markets — yet they sit below the threshold where most institutional buyers operate.",
-      "Everything below CHF 10M in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expects a transfer within five years — and only about two thirds of those successions are expected to conclude successfully.",
+      "Everything below CHF 10M in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expect a transfer within five years — and only about two thirds of those successions are expected to conclude successfully.",
       "The gap is not a lack of good businesses. It is the absence of a buyer model purpose-built for this segment. These deals require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is being built specifically for this work.",
       "Because we hold permanently, our returns compound. Every acquisition refines our sourcing, transition discipline, and operating capabilities — making the next one more efficient and less risky.",
     ],
     callout: {
       type: "stat" as const,
       value: "1 in 3",
-      caption: "Swiss SME owners expects a transfer within five years — but the segment below CHF 10M is largely invisible to institutional capital",
+      caption: "Swiss SME owners expect a transfer within five years — but the segment below CHF 10M is largely invisible to institutional capital",
     },
   },
 
@@ -565,6 +566,120 @@ export const joinPage = {
   },
 };
 
+/* ── For Advisors ──────────────────────────── */
+
+export const advisorsPage = {
+  hero: {
+    eyebrow: "For Advisors",
+    headline: "The buyer your clients can trust\nyou for introducing",
+    subheadline:
+      "When you refer a client to a buyer, your reputation travels with them. Saha is built with that responsibility in mind — a buyer that protects the relationships you have spent years building, not one that puts them at risk.",
+  },
+
+  understand: {
+    heading: "We understand your position",
+    paragraphs: [
+      "The founders who face succession are often your longest-standing clients. The decision to sell is personal, complex, and irreversible. When you introduce a buyer, you are not just facilitating a transaction — you are vouching for how that process will feel and what it will produce.",
+      "We do not take that lightly. Our model is designed to make the advisor who introduced us look good — through how we behave in the process, how we treat the founder, and how we carry the business forward after close.",
+    ],
+  },
+
+  expectations: {
+    heading: "What you can expect from us",
+    steps: [
+      {
+        number: "01",
+        title: "A defined process with no surprises",
+        description:
+          "We approach every situation with a clear methodology: initial assessment, offer, due diligence, transition planning, close. We communicate openly at each stage — with you and with your client — so that nothing arrives unexpectedly and no one is left without answers.",
+      },
+      {
+        number: "02",
+        title: "We do not retrade",
+        description:
+          "Our offer reflects our genuine assessment of the business. We do not use due diligence as a tool to renegotiate price or terms. If something material emerges that changes our view, we tell you directly and immediately — we do not let it surface at the last moment.",
+      },
+      {
+        number: "03",
+        title: "We move at the right pace",
+        description:
+          "Neither rushed nor indefinitely prolonged. We understand that founders often need time to reach certainty, and we respect that. Once a process begins, we move with purpose and bring it to a conclusion within a reasonable timeframe.",
+      },
+      {
+        number: "04",
+        title: "We keep you informed",
+        description:
+          "You introduced the relationship. You remain part of it. We will not go around you, exclude you from significant developments, or leave you in a position where your client knows more — or less — than you do.",
+      },
+    ],
+  },
+
+  role: {
+    heading: "How we think about your role",
+    paragraphs: [
+      "You know things about your client's business that we do not — the history, the dynamics, the sensitivities that never appear in a financial statement. That knowledge makes you a genuine partner in the process, not just an introducer.",
+      "We rely on advisors who understand the business before we do. The introductions we value most come from fiduciaries and advisors who have assessed the situation themselves and believe there is a realistic fit. We will always tell you honestly if we do not think there is — because protecting your time and your client relationship matters more to us than pursuing a deal that should not happen.",
+      "Our goal is to become the buyer you think of first when a succession situation arises — not because we have asked you to, but because every introduction you have made has reflected well on you.",
+    ],
+  },
+
+  criteria: {
+    heading: "What we look for",
+    description:
+      "To help you assess whether a situation might be a fit before making contact:",
+    items: [
+      {
+        title: "Profitable and established",
+        description: "Typically founder-led for many years.",
+      },
+      {
+        title: "Revenue below CHF 10M",
+        description: "Annual revenue generally below CHF 10M.",
+      },
+      {
+        title: "Succession-driven",
+        description: "Succession or retirement as the primary reason for sale — not distress or restructuring.",
+      },
+      {
+        title: "Capable team in place",
+        description: "A capable team already in place beyond the founder.",
+      },
+      {
+        title: "Stable demand",
+        description: "Demand that is reasonably stable — not dependent on a single contract or the founder's personal relationships.",
+      },
+      {
+        title: "Structured handover",
+        description: "A handover that can be realistically planned over a structured timeframe.",
+      },
+    ],
+    note: "If a situation does not fit these criteria, we will tell you clearly and quickly — so you can pursue the right path for your client without delay.",
+  },
+
+  confidentiality: {
+    heading: "Confidentiality",
+    paragraphs: [
+      "Every conversation is treated with complete discretion. We do not discuss situations with third parties, we do not approach businesses directly once an advisor has made contact on their behalf, and we do not use information shared in exploratory conversations for any purpose other than assessing fit.",
+    ],
+  },
+
+  longTerm: {
+    heading: "A long-term relationship, not a single transaction",
+    paragraphs: [
+      "Switzerland's sub-CHF 10M succession market is not a one-time opportunity — it is a structural, ongoing reality. We are building Saha for the long term, which means we are building relationships with the advisors who operate in this segment for the long term too.",
+      "Every transaction we handle well is a foundation for the next introduction. We measure our relationship with the advisory community not by the number of deals we pursue, but by the quality of outcomes we produce for the founders they refer.",
+    ],
+  },
+
+  closingCta: {
+    heading: "Start a conversation",
+    description:
+      "If you have a situation you would like to discuss — even at an early stage, and without obligation — we welcome the conversation. Everything is confidential from the first contact.",
+    cta: { label: "Refer a situation", href: "/contact?pathway=advisor" },
+    directContact: "Or reach us directly at hello@saha.ch. We respond within 48 hours.",
+  },
+};
+
 /* ── About ──────────────────────────────────── */
 
 export const aboutPage = {
@@ -742,6 +857,18 @@ export const contactPage = {
         { name: "email", label: "Email address", type: "email" as const, required: true },
         { name: "linkedin", label: "LinkedIn profile (optional)", type: "url" as const, required: false },
         { name: "message", label: "Who are you and what draws you to Saha?", type: "textarea" as const, required: false },
+      ],
+    },
+    {
+      id: "advisor",
+      title: "I am an advisor referring a client",
+      description:
+        "If you are a fiduciary, trustee, or advisor with a client considering succession, we welcome a confidential conversation to assess fit.",
+      fields: [
+        { name: "name", label: "Your name", type: "text" as const, required: true },
+        { name: "email", label: "Email address", type: "email" as const, required: true },
+        { name: "firm", label: "Firm or practice (optional)", type: "text" as const, required: false },
+        { name: "message", label: "Tell us about the situation", type: "textarea" as const, required: false },
       ],
     },
   ],
@@ -961,6 +1088,7 @@ export const footer = {
       title: "For you",
       links: [
         { label: "Founders", href: "/founders" },
+        { label: "Advisors", href: "/advisors" },
         { label: "Investors", href: "/investors" },
         { label: "Join Saha", href: "/join" },
       ],
@@ -989,6 +1117,11 @@ export const metadata = {
     title: "For Founders — Saha",
     description:
       "You built something worth preserving. Saha acquires and keeps founder-built Swiss businesses below CHF 10M with care, structure, and a long-term commitment.",
+  },
+  advisors: {
+    title: "For Advisors — Saha",
+    description:
+      "When you introduce a client to Saha, your reputation is protected. We offer a clear process, full transparency, and permanent ownership for Swiss SME successions.",
   },
   investors: {
     title: "For Investors — Saha",

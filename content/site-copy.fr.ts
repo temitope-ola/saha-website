@@ -14,6 +14,7 @@ export const siteConfig = {
 export const nav = {
   links: [
     { label: "Fondateurs", href: "/founders" },
+    { label: "Conseillers", href: "/advisors" },
     { label: "Investisseurs", href: "/investors" },
     { label: "Rejoindre Saha", href: "/join" },
     { label: "À propos", href: "/about" },
@@ -535,6 +536,120 @@ export const joinPage = {
   },
 };
 
+export const advisorsPage = {
+  hero: {
+    eyebrow: "Pour les conseillers",
+    headline: "L'acquéreur auquel vos clients peuvent\nfaire confiance grâce à vous",
+    subheadline:
+      "Lorsque vous orientez un client vers un acquéreur, votre réputation l'accompagne. Saha est conçu avec cette responsabilité à l'esprit — un acquéreur qui protège les relations que vous avez bâties au fil des années, et non un qui les met en péril.",
+  },
+
+  understand: {
+    heading: "Nous comprenons votre position",
+    paragraphs: [
+      "Les fondateurs confrontés à la succession sont souvent vos clients de plus longue date. La décision de vendre est personnelle, complexe et irréversible. Lorsque vous présentez un acquéreur, vous ne facilitez pas simplement une transaction — vous vous portez garant de la manière dont ce processus sera vécu et de ce qu'il produira.",
+      "Nous ne prenons pas cela à la légère. Notre modèle est conçu pour que le conseiller qui nous a présentés soit valorisé — par notre comportement dans le processus, notre traitement du fondateur et la manière dont nous faisons vivre l'entreprise après la clôture.",
+    ],
+  },
+
+  expectations: {
+    heading: "Ce que vous pouvez attendre de nous",
+    steps: [
+      {
+        number: "01",
+        title: "Un processus défini, sans surprises",
+        description:
+          "Nous abordons chaque situation avec une méthodologie claire : évaluation initiale, offre, due diligence, planification de la transition, clôture. Nous communiquons ouvertement à chaque étape — avec vous et avec votre client — afin que rien n'arrive de manière inattendue et que personne ne reste sans réponse.",
+      },
+      {
+        number: "02",
+        title: "Nous ne renégocions pas",
+        description:
+          "Notre offre reflète notre évaluation sincère de l'entreprise. Nous n'utilisons pas la due diligence comme outil pour renégocier le prix ou les conditions. Si un élément significatif émerge qui modifie notre appréciation, nous vous en informons directement et immédiatement — nous ne le laissons pas apparaître au dernier moment.",
+      },
+      {
+        number: "03",
+        title: "Nous avançons au bon rythme",
+        description:
+          "Ni précipité, ni indéfiniment prolongé. Nous comprenons que les fondateurs ont souvent besoin de temps pour parvenir à une certitude, et nous respectons cela. Une fois le processus engagé, nous avançons avec détermination et le menons à terme dans un délai raisonnable.",
+      },
+      {
+        number: "04",
+        title: "Nous vous tenons informé",
+        description:
+          "C'est vous qui avez initié la relation. Vous en restez partie prenante. Nous ne vous contournerons pas, ne vous exclurons pas des développements significatifs et ne vous laisserons pas dans une position où votre client en sait plus — ou moins — que vous.",
+      },
+    ],
+  },
+
+  role: {
+    heading: "Comment nous concevons votre rôle",
+    paragraphs: [
+      "Vous connaissez des aspects de l'entreprise de votre client que nous ignorons — l'historique, les dynamiques, les sensibilités qui n'apparaissent jamais dans un état financier. Ce savoir fait de vous un véritable partenaire du processus, pas un simple intermédiaire.",
+      "Nous nous appuyons sur des conseillers qui connaissent l'entreprise avant nous. Les introductions que nous valorisons le plus proviennent de fiduciaires et de conseillers qui ont évalué la situation par eux-mêmes et estiment qu'il existe une adéquation réaliste. Nous vous dirons toujours honnêtement si nous pensons que ce n'est pas le cas — car protéger votre temps et la relation avec votre client compte davantage pour nous que de poursuivre une opération qui ne devrait pas avoir lieu.",
+      "Notre objectif est de devenir l'acquéreur auquel vous pensez en premier lorsqu'une situation de succession se présente — non pas parce que nous vous l'avons demandé, mais parce que chaque introduction que vous avez faite a reflété positivement sur vous.",
+    ],
+  },
+
+  criteria: {
+    heading: "Ce que nous recherchons",
+    description:
+      "Pour vous aider à évaluer si une situation pourrait convenir avant de prendre contact :",
+    items: [
+      {
+        title: "Rentable et établie",
+        description: "Typiquement dirigée par son fondateur depuis de nombreuses années.",
+      },
+      {
+        title: "Chiffre d'affaires inférieur à CHF 10M",
+        description: "Chiffre d'affaires annuel généralement inférieur à CHF 10M.",
+      },
+      {
+        title: "Motivation successorale",
+        description: "La succession ou le départ à la retraite comme raison principale de la vente — ni détresse ni restructuration.",
+      },
+      {
+        title: "Équipe compétente en place",
+        description: "Une équipe compétente déjà en place au-delà du fondateur.",
+      },
+      {
+        title: "Demande stable",
+        description: "Une demande raisonnablement stable — non dépendante d'un seul contrat ou des relations personnelles du fondateur.",
+      },
+      {
+        title: "Passation structurée",
+        description: "Une passation qui peut être raisonnablement planifiée sur un calendrier structuré.",
+      },
+    ],
+    note: "Si une situation ne correspond pas à ces critères, nous vous le dirons clairement et rapidement — afin que vous puissiez poursuivre la bonne voie pour votre client sans délai.",
+  },
+
+  confidentiality: {
+    heading: "Confidentialité",
+    paragraphs: [
+      "Chaque conversation est traitée avec une discrétion totale. Nous ne discutons pas des situations avec des tiers, nous n'approchons pas directement les entreprises une fois qu'un conseiller a pris contact en leur nom, et nous n'utilisons les informations partagées lors de conversations exploratoires à aucune autre fin que l'évaluation de l'adéquation.",
+    ],
+  },
+
+  longTerm: {
+    heading: "Une relation de long terme, pas une transaction unique",
+    paragraphs: [
+      "Le marché suisse de la succession sous CHF 10M n'est pas une opportunité ponctuelle — c'est une réalité structurelle et continue. Nous construisons Saha pour le long terme, ce qui signifie que nous construisons aussi des relations durables avec les conseillers qui opèrent dans ce segment.",
+      "Chaque transaction que nous menons à bien est le fondement de la prochaine introduction. Nous mesurons notre relation avec la communauté des conseillers non pas par le nombre d'opérations que nous poursuivons, mais par la qualité des résultats que nous produisons pour les fondateurs qu'ils nous réfèrent.",
+    ],
+  },
+
+  closingCta: {
+    heading: "Engager la conversation",
+    description:
+      "Si vous avez une situation que vous souhaitez aborder — même à un stade précoce et sans engagement — nous accueillons la conversation. Tout est confidentiel dès le premier contact.",
+    cta: { label: "Référer une situation", href: "/contact?pathway=advisor" },
+    directContact: "Ou contactez-nous directement à hello@saha.ch. Nous répondons sous 48 heures.",
+  },
+};
+
+/* ── About ──────────────────────────────────── */
+
 export const aboutPage = {
   hero: {
     eyebrow: "À propos",
@@ -689,6 +804,18 @@ export const contactPage = {
         { name: "message", label: "Qui êtes-vous et qu'est-ce qui vous attire chez Saha ?", type: "textarea" as const, required: false },
       ],
     },
+    {
+      id: "advisor",
+      title: "Je suis un conseiller référant un client",
+      description:
+        "Si vous êtes fiduciaire, notaire ou conseiller avec un client envisageant une succession, nous accueillons une conversation confidentielle pour évaluer l'adéquation.",
+      fields: [
+        { name: "name", label: "Votre nom", type: "text" as const, required: true },
+        { name: "email", label: "Adresse e-mail", type: "email" as const, required: true },
+        { name: "firm", label: "Cabinet ou étude (facultatif)", type: "text" as const, required: false },
+        { name: "message", label: "Décrivez-nous la situation", type: "textarea" as const, required: false },
+      ],
+    },
   ],
 };
 
@@ -771,7 +898,7 @@ export const footer = {
   tagline: "Un repreneur pérenne pour les PME suisses en transmission.",
   columns: [
     { title: "Entreprise", links: [{ label: "À propos", href: "/about" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
-    { title: "Pour vous", links: [{ label: "Fondateurs", href: "/founders" }, { label: "Investisseurs", href: "/investors" }, { label: "Rejoindre Saha", href: "/join" }] },
+    { title: "Pour vous", links: [{ label: "Fondateurs", href: "/founders" }, { label: "Conseillers", href: "/advisors" }, { label: "Investisseurs", href: "/investors" }, { label: "Rejoindre Saha", href: "/join" }] },
     { title: "Juridique", links: [{ label: "Confidentialité", href: "/privacy" }, { label: "Conditions", href: "/terms" }] },
   ],
   copyright: `© ${new Date().getFullYear()} Saha. Tous droits réservés.`,
@@ -781,6 +908,7 @@ export const footer = {
 export const metadata = {
   home: { title: "Saha — Le repreneur pérenne des PME suisses en transmission", description: "Saha acquiert les PME suisses rentables sous CHF 10M auprès des fondateurs à la retraite, les accompagne avec soin, et les conserve durablement." },
   founders: { title: "Pour les fondateurs — Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par des fondateurs sous CHF 10M avec soin, structure et engagement à long terme." },
+  advisors: { title: "Pour les conseillers — Saha", description: "Lorsque vous présentez un client à Saha, votre réputation est protégée. Nous offrons un processus clair, une transparence totale et une détention pérenne pour les successions de PME suisses." },
   investors: { title: "Pour les investisseurs — Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10M. Transitions structurées, sourçage discipliné, composition de valeur." },
   join: { title: "Rejoindre Saha — Construire de neuf", description: "Saha est au stade de la formation, assemblant une équipe pour construire une entreprise de détention à long terme pour les PME suisses. Rôles en deal, transition, opérations et finance." },
   about: { title: "À propos de Saha — Pourquoi nous existons", description: "Trop de bonnes PME suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour fournir un acquéreur réfléchi et à long terme pour le segment de transmission mal desservi." },

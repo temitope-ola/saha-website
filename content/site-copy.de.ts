@@ -17,6 +17,7 @@ export const siteConfig = {
 export const nav = {
   links: [
     { label: "Gründer", href: "/founders" },
+    { label: "Berater", href: "/advisors" },
     { label: "Investoren", href: "/investors" },
     { label: "Saha beitreten", href: "/join" },
     { label: "Über uns", href: "/about" },
@@ -342,7 +343,7 @@ export const investorsPage = {
     callout: {
       type: "stat" as const,
       value: "1 von 3",
-      caption: "Schweizer KMU-Inhaber erwartet eine Übertragung innerhalb von fünf Jahren — aber das Segment unter CHF 10M ist institutionellem Kapital weitgehend unsichtbar",
+      caption: "Schweizer KMU-Inhaber erwarten eine Übertragung innerhalb von fünf Jahren — aber das Segment unter CHF 10M ist institutionellem Kapital weitgehend unsichtbar",
     },
   },
 
@@ -573,6 +574,120 @@ export const joinPage = {
   },
 };
 
+/* ── Advisors ───────────────────────────────── */
+
+export const advisorsPage = {
+  hero: {
+    eyebrow: "Für Berater",
+    headline: "Der Erwerber, dem Ihre Kunden vertrauen\nkönnen — dank Ihrer Empfehlung",
+    subheadline:
+      "Wenn Sie einen Klienten an einen Erwerber vermitteln, begleitet Ihr Ruf ihn. Saha ist mit dieser Verantwortung im Sinn aufgebaut — ein Erwerber, der die Beziehungen schützt, die Sie über Jahre aufgebaut haben, und sie nicht gefährdet.",
+  },
+
+  understand: {
+    heading: "Wir verstehen Ihre Position",
+    paragraphs: [
+      "Die Gründer, die vor einer Nachfolge stehen, sind häufig Ihre langjährigsten Klienten. Die Entscheidung zu verkaufen ist persönlich, komplex und unwiderruflich. Wenn Sie einen Erwerber vorstellen, erleichtern Sie nicht nur eine Transaktion — Sie bürgen dafür, wie sich der Prozess anfühlen wird und was er hervorbringt.",
+      "Wir nehmen das nicht leicht. Unser Modell ist darauf ausgelegt, dass der Berater, der uns vorgestellt hat, gut dasteht — durch unser Verhalten im Prozess, unseren Umgang mit dem Gründer und die Art, wie wir das Unternehmen nach dem Abschluss weiterführen.",
+    ],
+  },
+
+  expectations: {
+    heading: "Was Sie von uns erwarten können",
+    steps: [
+      {
+        number: "01",
+        title: "Ein definierter Prozess ohne Überraschungen",
+        description:
+          "Wir gehen jede Situation mit einer klaren Methodik an: Erstbewertung, Angebot, Due Diligence, Übergangsplanung, Abschluss. Wir kommunizieren in jeder Phase offen — mit Ihnen und mit Ihrem Klienten — damit nichts unerwartet eintrifft und niemand ohne Antworten bleibt.",
+      },
+      {
+        number: "02",
+        title: "Wir verhandeln nicht nach",
+        description:
+          "Unser Angebot spiegelt unsere aufrichtige Einschätzung des Unternehmens wider. Wir nutzen die Due Diligence nicht als Instrument zur Nachverhandlung von Preis oder Konditionen. Sollte etwas Wesentliches auftauchen, das unsere Einschätzung verändert, teilen wir Ihnen dies direkt und umgehend mit — wir lassen es nicht im letzten Moment aufkommen.",
+      },
+      {
+        number: "03",
+        title: "Wir bewegen uns im richtigen Tempo",
+        description:
+          "Weder überstürzt noch endlos hingezogen. Wir verstehen, dass Gründer oft Zeit brauchen, um Gewissheit zu erlangen, und wir respektieren das. Sobald ein Prozess beginnt, gehen wir zielstrebig vor und bringen ihn in einem angemessenen Zeitrahmen zum Abschluss.",
+      },
+      {
+        number: "04",
+        title: "Wir halten Sie informiert",
+        description:
+          "Sie haben die Beziehung eingeleitet. Sie bleiben Teil davon. Wir werden Sie nicht umgehen, Sie nicht von wesentlichen Entwicklungen ausschliessen und Sie nicht in eine Lage bringen, in der Ihr Klient mehr — oder weniger — weiss als Sie.",
+      },
+    ],
+  },
+
+  role: {
+    heading: "Wie wir Ihre Rolle verstehen",
+    paragraphs: [
+      "Sie wissen Dinge über das Unternehmen Ihres Klienten, die wir nicht wissen — die Geschichte, die Dynamiken, die Empfindlichkeiten, die in keinem Jahresabschluss erscheinen. Dieses Wissen macht Sie zu einem echten Partner im Prozess, nicht nur zu einem Vermittler.",
+      "Wir stützen uns auf Berater, die das Unternehmen vor uns kennen. Die Einführungen, die wir am meisten schätzen, kommen von Treuhändern und Beratern, die die Situation selbst beurteilt haben und glauben, dass eine realistische Passung besteht. Wir werden Ihnen immer ehrlich sagen, wenn wir das nicht sehen — denn Ihre Zeit und die Beziehung zu Ihrem Klienten zu schützen, ist uns wichtiger als eine Transaktion zu verfolgen, die nicht stattfinden sollte.",
+      "Unser Ziel ist es, der Erwerber zu werden, an den Sie zuerst denken, wenn eine Nachfolgesituation entsteht — nicht weil wir Sie darum gebeten haben, sondern weil jede Einführung, die Sie gemacht haben, positiv auf Sie zurückgefallen ist.",
+    ],
+  },
+
+  criteria: {
+    heading: "Wonach wir suchen",
+    description:
+      "Um Ihnen bei der Einschätzung zu helfen, ob eine Situation passen könnte, bevor Sie Kontakt aufnehmen:",
+    items: [
+      {
+        title: "Profitabel und etabliert",
+        description: "Typischerweise seit vielen Jahren inhabergeführt.",
+      },
+      {
+        title: "Umsatz unter CHF 10M",
+        description: "Jahresumsatz in der Regel unter CHF 10M.",
+      },
+      {
+        title: "Nachfolgebedingt",
+        description: "Nachfolge oder Pensionierung als primärer Verkaufsgrund — keine Notlage oder Restrukturierung.",
+      },
+      {
+        title: "Fähiges Team vorhanden",
+        description: "Ein fähiges Team bereits über den Gründer hinaus im Einsatz.",
+      },
+      {
+        title: "Stabile Nachfrage",
+        description: "Eine angemessen stabile Nachfrage — nicht abhängig von einem einzelnen Vertrag oder den persönlichen Beziehungen des Gründers.",
+      },
+      {
+        title: "Strukturierte Übergabe",
+        description: "Eine Übergabe, die realistisch über einen strukturierten Zeitrahmen geplant werden kann.",
+      },
+    ],
+    note: "Sollte eine Situation nicht zu diesen Kriterien passen, sagen wir es Ihnen klar und zeitnah — damit Sie den richtigen Weg für Ihren Klienten ohne Verzögerung verfolgen können.",
+  },
+
+  confidentiality: {
+    heading: "Vertraulichkeit",
+    paragraphs: [
+      "Jedes Gespräch wird mit absoluter Diskretion behandelt. Wir besprechen Situationen nicht mit Dritten, wir sprechen Unternehmen nicht direkt an, sobald ein Berater in ihrem Namen Kontakt aufgenommen hat, und wir verwenden Informationen aus explorativen Gesprächen ausschliesslich zur Beurteilung der Passung.",
+    ],
+  },
+
+  longTerm: {
+    heading: "Eine langfristige Beziehung, keine einzelne Transaktion",
+    paragraphs: [
+      "Der Schweizer Nachfolgemarkt unter CHF 10M ist keine einmalige Gelegenheit — es ist eine strukturelle, fortlaufende Realität. Wir bauen Saha für die lange Frist auf, was bedeutet, dass wir auch langfristige Beziehungen zu den Beratern aufbauen, die in diesem Segment tätig sind.",
+      "Jede Transaktion, die wir erfolgreich abwickeln, ist das Fundament für die nächste Einführung. Wir messen unsere Beziehung zur Beratergemeinschaft nicht an der Anzahl der Transaktionen, die wir verfolgen, sondern an der Qualität der Ergebnisse, die wir für die Gründer erzielen, die sie uns vermitteln.",
+    ],
+  },
+
+  closingCta: {
+    heading: "Ein Gespräch beginnen",
+    description:
+      "Wenn Sie eine Situation besprechen möchten — auch in einem frühen Stadium und ohne Verpflichtung — freuen wir uns auf das Gespräch. Alles ist vom ersten Kontakt an vertraulich.",
+    cta: { label: "Eine Situation vermitteln", href: "/contact?pathway=advisor" },
+    directContact: "Oder kontaktieren Sie uns direkt unter hello@saha.ch. Wir antworten innerhalb von 48 Stunden.",
+  },
+};
+
 /* ── About ──────────────────────────────────── */
 
 export const aboutPage = {
@@ -750,6 +865,18 @@ export const contactPage = {
         { name: "email", label: "Email-Adresse", type: "email" as const, required: true },
         { name: "linkedin", label: "LinkedIn-Profil (optional)", type: "url" as const, required: false },
         { name: "message", label: "Wer sind Sie und was zieht Sie zu Saha?", type: "textarea" as const, required: false },
+      ],
+    },
+    {
+      id: "advisor",
+      title: "Ich bin ein Berater, der einen Klienten vermittelt",
+      description:
+        "Wenn Sie Treuhänder, Notar oder Berater mit einem Klienten sind, der eine Nachfolge erwägt, freuen wir uns auf ein vertrauliches Gespräch zur Beurteilung der Passung.",
+      fields: [
+        { name: "name", label: "Ihr Name", type: "text" as const, required: true },
+        { name: "email", label: "E-Mail-Adresse", type: "email" as const, required: true },
+        { name: "firm", label: "Kanzlei oder Praxis (optional)", type: "text" as const, required: false },
+        { name: "message", label: "Beschreiben Sie uns die Situation", type: "textarea" as const, required: false },
       ],
     },
   ],
@@ -969,6 +1096,7 @@ export const footer = {
       title: "Für Sie",
       links: [
         { label: "Gründer", href: "/founders" },
+        { label: "Berater", href: "/advisors" },
         { label: "Investoren", href: "/investors" },
         { label: "Saha beitreten", href: "/join" },
       ],
@@ -997,6 +1125,11 @@ export const metadata = {
     title: "Für Gründer — Saha",
     description:
       "Sie haben etwas Bewahrenwertes aufgebaut. Saha akquiriert und behält gründergebaute Schweizer Unternehmen unter CHF 10M mit Sorgfalt, Struktur und langfristiger Verpflichtung.",
+  },
+  advisors: {
+    title: "Für Berater — Saha",
+    description:
+      "Wenn Sie einen Klienten an Saha vermitteln, ist Ihr Ruf geschützt. Wir bieten einen klaren Prozess, volle Transparenz und dauerhafte Eigentümerschaft für Schweizer KMU-Nachfolgen.",
   },
   investors: {
     title: "Für Investoren — Saha",
