@@ -135,7 +135,7 @@ export const homepage = {
       {
         title: "Führungskontinuität",
         description:
-          "Langfristig will Saha einen Pool erfahrener Führungspersönlichkeiten aufbauen, die auf Nachfolgesituationen vorbereitet sind — damit Unternehmen nach dem Rückzug des Gründers weiter florieren können.",
+          "Wenn ein Gründer zurücktritt, braucht das Unternehmen die richtige Person, um es weiterzuführen. Ein Teil dessen, wie Saha aufgebaut wird, ist die Fähigkeit, diesen Leader zu identifizieren und zu unterstützen — innerhalb des erworbenen Unternehmens oder von aussen — sodass die Führungskontinuität vom Moment der Akquisition an geplant wird.",
       },
       {
         title: "Übergabedisziplin",
@@ -269,9 +269,9 @@ export const foundersPage = {
       },
       {
         number: "04",
-        title: "Ihr Team bleibt geschützt",
+        title: "Ihr Team ist geschützt",
         description:
-          "Wir erwerben Unternehmen nicht, um sie zu restrukturieren. Das Team, das Sie aufgebaut haben, steht im Zentrum dessen, was das Unternehmen wertvoll macht. Alle Entscheidungen, die Menschen betreffen, werden im Interesse des Unternehmens getroffen — nie um unserer Rendite willen.",
+          "Wir erwerben keine Unternehmen, um sie zu restrukturieren. Das Team, das Sie aufgebaut haben, ist zentral für den Wert des Unternehmens. Wo die Führungskontinuität nach Ihrem Rückzug eine Verstärkung erfordert, arbeiten wir daran, die richtige Person zu identifizieren und zu unterstützen — ob aus Ihrem Team oder von aussen. Alle Entscheidungen, die Menschen betreffen, werden für die langfristige Gesundheit des Unternehmens getroffen, niemals um unseren wirtschaftlichen Interessen zu dienen.",
       },
     ],
   },
@@ -398,7 +398,7 @@ export const investorsPage = {
     heading: "Wie das Modell Wert aufbaut",
     paragraphs: [
       "Saha stellt nicht einfach ein Portfolio kleiner Unternehmen zusammen. Saha baut die Infrastruktur auf, die dieses Segment erwerbbar und nachhaltig im grossen Massstab macht.",
-      "Diese Infrastruktur umfasst: einen Sourcing-Ansatz, der darauf aufbaut, zur vertrauenswürdigen Gegenpartei für die Treuhänder, Notare und lokalen Berater zu werden, die den Transaktionsfluss in diesem Segment steuern; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
+      "Diese Infrastruktur umfasst: einen Sourcing-Ansatz, der darauf aufbaut, zur vertrauenswürdigen Gegenpartei für die Treuhänder, Notare und lokalen Berater zu werden, die den Transaktionsfluss in diesem Segment steuern; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; eine sich entwickelnde Fähigkeit, den richtigen operativen Leader für jedes erworbene Unternehmen zu identifizieren und zu unterstützen — aus dem bestehenden Team oder von aussen — sodass Führungskontinuität von Anfang an in jede Übergabe eingebaut wird; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
       "Jede Übernahme macht die nächste günstiger zu sourchen, schneller überzuleiten und besser begleitet. Das ist die Wertschöpfungslogik hinter dem Modell — und was Saha von einer wohlmeinenden Beteiligungsgesellschaft mit Kapital unterscheidet.",
     ],
     callout: {
@@ -589,6 +589,7 @@ export const advisorsPage = {
     paragraphs: [
       "Die Gründer, die vor einer Nachfolge stehen, sind häufig Ihre langjährigsten Klienten. Die Entscheidung zu verkaufen ist persönlich, komplex und unwiderruflich. Wenn Sie einen Erwerber vorstellen, erleichtern Sie nicht nur eine Transaktion — Sie bürgen dafür, wie sich der Prozess anfühlen wird und was er hervorbringt.",
       "Wir nehmen das nicht leicht. Unser Modell ist darauf ausgelegt, dass der Berater, der uns vorgestellt hat, gut dasteht — durch unser Verhalten im Prozess, unseren Umgang mit dem Gründer und die Art, wie wir das Unternehmen nach dem Abschluss weiterführen.",
+      "Wo das Unternehmen nach dem Rückzug des Gründers Führung benötigt, arbeiten wir daran, die richtige Person zu identifizieren und zu unterstützen — aus dem bestehenden Team oder von aussen — als Teil der Strukturierung jeder Übergabe.",
     ],
   },
 

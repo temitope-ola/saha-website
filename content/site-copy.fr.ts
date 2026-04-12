@@ -130,7 +130,7 @@ export const homepage = {
       {
         title: "Continuité du leadership",
         description:
-          "Au fil du temps, Saha vise à développer un vivier d'opérateurs et de futurs dirigeants formés aux transitions successorales — pour que les entreprises continuent à prospérer après le départ du fondateur.",
+          "Lorsqu'un fondateur se retire, l'entreprise a besoin de la bonne personne pour la diriger. Une partie de la construction de Saha consiste à développer la capacité d'identifier et d'accompagner ce leader — au sein de l'entreprise acquise ou de l'extérieur — afin que la continuité du leadership soit planifiée dès le moment de l'acquisition.",
       },
       {
         title: "Discipline de transition",
@@ -264,7 +264,7 @@ export const foundersPage = {
         number: "04",
         title: "Votre équipe est protégée",
         description:
-          "Nous n'acquérons pas les entreprises pour les restructurer. L'équipe que vous avez constituée est au cœur de ce qui fait la valeur de l'entreprise. Toute décision concernant les personnes sera prise dans l'intérêt de l'entreprise — jamais pour servir notre rentabilité.",
+          "Nous n'acquérons pas des entreprises pour les restructurer. L'équipe que vous avez constituée est au cœur de ce qui rend l'entreprise digne d'être acquise. Lorsque la continuité du leadership nécessite un renforcement après votre retrait, nous travaillons à identifier et accompagner la bonne personne — qu'elle vienne de votre équipe ou de l'extérieur. Toute décision concernant les personnes est prise pour la santé à long terme de l'entreprise, jamais pour servir nos intérêts économiques.",
       },
     ],
   },
@@ -389,7 +389,7 @@ export const investorsPage = {
     heading: "Comment le modèle se renforce avec le temps",
     paragraphs: [
       "Saha ne se contente pas d'assembler un portefeuille de petites entreprises. Elle construit l'infrastructure qui rend ce segment acquérable et viable à grande échelle.",
-      "Cette infrastructure comprend : une approche de sourcing fondée sur le fait de devenir le partenaire de confiance des fiduciaires, Treuhänder et conseillers locaux qui contrôlent le flux de transactions dans ce segment ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; un vivier croissant d'opérateurs formés aux transitions successorales ; un référentiel opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
+      "Cette infrastructure comprend : une approche de sourcing fondée sur le fait de devenir le partenaire de confiance des fiduciaires, Treuhänder et conseillers locaux qui contrôlent le flux de transactions dans ce segment ; un cadre de transmissibilité qui filtre les entreprises capables de survivre à leur fondateur ; une capacité en développement pour identifier et accompagner le bon leader opérationnel pour chaque entreprise acquise — au sein de l'équipe existante ou de l'extérieur — afin que la continuité du leadership soit intégrée à chaque transition dès le départ ; un référentiel opérationnel qui s'améliore à chaque acquisition ; des capacités partagées sélectives en finance, reporting et administration ; et une technologie qui améliore l'efficacité interne sans remplacer le jugement humain que la succession exige.",
       "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à accompagner et mieux encadrée. C'est la logique de composition derrière le modèle — et ce qui distingue Saha d'une holding bien intentionnée disposant de capital.",
     ],
     callout: {
@@ -549,6 +549,7 @@ export const advisorsPage = {
     paragraphs: [
       "Les fondateurs confrontés à la succession sont souvent vos clients de plus longue date. La décision de vendre est personnelle, complexe et irréversible. Lorsque vous présentez un acquéreur, vous ne facilitez pas simplement une transaction — vous vous portez garant de la manière dont ce processus sera vécu et de ce qu'il produira.",
       "Nous ne prenons pas cela à la légère. Notre modèle est conçu pour que le conseiller qui nous a présentés soit valorisé — par notre comportement dans le processus, notre traitement du fondateur et la manière dont nous faisons vivre l'entreprise après la clôture.",
+      "Lorsque l'entreprise nécessite un leadership après le retrait du fondateur, nous travaillons à identifier et accompagner la bonne personne — au sein de l'équipe existante ou de l'extérieur — dans le cadre de la structuration de chaque transition.",
     ],
   },
 

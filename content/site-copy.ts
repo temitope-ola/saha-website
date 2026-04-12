@@ -134,7 +134,7 @@ export const homepage = {
       {
         title: "Leadership continuity",
         description:
-          "Over time, Saha aims to develop a bench of operators and future leaders trained for succession transitions — so that businesses can continue to thrive after the founder steps away.",
+          "When a founder steps back, the business needs the right person to lead it forward. Part of how Saha is being built is the capability to identify and support that leader — from within the acquired business or from outside — so that continuity of leadership is planned from the moment we acquire.",
       },
       {
         title: "Transition discipline",
@@ -270,7 +270,7 @@ export const foundersPage = {
         number: "04",
         title: "Your team is protected",
         description:
-          "We do not acquire businesses to restructure them. The team you have built is central to what makes the business worth acquiring. Any decisions affecting people will be made for the health of the business — never to serve our economics.",
+          "We do not acquire businesses to restructure them. The team you have built is central to what makes the business worth acquiring. Where leadership continuity requires reinforcement after you step back, we work to identify and support the right person — whether from within your team or brought in from outside. Any decisions affecting people are made for the long-term health of the business, never to serve our economics.",
       },
     ],
   },
@@ -397,7 +397,7 @@ export const investorsPage = {
     heading: "How the model compounds",
     paragraphs: [
       "Saha is not simply assembling a portfolio of small businesses. It is building the infrastructure that makes this segment acquirable and sustainable at scale.",
-      "That infrastructure includes: a sourcing approach built on becoming the trusted counterparty for the fiduciaries, Treuhänder, and local advisors who control deal flow in this segment; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and technology that improves internal efficiency without replacing the human judgment succession requires.",
+      "That infrastructure includes: a sourcing approach built on becoming the trusted counterparty for the fiduciaries, Treuhänder, and local advisors who control deal flow in this segment; a transferability framework that filters for businesses capable of outlasting their founder; a developing capability to identify and support the right operational leader for each acquired business — from within the existing team or from outside — so that leadership continuity is built into every transition from the start; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and technology that improves internal efficiency without replacing the human judgment succession requires.",
       "Each acquisition makes the next one cheaper to source, faster to transition, and better supported. That is the compounding logic behind the model — and what separates Saha from a well-intentioned holding company with capital.",
     ],
     callout: {
@@ -581,6 +581,7 @@ export const advisorsPage = {
     paragraphs: [
       "The founders who face succession are often your longest-standing clients. The decision to sell is personal, complex, and irreversible. When you introduce a buyer, you are not just facilitating a transaction — you are vouching for how that process will feel and what it will produce.",
       "We do not take that lightly. Our model is designed to make the advisor who introduced us look good — through how we behave in the process, how we treat the founder, and how we carry the business forward after close.",
+      "Where the business requires leadership after the founder steps back, we work to identify and support the right person — from within the existing team or from outside — as part of how we structure every transition.",
     ],
   },
 
