@@ -19,9 +19,22 @@ interface Pathway {
 interface ContactPathwaysProps {
   pathways: Pathway[];
   initialPathway?: string | null;
+  submitLabel?: string;
+  selectPrompt?: string;
+  thankYouHeading?: string;
+  thankYouDescription?: string;
+  sendAnother?: string;
 }
 
-export default function ContactPathways({ pathways, initialPathway }: ContactPathwaysProps) {
+export default function ContactPathways({
+  pathways,
+  initialPathway,
+  submitLabel = "Send message",
+  selectPrompt = "Select how you would like to connect with us above.",
+  thankYouHeading = "Thank you for reaching out",
+  thankYouDescription = "We have received your message and will be in touch soon.",
+  sendAnother = "Send another message",
+}: ContactPathwaysProps) {
   const [selected, setSelected] = useState<string | null>(initialPathway ?? null);
   const [submitted, setSubmitted] = useState(false);
 
@@ -36,10 +49,10 @@ export default function ContactPathways({ pathways, initialPathway }: ContactPat
     return (
       <div className="text-center py-16">
         <h3 className="text-heading font-serif text-stone-900 mb-4">
-          Thank you for reaching out
+          {thankYouHeading}
         </h3>
         <p className="text-body-lg text-stone-600 max-w-md mx-auto">
-          We have received your message and will be in touch soon.
+          {thankYouDescription}
         </p>
         <button
           onClick={() => {
@@ -48,7 +61,7 @@ export default function ContactPathways({ pathways, initialPathway }: ContactPat
           }}
           className="mt-8 btn-secondary"
         >
-          Send another message
+          {sendAnother}
         </button>
       </div>
     );
@@ -118,7 +131,7 @@ export default function ContactPathways({ pathways, initialPathway }: ContactPat
             ))}
             <div className="pt-4">
               <button type="submit" className="btn-primary">
-                Send message
+                {submitLabel}
               </button>
             </div>
           </form>
@@ -126,7 +139,7 @@ export default function ContactPathways({ pathways, initialPathway }: ContactPat
       ) : (
         <div className="py-12 text-center">
           <p className="text-body-lg text-stone-400">
-            Select how you would like to connect with us above.
+            {selectPrompt}
           </p>
         </div>
       )}

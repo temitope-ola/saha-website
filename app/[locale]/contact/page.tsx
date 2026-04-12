@@ -34,7 +34,15 @@ export default function ContactPage({
 
       <section className="section-padding">
         <div className="container-content">
-          <ContactPathways pathways={contactPage.pathways} initialPathway={initialPathway} />
+          <ContactPathways
+            pathways={contactPage.pathways}
+            initialPathway={initialPathway}
+            submitLabel={contactPage.submitLabel}
+            selectPrompt={contactPage.selectPrompt}
+            thankYouHeading={contactPage.thankYouHeading}
+            thankYouDescription={contactPage.thankYouDescription}
+            sendAnother={contactPage.sendAnother}
+          />
         </div>
       </section>
     </>

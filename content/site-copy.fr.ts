@@ -337,6 +337,15 @@ export const investorsPage = {
     },
   },
 
+  permanentOwnership: {
+    heading: "Comment la détention pérenne génère des rendements",
+    paragraphs: [
+      "La détention pérenne ne signifie pas que les investisseurs attendent indéfiniment. Les rendements sont générés principalement par les flux de trésorerie opérationnels des entreprises acquises par Saha — distribués ou réinvestis au fur et à mesure que le portefeuille mûrit. À mesure que le portefeuille croît et que la valeur des actifs se compose, des mécanismes complémentaires deviennent accessibles : refinancement adossé à la valeur du portefeuille, liquidité secondaire sélective pour les investisseurs de long terme et droits de co-investissement sur les nouvelles acquisitions.",
+      "Il ne s'agit pas d'une structure optimisée pour un événement de sortie unique. Elle est conçue pour générer des rendements durables et composés pour des investisseurs dont l'horizon correspond au modèle. L'absence d'un calendrier de sortie est un atout — elle permet de prendre chaque décision opérationnelle en faveur de la santé à long terme de chaque entreprise, et non pour la préparer à la vente.",
+      "Nous abordons la structure de rendement, la politique de distribution et les conditions investisseurs lors de conversations directes. Si le modèle vous interpelle, nous accueillons ce dialogue avec plaisir.",
+    ],
+  },
+
   mustBeTrue: {
     heading: "Les conditions de réussite de ce modèle",
     description:
@@ -640,6 +649,11 @@ export const contactPage = {
     subheadline:
       "Toute relation significative commence par une conversation. Dites-nous un peu qui vous êtes et ce qui vous a amené ici.",
   },
+  submitLabel: "Envoyer le message",
+  selectPrompt: "Sélectionnez ci-dessus comment vous souhaitez nous contacter.",
+  thankYouHeading: "Merci de nous avoir contactés",
+  thankYouDescription: "Nous avons bien reçu votre message et reviendrons vers vous rapidement.",
+  sendAnother: "Envoyer un autre message",
   pathways: [
     {
       id: "founder",
@@ -701,7 +715,7 @@ export const faqPage = {
       items: [
         { question: "Qu'est-ce qui distingue Saha d'une holding patiente disposant de capital ?", answer: "Une holding avec un capital patient est un positionnement. Saha construit l'infrastructure de sourçage, de transition et d'exploitation qui rend les petites opérations de succession réellement viables — pas seulement finançables. Le modèle est conçu pour se composer : chaque acquisition améliore notre processus, renforce notre réseau d'opérateurs et réduit les frictions sur l'opération suivante. C'est la différence entre posséder un ensemble d'entreprises et construire un moteur d'acquisition et d'exploitation." },
         { question: "Quelle est la structure d'investissement de Saha ?", answer: "Saha est une holding permanente, non un fonds classique avec une vie finie. Le capital est déployé dans les acquisitions qui sont détenues indéfiniment. Les rendements sont générés par les flux de trésorerie à long terme, la croissance organique et le renforcement opérationnel composé du portefeuille." },
-        { question: "Comment Saha génère-t-il des rendements sans sorties ?", answer: "Nos rendements proviennent de la nature génératrice de cash des entreprises que nous acquérons, du réinvestissement du flux de trésorerie libre dans de nouvelles acquisitions, et de la croissance organique de chaque entreprise au fil du temps. L'absence de pression de sortie permet des décisions qui optimisent la valeur à long terme plutôt que les métriques à court terme. Nous ciblons indicativement une entrée à 3–5× l'EBITDA dans des entreprises génératrices de cash, avec des rendements provenant du flux de trésorerie opérationnel, de la croissance organique et de la composition du portefeuille dans le temps. Nous n'optimisons pas pour un seul indicateur de TRI — nous optimisons pour une valeur durable et composée. La documentation financière complète et la modélisation des rendements sont partagées dans les conversations directes." },
+        { question: "Comment Saha génère-t-il des rendements sans sorties ?", answer: "Les rendements sont générés par les flux de trésorerie opérationnels des entreprises que nous acquérons, réinvestis ou distribués au fur et à mesure que le portefeuille mûrit. Nous visons une entrée à 3–5× l'EBITDA dans des entreprises génératrices de trésorerie. La liquidité investisseur est assurée par une combinaison de distributions en espèces, de refinancement du portefeuille dans le temps et de mécanismes secondaires sélectifs — et non par un événement de sortie unique. Nous n'optimisons pas pour un seul chiffre de TRI. Nous optimisons pour une valeur durable et composée. La documentation complète sur les rendements est partagée lors de conversations directes." },
         { question: "Quel est le profil de rendement cible ?", answer: "Nous visons à augmenter durablement la valeur du portefeuille à long terme par la discipline d'acquisition, l'amélioration opérationnelle et la croissance organique. Nous structurons Saha pour un petit nombre d'investisseurs alignés à long terme et partageons la documentation complète dans les discussions privées." },
         { question: "Comment Saha gère-t-il le risque sur le portefeuille ?", answer: "Le risque est géré par la diversification entre les industries et les géographies en Suisse, les valorisations disciplinées à l'entrée, les processus de transition structurés, et la surveillance financière partagée avec les systèmes d'alerte précoce. Chaque entreprise fonctionne de manière indépendante, limitant le risque de contagion." },
         { question: "Quel est l'engagement d'investissement minimum ?", answer: "Nous structurons Saha pour un petit nombre d'investisseurs alignés et à long terme. À ce stade, la sélectivité et l'adéquation structurelle importent plus que l'ampleur. Les engagements minimums et les conditions sont discutés directement." },

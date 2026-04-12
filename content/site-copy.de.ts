@@ -346,6 +346,15 @@ export const investorsPage = {
     },
   },
 
+  permanentOwnership: {
+    heading: "Wie dauerhaftes Eigentum Renditen erzeugt",
+    paragraphs: [
+      "Dauerhaftes Eigentum bedeutet nicht, dass Investoren unbegrenzt warten. Die Renditen werden primär durch die operativen Cashflows der von Saha erworbenen Unternehmen generiert — ausgeschüttet oder reinvestiert, während das Portfolio reift. Mit wachsendem Portfolio und steigendem Vermögenswert werden zusätzliche Mechanismen verfügbar: Refinanzierung gegen den Portfoliowert, selektive Sekundärliquidität für langfristige Investoren und Co-Investitionsrechte bei neuen Akquisitionen.",
+      "Dies ist keine Struktur, die auf ein einzelnes Exit-Ereignis optimiert ist. Sie ist darauf ausgelegt, dauerhafte, sich kumulierende Renditen für Investoren zu generieren, deren Zeithorizont zum Modell passt. Das Fehlen einer Exit-Frist ist ein Vorteil — es bedeutet, dass jede operative Entscheidung für die langfristige Gesundheit jedes Unternehmens getroffen wird, nicht um es für den Verkauf herzurichten.",
+      "Wir besprechen Renditestruktur, Ausschüttungspolitik und Investorenkonditionen in direkten Gesprächen. Wenn das Modell Sie anspricht, freuen wir uns auf diesen Dialog.",
+    ],
+  },
+
   mustBeTrue: {
     heading: "Voraussetzungen für das Gelingen dieses Modells",
     description:
@@ -699,6 +708,12 @@ export const contactPage = {
       "Jede bedeutsame Beziehung beginnt mit einem Gespräch. Erzählen Sie uns ein wenig über sich und was Sie hierher gebracht hat.",
   },
 
+  submitLabel: "Nachricht senden",
+  selectPrompt: "Wählen Sie oben aus, wie Sie mit uns in Kontakt treten möchten.",
+  thankYouHeading: "Vielen Dank für Ihre Nachricht",
+  thankYouDescription: "Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden.",
+  sendAnother: "Weitere Nachricht senden",
+
   pathways: [
     {
       id: "founder",
@@ -802,7 +817,7 @@ export const faqPage = {
         {
           question: "Wie generiert Saha Renditen ohne Exits?",
           answer:
-            "Unsere Renditen kommen aus der Cash-generierenden Natur der Unternehmen, die wir akquirieren, Reinvestition freier Cashflows in neue Übernahmen und organisches Wachstum jedes Unternehmens über Zeit. Die Abwesenheit von Exit-Druck ermöglicht Entscheidungen, die langfristigen Wert optimieren statt kurzfristige Metriken. Indikativ streben wir Einstiegsbewertungen von 3–5× EBITDA in cashflow-starken Unternehmen an, mit Renditen aus operativem Cashflow, organischem Wachstum und Portfolio-Kumulation über Zeit. Wir optimieren nicht für eine einzelne IRR-Metrik — wir optimieren für dauerhaften, kumulierenden Wert. Vollständige Finanzdokumentation und Rendite-Modellierung werden in direkten Gesprächen geteilt.",
+            "Die Renditen werden durch die operativen Cashflows der von uns erworbenen Unternehmen generiert, reinvestiert oder ausgeschüttet, während das Portfolio reift. Wir zielen auf einen Einstieg bei 3–5× EBITDA in cashflow-starken Unternehmen. Investorenliquidität wird durch eine Kombination aus Barausschüttungen, Portfoliorefinanzierung im Zeitverlauf und selektiven Sekundärmechanismen bereitgestellt — nicht durch ein einzelnes Exit-Ereignis. Wir optimieren nicht für eine einzelne IRR-Kennzahl. Wir optimieren für dauerhaften, sich kumulierenden Wert. Die vollständige Renditedokumentation wird in direkten Gesprächen geteilt.",
         },
         {
           question: "Was ist das Ziel-Rendite-Profil?",

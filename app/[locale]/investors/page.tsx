@@ -47,6 +47,20 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
         </div>
       </section>
 
+      {/* ── How permanent ownership generates returns ── */}
+      <section className="section-padding border-t border-stone-200">
+        <div className="container-content">
+          <SectionIntro heading={investorsPage.permanentOwnership.heading} />
+          <div className="max-w-3xl space-y-5">
+            {investorsPage.permanentOwnership.paragraphs.map((p, i) => (
+              <p key={i} className="text-body-lg text-stone-600">
+                {p}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── What must be true ─────────────── */}
       <section className="section-padding border-t border-stone-200 bg-stone-100/40">
         <div className="container-content">

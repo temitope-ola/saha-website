@@ -345,6 +345,15 @@ export const investorsPage = {
     },
   },
 
+  permanentOwnership: {
+    heading: "How permanent ownership generates returns",
+    paragraphs: [
+      "Permanent ownership does not mean investors wait indefinitely. Returns are generated primarily through the operating cash flows of the businesses Saha acquires — distributed or reinvested as the portfolio matures. As the portfolio grows and asset values compound, additional mechanisms become available: refinancing against portfolio value, selective secondary liquidity for long-term investors, and co-investment rights on new acquisitions.",
+      "This is not a structure optimised for a single exit event. It is designed to generate durable, compounding returns for investors whose horizon matches the model. The absence of an exit clock is a feature — it means every operational decision is made for the long-term health of each business, not to dress it for sale.",
+      "We discuss return structure, distribution policy, and investor terms in direct conversations. If the model resonates, we welcome that dialogue.",
+    ],
+  },
+
   mustBeTrue: {
     heading: "What must be true for this model to work",
     description:
@@ -691,6 +700,12 @@ export const contactPage = {
       "Every meaningful relationship begins with a conversation. Tell us a little about yourself and what brought you here.",
   },
 
+  submitLabel: "Send message",
+  selectPrompt: "Select how you would like to connect with us above.",
+  thankYouHeading: "Thank you for reaching out",
+  thankYouDescription: "We have received your message and will be in touch soon.",
+  sendAnother: "Send another message",
+
   pathways: [
     {
       id: "founder",
@@ -794,7 +809,7 @@ export const faqPage = {
         {
           question: "How does Saha generate returns without exits?",
           answer:
-            "Our returns come from the cash-generative nature of the businesses we acquire, reinvestment of free cash flow into new acquisitions, and the organic growth of each company over time. The absence of exit pressure allows decisions that optimise for long-term value rather than short-term metrics. Directionally, we target entry at 3–5× EBITDA in cash-generative businesses, with returns generated through operating cash flow, organic growth, and portfolio compounding over time. We do not optimise for a single IRR metric — we optimise for durable, compounding value. Full financial documentation and return modelling are shared in direct conversations.",
+            "Returns are generated through the operating cash flows of the businesses we acquire, reinvested or distributed as the portfolio matures. We target entry at 3–5× EBITDA in cash-generative businesses. Investor liquidity is provided through a combination of cash distributions, portfolio refinancing over time, and selective secondary mechanisms — not through a single exit event. We do not optimise for a single IRR figure. We optimise for durable, compounding value. Full return documentation is shared in direct conversations.",
         },
         {
           question: "What is the target return profile?",
