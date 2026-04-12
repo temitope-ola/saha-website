@@ -42,7 +42,7 @@ export const homepage = {
     paragraphs: [
       "In der Schweiz stehen Tausende von profitablen, gut geführten Unternehmen vor einer unsicheren Zukunft — nicht weil sie scheitern, sondern weil ihre Gründer sich dem Ruhestand nähern, ohne dass eine klare Nachfolgelösung in Sicht ist. Die Optionen sind oft unbefriedigend: Verkauf an einen fernen Konzern, eine überstürzte Übergabe oder schlicht die Türen zu schliessen.",
       "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Transaktionen unter CHF 10M Umsatz sind für traditionelle Private-Equity-Fonds zu klein, für passive Investoren zu komplex und werden von klassischen M&A-Beratern kaum betreut. Diese Unternehmen fallen durch die Maschen — nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie entwickelt hat.",
-      "Dafür steht Saha. Wir bauen ein Übernahmeunternehmen auf, das speziell für dieses Segment konzipiert ist: kleine, profitable, nachfolgebedingte Unternehmen, die loyale Teams beschäftigen, etablierte Kundenkreise bedienen und ihren Regionen viel bedeuten.",
+      "Saha versucht nicht, möglichst viele Unternehmen zu kaufen. Wir bauen einen disziplinierten Schweizer Nachfolgeerwerber für eine bestimmte Art von Unternehmen auf: profitabel, inhabergeführt, klein genug, um übersehen zu werden, und stark genug, um mit der richtigen Übergabe über den Gründer hinaus zu bestehen. Das bedeutet: oft Nein sagen, gezielt erwerben, bei der Übergabe nahe dran sein und langfristig halten, sobald das Unternehmen stabil ist.",
     ],
     callout: {
       type: "stat" as const,
@@ -129,7 +129,7 @@ export const homepage = {
       {
         title: "Systematisches Sourcing",
         description:
-          "Wir bauen einen bewussteren Weg auf, Unternehmen in der Übergabephase zu identifizieren — mit weniger Abhängigkeit von Intermediären und einer direkteren, beziehungsbasierten Pipeline.",
+          "Der Transaktionsfluss bei der Nachfolge von Schweizer KMU wird von Treuhändern, Notaren und lokalen Beratern gesteuert. Saha baut den Ruf und die Beziehungen auf, die uns zum Erwerber machen, den diese Intermediäre zuerst anrufen — weil wir ihre Klienten gut behandeln, mit Integrität abschliessen und niemandem die Zeit stehlen.",
       },
       {
         title: "Führungskontinuität",
@@ -201,9 +201,9 @@ export const homepage = {
 export const foundersPage = {
   hero: {
     eyebrow: "Für Gründer",
-    headline: "Sie haben etwas aufgebaut, das es zu bewahren lohnt",
+    headline: "Sie haben ein Unternehmen aufgebaut,\ndas eine sorgfältige Übergabe verdient",
     subheadline:
-      "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen — und die Menschen, die davon abhängen — mehr als eine unsichere Übergabe. Saha akquiriert profitable Schweizer Unternehmen unter CHF 10M Umsatz von Gründern, die bereit sind, die Führung weiterzugeben, und hält sie dauerhaft.",
+      "Wenn die Zeit kommt, sich zurückzuziehen, verdient Ihr Unternehmen einen Erwerber, der Kontinuität ernst nimmt. Saha akquiriert profitable Schweizer Unternehmen in der Nachfolge, begleitet die Übergabe sorgfältig und setzt alles daran, zu bewahren, was das Unternehmen wertvoll macht.",
   },
 
   intro: {
@@ -252,7 +252,7 @@ export const foundersPage = {
         number: "01",
         title: "Ihr Unternehmen behält seine Identität",
         description:
-          "Wir bewahren den Namen, die Marke und die lokale Präsenz jedes Unternehmens, das wir erwerben. Ihr Unternehmen arbeitet weiterhin eigenständig — in seinem Markt, mit seinem Team.",
+          "Unsere klare Präferenz ist es, den Namen, die Marke und die lokale Präsenz jedes Unternehmens zu bewahren, das wir erwerben. Jedes Unternehmen arbeitet weiterhin in seinem Markt, mit seiner eigenen Identität.",
       },
       {
         number: "02",
@@ -270,7 +270,7 @@ export const foundersPage = {
         number: "04",
         title: "Ihr Team bleibt geschützt",
         description:
-          "Wir akquirieren Unternehmen nicht, um Kosten zu senken oder Stellen abzubauen. Die Menschen, die Sie eingestellt haben, die Rollen, die Sie geprägt haben, und die Arbeitsbeziehungen, die Sie aufgebaut haben, bleiben bei der Übergabe und darüber hinaus erhalten.",
+          "Wir erwerben Unternehmen nicht, um sie zu restrukturieren. Das Team, das Sie aufgebaut haben, steht im Zentrum dessen, was das Unternehmen wertvoll macht. Alle Entscheidungen, die Menschen betreffen, werden im Interesse des Unternehmens getroffen — nie um unserer Rendite willen.",
       },
     ],
   },
@@ -326,9 +326,9 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Für Investoren",
-    headline: "Ein Modell langfristiger\nEigentümerschaft für Schweizer Nachfolgetransaktionen",
+    headline: "Eine Strategie langfristiger Eigentümerschaft\nin einem übersehenen Segment der Schweizer KMU-Nachfolge",
     subheadline:
-      "Saha akquiriert profitable Schweizer Unternehmen unter CHF 10M Umsatz, wo Nachfolge Gelegenheit schafft, aber konventionelles Kapital selten beteiligt ist. Wir führen Übergaben sorgfältig durch und halten dauerhaft.",
+      "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge eine Gelegenheit schafft, die Übertragbarkeit gegeben ist und disziplinierte Eigentümerschaft langfristig Wert aufbauen kann. Der Vorteil liegt nicht im Financial Engineering. Er liegt im sorgfältigen Erwerb, in der gelungenen Übergabe und im Bewahren dessen, was funktioniert.",
   },
 
   thesis: {
@@ -388,7 +388,7 @@ export const investorsPage = {
     heading: "Wie das Modell Wert aufbaut",
     paragraphs: [
       "Saha stellt nicht einfach ein Portfolio kleiner Unternehmen zusammen. Saha baut die Infrastruktur auf, die dieses Segment erwerbbar und nachhaltig im grossen Massstab macht.",
-      "Diese Infrastruktur umfasst: einen systematischen Sourcing-Prozess, der die Abhängigkeit von Vermittlern reduziert; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und leichte Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
+      "Diese Infrastruktur umfasst: einen Sourcing-Ansatz, der darauf aufbaut, zur vertrauenswürdigen Gegenpartei für die Treuhänder, Notare und lokalen Berater zu werden, die den Transaktionsfluss in diesem Segment steuern; ein Übertragbarkeits-Framework, das nach Unternehmen filtert, die ihren Gründer überdauern können; ein wachsendes Netzwerk von Operatoren, die für Nachfolge-Übergänge trainiert sind; ein operativer Leitfaden, der sich mit jeder Übernahme verbessert; selektive geteilte Fähigkeiten in Finanzen, Reporting und Administration; und leichte Technologie, die interne Effizienz verbessert, ohne das menschliche Urteilsvermögen zu ersetzen, das Nachfolge erfordert.",
       "Jede Übernahme macht die nächste günstiger zu sourchen, schneller überzuleiten und besser begleitet. Das ist die Wertschöpfungslogik hinter dem Modell — und was Saha von einer wohlmeinenden Beteiligungsgesellschaft mit Kapital unterscheidet.",
     ],
     callout: {
@@ -488,8 +488,8 @@ export const joinPage = {
     intro: "Wir rekrutieren für Gründungsrollen, die die Arbeitsweise von Saha von Anfang an prägen werden. Keine klassischen Anstellungen — sondern Mitgründer-Rollen.",
     roles: [
       {
-        title: "Gründungs-CTO — Plattform & Daten",
-        description: "Wird die operative Schicht hinter Saha aufbauen: Sourcing-Systeme, Due-Diligence-Workflows, Portfolio-Reporting, interne Tools und Dateninfrastruktur, die Übergaben wiederholbarer und skalierbarer machen.",
+        title: "Technische Leitung — Plattform & Daten",
+        description: "Baut die schlanke operative Infrastruktur auf, die Sahas erste Akquisitionen ermöglicht: Sourcing-Pipeline, Due-Diligence-Workflow, Transaktions-Tracking und die internen Tools, die einem kleinen Team erlauben, mit Rigor und ohne unnötigen Overhead zu arbeiten.",
         ctaLabel: "Interesse bekunden →",
         ctaHref: "/contact",
       },
@@ -582,7 +582,7 @@ export const aboutPage = {
       "Saha ist mein Versuch, etwas zu bauen, das speziell für diese Lücke konzipiert ist — nicht nur als Käufer, sondern als Modell. Ein wiederholbarer Weg, diese Unternehmen zu identifizieren, sie sorgfältig überzuleiten und langfristig zu erhalten. Wir stehen noch am Anfang. Aber ich glaube, dass die Infrastruktur hinter dieser Art von Eigentümerschaft das ist, was dem Segment bisher gefehlt hat.",
     ],
     attribution: "— Temitope Ola, Gründer",
-    bio: "Gründer-Operator mit über 25 Jahren Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung. Bringt die Sourcing-Vision, die Akquisitionsthese und die Aufbauambition hinter Saha mit.",
+    bio: "Gründer-Operator mit über 25 Jahren Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung. 2014 führte er den vollständigen Exit eines von ihm gegründeten Schweizer Technologieunternehmens an einen an der Zürcher Börse kotierten strategischen Käufer durch — vom ersten Kontakt über die Due Diligence bis zum Closing, als Gründer auf der anderen Seite des Tisches. Diese Erfahrung prägt alles an der Art, wie Saha mit den Gründern arbeitet, die es begleitet: nicht als Konzept, sondern als gelebte Entscheidung mit realen Konsequenzen. Er bringt die Sourcing-Vision, die Akquisitionsthese und die Aufbauambition hinter Saha mit.",
     callout: {
       type: "quote" as const,
       text: "Gute Unternehmen sollten nicht verschwinden, bloss weil das Zeitfenster fehlt.",
@@ -596,17 +596,17 @@ export const aboutPage = {
       {
         name: "Temitope Ola",
         subtitle: "Gründer — Strategie & M&A",
-        description: "Sourcing-Vision, Akquisitionsthese und Unternehmensaufbau. Über 25 Jahre Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung.",
+        description: "Gründer-Operator mit über 25 Jahren Erfahrung in Unternehmensaufbau, Finanzen und länderübergreifender Umsetzung. 2014 führte er den vollständigen Exit eines von ihm gegründeten Schweizer Technologieunternehmens an einen börsenkotierten strategischen Käufer durch. Diese Erfahrung prägt die Art, wie Saha mit Gründern arbeitet. Er bringt die Sourcing-Vision, die Akquisitionsthese und die Aufbauambition hinter Saha mit.",
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Gründerin — Forschung & Akquisitionsintelligenz",
-        description: "Doktorat in Neurowissenschaften, MBA-Kandidatin an der Universität St. Gallen. Bringt rigorose Forschungsmethodik und analytische Tiefe in Sourcing, Markt-Mapping und Due Diligence ein.",
+        subtitle: "Leiterin Forschung & Akquisitionsintelligenz",
+        description: "Doktorat in Neurowissenschaften, MBA an der Universität St. Gallen. Bringt rigorose Forschungsmethodik und analytische Tiefe in Sourcing, Markt-Mapping und Due Diligence ein. Ihre wissenschaftliche Karriere an Schweizer und europäischen Institutionen verleiht Saha direkte Fachkompetenz in den Bereichen Life Sciences, Medtech und Biotech.",
       },
       {
-        name: "Gründungs-CTO",
+        name: "Technische Leitung",
         subtitle: "Plattform & Daten",
-        description: "Baut die operative Schicht hinter Saha auf: Sourcing-Systeme, Due-Diligence-Workflows, Portfolio-Reporting, interne Tools und Dateninfrastruktur, die Übergaben wiederholbarer und skalierbarer machen.",
+        description: "Baut die schlanke operative Infrastruktur auf, die Sahas erste Akquisitionen ermöglicht: Sourcing-Pipeline, Due-Diligence-Workflow, Transaktions-Tracking und die internen Tools, die einem kleinen Team erlauben, mit Rigor und ohne unnötigen Overhead zu arbeiten.",
         status: "Rolle offen — Rekrutierung läuft",
       },
     ],
@@ -768,12 +768,12 @@ export const faqPage = {
         {
           question: "Was passiert mit meinen Mitarbeitenden nach einem Verkauf?",
           answer:
-            "Die Bewahrung Ihres Teams ist zentral für unseren Ansatz. Wir akquirieren Unternehmen nicht, um Kosten zu senken oder Stellen abzubauen. Vorhandene Angestellte, Rollen und Arbeitsbeziehungen werden durch die Übergabe und darüber hinaus bewahrt. Wir investieren in das Team, das Sie aufgebaut haben.",
+            "Das Team, das Sie aufgebaut haben, zu bewahren, ist zentral für unseren Ansatz. Wir erwerben Unternehmen nicht mit der Absicht, sie zu restrukturieren. Alle Entscheidungen, die Menschen betreffen, werden im Interesse der langfristigen Gesundheit des Unternehmens getroffen — mit Transparenz.",
         },
         {
           question: "Wie lange dauert der Prozess vom ersten Gespräch bis zum Abschluss?",
           answer:
-            "Jede Situation ist unterschiedlich, aber ein typischer Prozess dauert drei bis sechs Monate vom ersten Gespräch bis zum Abschluss. Wir arbeiten in einem Tempo, das für Sie funktioniert — es gibt keinen Druck zu beeilen. Das erste Gespräch ist vertraulich und trägt keine Verpflichtung.",
+            "Das hängt davon ab, wo Sie in Ihren Überlegungen stehen. Nachfolge ist oft eine jahrelange Reflexion, bevor ein Gründer bereit ist zu handeln — und das ist völlig normal. Sobald Sie sich entschieden haben voranzugehen, dauert ein typischer Transaktionsprozess vom ersten ernsthaften Gespräch bis zum Abschluss drei bis sechs Monate. Auf keiner der beiden Phasen besteht Zeitdruck. Viele Gründer finden es nützlich, frühzeitig mit uns ins Gespräch zu kommen — einfach um die Optionen zu verstehen. Alles ist vertraulich und unverbindlich.",
         },
         {
           question: "Wird mein Unternehmen seinen Namen und Marke behalten?",

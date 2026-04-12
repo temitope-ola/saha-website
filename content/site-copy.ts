@@ -41,7 +41,7 @@ export const homepage = {
     paragraphs: [
       "Across Switzerland, thousands of profitable, well-run businesses face an uncertain future — not because they are failing, but because their founders are approaching retirement without a clear path forward. The options are often unsatisfying: sell to a distant corporate buyer, attempt a rushed handover, or simply close the doors.",
       "Most institutional acquirers focus higher up the market. Deals below CHF 10M in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. These businesses fall through the cracks — not because they lack value, but because no one has built a model for them.",
-      "That is what Saha is for. We are building an acquisition company designed specifically for this segment: small, profitable, succession-driven businesses that employ loyal teams, serve established customers, and matter deeply to their communities.",
+      "Saha is not trying to buy as many businesses as possible. We are building a disciplined Swiss succession buyer for a specific kind of company: profitable, founder-led, small enough to be overlooked, and strong enough to continue beyond the founder with the right transition. That means saying no often, buying selectively, staying close during handover, and holding for the long term once the business is stable.",
     ],
     callout: {
       type: "stat" as const,
@@ -128,7 +128,7 @@ export const homepage = {
       {
         title: "Systematic sourcing",
         description:
-          "We are building a more deliberate way of identifying succession-stage businesses — reducing dependency on intermediaries and creating a more direct, relationship-based pipeline.",
+          "Deal flow in Swiss SME succession is controlled by fiduciaries, Treuhänder, notaries, and local advisors. Saha is building the reputation and relationships that make us the buyer these intermediaries call first — because we treat their clients well, close with integrity, and never waste anyone's time.",
       },
       {
         title: "Leadership continuity",
@@ -200,9 +200,9 @@ export const homepage = {
 export const foundersPage = {
   hero: {
     eyebrow: "For Founders",
-    headline: "You built something worth preserving",
+    headline: "You built a business worth\nhanding over well",
     subheadline:
-      "When the time comes to step back, your business — and the people who depend on it — deserves more than an uncertain transition. Saha acquires profitable Swiss businesses below CHF 10M in revenue from founders who are ready to pass the torch, and we hold them for good.",
+      "When the time comes to step back, your business deserves a buyer who takes continuity seriously. Saha acquires profitable Swiss businesses in succession, works through the transition carefully, and aims to preserve what makes the company worth keeping.",
   },
 
   intro: {
@@ -251,7 +251,7 @@ export const foundersPage = {
         number: "01",
         title: "Your company keeps its identity",
         description:
-          "We preserve the name, brand, and local presence of every business we acquire. Your company continues to operate as itself — in its own market, with its own team.",
+          "Our strong preference is to preserve the name, brand, and local presence of every business we acquire. Each company continues to operate in its own market, with its own identity.",
       },
       {
         number: "02",
@@ -269,7 +269,7 @@ export const foundersPage = {
         number: "04",
         title: "Your team is protected",
         description:
-          "We do not acquire businesses to cut costs or restructure headcount. The people you hired, the roles you shaped, and the working relationships you built are preserved through the transition and beyond.",
+          "We do not acquire businesses to restructure them. The team you have built is central to what makes the business worth acquiring. Any decisions affecting people will be made for the health of the business — never to serve our economics.",
       },
     ],
   },
@@ -325,9 +325,9 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "For Investors",
-    headline: "A permanent ownership model\nfor Swiss succession deals",
+    headline: "A permanent-hold strategy in an overlooked\nsegment of Swiss SME succession",
     subheadline:
-      "Saha acquires profitable Swiss businesses below CHF 10M in revenue where succession creates opportunity but conventional capital rarely engages. We transition carefully and hold permanently.",
+      "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and disciplined ownership can compound over time. The edge is not financial engineering. It is buying carefully, transitioning well, and keeping what works.",
   },
 
   thesis: {
@@ -387,7 +387,7 @@ export const investorsPage = {
     heading: "How the model compounds",
     paragraphs: [
       "Saha is not simply assembling a portfolio of small businesses. It is building the infrastructure that makes this segment acquirable and sustainable at scale.",
-      "That infrastructure includes: a systematic sourcing process that reduces dependency on intermediaries; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and lightweight technology that improves internal efficiency without replacing the human judgment succession requires.",
+      "That infrastructure includes: a sourcing approach built on becoming the trusted counterparty for the fiduciaries, Treuhänder, and local advisors who control deal flow in this segment; a transferability framework that filters for businesses capable of outlasting their founder; a growing bench of operators trained for succession transitions; an operating playbook that improves with each acquisition; selective shared capabilities in finance, reporting, and administration; and lightweight technology that improves internal efficiency without replacing the human judgment succession requires.",
       "Each acquisition makes the next one cheaper to source, faster to transition, and better supported. That is the compounding logic behind the model — and what separates Saha from a well-intentioned holding company with capital.",
     ],
     callout: {
@@ -480,8 +480,8 @@ export const joinPage = {
     intro: "We are recruiting for founding roles that will shape how Saha operates from day one. These are not employee positions — they are co-builder roles.",
     roles: [
       {
-        title: "Founding CTO — Platform & Data",
-        description: "Will build the operating layer behind Saha: sourcing systems, diligence workflows, portfolio reporting, internal tools, and data infrastructure that make transitions more repeatable and scalable.",
+        title: "Technical Lead — Platform & Data",
+        description: "Will build the lean operational infrastructure that makes Saha's first acquisitions possible: sourcing pipeline, diligence workflow, deal tracking, and the internal tools that allow a small team to move with rigour and without unnecessary overhead.",
         ctaLabel: "Express interest →",
         ctaHref: "/contact",
       },
@@ -574,7 +574,7 @@ export const aboutPage = {
       "Saha is my attempt to build something designed specifically for that gap — not just as a buyer, but as a model. A repeatable way of identifying these businesses, transitioning them carefully, and sustaining them over the long term. It is early. But I believe the infrastructure behind this kind of ownership is what the segment has been missing.",
     ],
     attribution: "— Temitope Ola, Founder",
-    bio: "Founder-operator with over 25 years of experience across venture building, finance, and multi-country execution. Brings the sourcing vision, acquisition thesis, and company-building ambition behind Saha.",
+    bio: "Founder-operator with over 25 years across venture building, finance, and multi-country execution. In 2014 he completed the full exit of a Swiss tech company he founded to a Zurich-listed strategic buyer — navigating the process from first approach through due diligence to close as the founder on the other side of the table. That experience informs everything about how Saha approaches the founders it works with: not as a concept, but as a lived decision with real stakes. He brings the sourcing vision, acquisition thesis, and company-building ambition behind Saha.",
     callout: {
       type: "quote" as const,
       text: "Good businesses should not disappear because of a timing problem.",
@@ -588,17 +588,17 @@ export const aboutPage = {
       {
         name: "Temitope Ola",
         subtitle: "Founder — Strategy & M&A",
-        description: "Sourcing vision, acquisition thesis, and company-building. Over 25 years across venture building, finance, and multi-country execution.",
+        description: "Founder-operator with over 25 years across venture building, finance, and multi-country execution. In 2014 he completed the full exit of a Swiss tech company he founded to a Zurich-listed strategic buyer. That experience informs how Saha approaches the founders it works with. He brings the sourcing vision, acquisition thesis, and company-building ambition behind Saha.",
       },
       {
         name: "Liesel Goveas, PhD",
-        subtitle: "Founder — Research & Acquisition Intelligence",
-        description: "PhD in Neuroscience, MBA candidate at University of St. Gallen. Brings rigorous research methodology and analytical depth to sourcing, market mapping, and diligence.",
+        subtitle: "Head of Research & Acquisition Intelligence",
+        description: "PhD in Neuroscience, MBA at the University of St. Gallen. Brings rigorous research methodology and analytical depth to sourcing, market mapping, and diligence. Her scientific career across Swiss and European institutions gives Saha direct domain fluency in life sciences, medtech, and biotech.",
       },
       {
-        name: "Founding CTO",
+        name: "Technical Lead",
         subtitle: "Platform & Data",
-        description: "Building the operating layer behind Saha: sourcing systems, diligence workflows, portfolio reporting, internal tools, and data infrastructure that make transitions more repeatable and scalable.",
+        description: "Will build the lean operational infrastructure that makes Saha's first acquisitions possible: sourcing pipeline, diligence workflow, deal tracking, and the internal tools that allow a small team to move with rigour and without unnecessary overhead.",
         status: "Role open — currently recruiting",
       },
     ],
@@ -760,12 +760,12 @@ export const faqPage = {
         {
           question: "What happens to my employees after a sale?",
           answer:
-            "Preserving your team is central to our approach. We do not acquire businesses to cut costs or restructure headcount. Existing employees, roles, and working relationships are maintained through the transition and beyond. We invest in the team you have built.",
+            "Preserving the team you have built is central to our approach. We do not acquire businesses with the intention of restructuring them. Any decisions affecting people will be made for the long-term health of the business, with transparency.",
         },
         {
           question: "How long does the process take from first conversation to closing?",
           answer:
-            "Every situation is different, but a typical process takes three to six months from initial conversation to completion. We move at a pace that works for you — there is no pressure to rush. The first conversation is confidential and carries no obligation.",
+            "That depends on where you are in your thinking. Succession is often a years-long reflection before a founder is ready to act — and that is entirely normal. Once you have decided to move forward, a typical transaction process from first serious conversation to close takes three to six months. There is no pressure to rush either stage. Many founders find it useful to begin a conversation with us well before they are ready to sell — simply to understand the options. Everything is confidential and carries no obligation.",
         },
         {
           question: "Will my company keep its name and brand?",
