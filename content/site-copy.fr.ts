@@ -480,7 +480,7 @@ export const joinPage = {
     intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes classiques — ce sont des rôles de co-fondateurs opérationnels.",
     roles: [
       {
-        title: "Responsable Technique — Plateforme & Données",
+        title: "Fondateur — Plateforme & Données",
         description: "Construira l'infrastructure opérationnelle allégée qui rend les premières acquisitions de Saha possibles : pipeline de sourcing, workflow de diligence, suivi des transactions, et les outils internes permettant à une petite équipe d'avancer avec rigueur et sans surcharge inutile.",
         ctaLabel: "Exprimer mon intérêt →",
         ctaHref: "/contact",

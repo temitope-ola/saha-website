@@ -498,7 +498,7 @@ export const joinPage = {
     intro: "Wir rekrutieren für Gründungsrollen, die die Arbeitsweise von Saha von Anfang an prägen werden. Keine klassischen Anstellungen — sondern Mitgründer-Rollen.",
     roles: [
       {
-        title: "Technische Leitung — Plattform & Daten",
+        title: "Gründer — Plattform & Daten",
         description: "Baut die schlanke operative Infrastruktur auf, die Sahas erste Akquisitionen ermöglicht: Sourcing-Pipeline, Due-Diligence-Workflow, Transaktions-Tracking und die internen Tools, die einem kleinen Team erlauben, mit Rigor und ohne unnötigen Overhead zu arbeiten.",
         ctaLabel: "Interesse bekunden →",
         ctaHref: "/contact",

@@ -490,7 +490,7 @@ export const joinPage = {
     intro: "We are recruiting for founding roles that will shape how Saha operates from day one. These are not employee positions — they are co-builder roles.",
     roles: [
       {
-        title: "Technical Lead — Platform & Data",
+        title: "Founder — Platform & Data",
         description: "Will build the lean operational infrastructure that makes Saha's first acquisitions possible: sourcing pipeline, diligence workflow, deal tracking, and the internal tools that allow a small team to move with rigour and without unnecessary overhead.",
         ctaLabel: "Express interest →",
         ctaHref: "/contact",
