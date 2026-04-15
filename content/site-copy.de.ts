@@ -30,7 +30,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Systematische Nachfolge\nfür Schweizer KMU",
+    headline: "Systematische Nachfolge für\nSchweizer KMU",
     subheadline:
       "Saha erwirbt profitable, inhabergeführte Schweizer Unternehmen unter CHF 10M Umsatz und entwickelt sie langfristig weiter — und baut dabei das Sourcing-, Übergangs- und Betriebssystem auf, das dieses Segment braucht.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
