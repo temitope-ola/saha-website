@@ -25,9 +25,9 @@ export const nav = {
 
 export const homepage = {
   hero: {
-    headline: "Le repreneur pérenne des\nPME suisses en transmission",
+    headline: "La succession systématique\ndes PME suisses",
     subheadline:
-      "Saha reprend des PME suisses rentables de moins de CHF 10M de chiffre d'affaires pour les détenir dans la durée — en développant les capacités de sourcing, de transmission et d'appui opérationnel qui manquent encore à ce segment.",
+      "Saha acquiert des PME suisses rentables et dirigées par leurs fondateurs sous CHF 10M de chiffre d'affaires et les développe sur le long terme, tout en construisant le système de sourcing, de transmission et d'exploitation qui rend ce segment viable.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },
