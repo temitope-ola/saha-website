@@ -27,7 +27,7 @@ export const homepage = {
   hero: {
     headline: "La succession systématique\ndes PME suisses",
     subheadline:
-      "Saha acquiert des PME suisses rentables et dirigées par leurs fondateurs sous CHF 10M de chiffre d'affaires et les développe sur le long terme, tout en construisant le système de sourcing, de transmission et d'exploitation qui rend ce segment viable.",
+      "Saha acquiert des PME suisses rentables de moins de CHF 10 millions de chiffre d'affaires et les développe dans la durée, tout en bâtissant les capacités de sourcing, de transition et d'exploitation qui rendent ce segment viable.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },

@@ -32,7 +32,7 @@ export const homepage = {
   hero: {
     headline: "Systematische Nachfolge für\nSchweizer KMU",
     subheadline:
-      "Saha erwirbt profitable, inhabergeführte Schweizer Unternehmen unter CHF 10M Umsatz und entwickelt sie langfristig weiter — und baut dabei das Sourcing-, Übergangs- und Betriebssystem auf, das dieses Segment braucht.",
+      "Saha erwirbt profitable Schweizer KMU mit weniger als CHF 10 Mio. Umsatz und entwickelt sie langfristig weiter — während es die Strukturen in Sourcing, Übergang und Betrieb aufbaut, die dieses Segment tragfähig machen.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
     secondaryCta: { label: "Unsere Kriterien", href: "/founders" },
   },
