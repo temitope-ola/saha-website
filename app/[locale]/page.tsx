@@ -25,7 +25,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
             <h1 className="text-display-sm md:text-display lg:text-display-lg text-balance">
               {homepage.hero.headline}
             </h1>
-            <p className="mt-6 text-body-lg md:text-subheading text-pierre text-balance max-w-3xl">
+            <p className="mt-6 text-body-lg md:text-subheading text-pierre text-balance">
               {homepage.hero.subheadline}
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
