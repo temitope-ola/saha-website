@@ -34,6 +34,7 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
             <Link
               href={localePath(locale, "/")}
               className="text-2xl font-serif text-encre hover:text-cuivre-700 transition-colors"
+              style={{ fontVariationSettings: '"opsz" 144, "SOFT" 0, "WONK" 1', fontWeight: 600 }}
             >
               Saha
             </Link>

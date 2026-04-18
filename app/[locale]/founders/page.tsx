@@ -64,7 +64,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {foundersPage.whatWeLookFor.items.map((item) => (
-              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+              <div key={item.title} className="p-8 bg-papier border border-cuivre/10 rounded-sm">
                 <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>

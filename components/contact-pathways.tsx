@@ -77,8 +77,8 @@ export default function ContactPathways({
             onClick={() => setSelected(pathway.id)}
             className={`text-left p-6 border rounded-sm transition-all duration-200 ${
               selected === pathway.id
-                ? "border-cuivre bg-white shadow-sm"
-                : "border-stone-200 bg-white hover:border-cuivre/40"
+                ? "border-cuivre bg-papier shadow-sm"
+                : "border-cuivre/10 bg-papier hover:border-cuivre/40"
             }`}
             aria-pressed={selected === pathway.id}
           >

@@ -74,7 +74,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
           </SectionIntro>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {advisorsPage.criteria.items.map((item) => (
-              <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
+              <div key={item.title} className="p-8 bg-papier border border-cuivre/10 rounded-sm">
                 <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>

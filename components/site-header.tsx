@@ -54,7 +54,8 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
         {/* Logo */}
         <Link
           href={localePath(locale, "/")}
-          className="text-xl md:text-2xl font-serif font-normal text-encre tracking-tight hover:text-cuivre-700 transition-colors"
+          className="text-xl md:text-2xl font-serif text-encre tracking-tight hover:text-cuivre-700 transition-colors"
+          style={{ fontVariationSettings: '"opsz" 144, "SOFT" 0, "WONK" 1', fontWeight: 600 }}
           aria-label={`${siteName} — ${locale === "fr" ? "accueil" : locale === "de" ? "Startseite" : "home"}`}
         >
           Saha

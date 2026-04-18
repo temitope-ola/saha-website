@@ -13,7 +13,8 @@ const config: Config = {
         papier: "#FFF8F1",
         encre: "#1A1917",
         pierre: {
-          DEFAULT: "#8A8275",
+          DEFAULT: "#6E665A",
+          light: "#8A8275",
           fonce: "#6E665A",
         },
         cuivre: {

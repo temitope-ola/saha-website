@@ -9,7 +9,7 @@ interface AudienceCardProps {
 
 export default function AudienceCard({ label, heading, description, cta }: AudienceCardProps) {
   return (
-    <div className="group flex flex-col p-8 md:p-10 bg-white border border-stone-200 rounded-sm hover:border-cuivre/40 transition-colors duration-300">
+    <div className="group flex flex-col p-8 md:p-10 bg-papier border border-cuivre/10 rounded-sm hover:border-cuivre/40 transition-colors duration-300">
       <p className="eyebrow mb-3">
         {label}
       </p>
