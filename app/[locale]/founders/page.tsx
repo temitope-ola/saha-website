@@ -48,7 +48,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What founders can expect ─────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={foundersPage.founderExpectations.heading} />
           <ModelSteps steps={foundersPage.founderExpectations.steps} />

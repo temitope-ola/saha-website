@@ -25,10 +25,10 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
 
       <section className="section-padding">
         <div className="container-prose">
-          <div className="space-y-8 text-body-lg text-stone-600">
+          <div className="space-y-8 text-body-lg text-pierre">
             {termsPage.sections.map((section, i) => (
               <div key={i}>
-                <h2 className="text-heading font-serif text-stone-900 mb-4">
+                <h2 className="text-heading font-serif text-encre mb-4">
                   {section.heading}
                 </h2>
                 <p>

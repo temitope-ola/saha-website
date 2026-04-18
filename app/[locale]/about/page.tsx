@@ -54,7 +54,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── The founding team ─────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.foundingTeam.heading} />
           <p className="text-body-lg text-pierre mb-10 max-w-prose">
@@ -106,7 +106,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Why this segment needs a different buyer ── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whyDifferentBuyer.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
@@ -140,7 +140,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What we believe ───────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.principles.heading} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

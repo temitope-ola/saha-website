@@ -25,7 +25,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
             <h1 className="text-display-sm md:text-display lg:text-display-lg text-balance">
               {homepage.hero.headline}
             </h1>
-            <p className="mt-6 text-body-lg md:text-subheading text-pierre text-balance">
+            <p className="mt-6 text-body-lg md:text-subheading text-pierre">
               {homepage.hero.subheadline}
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -81,7 +81,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Why this matters now ──────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro
             label={homepage.whyNowSectionLabel}
@@ -114,7 +114,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
           </div>
 
           {/* ── Builders strip ── */}
-          <div className="mt-6 md:mt-8 p-8 md:p-10 bg-stone-100/60 border border-stone-200 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div className="mt-6 md:mt-8 p-8 md:p-10 bg-cuivre-50/30 border border-cuivre/10 rounded-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div className="max-w-xl">
               <h3 className="text-subheading font-serif text-encre mb-2">
                 {homepage.buildersStrip.heading}
@@ -139,7 +139,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── How the model works ───────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro
             label={homepage.modelSectionLabel}
@@ -175,7 +175,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What makes Saha different ─────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro
             label={homepage.differentiatorsSectionLabel}
@@ -190,22 +190,22 @@ export default function HomePage({ params }: { params: { locale: string } }) {
         <div className="container-content">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Founders CTA */}
-            <div className="bg-nuit text-stone-100 rounded-sm px-8 py-12 md:px-12 md:py-14 border-t border-cuivre">
+            <div className="bg-nuit rounded-sm px-8 py-12 md:px-12 md:py-14 border-t-2 border-cuivre/60">
               <h2 className="text-heading font-serif text-papier text-balance">
                 {homepage.finalCtaFounders.heading}
               </h2>
-              <p className="mt-4 text-body text-pierre text-balance">
+              <p className="mt-4 text-body text-cuivre-200 text-balance">
                 {homepage.finalCtaFounders.description}
               </p>
               <div className="mt-8">
                 <Link
                   href={localePath(locale, homepage.finalCtaFounders.cta.href)}
                   className="inline-flex items-center justify-center px-7 py-3.5
-                             bg-papier text-encre text-body-sm font-sans font-medium
+                             bg-cuivre text-papier text-body-sm font-sans font-medium
                              rounded-sm tracking-wide
-                             hover:bg-white active:bg-stone-200
+                             hover:bg-cuivre-400 active:bg-cuivre-700
                              transition-colors duration-200
-                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre"
+                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre-300"
                 >
                   {homepage.finalCtaFounders.cta.label}
                 </Link>
@@ -213,22 +213,22 @@ export default function HomePage({ params }: { params: { locale: string } }) {
             </div>
 
             {/* Investors & operators CTA */}
-            <div className="bg-nuit-deep text-stone-100 rounded-sm px-8 py-12 md:px-12 md:py-14 border-t border-cuivre/40">
+            <div className="bg-nuit-deep rounded-sm px-8 py-12 md:px-12 md:py-14 border-t-2 border-cuivre/40">
               <h2 className="text-heading font-serif text-papier text-balance">
                 {homepage.finalCtaOther.heading}
               </h2>
-              <p className="mt-4 text-body text-pierre text-balance">
+              <p className="mt-4 text-body text-cuivre-200 text-balance">
                 {homepage.finalCtaOther.description}
               </p>
               <div className="mt-8">
                 <Link
                   href={localePath(locale, homepage.finalCtaOther.cta.href)}
                   className="inline-flex items-center justify-center px-7 py-3.5
-                             bg-papier text-encre text-body-sm font-sans font-medium
+                             bg-cuivre text-papier text-body-sm font-sans font-medium
                              rounded-sm tracking-wide
-                             hover:bg-white active:bg-stone-200
+                             hover:bg-cuivre-400 active:bg-cuivre-700
                              transition-colors duration-200
-                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre"
+                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre-300"
                 >
                   {homepage.finalCtaOther.cta.label}
                 </Link>

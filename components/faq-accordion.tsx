@@ -48,7 +48,7 @@ export default function FaqAccordion({ groups }: FaqAccordionProps) {
                     </span>
                     <span
                       className={cn(
-                        "shrink-0 mt-1 text-stone-400 transition-transform duration-200",
+                        "shrink-0 mt-1 text-pierre transition-transform duration-200",
                         isOpen && "rotate-45"
                       )}
                       aria-hidden="true"

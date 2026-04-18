@@ -48,7 +48,7 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Open founding roles ───────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={joinPage.foundingRoles.heading} />
           <p className="text-body-lg text-pierre mb-10 max-w-prose">
@@ -99,7 +99,7 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What we value ─────────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={joinPage.values.heading} />
           <ModelSteps steps={joinPage.values.steps} />

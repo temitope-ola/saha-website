@@ -10,7 +10,7 @@ export default function QuoteBlock({ quote, attribution }: QuoteBlockProps) {
         {quote}
       </p>
       {attribution && (
-        <cite className="mt-4 block text-body-sm text-stone-400 not-italic">
+        <cite className="mt-4 block text-body-sm text-pierre not-italic">
           {attribution}
         </cite>
       )}

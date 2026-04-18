@@ -138,7 +138,7 @@ export default function ContactPathways({
         </div>
       ) : (
         <div className="py-12 text-center">
-          <p className="text-body-lg text-stone-400">
+          <p className="text-body-lg text-pierre">
             {selectPrompt}
           </p>
         </div>

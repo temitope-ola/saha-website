@@ -62,7 +62,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── What must be true ─────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={investorsPage.mustBeTrue.heading}>
             <p className="text-body-lg text-pierre">
@@ -114,7 +114,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── Where we are now ──────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={investorsPage.whereWeAre.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">

@@ -43,7 +43,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What you can expect from us ─── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.expectations.heading} />
           <ModelSteps steps={advisorsPage.expectations.steps} />
@@ -65,7 +65,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What we look for ─────────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.criteria.heading}>
             <p className="text-body-lg text-pierre">
@@ -105,7 +105,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── Long-term relationship ────────── */}
-      <section className="section-padding divider bg-stone-100/40">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.longTerm.heading} />
           <div className="max-w-3xl space-y-5">

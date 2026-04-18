@@ -26,7 +26,7 @@ interface SiteFooterProps {
 
 export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterProps) {
   return (
-    <footer className="border-t border-stone-200 bg-stone-100/50">
+    <footer className="border-t border-cuivre/10 bg-cuivre-50/40">
       <div className="container-content py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
           {/* Brand column */}
@@ -40,7 +40,7 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
             <p className="mt-4 text-body text-pierre max-w-xs">
               {footer.tagline}
             </p>
-            <p className="mt-2 text-body-sm text-stone-400">
+            <p className="mt-2 text-body-sm text-pierre-fonce">
               {footer.location}
             </p>
           </div>
@@ -68,12 +68,12 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 pt-8 border-t border-stone-200">
+        <div className="mt-16 pt-8 border-t border-cuivre/10">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-            <p className="text-caption text-stone-400">{footer.copyright}</p>
+            <p className="text-caption text-pierre">{footer.copyright}</p>
             <a
               href={`mailto:${siteConfig.email}`}
-              className="text-caption text-stone-400 hover:text-stone-600 transition-colors"
+              className="text-caption text-pierre hover:text-cuivre-700 transition-colors"
             >
               {siteConfig.email}
             </a>

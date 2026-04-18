@@ -70,7 +70,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                 "text-body-sm transition-colors duration-200",
                 isActive(link.href)
                   ? "text-encre font-medium"
-                  : "text-stone-500 hover:text-cuivre-700"
+                  : "text-pierre hover:text-cuivre-700"
               )}
             >
               {link.label}
@@ -83,7 +83,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
               <Link
                 key={l.code}
                 href={pathForLocale(l.code)}
-                className="text-body-sm text-stone-400 hover:text-cuivre-700 transition-colors duration-200"
+                className="text-body-sm text-pierre hover:text-cuivre-700 transition-colors duration-200"
                 aria-label={l.label}
               >
                 {l.shortLabel}
@@ -144,7 +144,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                   "text-body-lg py-1 transition-colors",
                   isActive(link.href)
                     ? "text-encre font-medium"
-                    : "text-stone-500 hover:text-cuivre-700"
+                    : "text-pierre hover:text-cuivre-700"
                 )}
                 onClick={() => setMenuOpen(false)}
               >
@@ -158,7 +158,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                 <Link
                   key={l.code}
                   href={pathForLocale(l.code)}
-                  className="text-body-lg py-1 text-stone-400 hover:text-cuivre-700 transition-colors"
+                  className="text-body-lg py-1 text-pierre hover:text-cuivre-700 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {l.label}
