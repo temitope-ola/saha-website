@@ -14,18 +14,18 @@ export default function CtaBanner({ heading, description, cta }: CtaBannerProps)
           <h2 className="text-heading md:text-display-sm font-serif text-papier text-balance max-w-xl mx-auto">
             {heading}
           </h2>
-          <p className="mt-5 text-body-lg text-cuivre-200 max-w-lg mx-auto text-balance">
+          <p className="mt-5 text-body-lg text-stone-400 max-w-lg mx-auto text-balance">
             {description}
           </p>
           <div className="mt-10">
             <Link
               href={cta.href}
               className="inline-flex items-center justify-center px-7 py-3.5
-                         bg-cuivre text-papier text-body-sm font-sans font-medium
+                         bg-papier text-encre text-body-sm font-sans font-medium
                          rounded-sm tracking-wide
-                         hover:bg-cuivre-400 active:bg-cuivre-700
+                         hover:bg-white active:bg-cuivre-50
                          transition-colors duration-200
-                         focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre-300"
+                         focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre"
             >
               {cta.label}
             </Link>

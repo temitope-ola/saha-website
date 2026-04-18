@@ -17,17 +17,13 @@
     @apply font-serif text-encre;
   }
 
-  /* Fraunces optical size + weight: display = bold, sub-display = semibold */
+  /* Fraunces optical size: weight stays at 400, contrast comes from opsz axis */
   h1 {
-    font-weight: 700;
+    font-weight: 400;
     font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 1;
   }
-  h2 {
-    font-weight: 600;
-    font-variation-settings: "opsz" 72, "SOFT" 30, "WONK" 0;
-  }
-  h3, h4 {
-    font-weight: 500;
+  h2, h3, h4 {
+    font-weight: 400;
     font-variation-settings: "opsz" 72, "SOFT" 30, "WONK" 0;
   }
 

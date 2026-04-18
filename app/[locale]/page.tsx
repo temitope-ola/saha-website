@@ -194,18 +194,18 @@ export default function HomePage({ params }: { params: { locale: string } }) {
               <h2 className="text-heading font-serif text-papier text-balance">
                 {homepage.finalCtaFounders.heading}
               </h2>
-              <p className="mt-4 text-body text-cuivre-200 text-balance">
+              <p className="mt-4 text-body text-stone-400 text-balance">
                 {homepage.finalCtaFounders.description}
               </p>
               <div className="mt-8">
                 <Link
                   href={localePath(locale, homepage.finalCtaFounders.cta.href)}
                   className="inline-flex items-center justify-center px-7 py-3.5
-                             bg-cuivre text-papier text-body-sm font-sans font-medium
+                             bg-papier text-encre text-body-sm font-sans font-medium
                              rounded-sm tracking-wide
-                             hover:bg-cuivre-400 active:bg-cuivre-700
+                             hover:bg-white active:bg-cuivre-50
                              transition-colors duration-200
-                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre-300"
+                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre"
                 >
                   {homepage.finalCtaFounders.cta.label}
                 </Link>
@@ -217,18 +217,18 @@ export default function HomePage({ params }: { params: { locale: string } }) {
               <h2 className="text-heading font-serif text-papier text-balance">
                 {homepage.finalCtaOther.heading}
               </h2>
-              <p className="mt-4 text-body text-cuivre-200 text-balance">
+              <p className="mt-4 text-body text-stone-400 text-balance">
                 {homepage.finalCtaOther.description}
               </p>
               <div className="mt-8">
                 <Link
                   href={localePath(locale, homepage.finalCtaOther.cta.href)}
                   className="inline-flex items-center justify-center px-7 py-3.5
-                             bg-cuivre text-papier text-body-sm font-sans font-medium
+                             bg-papier text-encre text-body-sm font-sans font-medium
                              rounded-sm tracking-wide
-                             hover:bg-cuivre-400 active:bg-cuivre-700
+                             hover:bg-white active:bg-cuivre-50
                              transition-colors duration-200
-                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre-300"
+                             focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cuivre"
                 >
                   {homepage.finalCtaOther.cta.label}
                 </Link>
