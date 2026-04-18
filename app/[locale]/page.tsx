@@ -18,7 +18,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       {/* ── Hero ──────────────────────────── */}
       <section className="pt-section-sm md:pt-section pb-0">
         <div className="container-content">
-          <div className="max-w-4xl">
+          <div>
             <p className="eyebrow mb-4">
               {homepage.hero.eyebrow}
             </p>
