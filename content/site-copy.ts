@@ -29,6 +29,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
+    eyebrow: "Swiss permanent capital",
     headline: "Systematic succession for\nSwiss SMEs",
     subheadline:
       "Saha acquires profitable, founder-led Swiss businesses below CHF 10M in revenue and grows them for the long term, while building the sourcing, transition, and operating system that make this segment work.",

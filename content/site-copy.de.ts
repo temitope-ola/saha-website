@@ -30,6 +30,7 @@ export const nav = {
 
 export const homepage = {
   hero: {
+    eyebrow: "Schweizer permanentes Kapital",
     headline: "Systematische Nachfolge für\nSchweizer KMU",
     subheadline:
       "Saha erwirbt profitable Schweizer KMU mit weniger als CHF 10 Mio. Umsatz und entwickelt sie langfristig weiter — während es die Strukturen in Sourcing, Übergang und Betrieb aufbaut, die dieses Segment tragfähig machen.",

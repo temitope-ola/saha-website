@@ -17,10 +17,10 @@ export default function ValueGrid({ items, columns = 2 }: ValueGridProps) {
     <div className={`grid ${gridCols} gap-8 md:gap-10`}>
       {items.map((item) => (
         <div key={item.title}>
-          <h3 className="text-subheading font-serif text-stone-900 mb-2">
+          <h3 className="text-subheading font-serif text-encre mb-2">
             {item.title}
           </h3>
-          <p className="text-body text-stone-600">
+          <p className="text-body text-pierre">
             {item.description}
           </p>
         </div>

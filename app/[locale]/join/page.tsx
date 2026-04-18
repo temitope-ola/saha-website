@@ -37,7 +37,7 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {joinPage.whyJoin.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -48,24 +48,24 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Open founding roles ───────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={joinPage.foundingRoles.heading} />
-          <p className="text-body-lg text-stone-600 mb-10 max-w-prose">
+          <p className="text-body-lg text-pierre mb-10 max-w-prose">
             {joinPage.foundingRoles.intro}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {joinPage.foundingRoles.roles.map((role) => (
               <div key={role.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {role.title}
                 </h3>
-                <p className="text-body text-stone-600 mb-6">
+                <p className="text-body text-pierre mb-6">
                   {role.description}
                 </p>
                 <Link
                   href={localePath(locale, role.ctaHref)}
-                  className="text-body-sm text-accent-700 hover:text-accent-800 font-medium transition-colors"
+                  className="text-body-sm text-cuivre-700 hover:text-cuivre-800 font-medium transition-colors"
                 >
                   {role.ctaLabel}
                 </Link>
@@ -76,20 +76,20 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Who we are looking for ────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={joinPage.roles.heading}>
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {joinPage.roles.description}
             </p>
           </SectionIntro>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {joinPage.roles.profiles.map((profile) => (
               <div key={profile.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {profile.title}
                 </h3>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {profile.description}
                 </p>
               </div>
@@ -99,7 +99,7 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What we value ─────────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={joinPage.values.heading} />
           <ModelSteps steps={joinPage.values.steps} />

@@ -34,7 +34,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
           <SectionIntro heading={advisorsPage.understand.heading} />
           <div className="max-w-3xl space-y-5">
             {advisorsPage.understand.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
@@ -43,7 +43,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What you can expect from us ─── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.expectations.heading} />
           <ModelSteps steps={advisorsPage.expectations.steps} />
@@ -51,12 +51,12 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── How we think about your role ── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.role.heading} />
           <div className="max-w-3xl space-y-5">
             {advisorsPage.role.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
@@ -65,38 +65,38 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What we look for ─────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.criteria.heading}>
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {advisorsPage.criteria.description}
             </p>
           </SectionIntro>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {advisorsPage.criteria.items.map((item) => (
               <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {item.description}
                 </p>
               </div>
             ))}
           </div>
-          <p className="text-body text-stone-500 mt-8 max-w-prose">
+          <p className="text-body text-pierre mt-8 max-w-prose">
             {advisorsPage.criteria.note}
           </p>
         </div>
       </section>
 
       {/* ── Confidentiality ──────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.confidentiality.heading} />
           <div className="max-w-3xl space-y-5">
             {advisorsPage.confidentiality.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
@@ -105,12 +105,12 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── Long-term relationship ────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={advisorsPage.longTerm.heading} />
           <div className="max-w-3xl space-y-5">
             {advisorsPage.longTerm.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
@@ -119,12 +119,12 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── Closing CTA ───────────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content text-center max-w-2xl mx-auto">
-          <h2 className="text-display-sm font-serif text-stone-900 mb-4">
+          <h2 className="text-display-sm font-serif text-encre mb-4">
             {advisorsPage.closingCta.heading}
           </h2>
-          <p className="text-body-lg text-stone-600 mb-8">
+          <p className="text-body-lg text-pierre mb-8">
             {advisorsPage.closingCta.description}
           </p>
           <a
@@ -133,7 +133,7 @@ export default function AdvisorsPage({ params }: { params: { locale: string } })
           >
             {advisorsPage.closingCta.cta.label}
           </a>
-          <p className="text-body text-stone-500 mt-6">
+          <p className="text-body text-pierre mt-6">
             {advisorsPage.closingCta.directContact}
           </p>
         </div>

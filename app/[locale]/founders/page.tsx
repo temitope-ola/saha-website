@@ -37,7 +37,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {foundersPage.intro.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -48,7 +48,7 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What founders can expect ─────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={foundersPage.founderExpectations.heading} />
           <ModelSteps steps={foundersPage.founderExpectations.steps} />
@@ -56,19 +56,19 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What we look for ──────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={foundersPage.whatWeLookFor.heading} />
-          <p className="text-body-lg text-stone-600 mb-10 max-w-prose">
+          <p className="text-body-lg text-pierre mb-10 max-w-prose">
             {foundersPage.whatWeLookFor.transitionLine}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {foundersPage.whatWeLookFor.items.map((item) => (
               <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {item.description}
                 </p>
               </div>
@@ -78,10 +78,10 @@ export default function FoundersPage({ params }: { params: { locale: string } })
       </section>
 
       {/* ── What engaging with Saha looks like */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={foundersPage.process.heading}>
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {foundersPage.process.description}
             </p>
           </SectionIntro>

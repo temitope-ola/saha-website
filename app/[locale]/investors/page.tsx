@@ -37,7 +37,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {investorsPage.thesis.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -48,12 +48,12 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── How permanent ownership generates returns ── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={investorsPage.permanentOwnership.heading} />
           <div className="max-w-3xl space-y-5">
             {investorsPage.permanentOwnership.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
@@ -62,10 +62,10 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── What must be true ─────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={investorsPage.mustBeTrue.heading}>
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {investorsPage.mustBeTrue.description}
             </p>
           </SectionIntro>
@@ -74,13 +74,13 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── How the model compounds ─────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={investorsPage.howModelCompounds.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {investorsPage.howModelCompounds.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -91,20 +91,20 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── What we will not buy ──────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={investorsPage.willNotBuy.heading}>
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {investorsPage.willNotBuy.description}
             </p>
           </SectionIntro>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {investorsPage.willNotBuy.items.map((item) => (
               <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {item.description}
                 </p>
               </div>
@@ -114,13 +114,13 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── Where we are now ──────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={investorsPage.whereWeAre.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {investorsPage.whereWeAre.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -131,13 +131,13 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       </section>
 
       {/* ── Why Saha is different ─────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={investorsPage.whyDifferent.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {investorsPage.whyDifferent.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}

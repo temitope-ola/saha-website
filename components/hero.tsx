@@ -11,14 +11,14 @@ interface HeroProps {
 
 export default function Hero({ headline, subheadline, cta, secondaryCta, image }: HeroProps) {
   return (
-    <section className="section-padding border-b border-accent-300" aria-label="Introduction">
+    <section className="section-padding border-b border-cuivre/20" aria-label="Introduction">
       <div className="container-content">
         <div className={image ? "grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-stretch" : ""}>
           <div className={image ? "flex flex-col justify-center" : "max-w-3xl"}>
             <h1 className="text-display-sm md:text-display lg:text-display-lg text-balance whitespace-pre-line">
               {headline}
             </h1>
-            <p className="mt-6 md:mt-8 text-body-lg md:text-subheading text-stone-600 max-w-2xl text-balance">
+            <p className="mt-6 md:mt-8 text-body-lg md:text-subheading text-pierre max-w-2xl text-balance">
               {subheadline}
             </p>
             {(cta || secondaryCta) && (

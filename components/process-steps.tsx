@@ -18,14 +18,14 @@ export default function ProcessSteps({ steps, columns = 1 }: ProcessStepsProps) 
           key={step.title}
           className={`flex gap-6 md:gap-8 py-8 border-b border-stone-200 last:border-b-0 ${isFirstRow ? "pt-0" : ""}`}
         >
-          <span className="text-display-sm font-serif text-accent-300 select-none shrink-0 leading-none mt-0.5">
+          <span className="text-display-sm font-serif text-cuivre-200 select-none shrink-0 leading-none mt-0.5">
             {String(index + 1).padStart(2, "0")}
           </span>
           <div>
-            <h3 className="text-subheading font-serif text-stone-900 mb-2">
+            <h3 className="text-subheading font-serif text-encre mb-2">
               {step.title}
             </h3>
-            <p className="text-body text-stone-600 max-w-lg">
+            <p className="text-body text-pierre max-w-lg">
               {step.description}
             </p>
           </div>

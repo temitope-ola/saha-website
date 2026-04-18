@@ -49,12 +49,12 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
   ).filter((l) => l.code !== locale);
 
   return (
-    <header className="sticky top-0 z-50 bg-stone-50/95 backdrop-blur-sm border-b border-stone-150">
+    <header className="sticky top-0 z-50 bg-papier/95 backdrop-blur-sm border-b border-stone-150">
       <div className="container-content flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <Link
           href={localePath(locale, "/")}
-          className="text-xl md:text-2xl font-serif font-normal text-stone-900 tracking-tight hover:text-stone-700 transition-colors"
+          className="text-xl md:text-2xl font-serif font-normal text-encre tracking-tight hover:text-cuivre-700 transition-colors"
           aria-label={`${siteName} — ${locale === "fr" ? "accueil" : locale === "de" ? "Startseite" : "home"}`}
         >
           Saha
@@ -69,8 +69,8 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
               className={cn(
                 "text-body-sm transition-colors duration-200",
                 isActive(link.href)
-                  ? "text-stone-900 font-medium"
-                  : "text-stone-500 hover:text-accent-700"
+                  ? "text-encre font-medium"
+                  : "text-stone-500 hover:text-cuivre-700"
               )}
             >
               {link.label}
@@ -83,7 +83,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
               <Link
                 key={l.code}
                 href={pathForLocale(l.code)}
-                className="text-body-sm text-stone-400 hover:text-accent-700 transition-colors duration-200"
+                className="text-body-sm text-stone-400 hover:text-cuivre-700 transition-colors duration-200"
                 aria-label={l.label}
               >
                 {l.shortLabel}
@@ -94,7 +94,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
 
         {/* Mobile menu toggle */}
         <button
-          className="md:hidden p-2 -mr-2 text-stone-600 hover:text-stone-900 transition-colors"
+          className="md:hidden p-2 -mr-2 text-pierre hover:text-encre transition-colors"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
@@ -132,7 +132,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
       {menuOpen && (
         <nav
           id="mobile-menu"
-          className="md:hidden border-t border-stone-150 bg-stone-50"
+          className="md:hidden border-t border-stone-150 bg-papier"
           aria-label={locale === "fr" ? "Navigation mobile" : "Mobile navigation"}
         >
           <div className="container-content py-6 flex flex-col gap-4">
@@ -143,8 +143,8 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                 className={cn(
                   "text-body-lg py-1 transition-colors",
                   isActive(link.href)
-                    ? "text-stone-900 font-medium"
-                    : "text-stone-500 hover:text-accent-700"
+                    ? "text-encre font-medium"
+                    : "text-stone-500 hover:text-cuivre-700"
                 )}
                 onClick={() => setMenuOpen(false)}
               >
@@ -158,7 +158,7 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                 <Link
                   key={l.code}
                   href={pathForLocale(l.code)}
-                  className="text-body-lg py-1 text-stone-400 hover:text-accent-700 transition-colors"
+                  className="text-body-lg py-1 text-stone-400 hover:text-cuivre-700 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {l.label}

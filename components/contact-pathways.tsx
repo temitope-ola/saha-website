@@ -48,10 +48,10 @@ export default function ContactPathways({
   if (submitted) {
     return (
       <div className="text-center py-16">
-        <h3 className="text-heading font-serif text-stone-900 mb-4">
+        <h3 className="text-heading font-serif text-encre mb-4">
           {thankYouHeading}
         </h3>
-        <p className="text-body-lg text-stone-600 max-w-md mx-auto">
+        <p className="text-body-lg text-pierre max-w-md mx-auto">
           {thankYouDescription}
         </p>
         <button
@@ -77,15 +77,15 @@ export default function ContactPathways({
             onClick={() => setSelected(pathway.id)}
             className={`text-left p-6 border rounded-sm transition-all duration-200 ${
               selected === pathway.id
-                ? "border-accent-500 bg-white shadow-sm"
-                : "border-stone-200 bg-white hover:border-accent-300"
+                ? "border-cuivre bg-white shadow-sm"
+                : "border-stone-200 bg-white hover:border-cuivre/40"
             }`}
             aria-pressed={selected === pathway.id}
           >
-            <h3 className="text-body-lg font-medium text-stone-900 mb-2">
+            <h3 className="text-body-lg font-medium text-encre mb-2">
               {pathway.title}
             </h3>
-            <p className="text-body text-stone-500 line-clamp-2">
+            <p className="text-body text-pierre line-clamp-2">
               {pathway.description}
             </p>
           </button>
@@ -95,7 +95,7 @@ export default function ContactPathways({
       {/* Form area */}
       {activePathway ? (
         <div className="max-w-xl">
-          <p className="text-body text-stone-600 mb-8">
+          <p className="text-body text-pierre mb-8">
             {activePathway.description}
           </p>
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -103,11 +103,11 @@ export default function ContactPathways({
               <div key={field.name}>
                 <label
                   htmlFor={`${activePathway.id}-${field.name}`}
-                  className="block text-body-sm font-medium text-stone-700 mb-1.5"
+                  className="block text-body-sm font-medium text-encre mb-1.5"
                 >
                   {field.label}
                   {field.required && (
-                    <span className="text-warm-400 ml-0.5" aria-label="required">*</span>
+                    <span className="text-cuivre ml-0.5" aria-label="required">*</span>
                   )}
                 </label>
                 {field.type === "textarea" ? (

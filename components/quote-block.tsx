@@ -5,8 +5,8 @@ interface QuoteBlockProps {
 
 export default function QuoteBlock({ quote, attribution }: QuoteBlockProps) {
   return (
-    <blockquote className="border-l-2 border-warm-300 pl-6 md:pl-8 py-2">
-      <p className="text-subheading md:text-heading font-serif text-stone-700 italic text-balance">
+    <blockquote className="border-l-2 border-cuivre/30 pl-6 md:pl-8 py-2">
+      <p className="text-subheading md:text-heading font-serif text-encre italic text-balance">
         {quote}
       </p>
       {attribution && (

@@ -1,8 +1,28 @@
 import type { Metadata } from "next";
+import { Fraunces, Figtree, JetBrains_Mono } from "next/font/google";
 import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import { locales, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  display: "swap",
+  axes: ["opsz", "SOFT", "WONK"],
+});
+
+const figtree = Figtree({
+  subsets: ["latin"],
+  variable: "--font-figtree",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+  display: "swap",
+});
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -41,7 +61,7 @@ export default function LocaleLayout({
   const dict = getDictionary(locale);
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${fraunces.variable} ${figtree.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen flex flex-col">
         <SiteHeader locale={locale} nav={dict.nav} siteName={dict.siteConfig.name} />
         <main className="flex-1">{children}</main>

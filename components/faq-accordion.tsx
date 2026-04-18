@@ -27,7 +27,7 @@ export default function FaqAccordion({ groups }: FaqAccordionProps) {
     <div className="space-y-16">
       {groups.map((group) => (
         <div key={group.label}>
-          <h2 className="text-caption font-sans font-medium text-accent-600 uppercase tracking-wider mb-6">
+          <h2 className="eyebrow mb-6">
             {group.label}
           </h2>
           <div className="divide-y divide-stone-200 border-t border-stone-200">
@@ -43,7 +43,7 @@ export default function FaqAccordion({ groups }: FaqAccordionProps) {
                     aria-expanded={isOpen}
                     aria-controls={`faq-panel-${id}`}
                   >
-                    <span className="text-body-lg font-serif text-stone-900 group-hover:text-accent-700 transition-colors">
+                    <span className="text-body-lg font-serif text-encre group-hover:text-cuivre-700 transition-colors">
                       {item.question}
                     </span>
                     <span
@@ -75,7 +75,7 @@ export default function FaqAccordion({ groups }: FaqAccordionProps) {
                       isOpen ? "max-h-96 pb-6" : "max-h-0"
                     )}
                   >
-                    <p className="text-body text-stone-600 max-w-2xl leading-relaxed">
+                    <p className="text-body text-pierre max-w-2xl leading-relaxed">
                       {item.answer}
                     </p>
                   </div>

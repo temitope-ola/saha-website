@@ -33,11 +33,11 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
           <div className="md:col-span-5">
             <Link
               href={localePath(locale, "/")}
-              className="text-2xl font-serif text-stone-900 hover:text-stone-700 transition-colors"
+              className="text-2xl font-serif text-encre hover:text-cuivre-700 transition-colors"
             >
               Saha
             </Link>
-            <p className="mt-4 text-body text-stone-500 max-w-xs">
+            <p className="mt-4 text-body text-pierre max-w-xs">
               {footer.tagline}
             </p>
             <p className="mt-2 text-body-sm text-stone-400">
@@ -48,7 +48,7 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
           {/* Link columns */}
           {footer.columns.map((column) => (
             <div key={column.title} className="md:col-span-2">
-              <h3 className="text-caption font-sans font-medium text-accent-600 uppercase tracking-wider mb-4">
+              <h3 className="eyebrow mb-4">
                 {column.title}
               </h3>
               <ul className="space-y-3">
@@ -56,7 +56,7 @@ export default function SiteFooter({ locale, footer, siteConfig }: SiteFooterPro
                   <li key={link.href}>
                     <Link
                       href={localePath(locale, link.href)}
-                      className="text-body-sm text-stone-600 hover:text-accent-700 transition-colors duration-200"
+                      className="text-body-sm text-pierre hover:text-cuivre-700 transition-colors duration-200"
                     >
                       {link.label}
                     </Link>

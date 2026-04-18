@@ -38,12 +38,12 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
             <div>
               <div className="space-y-5">
                 {aboutPage.founderNote.paragraphs.map((p, i) => (
-                  <p key={i} className="text-body-lg text-stone-600">
+                  <p key={i} className="text-body-lg text-pierre">
                     {p}
                   </p>
                 ))}
               </div>
-              <p className="mt-8 text-body-lg font-serif text-stone-800">
+              <p className="mt-8 text-body-lg font-serif text-encre">
                 {aboutPage.founderNote.attribution}
               </p>
               {/* Bio removed — attribution only */}
@@ -54,33 +54,33 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── The founding team ─────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={aboutPage.foundingTeam.heading} />
-          <p className="text-body-lg text-stone-600 mb-10 max-w-prose">
+          <p className="text-body-lg text-pierre mb-10 max-w-prose">
             {aboutPage.foundingTeam.intro}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {aboutPage.foundingTeam.members.map((member) => (
               <div key={member.name} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-1">
+                <h3 className="text-subheading font-serif text-encre mb-1">
                   {member.name}
                 </h3>
-                <p className="text-body-sm text-accent-700 mb-3">
+                <p className="text-body-sm text-cuivre-700 mb-3">
                   {member.subtitle}
                 </p>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {member.description}
                 </p>
                 {/* Status badge removed — no open roles displayed here */}
               </div>
             ))}
           </div>
-          <p className="mt-8 text-body-lg text-stone-600 max-w-prose">
+          <p className="mt-8 text-body-lg text-pierre max-w-prose">
             {aboutPage.foundingTeam.closingLine}{" "}
             <Link
               href={localePath(locale, "/join")}
-              className="text-accent-700 hover:text-accent-800 underline underline-offset-2 transition-colors"
+              className="text-cuivre-700 hover:text-cuivre-800 underline underline-offset-2 transition-colors"
             >
               {locale === "fr" ? "Voir les rôles" : locale === "de" ? "Rollen ansehen" : "View roles"}
             </Link>
@@ -89,13 +89,13 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── The problem we set out to solve ── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={aboutPage.story.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {aboutPage.story.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -106,13 +106,13 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Why this segment needs a different buyer ── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whyDifferentBuyer.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {aboutPage.whyDifferentBuyer.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -123,13 +123,13 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Our approach ──────────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={aboutPage.approach.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
             <div className="space-y-5">
               {aboutPage.approach.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-stone-600">
+                <p key={i} className="text-body-lg text-pierre">
                   {p}
                 </p>
               ))}
@@ -140,16 +140,16 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What we believe ───────────────── */}
-      <section className="section-padding border-t border-stone-200 bg-stone-100/40">
+      <section className="section-padding divider bg-stone-100/40">
         <div className="container-content">
           <SectionIntro heading={aboutPage.principles.heading} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {aboutPage.principles.items.map((item) => (
               <div key={item.title} className="p-8 bg-white border border-stone-200 rounded-sm">
-                <h3 className="text-subheading font-serif text-stone-900 mb-3">
+                <h3 className="text-subheading font-serif text-encre mb-3">
                   {item.title}
                 </h3>
-                <p className="text-body text-stone-600">
+                <p className="text-body text-pierre">
                   {item.description}
                 </p>
               </div>
@@ -159,19 +159,19 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Where we are today ────────────── */}
-      <section className="section-padding border-t border-stone-200">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whereWeAreToday.heading} />
           <div className="max-w-prose space-y-5">
             {aboutPage.whereWeAreToday.paragraphs.map((p, i) => (
-              <p key={i} className="text-body-lg text-stone-600">
+              <p key={i} className="text-body-lg text-pierre">
                 {p}
               </p>
             ))}
           </div>
           {/* Ambition paragraph — flows as continuation */}
           <div className="max-w-prose mt-8">
-            <p className="text-body-lg text-stone-600">
+            <p className="text-body-lg text-pierre">
               {aboutPage.ambition}
             </p>
           </div>
