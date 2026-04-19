@@ -77,7 +77,7 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
       <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={investorsPage.howModelCompounds.heading} />
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16 mb-12 lg:mb-16">
             <div className="space-y-5">
               {investorsPage.howModelCompounds.paragraphs.map((p, i) => (
                 <p key={i} className="text-body-lg text-pierre">
@@ -86,6 +86,18 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
               ))}
             </div>
             <CalloutBox {...investorsPage.howModelCompounds.callout} />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {investorsPage.howModelCompounds.pillars.map((pillar) => (
+              <div key={pillar.title} className="p-8 bg-papier border border-cuivre/10 rounded-sm">
+                <h3 className="text-subheading font-serif text-encre mb-3">
+                  {pillar.title}
+                </h3>
+                <p className="text-body text-pierre">
+                  {pillar.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
