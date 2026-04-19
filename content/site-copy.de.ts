@@ -328,7 +328,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Für Investoren",
-    headline: "Eine permanente Haltedauer,\nmit disziplinierter operativer Stärkung,\nin einem übersehenen Segment der Schweizer KMU-Nachfolge",
+    headline: "Permanentes Eigentum in der Schweizer KMU-Nachfolge",
     subheadline:
       "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge Chancen eröffnet, die Übertragbarkeit real ist und jedes erworbene Unternehmen in den zwei Jahren nach Abschluss messbar gestärkt werden kann. Der Vorteil liegt nicht im Financial Engineering. Er liegt darin, sorgfältig zu kaufen, gut zu übergeben und die operativen Fähigkeiten aufzubauen, die sich über ein permanentes Portfolio hinweg kumulieren.",
   },
@@ -763,7 +763,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Gründer, Plattform & Daten",
-        description: "Bringt tiefe Expertise in IT-Architektur und Data Governance mit, aufgebaut auf einem Fundament in Softwareentwicklung und progressiver Führungsverantwortung bei der HOCH Health Ostschweiz. Seine Erfahrung in der Umsetzung komplexer digitaler und Enterprise-IT-Transformationen in einer regulierten, mehrgliedrigen Schweizer Organisation prägt unmittelbar, wie Saha die interne Plattform baut, die permanentes Eigentum vieler kleiner Unternehmen im Massstab tragfähig macht: Sourcing, Due Diligence, Übergabe und Portfolio-Reporting. Technische Sorgfalt gepaart mit strategischer Vision und der Geduld, die Systeme dieser Grössenordnung verlangen.",
+        description: "Bringt tiefe Expertise in IT-Architektur und Data Governance mit, verwurzelt in Softwareentwicklung und Führungsverantwortung bei der HOCH Health Ostschweiz. Er hat komplexe digitale und Enterprise-IT-Transformationen in einer regulierten, mehrgliedrigen Schweizer Organisation geleitet. Diese Erfahrung prägt, wie Saha seine interne Plattform für Sourcing, Due Diligence, Übergabe und Portfolio-Reporting aufbaut. Verbindet praktische technische Sorgfalt mit strategischer Weitsicht und der Geduld, die ein Betrieb in dieser Grössenordnung verlangt.",
       },
     ],
     closingLine: "Wenn Sie die Erfahrung und die Haltung mitbringen, sich uns anzuschliessen, würden wir uns freuen, von Ihnen zu hören.",

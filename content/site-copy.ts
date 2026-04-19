@@ -327,7 +327,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "For Investors",
-    headline: "A permanent-hold strategy, with disciplined operational strengthening,\nin an overlooked segment of Swiss SME succession",
+    headline: "Permanent ownership in Swiss SME succession",
     subheadline:
       "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and every acquired business can be measurably strengthened in the two years after close. The edge is not financial engineering. It is buying carefully, transitioning well, and building the operating capabilities that compound across a permanent portfolio.",
   },
@@ -762,7 +762,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Founder, Platform & Data",
-        description: "Brings deep expertise in IT architecture and data governance, built on a software engineering foundation and progressive leadership at HOCH Health Ostschweiz. His experience driving complex digital and enterprise IT transformations across a regulated, multi-entity Swiss organisation directly informs how Saha builds the internal platform that makes permanent ownership of many small businesses viable at scale: sourcing, diligence, transition, and portfolio reporting. Hands-on technical rigor paired with strategic vision and the patience systems at this scale require.",
+        description: "Brings deep expertise in IT architecture and data governance, grounded in software engineering and leadership at HOCH Health Ostschweiz. He has led complex digital and enterprise IT transformations across a regulated, multi-entity Swiss organisation. That experience shapes how Saha builds its internal platform for sourcing, diligence, transition, and portfolio reporting. Combines hands-on technical rigor with strategic vision and the patience required to operate at scale.",
       },
     ],
     closingLine: "If you have the experience and disposition to join us, we would like to hear from you.",

@@ -319,7 +319,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Pour les investisseurs",
-    headline: "Une stratégie de détention permanente,\navec un renforcement opérationnel discipliné,\ndans un segment méconnu de la succession suisse",
+    headline: "Une détention permanente pour la succession des PME suisses",
     subheadline:
       "Saha cible des entreprises rentables, dirigées par leurs fondateurs, où la succession ouvre une opportunité, la transmissibilité est réelle, et chaque entreprise acquise peut être renforcée de manière mesurable dans les deux années qui suivent la clôture. L'avantage ne réside pas dans l'ingénierie financière. Il réside dans l'achat rigoureux, la transition bien menée et la construction des capacités opérationnelles qui se composent sur un portefeuille permanent.",
   },
@@ -730,7 +730,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Fondateur, Plateforme & Données",
-        description: "Apporte une expertise approfondie en architecture IT et en gouvernance des données, bâtie sur un socle en génie logiciel et une trajectoire de responsabilités croissantes au sein de HOCH Health Ostschweiz. Son expérience dans la conduite de transformations numériques et IT d'entreprise complexes, au sein d'une organisation suisse régulée et multi-entités, nourrit directement la manière dont Saha construit la plateforme interne qui rend viable la détention permanente de nombreuses petites entreprises à l'échelle : sourcing, diligence, transition et reporting du portefeuille. Une rigueur technique de terrain, adossée à une vision stratégique et à la patience que demandent les systèmes de cette envergure.",
+        description: "Apporte une expertise approfondie en architecture IT et en gouvernance des données, enracinée dans le génie logiciel et le leadership exercé au sein de HOCH Health Ostschweiz. Il a conduit des transformations numériques et IT d'entreprise complexes dans une organisation suisse régulée et multi-entités. Cette expérience façonne la manière dont Saha construit sa plateforme interne pour le sourcing, la diligence, la transition et le reporting du portefeuille. Allie rigueur technique de terrain, vision stratégique et la patience qu'exige une exploitation à cette échelle.",
       },
     ],
     closingLine: "Si vous avez l'expérience et la disposition pour nous rejoindre, nous aimerions vous entendre.",
