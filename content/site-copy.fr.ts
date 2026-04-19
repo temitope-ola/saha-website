@@ -519,12 +519,6 @@ export const joinPage = {
     intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes classiques. Ce sont des rôles de co-fondateurs opérationnels.",
     roles: [
       {
-        title: "Fondateur, Plateforme & Données",
-        description: "Construira l'infrastructure opérationnelle allégée qui rend les premières acquisitions de Saha possibles : pipeline de sourcing, workflow de diligence, suivi des transactions et les outils internes permettant à une petite équipe d'avancer avec rigueur et sans surcharge inutile.",
-        ctaLabel: "Exprimer mon intérêt →",
-        ctaHref: "/contact",
-      },
-      {
         title: "Responsable Finance, Capital & Reporting",
         description: "Prendra en charge l'architecture financière de Saha et de son portefeuille : structuration du capital, modélisation des acquisitions, reporting consolidé et infrastructure administrative permettant à une famille croissante d'entreprises de fonctionner avec clarté et discipline.",
         ctaLabel: "Exprimer mon intérêt →",
@@ -730,7 +724,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Fondateur, Plateforme & Données",
-        description: "Apporte une expertise approfondie en architecture IT et en gouvernance des données, enracinée dans le génie logiciel et le leadership exercé au sein de HOCH Health Ostschweiz. Il a conduit des transformations numériques et IT d'entreprise complexes dans une organisation suisse régulée et multi-entités. Cette expérience façonne la manière dont Saha construit sa plateforme interne pour le sourcing, la diligence, la transition et le reporting du portefeuille. Allie rigueur technique de terrain, vision stratégique et la patience qu'exige une exploitation à cette échelle.",
+        description: "Apporte une expertise approfondie en architecture IT et en gouvernance des données, enracinée dans le génie logiciel et le leadership exercé au sein de HOCH Health Ostschweiz. Il a conduit des transformations numériques et IT d'entreprise complexes dans une organisation suisse régulée et multi-entités. Cette expérience façonne la manière dont Saha construit sa plateforme interne pour le sourcing, la diligence, la transition et le reporting du portefeuille.",
       },
     ],
     closingLine: "Si vous avez l'expérience et la disposition pour nous rejoindre, nous aimerions vous entendre.",

@@ -530,12 +530,6 @@ export const joinPage = {
     intro: "Wir rekrutieren für Gründungsrollen, die von Tag eins an prägen werden, wie Saha arbeitet. Keine Angestelltenpositionen. Mitgründerrollen.",
     roles: [
       {
-        title: "Gründer, Plattform & Daten",
-        description: "Baut die schlanke operative Infrastruktur, die Sahas erste Akquisitionen ermöglicht: Sourcing-Pipeline, Due-Diligence-Workflow, Deal-Tracking und die internen Werkzeuge, mit denen ein kleines Team mit Rigor arbeitet, ohne unnötigen Overhead.",
-        ctaLabel: "Interesse bekunden →",
-        ctaHref: "/contact",
-      },
-      {
         title: "Finance Lead, Kapital & Reporting",
         description: "Verantwortet die Finanzarchitektur über Saha und das gesamte Portfolio hinweg: Kapitalstrukturierung, Akquisitionsmodellierung, Portfolio-Reporting und das administrative Rückgrat, mit dem eine wachsende Unternehmensfamilie mit Klarheit und Disziplin arbeitet.",
         ctaLabel: "Interesse bekunden →",
@@ -763,7 +757,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Gründer, Plattform & Daten",
-        description: "Bringt tiefe Expertise in IT-Architektur und Data Governance mit, verwurzelt in Softwareentwicklung und Führungsverantwortung bei der HOCH Health Ostschweiz. Er hat komplexe digitale und Enterprise-IT-Transformationen in einer regulierten, mehrgliedrigen Schweizer Organisation geleitet. Diese Erfahrung prägt, wie Saha seine interne Plattform für Sourcing, Due Diligence, Übergabe und Portfolio-Reporting aufbaut. Verbindet praktische technische Sorgfalt mit strategischer Weitsicht und der Geduld, die ein Betrieb in dieser Grössenordnung verlangt.",
+        description: "Bringt tiefe Expertise in IT-Architektur und Data Governance mit, verwurzelt in Softwareentwicklung und Führungsverantwortung bei der HOCH Health Ostschweiz. Er hat komplexe digitale und Enterprise-IT-Transformationen in einer regulierten, mehrgliedrigen Schweizer Organisation geleitet. Diese Erfahrung prägt, wie Saha seine interne Plattform für Sourcing, Due Diligence, Übergabe und Portfolio-Reporting aufbaut.",
       },
     ],
     closingLine: "Wenn Sie die Erfahrung und die Haltung mitbringen, sich uns anzuschliessen, würden wir uns freuen, von Ihnen zu hören.",

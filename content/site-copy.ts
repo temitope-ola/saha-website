@@ -529,12 +529,6 @@ export const joinPage = {
     intro: "We are recruiting for founding roles that will shape how Saha operates from day one. These are not employee positions. They are co-builder roles.",
     roles: [
       {
-        title: "Founder, Platform & Data",
-        description: "Will build the lean operational infrastructure that makes Saha's first acquisitions possible: sourcing pipeline, diligence workflow, deal tracking, and the internal tools that allow a small team to move with rigour and without unnecessary overhead.",
-        ctaLabel: "Express interest →",
-        ctaHref: "/contact",
-      },
-      {
         title: "Finance Lead, Capital & Reporting",
         description: "Will own the financial architecture across Saha and its portfolio: capital structuring, acquisition modelling, portfolio-level reporting, and the administrative backbone that allows a growing family of businesses to operate with clarity and discipline.",
         ctaLabel: "Express interest →",
@@ -762,7 +756,7 @@ export const aboutPage = {
       {
         name: "Stefan Vaninetti",
         subtitle: "Founder, Platform & Data",
-        description: "Brings deep expertise in IT architecture and data governance, grounded in software engineering and leadership at HOCH Health Ostschweiz. He has led complex digital and enterprise IT transformations across a regulated, multi-entity Swiss organisation. That experience shapes how Saha builds its internal platform for sourcing, diligence, transition, and portfolio reporting. Combines hands-on technical rigor with strategic vision and the patience required to operate at scale.",
+        description: "Brings deep expertise in IT architecture and data governance, grounded in software engineering and leadership at HOCH Health Ostschweiz. He has led complex digital and enterprise IT transformations across a regulated, multi-entity Swiss organisation. That experience shapes how Saha builds its internal platform for sourcing, diligence, transition, and portfolio reporting.",
       },
     ],
     closingLine: "If you have the experience and disposition to join us, we would like to hear from you.",
