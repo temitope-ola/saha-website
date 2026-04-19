@@ -17,10 +17,10 @@
     @apply font-serif text-encre;
   }
 
-  /* Fraunces optical size: weight stays at 400, contrast comes from opsz axis */
+  /* Fraunces display: opsz 144 for high contrast, SOFT 50 to keep thin strokes visible on screen */
   h1 {
     font-weight: 400;
-    font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 1;
+    font-variation-settings: "opsz" 144, "SOFT" 50, "WONK" 1;
   }
   h2, h3, h4 {
     font-weight: 400;
