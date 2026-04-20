@@ -331,9 +331,9 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Für Investoren",
-    headline: "Permanentes Eigentum in der Schweizer KMU-Nachfolge",
+    headline: "Rendite durch Halten.",
     subheadline:
-      "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge Chancen eröffnet, die Übertragbarkeit real ist und jedes erworbene Unternehmen in den zwei Jahren nach Abschluss messbar gestärkt werden kann. Der Vorteil liegt nicht im Financial Engineering. Er liegt darin, sorgfältig zu kaufen, gut zu übergeben und die operativen Fähigkeiten aufzubauen, die sich über ein permanentes Portfolio hinweg kumulieren.",
+      "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge Chancen eröffnet, die Übertragbarkeit real ist und jedes erworbene Unternehmen in den zwei Jahren nach Abschluss messbar gestärkt werden kann. Der Vorteil liegt darin, sorgfältig zu kaufen, gut zu übergeben und die operativen Fähigkeiten aufzubauen, die sich über ein permanentes Portfolio hinweg kumulieren.",
     cta: { label: "Die These besprechen", href: "/contact?pathway=investor" },
   },
 

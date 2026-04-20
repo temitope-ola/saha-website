@@ -330,9 +330,9 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "For Investors",
-    headline: "Permanent ownership in Swiss SME succession",
+    headline: "Performance through holding.",
     subheadline:
-      "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and every acquired business can be measurably strengthened in the two years after close. The edge is not financial engineering. It is buying carefully, transitioning well, and building the operating capabilities that compound across a permanent portfolio.",
+      "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and every acquired business can be measurably strengthened in the two years after close. The edge is buying carefully, transitioning well, and building the operating capabilities that compound across a permanent portfolio.",
     cta: { label: "Discuss the thesis", href: "/contact?pathway=investor" },
   },
 

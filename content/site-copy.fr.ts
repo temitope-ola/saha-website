@@ -322,9 +322,9 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Pour les investisseurs",
-    headline: "Une détention permanente pour la succession des PME suisses",
+    headline: "La performance par la détention.",
     subheadline:
-      "Saha cible des entreprises rentables, dirigées par leurs fondateurs, où la succession ouvre une opportunité, la transmissibilité est réelle, et chaque entreprise acquise peut être renforcée de manière mesurable dans les deux années qui suivent la clôture. L'avantage ne réside pas dans l'ingénierie financière. Il réside dans l'achat rigoureux, la transition bien menée et la construction des capacités opérationnelles qui se composent sur un portefeuille permanent.",
+      "Saha cible des entreprises rentables, dirigées par leurs fondateurs, où la succession ouvre une opportunité, la transmissibilité est réelle, et chaque entreprise acquise peut être renforcée de manière mesurable dans les deux années qui suivent la clôture. L'avantage réside dans l'achat rigoureux, la transition bien menée et la construction des capacités opérationnelles qui se composent sur un portefeuille permanent.",
     cta: { label: "Discuter de la thèse", href: "/contact?pathway=investor" },
   },
 
