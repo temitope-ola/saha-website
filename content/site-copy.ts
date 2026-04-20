@@ -609,17 +609,16 @@ export const joinPage = {
 export const advisorsPage = {
   hero: {
     eyebrow: "For Advisors",
-    headline: "The buyer your clients can trust\nyou for introducing",
+    headline: "A buyer you can vouch for",
     subheadline:
       "When you refer a client to a buyer, your reputation travels with them. Saha is built with that responsibility in mind: a buyer that protects the relationships you have spent years building, not one that puts them at risk.",
   },
 
   understand: {
-    heading: "We understand your position",
+    heading: "An introduction is a long memory",
     paragraphs: [
-      "The founders who face succession are often your longest-standing clients. The decision to sell is personal, complex, and irreversible. When you introduce a buyer, you are not just facilitating a transaction; you are vouching for how that process will feel and what it will produce.",
-      "We do not take that lightly. Our model is designed to make the advisor who introduced us look good: through how we behave in the process, how we treat the founder, and how we carry the business forward after close.",
-      "Leadership continuity is a named capability at Saha: identify, evaluate, install, support. When the business needs a leader after the founder steps back, we work that problem from day one of the transition, not after it, and we are transparent with you throughout.",
+      "The founders facing succession are often your longest-standing clients. When you introduce them to a buyer, you aren't just facilitating a transaction; you're vouching for how the process will feel and what it produces.",
+      "Saha is designed around that responsibility. How we behave in the process, how we treat the founder, and how we carry the business forward after close are what determine whether your introduction reflects well on you.",
     ],
   },
 

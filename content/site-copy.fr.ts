@@ -577,17 +577,16 @@ export const joinPage = {
 export const advisorsPage = {
   hero: {
     eyebrow: "Pour les conseillers",
-    headline: "L'acquéreur auquel vos clients\npeuvent se fier grâce à votre recommandation",
+    headline: "Un acquéreur digne de votre recommandation",
     subheadline:
       "Lorsque vous orientez un client vers un acquéreur, votre réputation l'accompagne. Saha est conçu avec cette responsabilité à l'esprit : un acquéreur qui protège les relations que vous avez bâties au fil des années, et qui ne les met pas en péril.",
   },
 
   understand: {
-    heading: "Nous comprenons votre position",
+    heading: "Une recommandation laisse une trace durable",
     paragraphs: [
-      "Les fondateurs confrontés à la succession sont souvent vos clients de plus longue date. La décision de vendre est personnelle, complexe et irréversible. Lorsque vous présentez un acquéreur, vous ne facilitez pas simplement une transaction : vous vous portez garant de la manière dont ce processus sera vécu et de ce qu'il produira.",
-      "Nous ne le prenons pas à la légère. Notre modèle est conçu pour que le conseiller qui nous a présentés en sorte valorisé : par notre comportement dans le processus, notre traitement du fondateur et la manière dont nous faisons vivre l'entreprise après la clôture.",
-      "Lorsque l'entreprise a besoin d'un leadership après le retrait du fondateur, nous travaillons à identifier et à accompagner la bonne personne, au sein de l'équipe existante ou depuis l'extérieur, dans le cadre de la structuration de chaque transition.",
+      "Les dirigeants qui abordent leur succession comptent souvent parmi vos clients de plus longue date. Lorsque vous leur présentez un acquéreur, vous ne facilitez pas seulement une transaction ; vous répondez de la manière dont le processus sera vécu et de ce qu'il produira.",
+      "Saha est construit autour de cette responsabilité. Notre conduite pendant le processus, notre manière de traiter le cédant et la façon dont nous portons l'entreprise après la clôture déterminent si votre recommandation vous fait honneur.",
     ],
   },
 

@@ -610,17 +610,16 @@ export const joinPage = {
 export const advisorsPage = {
   hero: {
     eyebrow: "Für Berater",
-    headline: "Der Käufer, dem Ihre Klienten\nvertrauen können, dank Ihrer Empfehlung",
+    headline: "Ein Käufer, für den Sie einstehen können",
     subheadline:
       "Wenn Sie einen Klienten an einen Käufer vermitteln, geht Ihr Ruf mit. Saha ist mit dieser Verantwortung im Blick aufgebaut: ein Käufer, der die Beziehungen schützt, die Sie über Jahre aufgebaut haben, und sie nicht gefährdet.",
   },
 
   understand: {
-    heading: "Wir verstehen Ihre Position",
+    heading: "Eine Empfehlung bleibt lange im Gedächtnis",
     paragraphs: [
-      "Die Gründerinnen und Gründer, die vor einer Nachfolge stehen, sind häufig Ihre langjährigsten Klienten. Die Entscheidung zu verkaufen ist persönlich, komplex und unwiderruflich. Wenn Sie einen Käufer vorstellen, erleichtern Sie nicht bloss eine Transaktion; Sie bürgen dafür, wie sich der Prozess anfühlen wird und was er hervorbringt.",
-      "Wir nehmen das nicht leicht. Unser Modell ist darauf angelegt, den Berater, der uns vorgestellt hat, gut dastehen zu lassen: durch unser Verhalten im Prozess, unseren Umgang mit dem Klienten und die Art, wie wir das Unternehmen nach dem Abschluss weiterführen.",
-      "Wo das Unternehmen nach dem Rückzug der Gründungsperson Führung braucht, arbeiten wir daran, die richtige Person zu identifizieren und zu begleiten, aus dem bestehenden Team oder von aussen, als Teil der Strukturierung jeder Übergabe.",
+      "Die Inhaberinnen und Inhaber vor einer Nachfolge zählen oft zu Ihren langjährigsten Mandanten. Wenn Sie ihnen einen Käufer vorstellen, erleichtern Sie nicht nur eine Transaktion; Sie stehen dafür ein, wie sich der Prozess anfühlt und was er hervorbringt.",
+      "Saha ist um diese Verantwortung herum gebaut. Wie wir im Prozess auftreten, wie wir mit der Gründerin oder dem Gründer umgehen und wie wir das Unternehmen nach dem Abschluss weitertragen, entscheidet darüber, ob Ihre Empfehlung gut auf Sie zurückfällt.",
     ],
   },
 
