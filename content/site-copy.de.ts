@@ -207,7 +207,7 @@ export const foundersPage = {
     eyebrow: "Für Gründer",
     headline: "Sie haben ein Unternehmen aufgebaut,\ndas eine sorgfältige Übergabe verdient",
     subheadline:
-      "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen einen Käufer, der Kontinuität ernst nimmt und das Unternehmen mit der Zeit tatsächlich stärker macht. Nicht weiterverkaufen, nicht umbenennen, nicht zerschlagen. Saha erwirbt profitable Schweizer Unternehmen in der Nachfolge, begleitet die Übergabe sorgfältig und trägt langfristig weiter, was Sie aufgebaut haben.",
+      "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen einen Käufer, der Kontinuität ernst nimmt und das Unternehmen mit der Zeit tatsächlich stärker macht. Nicht weiterverkaufen, nicht umbenennen, nicht zerschlagen.",
   },
 
   intro: {

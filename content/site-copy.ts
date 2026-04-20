@@ -206,7 +206,7 @@ export const foundersPage = {
     eyebrow: "For Founders",
     headline: "You built a business worth\nhanding over well",
     subheadline:
-      "When the time comes to step back, your business deserves a buyer who takes continuity seriously and will actually make the company stronger over time. Not flip it, not rebrand it, not dismantle it. Saha acquires profitable Swiss businesses in succession, works through the transition carefully, and stewards what you built for the long term.",
+      "When the time comes to step back, your business deserves a buyer who takes continuity seriously and will actually make the company stronger over time. Not flip it, not rebrand it, not dismantle it.",
   },
 
   intro: {

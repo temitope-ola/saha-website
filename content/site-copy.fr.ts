@@ -200,7 +200,7 @@ export const foundersPage = {
     eyebrow: "Pour les fondateurs",
     headline: "Vous avez bâti une entreprise\nqui mérite une transmission soignée",
     subheadline:
-      "Quand vient le moment de prendre du recul, votre entreprise mérite un acquéreur qui prend la continuité au sérieux et qui la rendra réellement plus forte avec le temps. Pas la revendre, pas la rebaptiser, pas la démembrer. Saha acquiert des PME suisses rentables en phase de succession, mène la transition avec soin et porte dans la durée ce que vous avez bâti.",
+      "Quand vient le moment de prendre du recul, votre entreprise mérite un acquéreur qui prend la continuité au sérieux et qui la rendra réellement plus forte avec le temps. Pas la revendre, pas la rebaptiser, pas la démembrer.",
   },
 
   intro: {

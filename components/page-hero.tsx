@@ -17,7 +17,7 @@ export default function PageHero({ eyebrow, headline, subheadline }: PageHeroPro
           <h1 className="text-display-sm md:text-display lg:text-display-lg">
             {headline}
           </h1>
-          <p className="mt-6 text-body-lg md:text-subheading text-pierre max-w-3xl">
+          <p className="mt-6 text-body-lg md:text-subheading text-pierre">
             {subheadline}
           </p>
         </div>
