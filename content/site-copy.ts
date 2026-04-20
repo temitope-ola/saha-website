@@ -41,29 +41,31 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Many good businesses disappear for the wrong reasons",
     paragraphs: [
-      "Across Switzerland, thousands of profitable, well-run businesses face an uncertain future. Not because they are failing, but because their founders are approaching retirement without a clear path forward. The options are often unsatisfying: sell to a distant corporate buyer, attempt a rushed handover, or simply close the doors.",
-      "Most institutional acquirers focus higher up the market. Deals below CHF 10M in revenue are too small for traditional private equity, too complex for passive investors, and rarely covered by mainstream M&A advisory. These businesses fall through the cracks. Not because they lack value, but because no one has built a model for them.",
-      "Saha is not trying to buy as many businesses as possible. We are building a disciplined Swiss succession buyer for a specific kind of company: profitable, founder-led, small enough to be overlooked, and strong enough to continue beyond the founder with the right transition. That means saying no often, buying selectively, staying close during handover, and holding for the long term once the business is stable. This segment does not need more acquirers. It needs the right acquirer: one that treats the founder, the team, and the next chapter of the business with equal seriousness.",
+      "Across Switzerland, thousands of profitable businesses face an uncertain future. Not because they are failing, but because their founders are retiring without a successor.",
+      "Most institutional acquirers focus higher up the market. Businesses below CHF 10M in revenue are too small for traditional private equity, and often too complex for individual buyers. They fall through the cracks, not because they lack value, but because no one has built a model for them.",
+      "Saha is building that model: a disciplined Swiss succession buyer for profitable, founder-led SMEs. We buy selectively, see the founder through a successful transition, and grow the business for the long term.",
     ],
     callout: {
       type: "stat" as const,
       value: "~168,000",
-      caption: "Swiss SMEs expected to face succession by 2030. Roughly one in three of those transfers is expected to fail, not for lack of buyers, but for lack of a buyer model built for this segment.",
+      caption: "Swiss SMEs expected to face succession by 2030.",
       source: "2026 CFB\u2011HSG / UBS study",
     },
   },
 
-  whyNowSectionLabel: "A gap in the market",
+  whyNowSectionLabel: "What's at stake",
   whyNow: {
-    heading: "These businesses deserve better than disappearing quietly",
+    heading: "When no buyer appears, good businesses quietly close",
     paragraphs: [
-      "Below CHF 10M in revenue, there are very few buyers willing to do the work these deals require. The transactions are too small for private equity funds to justify their overhead. The businesses are too founder-dependent for investors who want a hands-off role. And the transitions are too human, too reliant on trust, relationships, and care, to be handled by anyone unwilling to get close.",
-      "Yet these are often the businesses that matter most at a local level. They employ people who have been there for years. They serve customers who depend on them. When they close because no buyer appeared, the loss is quiet but real.",
-      "Saha was created because this gap should not exist. Good businesses should not disappear because of a timing problem.",
+      "When a profitable business shuts down because no successor was found, the things lost are hard to measure. Employees who built their careers there move on. Long-standing customer and supplier relationships dissolve. Skills, institutional memory, and local reputation, assembled over decades, disperse without anyone noticing.",
+      "For the founder, the cost is personal. The work was good, the customers were loyal, the team wanted to stay. The business was sound. Only the timing of a buyer was not.",
+      "This is not a rare outcome. Tens of thousands of Swiss SMEs are reaching succession this decade, and a meaningful share are expected to close for exactly this reason. That is the loss Saha is built to prevent, one disciplined acquisition at a time.",
     ],
     callout: {
-      type: "quote" as const,
-      text: "Good businesses should not disappear because of a timing problem.",
+      type: "stat" as const,
+      value: "1 in 3",
+      caption: "Swiss SME successions expected to fail, not for lack of good businesses, but because no buyer appears.",
+      source: "2026 CFB\u2011HSG / UBS study",
     },
   },
 

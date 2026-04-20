@@ -42,29 +42,31 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Viele gute Unternehmen verschwinden aus den falschen Gründen",
     paragraphs: [
-      "In der Schweiz stehen Tausende profitabler, gut geführter Unternehmen vor einer unsicheren Zukunft. Nicht weil sie scheitern, sondern weil ihre Gründerinnen und Gründer sich dem Ruhestand nähern, ohne dass eine klare Nachfolgelösung in Sicht ist. Die verbleibenden Optionen sind oft unbefriedigend: Verkauf an einen fernen Konzern, eine überstürzte Übergabe, oder schlicht die Schliessung.",
-      "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Transaktionen unter CHF 10 Mio. Umsatz sind für klassisches Private Equity zu klein, für passive Investoren zu komplex und werden von traditioneller M&A-Beratung kaum betreut. Diese Unternehmen fallen durch die Maschen. Nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie entwickelt hat.",
-      "Saha versucht nicht, möglichst viele Unternehmen zu kaufen. Wir bauen einen disziplinierten Schweizer Nachfolge-Erwerber für eine bestimmte Art von Unternehmen auf: profitabel, inhabergeführt, klein genug, um übersehen zu werden, und stark genug, um mit der richtigen Übergabe über die Gründungsperson hinaus zu bestehen. Das bedeutet: häufig Nein sagen, gezielt erwerben, bei der Übergabe nah dran sein und langfristig halten, sobald das Unternehmen stabil ist. Dieses Segment braucht nicht mehr Käufer, sondern den richtigen Käufer: einen, der Gründerin, Team und das nächste Kapitel des Unternehmens mit gleicher Ernsthaftigkeit behandelt.",
+      "In der Schweiz stehen Tausende profitabler Unternehmen vor einer ungewissen Zukunft. Nicht weil sie scheitern, sondern weil ihre Gründerinnen und Gründer ohne Nachfolge in den Ruhestand gehen.",
+      "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Unternehmen mit weniger als CHF 10 Mio. Umsatz sind für klassisches Private Equity zu klein und für Einzelkäufer oft zu komplex. Sie fallen durch die Maschen: nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie gebaut hat.",
+      "Saha baut dieses Modell: ein disziplinierter Schweizer Nachfolge-Erwerber für profitable, inhabergeführte KMU. Wir kaufen gezielt, begleiten die Gründerin oder den Gründer durch eine gelungene Übergabe und lassen das Unternehmen langfristig wachsen.",
     ],
     callout: {
       type: "stat" as const,
       value: "~168'000",
-      caption: "Schweizer KMU, die bis 2030 einen Generationswechsel durchlaufen müssen. Rund ein Drittel dieser Übertragungen dürfte scheitern. Nicht aus Mangel an Käufern, sondern weil für dieses Segment bisher kein Erwerbermodell existiert.",
+      caption: "Schweizer KMU, die bis 2030 einen Generationswechsel durchlaufen müssen.",
       source: "2026 CFB\u2011HSG / UBS Studie",
     },
   },
 
-  whyNowSectionLabel: "Eine Lücke im Markt",
+  whyNowSectionLabel: "Was auf dem Spiel steht",
   whyNow: {
-    heading: "Diese Unternehmen verdienen mehr als ein stilles Verschwinden",
+    heading: "Wenn sich kein Käufer findet, schliessen gute Unternehmen still",
     paragraphs: [
-      "Unterhalb von CHF 10 Mio. Umsatz gibt es sehr wenige Käufer, die bereit sind, die Arbeit zu leisten, die solche Transaktionen erfordern. Die Deals sind für Private-Equity-Fonds zu klein, um deren Overhead zu rechtfertigen. Die Unternehmen sind für Investoren, die Distanz wünschen, zu gründerabhängig. Und die Übergaben sind schlicht zu menschlich (zu sehr auf Vertrauen, Beziehungen und Sorgfalt angewiesen), als dass sie von jemandem geführt werden könnten, der nicht bereit ist, nah heranzutreten.",
-      "Dabei sind es gerade diese Unternehmen, die lokal am meisten zählen. Sie beschäftigen Menschen, die seit Jahren dabei sind. Sie bedienen Kundinnen und Kunden, die auf sie angewiesen sind. Wenn sie schliessen, weil sich kein Käufer fand, ist der Verlust leise, aber real.",
-      "Saha existiert, weil diese Lücke nicht bestehen sollte. Gute Unternehmen sollten nicht verschwinden, bloss weil das Zeitfenster fehlt.",
+      "Wenn ein profitables Unternehmen schliesst, weil sich keine Nachfolge fand, ist der Verlust kaum messbar. Mitarbeitende, die dort ihre berufliche Heimat hatten, orientieren sich neu. Über Jahre gewachsene Kunden- und Lieferantenbeziehungen lösen sich auf. Know-how, institutionelles Gedächtnis und lokale Reputation, in Jahrzehnten aufgebaut, zerstreuen sich, ohne dass es jemand bemerkt.",
+      "Für die Gründerin oder den Gründer ist der Verlust persönlich. Die Arbeit war gut, die Kundschaft treu, das Team wollte bleiben. Das Unternehmen war solide. Nur fand sich kein Käufer zur richtigen Zeit.",
+      "Das ist kein Einzelfall. Zehntausende Schweizer KMU stehen in diesem Jahrzehnt vor der Nachfolge, und ein erheblicher Teil dürfte genau aus diesem Grund schliessen. Genau diesen Verlust soll Saha verhindern, eine disziplinierte Akquisition nach der anderen.",
     ],
     callout: {
-      type: "quote" as const,
-      text: "Gute Unternehmen sollten nicht verschwinden, bloss weil das Zeitfenster fehlt.",
+      type: "stat" as const,
+      value: "1 von 3",
+      caption: "Schweizer KMU-Nachfolgen dürften scheitern: nicht aus Mangel an guten Unternehmen, sondern weil sich kein Käufer findet.",
+      source: "2026 CFB\u2011HSG / UBS Studie",
     },
   },
 

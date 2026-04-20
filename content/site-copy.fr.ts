@@ -37,29 +37,31 @@ export const homepage = {
   whatWeAreBuilding: {
     heading: "Trop de bonnes entreprises disparaissent pour les mauvaises raisons",
     paragraphs: [
-      "En Suisse, des milliers d'entreprises rentables et bien dirigées font face à un avenir incertain. Non pas parce qu'elles échouent, mais parce que leurs fondateurs approchent la retraite sans chemin tracé. Les options sont souvent peu satisfaisantes : vendre à un grand groupe lointain, tenter une transmission précipitée, ou simplement fermer les portes.",
-      "La plupart des acquéreurs institutionnels ciblent le haut du marché. Les transactions inférieures à CHF 10 millions de chiffre d'affaires sont trop petites pour le capital-investissement classique, trop complexes pour les investisseurs passifs et rarement couvertes par les conseils en fusions et acquisitions traditionnels. Ces entreprises tombent entre les mailles du filet. Non pas faute de valeur, mais parce que personne n'a construit un modèle pour elles.",
-      "Saha ne cherche pas à acquérir le plus grand nombre d'entreprises possible. Nous construisons un repreneur suisse discipliné pour un type précis de société : rentable, dirigée par son fondateur, suffisamment petite pour passer inaperçue et suffisamment solide pour perdurer au-delà du fondateur avec une transition bien menée. Cela implique de dire non souvent, d'acquérir de manière sélective, de rester proche pendant la passation et de détenir dans la durée une fois l'entreprise stabilisée. Ce segment n'a pas besoin de plus d'acquéreurs. Il a besoin du bon acquéreur : celui qui traite le fondateur, l'équipe et le prochain chapitre de l'entreprise avec la même gravité.",
+      "En Suisse, des milliers d'entreprises rentables font face à un avenir incertain. Non pas parce qu'elles échouent, mais parce que leurs fondateurs partent à la retraite sans successeur.",
+      "La plupart des acquéreurs institutionnels ciblent le haut du marché. Les entreprises dont le chiffre d'affaires est inférieur à CHF 10 millions sont trop petites pour le capital-investissement classique et souvent trop complexes pour les acquéreurs individuels. Elles passent entre les mailles du filet : non pas faute de valeur, mais parce que personne n'a construit un modèle pour elles.",
+      "Saha construit ce modèle : un repreneur suisse discipliné pour les PME rentables dirigées par leurs fondateurs. Nous acquérons de manière sélective, accompagnons le fondateur jusqu'à une transmission réussie, et faisons croître l'entreprise dans la durée.",
     ],
     callout: {
       type: "stat" as const,
       value: "~168 000",
-      caption: "PME suisses devraient faire face à une succession d'ici 2030. Environ une transmission sur trois risque d'échouer. Non pas faute d'acquéreurs, mais faute d'un modèle d'acquéreur pensé pour ce segment.",
+      caption: "PME suisses devraient faire face à une succession d'ici 2030.",
       source: "Étude 2026 CFB\u2011HSG / UBS",
     },
   },
 
-  whyNowSectionLabel: "Un vide dans le marché",
+  whyNowSectionLabel: "Ce qui est en jeu",
   whyNow: {
-    heading: "Ces entreprises méritent mieux que de disparaître silencieusement",
+    heading: "Quand aucun acquéreur ne se présente, de bonnes entreprises ferment dans le silence",
     paragraphs: [
-      "Sous CHF 10 millions de chiffre d'affaires, il existe très peu d'acquéreurs disposés à fournir l'effort que ces transactions exigent. Elles sont trop petites pour les fonds de capital-investissement, qui ne peuvent justifier leurs frais généraux. Elles sont trop liées à leurs fondateurs pour les investisseurs qui recherchent une approche passive. Et les transitions sont trop humaines (trop dépendantes de la confiance, des relations et de l'attention) pour être confiées à ceux qui refusent de s'impliquer.",
-      "Or ce sont souvent les entreprises qui comptent le plus au niveau local. Elles emploient des collaborateurs présents depuis des années. Elles servent des clients qui en dépendent. Quand elles ferment faute d'acquéreur, la perte est discrète, mais bien réelle.",
-      "Saha a été créée parce que ce vide ne devrait pas exister. Les bonnes entreprises ne devraient pas disparaître à cause d'un problème de calendrier.",
+      "Lorsqu'une entreprise rentable ferme faute de repreneur, les pertes sont difficiles à mesurer. Les collaborateurs qui y ont bâti leur carrière s'en vont ailleurs. Des relations clients et fournisseurs tissées de longue date se défont. Un savoir-faire, une mémoire d'entreprise et une réputation locale, construits sur des décennies, se dispersent sans bruit.",
+      "Pour le fondateur, la perte est personnelle. Le travail était bon, les clients fidèles, l'équipe voulait rester. L'entreprise était saine. Seul un acquéreur a manqué au bon moment.",
+      "Ce n'est pas un cas rare. Des dizaines de milliers de PME suisses abordent leur succession au cours de cette décennie, et une part significative devrait fermer pour cette seule raison. C'est cette perte que Saha est bâtie pour prévenir, une acquisition disciplinée à la fois.",
     ],
     callout: {
-      type: "quote" as const,
-      text: "Les bonnes entreprises ne devraient pas disparaître à cause d'un problème de calendrier.",
+      type: "stat" as const,
+      value: "1 sur 3",
+      caption: "Successions de PME suisses devraient échouer : non par manque de bonnes entreprises, mais parce qu'aucun acquéreur ne se présente.",
+      source: "Étude 2026 CFB\u2011HSG / UBS",
     },
   },
 
