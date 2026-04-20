@@ -331,7 +331,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Für Investoren",
-    headline: "Rendite durch Halten.",
+    headline: "Rendite durch Halten",
     subheadline:
       "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge Chancen eröffnet, die Übertragbarkeit real ist und jedes erworbene Unternehmen in den zwei Jahren nach Abschluss messbar gestärkt werden kann. Der Vorteil liegt darin, sorgfältig zu kaufen, gut zu übergeben und die operativen Fähigkeiten aufzubauen, die sich über ein permanentes Portfolio hinweg kumulieren.",
     cta: { label: "Die These besprechen", href: "/contact?pathway=investor" },
@@ -351,11 +351,10 @@ export const investorsPage = {
   },
 
   permanentOwnership: {
-    heading: "Wie dauerhaftes Eigentum Renditen erzeugt",
+    heading: "Woher die Rendite kommt",
     paragraphs: [
-      "Dauerhaftes Eigentum bedeutet nicht, dass Investoren unbegrenzt warten. Die Renditen entstehen primär aus den operativen Cashflows der von Saha erworbenen Unternehmen, ausgeschüttet oder reinvestiert, während das Portfolio reift. Mit wachsendem Portfolio und steigendem Vermögenswert werden zusätzliche Mechanismen verfügbar: Refinanzierung gegen den Portfoliowert, selektive Sekundärliquidität für langfristige Investoren und Co-Investitionsrechte bei neuen Akquisitionen.",
-      "Dies ist keine Struktur, die auf ein einzelnes Exit-Ereignis hin optimiert ist. Sie ist darauf ausgelegt, dauerhafte, sich kumulierende Renditen für Investoren zu erzeugen, deren Zeithorizont zum Modell passt. Das Fehlen einer Exit-Uhr ist ein Vorteil: Jede operative Entscheidung wird für die langfristige Gesundheit des Unternehmens getroffen, nicht um es für den Verkauf herzurichten.",
-      "Renditestruktur, Ausschüttungspolitik und Investorenbedingungen besprechen wir in direkten Gesprächen. Wenn das Modell anspricht, freuen wir uns auf diesen Dialog.",
+      "Die Rendite entsteht auf zwei Wegen. Der erste ist der operative Cashflow aus den erworbenen Unternehmen, gemäss festgelegter Ausschüttungspolitik an die Investoren verteilt oder in neue Akquisitionen reinvestiert. Der zweite ist der Wertzuwachs des Portfolios, während die Unternehmen kumulieren, abgebildet im Nettoinventarwert über die Zeit.",
+      "Weil die Struktur nicht auf ein einzelnes Exit-Ereignis hin optimiert ist, werden operative Entscheidungen für die langfristige Gesundheit des Unternehmens getroffen, nicht um es für den Verkauf herzurichten. Liquidität steht langfristigen Investoren dennoch auf zwei zusätzlichen Wegen offen: Refinanzierung gegen den wachsenden NAV und selektive Sekundärübertragungen innerhalb des Investorenkreises.",
     ],
   },
 

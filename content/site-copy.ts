@@ -330,7 +330,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "For Investors",
-    headline: "Performance through holding.",
+    headline: "Performance through holding",
     subheadline:
       "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and every acquired business can be measurably strengthened in the two years after close. The edge is buying carefully, transitioning well, and building the operating capabilities that compound across a permanent portfolio.",
     cta: { label: "Discuss the thesis", href: "/contact?pathway=investor" },
@@ -350,11 +350,10 @@ export const investorsPage = {
   },
 
   permanentOwnership: {
-    heading: "How permanent ownership generates returns",
+    heading: "Where returns come from",
     paragraphs: [
-      "Permanent ownership does not mean investors wait indefinitely. Returns are generated primarily through the operating cash flows of the businesses Saha acquires, distributed or reinvested as the portfolio matures. As the portfolio grows and asset values compound, additional mechanisms become available: refinancing against portfolio value, selective secondary liquidity for long-term investors, and co-investment rights on new acquisitions.",
-      "This is not a structure optimised for a single exit event. It is designed to generate durable, compounding returns for investors whose horizon matches the model. The absence of an exit clock is a feature. Every operational decision is made for the long-term health of each business, not to dress it for sale.",
-      "We discuss return structure, distribution policy, and investor terms in direct conversations. If the model resonates, we welcome that dialogue.",
+      "Returns come in two forms. The first is operating cash flow from the acquired businesses, distributed to investors or reinvested into new acquisitions according to stated policy. The second is appreciation in portfolio value as the businesses compound, reflected in net asset value over time.",
+      "Because the structure is not optimised for a single exit event, operational decisions are made for the long-term health of each business, not to dress it for sale. Liquidity is nonetheless available to long-term investors through two additional routes: refinancing against portfolio value as NAV grows, and selective secondary transfers within the investor base.",
     ],
   },
 

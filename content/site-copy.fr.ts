@@ -322,7 +322,7 @@ export const foundersPage = {
 export const investorsPage = {
   hero: {
     eyebrow: "Pour les investisseurs",
-    headline: "La performance par la détention.",
+    headline: "La performance par la détention",
     subheadline:
       "Saha cible des entreprises rentables, dirigées par leurs fondateurs, où la succession ouvre une opportunité, la transmissibilité est réelle, et chaque entreprise acquise peut être renforcée de manière mesurable dans les deux années qui suivent la clôture. L'avantage réside dans l'achat rigoureux, la transition bien menée et la construction des capacités opérationnelles qui se composent sur un portefeuille permanent.",
     cta: { label: "Discuter de la thèse", href: "/contact?pathway=investor" },
@@ -342,11 +342,10 @@ export const investorsPage = {
   },
 
   permanentOwnership: {
-    heading: "Comment la détention permanente génère des rendements",
+    heading: "D'où viennent les rendements",
     paragraphs: [
-      "La détention permanente ne signifie pas que les investisseurs attendent indéfiniment. Les rendements sont générés principalement par les flux de trésorerie opérationnels des entreprises acquises par Saha, distribués ou réinvestis au fil de la maturation du portefeuille. À mesure que le portefeuille croît et que la valeur des actifs se compose, des mécanismes complémentaires deviennent accessibles : refinancement adossé à la valeur du portefeuille, liquidité secondaire sélective pour les investisseurs de long terme et droits de co-investissement sur les nouvelles acquisitions.",
-      "Il ne s'agit pas d'une structure optimisée pour un événement de sortie unique. Elle est conçue pour générer des rendements durables et composés auprès d'investisseurs dont l'horizon correspond au modèle. L'absence d'horloge de sortie est un atout : chaque décision opérationnelle est prise pour la santé à long terme de chaque entreprise, et non pour la préparer à la vente.",
-      "La structure de rendement, la politique de distribution et les conditions investisseurs sont abordées lors de conversations directes. Si le modèle vous parle, nous accueillons ce dialogue avec plaisir.",
+      "Les rendements prennent deux formes. La première est le flux de trésorerie opérationnel des entreprises acquises, distribué aux investisseurs ou réinvesti dans de nouvelles acquisitions selon la politique établie. La seconde est l'appréciation de la valeur du portefeuille à mesure que les entreprises se composent, reflétée dans l'actif net au fil du temps.",
+      "Parce que la structure n'est pas optimisée pour un événement de sortie unique, chaque décision opérationnelle est prise pour la santé à long terme de chaque entreprise, non pour la préparer à la vente. La liquidité reste néanmoins accessible aux investisseurs de long terme par deux voies supplémentaires : refinancement adossé à la valeur du portefeuille à mesure que l'actif net progresse, et transferts secondaires sélectifs au sein du cercle d'investisseurs.",
     ],
   },
 
