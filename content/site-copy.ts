@@ -470,10 +470,9 @@ export const investorsPage = {
   },
 
   whereWeAre: {
-    heading: "Where we are now",
+    heading: "By design, not by delay",
     paragraphs: [
-      "Saha is building deliberately: assembling the core team, structuring the capital base, and engaging in early acquisition conversations. We have not yet completed our first acquisition. By design, not by delay.",
-      "We are building for first close, not mass deployment. The first deals will prove the sourcing thesis, the transition model, and the operating discipline. Everything that follows depends on getting this right.",
+      "Saha is pre-close. The core team is assembled, the capital base is being structured, and first acquisition conversations are underway. We have not closed a deal yet; we are building for first close, not for mass deployment. The first acquisitions will prove the sourcing thesis, the transition model, and the operating discipline. Everything that follows depends on getting this right.",
     ],
     callout: {
       type: "stat" as const,

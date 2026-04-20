@@ -462,10 +462,9 @@ export const investorsPage = {
   },
 
   whereWeAre: {
-    heading: "Où nous en sommes aujourd'hui",
+    heading: "Par choix, pas par retard",
     paragraphs: [
-      "Saha avance méthodiquement : constitution de l'équipe fondatrice, structuration de la base de capital et engagement des premières conversations d'acquisition. Nous n'avons pas encore finalisé notre première acquisition. Par choix, pas par retard.",
-      "Nous préparons un premier closing, pas un déploiement de masse. Les premières opérations prouveront la thèse de sourcing, le modèle de transition et la discipline opérationnelle. Tout ce qui suivra en dépend.",
+      "Saha est avant la première clôture. L'équipe fondatrice est en place, la structure de capital est en cours de finalisation et les premières conversations d'acquisition sont engagées. Nous n'avons pas encore clôturé d'opération ; nous préparons un premier closing, pas un déploiement de masse. Les premières acquisitions prouveront la thèse de sourcing, le modèle de transition et la discipline opérationnelle. Tout ce qui suivra en dépend.",
     ],
     callout: {
       type: "stat" as const,

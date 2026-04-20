@@ -471,10 +471,9 @@ export const investorsPage = {
   },
 
   whereWeAre: {
-    heading: "Wo wir jetzt stehen",
+    heading: "Bewusst, nicht verzögert",
     paragraphs: [
-      "Saha baut gezielt auf: Kernteam zusammenstellen, Kapitalbasis strukturieren, erste Akquisitionsgespräche führen. Wir haben noch keine erste Übernahme abgeschlossen. Aus Absicht, nicht aus Verzögerung.",
-      "Wir bauen für ein First Close, nicht für breit angelegten Einsatz. Die ersten Deals werden die Sourcing-These, das Übergabe-Modell und die Betriebsdisziplin beweisen. Alles, was danach folgt, hängt davon ab, sie richtig zu machen.",
+      "Saha ist vor dem ersten Abschluss. Das Kernteam ist aufgestellt, die Kapitalstruktur wird finalisiert, und erste Akquisitionsgespräche sind im Gange. Wir haben noch keinen Deal abgeschlossen; wir bauen auf den First Close hin, nicht auf breit angelegten Einsatz. Die ersten Akquisitionen werden die Sourcing-These, das Übergabe-Modell und die operative Disziplin beweisen. Alles, was danach folgt, hängt davon ab, dass dies richtig gelingt.",
     ],
     callout: {
       type: "stat" as const,
