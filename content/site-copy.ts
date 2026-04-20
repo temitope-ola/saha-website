@@ -95,31 +95,31 @@ export const homepage = {
 
   modelSectionLabel: "How we work",
   model: {
-    heading: "Find the right businesses. Transition them well. Keep them forever.",
+    heading: "Find the right businesses. Transition them well. Grow them for the long term.",
     steps: [
       {
         number: "01",
-        title: "Find businesses that can thrive beyond the founder",
+        title: "Businesses that can thrive beyond the founder",
         description:
-          "We look for profitable, founder-led Swiss businesses below CHF 10M in revenue where succession is the primary reason for sale. Beyond financial health, we pay close attention to whether the business can realistically continue without its founder: steady demand, a capable team, manageable customer concentration, and a handover that can be structured thoughtfully.",
+          "We focus on profitable, founder-led Swiss businesses below CHF 10M in revenue where succession is the reason for sale. What matters most: steady demand, a capable team, and a business that can continue confidently once the founder steps away.",
       },
       {
         number: "02",
         title: "Manage the transition with care",
         description:
-          "Every acquisition follows a structured transition designed to preserve what matters: founder handover, customer continuity, team stability, and close attention through the first twelve months. This is where deals succeed or fail, and we treat it as one of our most important capabilities.",
+          "Every acquisition follows a structured transition: founder handover, customer continuity, and team stability, with close attention through the first twelve months. This is where deals succeed or fail.",
       },
       {
         number: "03",
-        title: "Strengthen the business steadily after the founder leaves",
+        title: "Grow the business steadily",
         description:
-          "Once the business is stable, we help it become measurably stronger over the following twelve to twenty-four months. That typically means sharper reporting and pricing discipline, digitised workflows for recurring processes, support on key hires, and capturing institutional knowledge that used to sit with the founder. Support is deliberate, not imposed. The local team stays responsible for running and growing the business. What compounds is the playbook: every transition teaches us more about what actually helps small Swiss businesses.",
+          "Once the business is stable, we help it grow steadily over the following twelve to twenty-four months. That usually means sharper reporting, digitised workflows, support on key hires, and capturing knowledge that used to sit with the founder.",
       },
       {
         number: "04",
         title: "Hold for the long term",
         description:
-          "We do not buy businesses to resell them. Long-term ownership means we can make decisions that genuinely serve teams, customers, and business quality, without the pressure of an exit timeline. Each company stays in the Saha family, and the portfolio grows stronger over time.",
+          "We do not buy to resell. Long-term ownership lets us make decisions that serve teams, customers, and business quality, without the pressure of an exit timeline. Each company stays in the Saha family.",
       },
     ],
   },

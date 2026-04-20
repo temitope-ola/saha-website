@@ -96,31 +96,31 @@ export const homepage = {
 
   modelSectionLabel: "So arbeiten wir",
   model: {
-    heading: "Die richtigen Unternehmen finden. Die Übergabe sorgfältig gestalten. Langfristig halten.",
+    heading: "Die richtigen Unternehmen finden. Die Übergabe sorgfältig führen. Langfristig wachsen lassen.",
     steps: [
       {
         number: "01",
-        title: "Unternehmen finden, die über den Gründer hinaus bestehen können",
+        title: "Unternehmen, die über den Gründer hinaus bestehen",
         description:
-          "Wir suchen profitable, gründergeführte Schweizer Unternehmen unter CHF 10 Mio. Umsatz, bei denen Nachfolge der primäre Verkaufsgrund ist. Neben der finanziellen Gesundheit achten wir sorgfältig darauf, ob das Unternehmen realistisch ohne seine Gründerin oder seinen Gründer weitergeführt werden kann: stabile Nachfrage, ein fähiges Team, handhabbare Kundenkonzentration und eine Übergabe, die sorgfältig geplant werden kann.",
+          "Wir konzentrieren uns auf profitable, inhabergeführte Schweizer Unternehmen mit weniger als CHF 10 Mio. Umsatz, bei denen die Nachfolge der Verkaufsgrund ist. Was am meisten zählt: stabile Nachfrage, ein fähiges Team und ein Unternehmen, das auch ohne die Gründerin oder den Gründer tragfähig weitergeführt werden kann.",
       },
       {
         number: "02",
-        title: "Die Übergabe mit Sorgfalt begleiten",
+        title: "Die Übergabe sorgfältig führen",
         description:
-          "Jede Übernahme folgt einer strukturierten Übergabe, die bewahrt, was zählt: Gründer-Handover, Kundenkontinuität, Team-Stabilität und enge Aufmerksamkeit in den ersten zwölf Monaten. Hier entscheidet sich Erfolg oder Misserfolg einer Transaktion, und wir behandeln es als eine unserer wichtigsten Fähigkeiten.",
+          "Jede Akquisition folgt einem strukturierten Übergabeprozess: Gründerwechsel, Kundenkontinuität und Teamstabilität, mit enger Begleitung in den ersten zwölf Monaten. Hier entscheidet sich, ob ein Deal gelingt.",
       },
       {
         number: "03",
-        title: "Das Unternehmen stetig stärken, wenn die Gründungsperson gegangen ist",
+        title: "Das Unternehmen stetig wachsen lassen",
         description:
-          "Sobald das Unternehmen stabil ist, arbeiten wir in den folgenden zwölf bis vierundzwanzig Monaten daran, es messbar stärker zu machen. Das bedeutet in der Regel schärferes Reporting und konsequentere Preisdisziplin, die Digitalisierung wiederkehrender Arbeitsabläufe, Unterstützung bei wichtigen Neueinstellungen und das Sichern des institutionellen Wissens, das bislang bei der Gründerin oder dem Gründer lag. Unterstützung ist gezielt, nicht aufgedrängt. Das lokale Team bleibt für die Führung und die Weiterentwicklung des Unternehmens verantwortlich. Was sich kumuliert, ist das Playbook: Jede Übergabe lehrt uns mehr darüber, was kleinen Schweizer Unternehmen wirklich hilft.",
+          "Sobald das Unternehmen stabil ist, begleiten wir sein stetiges Wachstum über die folgenden zwölf bis vierundzwanzig Monate. Das bedeutet in der Regel: klareres Reporting, digitalisierte Arbeitsabläufe, Unterstützung bei Schlüsseleinstellungen und das Sichern von Wissen, das bislang bei der Gründerin oder dem Gründer lag.",
       },
       {
         number: "04",
-        title: "Dauerhaft halten",
+        title: "Langfristig halten",
         description:
-          "Wir kaufen Unternehmen nicht, um sie weiterzuverkaufen. Langfristige Eigentümerschaft heisst: Wir treffen Entscheidungen, die Teams, Kundinnen und Kunden und der Unternehmensqualität wirklich dienen, ohne Druck eines Exit-Horizonts. Jedes Unternehmen bleibt in der Saha-Familie, und das Portfolio wird mit der Zeit stärker.",
+          "Wir kaufen nicht, um weiterzuverkaufen. Langfristiges Eigentum erlaubt Entscheidungen, die Team, Kundschaft und Unternehmensqualität wirklich dienen, ohne den Druck eines Ausstiegszeitpunkts. Jedes Unternehmen bleibt Teil der Saha-Familie.",
       },
     ],
   },

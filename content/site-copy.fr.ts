@@ -91,31 +91,31 @@ export const homepage = {
 
   modelSectionLabel: "Notre approche",
   model: {
-    heading: "Identifier les bonnes entreprises. Accompagner la transmission. Les conserver durablement.",
+    heading: "Trouver les bonnes entreprises. Mener la transition avec soin. Les faire croître dans la durée.",
     steps: [
       {
         number: "01",
-        title: "Identifier des entreprises capables de prospérer au-delà du fondateur",
+        title: "Des entreprises qui peuvent prospérer au-delà du fondateur",
         description:
-          "Nous recherchons des PME suisses rentables, dirigées par leurs fondateurs, avec un chiffre d'affaires inférieur à CHF 10 millions et pour lesquelles la succession est la raison première de la vente. Au-delà de la santé financière, nous examinons attentivement la capacité de l'entreprise à continuer réellement sans son fondateur : demande stable, équipe compétente, concentration clients maîtrisée et transmission structurable avec soin.",
+          "Nous ciblons des PME suisses rentables, dirigées par leurs fondateurs, dont le chiffre d'affaires est inférieur à CHF 10 millions et où la succession est la raison de la vente. Ce qui compte le plus : une demande régulière, une équipe compétente et une entreprise capable de continuer sereinement une fois le fondateur parti.",
       },
       {
         number: "02",
-        title: "Accompagner la transmission avec rigueur",
+        title: "Mener la transition avec soin",
         description:
-          "Chaque acquisition est suivie d'une transition structurée pour préserver l'essentiel : passation du fondateur, continuité client, stabilité de l'équipe et attention soutenue pendant les douze premiers mois. C'est là que les opérations réussissent ou échouent, et nous la considérons comme l'une de nos capacités fondamentales.",
+          "Chaque acquisition suit une transition structurée : passation du fondateur, continuité clients et stabilité de l'équipe, avec une attention soutenue durant les douze premiers mois. C'est là que se joue la réussite d'une opération.",
       },
       {
         number: "03",
-        title: "Renforcer l'entreprise pas à pas après le départ du fondateur",
+        title: "Faire croître l'entreprise avec constance",
         description:
-          "Une fois l'entreprise stabilisée, nous l'aidons à devenir mesurablement plus forte au cours des douze à vingt-quatre mois qui suivent. Cela signifie en général un reporting plus net, une discipline tarifaire plus ferme, la numérisation des processus récurrents, un appui sur des recrutements clés, et la captation du savoir-faire institutionnel qui reposait sur le fondateur. L'appui est ciblé, non imposé. L'équipe locale reste responsable de la conduite et du développement de l'entreprise. Ce qui se compose, c'est le playbook : chaque transition nous apprend davantage sur ce qui aide vraiment les petites entreprises suisses.",
+          "Une fois l'entreprise stabilisée, nous l'accompagnons dans une croissance régulière sur les douze à vingt-quatre mois suivants. Cela passe généralement par un reporting plus précis, des processus digitalisés, un appui sur les recrutements clés et la préservation du savoir qui reposait jusque-là sur le fondateur.",
       },
       {
         number: "04",
         title: "Détenir dans la durée",
         description:
-          "Nous n'achetons pas les entreprises pour les revendre. La détention à long terme signifie que nous pouvons prendre des décisions qui servent réellement les équipes, les clients et la qualité de l'entreprise, sans la pression d'une échéance de sortie. Chaque société reste dans la famille Saha, et le portefeuille s'en trouve renforcé avec le temps.",
+          "Nous n'achetons pas pour revendre. La détention de long terme nous permet de prendre des décisions qui servent vraiment les équipes, les clients et la qualité de l'entreprise, sans la pression d'un calendrier de sortie. Chaque entreprise reste dans la famille Saha.",
       },
     ],
   },
