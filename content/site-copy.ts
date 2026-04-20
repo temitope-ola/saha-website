@@ -127,7 +127,7 @@ export const homepage = {
   moreThanBuyerSectionLabel: "The Saha operating model",
   moreThanBuyer: {
     heading: "Four capabilities that compound with every acquisition",
-    intro: "A willing buyer is not enough for small-business succession. These companies need structured handover, leadership that survives the founder, operating support that is useful without being imposed, and a buyer that advisors can trust to behave well. Saha is being built around four capabilities designed to do exactly that, and to become sharper with every deal.",
+    intro: "A willing buyer is not enough for small-business succession. These companies need structured handover, leadership that survives the founder, and operating support that is genuinely useful. Saha is being built around four capabilities designed to do exactly that, and to become sharper with every deal.",
     items: [
       {
         title: "Systematic sourcing",
@@ -142,12 +142,12 @@ export const homepage = {
       {
         title: "Transition discipline",
         description:
-          "The handover is where most small-business deals succeed or fail. We treat it as a core discipline: structured, founder-specific, close-attention through the first twelve months, refined with every acquisition.",
+          "The handover is where most small-business deals succeed or fail. We treat it as a core discipline: a structured twelve-month plan covering customer and supplier introductions, team continuity, operational handover, and the transfer of founder-specific knowledge that would otherwise walk out the door.",
       },
       {
         title: "Shared operating strength",
         description:
-          "After the transition, businesses in the Saha family can draw on shared strength in finance, reporting, pricing, hiring, and technology for internal efficiency. Help that is selective, not imposed, and measured against whether it actually makes the business stronger.",
+          "After the transition, businesses in the Saha family can draw on shared strength in finance, reporting, pricing, hiring, and technology for internal efficiency. Help that is selective, and measured against whether it actually makes the business stronger.",
       },
     ],
     closingLine: "Each acquisition sharpens the playbook. Better advisor relationships. Better transition playbooks. Better leadership matches. Better operating templates for Swiss SMEs. That is how this segment becomes viable at scale.",
@@ -165,7 +165,7 @@ export const homepage = {
       },
       {
         number: "02",
-        title: "We think hard about what happens after the founder leaves",
+        title: "Built to run without the founder",
         description:
           "Before we acquire a business, we assess whether it can realistically continue without its founder. Not every good business is a good acquisition.",
       },

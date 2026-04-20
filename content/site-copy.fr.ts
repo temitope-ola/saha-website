@@ -123,7 +123,7 @@ export const homepage = {
   moreThanBuyerSectionLabel: "Le modèle opérationnel Saha",
   moreThanBuyer: {
     heading: "Quatre capacités qui se renforcent à chaque acquisition",
-    intro: "Pour la succession d'une PME, un simple acquéreur ne suffit pas. Ces entreprises ont besoin d'une passation structurée, d'une relève qui survit au fondateur, d'un appui opérationnel utile sans être imposé, et d'un acquéreur auquel les conseillers peuvent faire confiance. Saha se construit autour de quatre capacités pensées pour répondre à cela, et pour s'affûter à chaque opération.",
+    intro: "Un acquéreur disposé ne suffit pas pour la succession d'une petite entreprise. Ces entreprises ont besoin d'une transition structurée, d'un leadership qui perdure au-delà du fondateur, et d'un appui opérationnel réellement utile. Saha est construite autour de quatre capacités pensées pour cela, et appelées à s'affiner à chaque opération.",
     items: [
       {
         title: "Sourcing systématique",
@@ -138,12 +138,12 @@ export const homepage = {
       {
         title: "Discipline de transition",
         description:
-          "La passation est l'étape où la plupart des opérations réussissent ou échouent. Nous la traitons comme une discipline centrale : structurée, adaptée au fondateur, suivie de près pendant les douze premiers mois, affinée à chaque acquisition.",
+          "C'est dans la transmission que se joue la réussite ou l'échec de la plupart des acquisitions de PME. Nous en faisons une discipline à part entière : un plan structuré sur douze mois couvrant la passation des relations clients et fournisseurs, la continuité de l'équipe, la reprise opérationnelle, et le transfert du savoir propre au fondateur qui partirait sinon avec lui.",
       },
       {
         title: "Force opérationnelle partagée",
         description:
-          "Après la transition, les entreprises de la famille Saha peuvent s'appuyer sur une force partagée en finance, reporting, tarification, recrutement et technologie au service de l'efficacité interne. Un appui sélectif, jamais imposé, mesuré à sa capacité réelle à renforcer l'entreprise.",
+          "Une fois la transition passée, les entreprises de la famille Saha peuvent s'appuyer sur une force partagée en finance, reporting, pricing, recrutement et technologie pour l'efficacité interne. Un appui ciblé, évalué à sa capacité réelle à renforcer l'entreprise.",
       },
     ],
     closingLine: "Chaque acquisition affûte le playbook. De meilleures relations avec les conseillers. De meilleurs modèles de transition. Des binômes de relève mieux ajustés. Des référentiels opérationnels plus solides pour les PME suisses. C'est ainsi que ce segment devient viable à grande échelle.",
@@ -161,7 +161,7 @@ export const homepage = {
       },
       {
         number: "02",
-        title: "Nous anticipons ce qui se passe après le départ du fondateur",
+        title: "Pensé pour fonctionner sans le fondateur",
         description:
           "Avant d'acquérir une entreprise, nous évaluons sa capacité réelle à continuer sans son fondateur. Toute bonne entreprise n'est pas nécessairement une bonne acquisition.",
       },

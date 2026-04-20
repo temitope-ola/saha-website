@@ -128,7 +128,7 @@ export const homepage = {
   moreThanBuyerSectionLabel: "Das Saha-Betriebsmodell",
   moreThanBuyer: {
     heading: "Vier Fähigkeiten, die sich mit jeder Akquisition verstärken",
-    intro: "Ein williger Käufer allein reicht in der Nachfolge kleiner Unternehmen nicht aus. Diese Firmen brauchen eine strukturierte Übergabe, eine Führung, die den Gründer überdauert, operative Unterstützung, die nützt, ohne aufgezwungen zu werden, und einen Käufer, auf den Berater vertrauen können. Saha wird um vier Fähigkeiten herum aufgebaut, die genau das leisten und sich mit jeder Transaktion weiter schärfen.",
+    intro: "Ein kaufwilliger Erwerber allein genügt in der Nachfolge kleiner Unternehmen nicht. Diese Unternehmen brauchen eine strukturierte Übergabe, eine Führung, die über die Gründerin oder den Gründer hinaus trägt, und operative Unterstützung, die tatsächlich hilft. Saha wird rund um vier Fähigkeiten gebaut, die genau dies leisten und mit jeder Transaktion schärfer werden.",
     items: [
       {
         title: "Systematisches Sourcing",
@@ -143,12 +143,12 @@ export const homepage = {
       {
         title: "Übergabedisziplin",
         description:
-          "Die Übergabe entscheidet bei kleineren Nachfolgen am häufigsten über Erfolg oder Misserfolg. Wir behandeln sie als Kerndisziplin: strukturiert, gründerspezifisch, eng begleitet durch die ersten zwölf Monate, mit jeder Akquisition weiter verfeinert.",
+          "Bei der Übergabe entscheidet sich, ob eine KMU-Transaktion gelingt oder scheitert. Wir behandeln sie als Kerndisziplin: ein strukturierter Zwölf-Monats-Plan mit Kunden- und Lieferantenübergaben, Kontinuität im Team, operativer Handover und der Übertragung jenes Wissens der Gründerin oder des Gründers, das sonst mit ihnen verloren ginge.",
       },
       {
         title: "Gemeinsame operative Stärke",
         description:
-          "Nach der Übergabe können Unternehmen der Saha-Familie auf gemeinsame Stärke in Finanzen, Reporting, Pricing, Rekrutierung und Technologie für interne Effizienz zurückgreifen. Hilfe, die gezielt ist, nicht aufgezwungen, und daran gemessen wird, ob sie das Unternehmen tatsächlich stärker macht.",
+          "Nach der Übergabe können Unternehmen der Saha-Familie auf gemeinsame Stärke in Finance, Reporting, Pricing, Hiring und Technologie für interne Effizienz zurückgreifen. Unterstützung, die gezielt eingesetzt wird und daran gemessen wird, ob sie das Unternehmen tatsächlich stärker macht.",
       },
     ],
     closingLine: "Jede Akquisition schärft das Playbook. Bessere Beraterbeziehungen. Bessere Übergabe-Leitfäden. Passendere Führungsbesetzungen. Bessere Betriebs-Vorlagen für Schweizer KMU. So wird dieses Segment im Massstab tragfähig.",
@@ -166,7 +166,7 @@ export const homepage = {
       },
       {
         number: "02",
-        title: "Wir denken gründlich darüber nach, was nach der Gründungsperson kommt",
+        title: "Tragfähig ohne Gründerin oder Gründer",
         description:
           "Bevor wir ein Unternehmen erwerben, beurteilen wir, ob es realistisch ohne seine Gründerin oder seinen Gründer weitergeführt werden kann. Nicht jedes gute Unternehmen eignet sich für eine Übernahme.",
       },
