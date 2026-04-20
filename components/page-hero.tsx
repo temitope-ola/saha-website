@@ -1,10 +1,13 @@
+import Link from "next/link";
+
 interface PageHeroProps {
   eyebrow?: string;
   headline: string;
   subheadline: string;
+  cta?: { label: string; href: string };
 }
 
-export default function PageHero({ eyebrow, headline, subheadline }: PageHeroProps) {
+export default function PageHero({ eyebrow, headline, subheadline, cta }: PageHeroProps) {
   return (
     <section className="pt-section-sm md:pt-section pb-12 md:pb-16 border-b border-cuivre/20" aria-label="Page introduction">
       <div className="container-content">
@@ -20,6 +23,13 @@ export default function PageHero({ eyebrow, headline, subheadline }: PageHeroPro
           <p className="mt-6 text-body-lg md:text-subheading text-pierre">
             {subheadline}
           </p>
+          {cta && (
+            <div className="mt-8">
+              <Link href={cta.href} className="btn-secondary">
+                {cta.label} →
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </section>

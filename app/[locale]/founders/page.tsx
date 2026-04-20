@@ -28,6 +28,10 @@ export default function FoundersPage({ params }: { params: { locale: string } })
         eyebrow={foundersPage.hero.eyebrow}
         headline={foundersPage.hero.headline}
         subheadline={foundersPage.hero.subheadline}
+        cta={{
+          label: foundersPage.hero.cta.label,
+          href: localePath(locale, foundersPage.hero.cta.href),
+        }}
       />
 
       {/* ── We understand what is at stake ── */}

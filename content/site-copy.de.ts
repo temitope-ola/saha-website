@@ -208,6 +208,7 @@ export const foundersPage = {
     headline: "Sie haben ein Unternehmen aufgebaut,\ndas eine sorgfältige Übergabe verdient",
     subheadline:
       "Wenn die Zeit kommt, einen Schritt zurückzutreten, verdient Ihr Unternehmen einen Käufer, der Kontinuität ernst nimmt und das Unternehmen mit der Zeit tatsächlich stärker macht. Nicht weiterverkaufen, nicht umbenennen, nicht zerschlagen.",
+    cta: { label: "Ein vertrauliches Gespräch beginnen", href: "/contact?pathway=founder" },
   },
 
   intro: {
@@ -333,6 +334,7 @@ export const investorsPage = {
     headline: "Permanentes Eigentum in der Schweizer KMU-Nachfolge",
     subheadline:
       "Saha zielt auf profitable, inhabergeführte Unternehmen, bei denen Nachfolge Chancen eröffnet, die Übertragbarkeit real ist und jedes erworbene Unternehmen in den zwei Jahren nach Abschluss messbar gestärkt werden kann. Der Vorteil liegt nicht im Financial Engineering. Er liegt darin, sorgfältig zu kaufen, gut zu übergeben und die operativen Fähigkeiten aufzubauen, die sich über ein permanentes Portfolio hinweg kumulieren.",
+    cta: { label: "Die These besprechen", href: "/contact?pathway=investor" },
   },
 
   thesis: {
@@ -512,6 +514,7 @@ export const joinPage = {
     headline: "Etwas von Grund auf aufbauen",
     subheadline:
       "Wir stellen ein kleines Team zusammen, um das Sourcing-Modell, den Due-Diligence-Prozess, den Übergabe-Ansatz und die Betriebskultur vor unserer ersten Akquisition zu prägen. Wer in Jahrzehnten denkt und sich um Handwerk kümmert, findet hier frühe, bedeutungsvolle Arbeit.",
+    cta: { label: "Stellen Sie sich vor", href: "/contact?pathway=builder" },
   },
 
   whyJoin: {

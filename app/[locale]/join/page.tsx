@@ -28,6 +28,10 @@ export default function JoinPage({ params }: { params: { locale: string } }) {
         eyebrow={joinPage.hero.eyebrow}
         headline={joinPage.hero.headline}
         subheadline={joinPage.hero.subheadline}
+        cta={{
+          label: joinPage.hero.cta.label,
+          href: localePath(locale, joinPage.hero.cta.href),
+        }}
       />
 
       {/* ── Why build with Saha ───────────── */}

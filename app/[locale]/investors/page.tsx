@@ -28,6 +28,10 @@ export default function InvestorsPage({ params }: { params: { locale: string } }
         eyebrow={investorsPage.hero.eyebrow}
         headline={investorsPage.hero.headline}
         subheadline={investorsPage.hero.subheadline}
+        cta={{
+          label: investorsPage.hero.cta.label,
+          href: localePath(locale, investorsPage.hero.cta.href),
+        }}
       />
 
       {/* ── Investment thesis ──────────────── */}

@@ -207,6 +207,7 @@ export const foundersPage = {
     headline: "You built a business worth\nhanding over well",
     subheadline:
       "When the time comes to step back, your business deserves a buyer who takes continuity seriously and will actually make the company stronger over time. Not flip it, not rebrand it, not dismantle it.",
+    cta: { label: "Start a confidential conversation", href: "/contact?pathway=founder" },
   },
 
   intro: {
@@ -332,6 +333,7 @@ export const investorsPage = {
     headline: "Permanent ownership in Swiss SME succession",
     subheadline:
       "Saha targets profitable founder-led businesses where succession creates opportunity, transferability is real, and every acquired business can be measurably strengthened in the two years after close. The edge is not financial engineering. It is buying carefully, transitioning well, and building the operating capabilities that compound across a permanent portfolio.",
+    cta: { label: "Discuss the thesis", href: "/contact?pathway=investor" },
   },
 
   thesis: {
@@ -511,6 +513,7 @@ export const joinPage = {
     headline: "Build something from the ground up",
     subheadline:
       "We are assembling a small team to shape the sourcing model, diligence process, transition approach, and operating culture, before our first acquisition. If you think in decades and care about craft, this is early, meaningful work.",
+    cta: { label: "Tell us about yourself", href: "/contact?pathway=builder" },
   },
 
   whyJoin: {
