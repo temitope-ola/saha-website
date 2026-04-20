@@ -412,32 +412,32 @@ export const investorsPage = {
       {
         title: "Sourcing über vertrauenswürdige Gegenparteien",
         description:
-          "Ruf und Beziehungen, die dafür sorgen, dass Fiduziare, Treuhänder und lokale Berater zuerst bei Saha anrufen.",
+          "Fiduziare, Treuhänder und lokale Berater bringen Geschäfte zu Saha, bevor sie den offenen Markt erreichen.",
       },
       {
-        title: "Rahmen für Übertragbarkeit",
+        title: "Übertragbarkeitsdisziplin",
         description:
-          "Ein konsistenter Filter für Unternehmen, die ihre Gründerin oder ihren Gründer überdauern können, angewendet, bevor über den Preis gesprochen wird.",
+          "Ein Filter für Unternehmen, die ihre Gründerin oder ihren Gründer überdauern können, angewendet, bevor über den Preis gesprochen wird.",
       },
       {
-        title: "Führungskontinuität als Kernfähigkeit",
+        title: "Führungskontinuität",
         description:
-          "Eine benannte Praxis, um die richtige Nachfolgeführung zu identifizieren, zu beurteilen, einzusetzen und zu begleiten, intern oder extern, in jeder Akquisition.",
+          "Eine benannte Praxis, um die richtige Nachfolgeführung zu identifizieren, zu beurteilen, einzusetzen und zu begleiten, intern oder extern.",
       },
       {
-        title: "Ein Übergabe-Playbook, das mit jedem Deal besser wird",
+        title: "Übergabe-Playbook",
         description:
-          "Strukturierte, gründerspezifische Übergabe, enge Begleitung im ersten Jahr, mit jeder Akquisition verfeinert.",
+          "Strukturierte, gründerspezifische Übergabe mit enger Begleitung im ersten Jahr.",
       },
       {
-        title: "Selektive gemeinsame Fähigkeiten",
+        title: "Gemeinsame Fähigkeiten",
         description:
-          "Finanzen, Reporting, Preisdisziplin, Rekrutierungsunterstützung und Wissenssicherung, verfügbar für Portfoliounternehmen, die sie nutzen möchten.",
+          "Finanzen, Reporting, Preisdisziplin, Rekrutierungsunterstützung und Wissenssicherung, angeboten für Portfoliounternehmen, die sie nutzen möchten.",
       },
       {
-        title: "Eine eigene Plattform",
+        title: "Eigene Plattform",
         description:
-          "Interne Systeme (Sourcing-Intelligenz, Due-Diligence-Workflow, Übergabe-Werkzeuge und Portfolio-Reporting) geführt von Stefan Vaninetti, dessen Hintergrund in Enterprise-IT-Architektur und Data Governance in einer mehrgliedrigen Schweizer Organisation liegt. Die Plattform macht permanentes Eigentum vieler kleiner Unternehmen im Massstab tragfähig und gewinnt mit jeder Akquisition an Stärke.",
+          "Sourcing-Intelligenz, Due-Diligence-Workflow, Übergabe-Werkzeuge und Portfolio-Reporting, intern entwickelt.",
       },
     ],
     callout: {

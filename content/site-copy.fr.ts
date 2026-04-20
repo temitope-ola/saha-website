@@ -403,32 +403,32 @@ export const investorsPage = {
       {
         title: "Sourcing via des contreparties de confiance",
         description:
-          "Une réputation et des relations qui font que fiduciaires, Treuhänder et conseillers locaux appellent Saha en premier.",
+          "Fiduciaires, Treuhänder et conseillers locaux apportent leurs dossiers à Saha avant qu'ils n'atteignent le marché ouvert.",
       },
       {
-        title: "Cadre de transmissibilité",
+        title: "Discipline de transmissibilité",
         description:
-          "Un filtre cohérent pour les entreprises capables de survivre à leur fondateur, appliqué avant toute discussion de prix.",
+          "Un filtre pour les entreprises capables de survivre à leur fondateur, appliqué avant toute discussion de prix.",
       },
       {
-        title: "Capacité de continuité du leadership",
+        title: "Continuité du leadership",
         description:
-          "Une pratique nommée pour identifier, évaluer, installer et accompagner le bon dirigeant après le départ du fondateur, en interne ou depuis l'extérieur, à chaque acquisition.",
+          "Une pratique nommée pour identifier, évaluer, installer et accompagner le bon dirigeant après le départ du fondateur, en interne ou depuis l'extérieur.",
       },
       {
-        title: "Un playbook de transition qui s'améliore à chaque opération",
+        title: "Playbook de transition",
         description:
-          "Transition structurée, adaptée au fondateur, attention rapprochée pendant la première année, affinée à chaque acquisition.",
+          "Transition structurée, adaptée au fondateur, avec une attention rapprochée pendant la première année.",
       },
       {
-        title: "Capacités partagées sélectives",
+        title: "Capacités partagées",
         description:
-          "Finance, reporting, discipline tarifaire, appui au recrutement et captation du savoir-faire, à disposition des entreprises du portefeuille qui choisissent d'en bénéficier.",
+          "Finance, reporting, discipline tarifaire, appui au recrutement et captation du savoir-faire, offerts aux entreprises du portefeuille qui choisissent d'en bénéficier.",
       },
       {
-        title: "Une plateforme propriétaire",
+        title: "Plateforme propriétaire",
         description:
-          "Systèmes internes (intelligence de sourcing, flux de diligence, outillage de transition et reporting du portefeuille) pilotés par Stefan Vaninetti, dont l'expérience porte sur l'architecture IT d'entreprise et la gouvernance des données au sein d'une organisation suisse multi-entités régulée. La plateforme rend viable la détention permanente de nombreuses petites entreprises à l'échelle, et se renforce à chaque acquisition.",
+          "Intelligence de sourcing, flux de diligence, outillage de transition et reporting du portefeuille, développés en interne.",
       },
     ],
     callout: {

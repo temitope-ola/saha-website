@@ -411,32 +411,32 @@ export const investorsPage = {
       {
         title: "Trusted-counterparty sourcing",
         description:
-          "Reputation and relationships that make fiduciaries, Treuhänder, and local advisors call Saha first.",
+          "Fiduciaries, Treuhänder, and local advisors bring deals to Saha before they reach the open market.",
       },
       {
-        title: "Transferability framework",
+        title: "Transferability discipline",
         description:
-          "A consistent filter for businesses capable of outlasting their founder, applied before price is ever discussed.",
+          "A filter for businesses that can outlast their founder, applied before price is ever discussed.",
       },
       {
-        title: "Leadership-continuity capability",
+        title: "Leadership continuity",
         description:
-          "A named practice for identifying, evaluating, installing, and supporting the right post-founder leader, whether internal or external, in every acquisition.",
+          "A named practice for identifying, evaluating, installing, and supporting the right post-founder leader, internal or external.",
       },
       {
-        title: "Transition playbook that improves with every deal",
+        title: "Transition playbook",
         description:
-          "Structured handover, founder-specific, close attention through year one, refined with every acquisition.",
+          "Structured handover, founder-specific, with close attention through year one.",
       },
       {
-        title: "Selective shared capabilities",
+        title: "Shared capabilities",
         description:
-          "Finance, reporting, pricing discipline, hiring support, and knowledge capture, available to portfolio businesses that choose to use them.",
+          "Finance, reporting, pricing discipline, hiring support, and knowledge capture, offered to portfolio businesses that choose to use them.",
       },
       {
-        title: "A proprietary platform",
+        title: "Proprietary platform",
         description:
-          "Internal systems (sourcing intelligence, diligence workflow, transition tooling, and portfolio reporting) led by Stefan Vaninetti, whose background is enterprise IT architecture and data governance across a multi-entity Swiss organisation. The platform makes permanent ownership of many small businesses viable at scale, and compounds with every acquisition.",
+          "Sourcing intelligence, diligence workflow, transition tooling, and portfolio reporting, built in-house.",
       },
     ],
     callout: {
