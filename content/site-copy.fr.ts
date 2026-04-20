@@ -28,7 +28,7 @@ export const homepage = {
     eyebrow: "Capital permanent suisse",
     headline: "La succession systématique\ndes PME suisses",
     subheadline:
-      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs, dont le chiffre d'affaires est inférieur à CHF 10 millions, les accompagne avec soin lors de la transition et les renforce pas à pas dans la durée. En parallèle, nous bâtissons la plateforme de sourcing, de transition et de technologie qui rend ce segment viable.",
+      "Saha acquiert des PME suisses rentables, dirigées par leurs fondateurs, dont le chiffre d'affaires est inférieur à CHF 10 millions, les accompagne avec soin lors de la transition et les fait croître avec constance dans la durée. En parallèle, nous bâtissons la plateforme de sourcing, de transition et de technologie qui rend ce segment viable.",
     cta: { label: "Engager la conversation", href: "/contact" },
     secondaryCta: { label: "Nos critères", href: "/founders" },
   },

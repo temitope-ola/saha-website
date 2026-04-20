@@ -33,7 +33,7 @@ export const homepage = {
     eyebrow: "Schweizer permanentes Kapital",
     headline: "Systematische Nachfolge für\nSchweizer KMU",
     subheadline:
-      "Saha erwirbt profitable, inhabergeführte Schweizer Unternehmen mit weniger als CHF 10 Mio. Umsatz, begleitet sie sorgfältig durch die Übergabe und stärkt sie langfristig Schritt für Schritt. Parallel dazu bauen wir die Sourcing-, Übergabe- und Technologie-Plattform auf, die dieses Segment überhaupt tragfähig macht.",
+      "Saha erwirbt profitable, inhabergeführte Schweizer Unternehmen mit weniger als CHF 10 Mio. Umsatz, begleitet sie sorgfältig durch die Übergabe und lässt sie langfristig stetig wachsen. Parallel dazu bauen wir die Sourcing-, Übergabe- und Technologie-Plattform auf, die dieses Segment überhaupt tragfähig macht.",
     cta: { label: "Gespräch beginnen", href: "/contact" },
     secondaryCta: { label: "Unsere Kriterien", href: "/founders" },
   },

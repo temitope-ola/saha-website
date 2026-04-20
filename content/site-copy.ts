@@ -32,7 +32,7 @@ export const homepage = {
     eyebrow: "Swiss permanent capital",
     headline: "Systematic succession for\nSwiss SMEs",
     subheadline:
-      "Saha acquires profitable, founder-led Swiss businesses below CHF 10M in revenue, transitions them with care, and strengthens them steadily for the long term, while building the sourcing, transition, and technology platform that make this segment work.",
+      "Saha acquires profitable, founder-led Swiss businesses below CHF 10M in revenue, transitions them with care, and grows them steadily for the long term, while building the sourcing, transition, and technology platform that make this segment work.",
     cta: { label: "Start a conversation", href: "/contact" },
     secondaryCta: { label: "What we look for", href: "/founders" },
   },
