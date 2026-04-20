@@ -272,9 +272,9 @@ export const foundersPage = {
       },
       {
         number: "04",
-        title: "Ihr Team ist geschützt",
+        title: "Wir erwerben nicht, um zu restrukturieren",
         description:
-          "Wir erwerben keine Unternehmen, um sie zu restrukturieren. Das Team, das Sie aufgebaut haben, ist zentral für den Wert des Unternehmens. Wo die Führungskontinuität nach Ihrem Rückzug Verstärkung benötigt, arbeiten wir daran, die richtige Person zu identifizieren und zu begleiten, ob aus Ihrem Team oder von aussen. Alle Entscheidungen, die Menschen betreffen, werden für die langfristige Gesundheit des Unternehmens getroffen, nie um unsere Ökonomie zu bedienen.",
+          "Das Team, das Sie aufgebaut haben, ist zentral dafür, was dieses Unternehmen überhaupt erwerbenswert macht. Entscheidungen, die Menschen betreffen, werden für die langfristige Gesundheit des Unternehmens getroffen, nie für kurzfristige Ökonomie.",
       },
     ],
   },

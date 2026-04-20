@@ -271,9 +271,9 @@ export const foundersPage = {
       },
       {
         number: "04",
-        title: "Your team is protected",
+        title: "We don't acquire to restructure",
         description:
-          "We do not acquire businesses to restructure them. The team you have built is central to what makes the business worth acquiring. Where leadership continuity requires reinforcement after you step back, we work to identify and support the right person, whether from within your team or brought in from outside. Any decisions affecting people are made for the long-term health of the business, never to serve our economics.",
+          "The team you built is central to what makes the business worth acquiring. Decisions about people are made for its long-term health, never for short-term economics.",
       },
     ],
   },

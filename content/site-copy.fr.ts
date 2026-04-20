@@ -265,9 +265,9 @@ export const foundersPage = {
       },
       {
         number: "04",
-        title: "Votre équipe est protégée",
+        title: "Nous n'acquérons pas pour restructurer",
         description:
-          "Nous n'acquérons pas des entreprises pour les restructurer. L'équipe que vous avez constituée est au cœur de ce qui rend l'entreprise digne d'être acquise. Lorsque la continuité du leadership nécessite un renfort après votre retrait, nous travaillons à identifier et à accompagner la bonne personne, qu'elle vienne de votre équipe ou de l'extérieur. Toute décision concernant les personnes est prise pour la santé à long terme de l'entreprise, jamais pour servir nos intérêts économiques.",
+          "L'équipe que vous avez bâtie est au cœur de ce qui rend l'entreprise digne d'être acquise. Les décisions qui concernent les personnes sont prises pour la santé à long terme de l'entreprise, jamais pour un calcul de court terme.",
       },
     ],
   },
