@@ -329,12 +329,10 @@ export const investorsPage = {
   },
 
   thesis: {
-    heading: "Notre thèse d'investissement",
+    heading: "Un acquéreur conçu pour la succession des PME",
     paragraphs: [
-      "La Suisse compte un segment large et croissant d'entreprises rentables, dirigées par leurs fondateurs, qui approchent de la succession. Elles sont souvent bien gérées, génératrices de trésorerie et profondément enracinées dans leurs marchés locaux, et pourtant elles se situent sous le seuil où la plupart des acquéreurs institutionnels opèrent.",
-      "Tout ce qui est sous CHF 10 millions de chiffre d'affaires est effectivement invisible pour le flux de transactions institutionnel. L'étude de succession CFB-HSG / UBS estime pourtant qu'environ un propriétaire de PME suisse sur trois s'attend à une transmission dans les cinq ans, et qu'environ deux tiers seulement de ces transmissions devraient aboutir.",
-      "Le vide ne tient pas à l'absence de bonnes entreprises. Il tient à l'absence d'un modèle d'acquéreur conçu spécifiquement pour ce segment. Ces opérations exigent un savoir-faire de transition mené de près, de l'empathie envers les fondateurs et la volonté de conduire des opérations complexes et petites, qui ne peuvent pas être standardisées. Saha est construite précisément pour ce travail.",
-      "Parce que nous détenons dans la durée, nos rendements se composent. Chaque acquisition affine notre sourcing, notre discipline de transition et nos capacités opérationnelles, rendant la suivante plus efficiente et moins risquée.",
+      "La Suisse compte un segment large et croissant d'entreprises rentables, dirigées par leurs fondateurs, qui approchent de la succession. Elles sont bien gérées, génératrices de trésorerie et profondément enracinées dans leurs marchés locaux, mais elles se situent sous le seuil où opèrent la plupart des acquéreurs institutionnels. Tout ce qui est sous CHF 10 millions de chiffre d'affaires est effectivement invisible pour le flux de transactions institutionnel, alors que l'étude de succession CFB-HSG / UBS estime qu'un propriétaire de PME suisse sur trois s'attend à une transmission dans les cinq ans, et que seules deux transmissions sur trois aboutissent.",
+      "Le vide ne tient pas à l'absence de bonnes entreprises ; il tient à l'absence d'un modèle d'acquéreur conçu pour ce segment. Ces opérations exigent un savoir-faire de transition mené de près, de l'empathie envers les cédants et la volonté de conduire des opérations complexes et de petite taille, qui ne peuvent pas être standardisées. Saha est construite pour ce travail.",
     ],
     callout: {
       type: "stat" as const,

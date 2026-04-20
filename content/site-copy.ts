@@ -337,12 +337,10 @@ export const investorsPage = {
   },
 
   thesis: {
-    heading: "The investment thesis",
+    heading: "A buyer purpose-built for SME succession",
     paragraphs: [
-      "Switzerland has a large and growing segment of profitable, founder-led businesses approaching succession. These companies are often well-run, cash-generative, and deeply embedded in their local markets, yet they sit below the threshold where most institutional buyers operate.",
-      "Everything below CHF 10M in revenue is effectively invisible to institutional deal flow. Yet the CFB-HSG / UBS succession study estimates that roughly one in three Swiss SME owners expect a transfer within five years, and only about two thirds of those successions are expected to conclude successfully.",
-      "The gap is not a lack of good businesses. It is the absence of a buyer model purpose-built for this segment. These deals require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is being built specifically for this work.",
-      "Because we hold permanently, our returns compound. Every acquisition refines our sourcing, transition discipline, and operating capabilities, making the next one more efficient and less risky.",
+      "Switzerland has a large and growing segment of profitable, founder-led businesses approaching succession. They are well-run, cash-generative, and deeply embedded in their local markets, but they sit below the threshold where most institutional buyers operate. Everything under CHF 10M in revenue is effectively invisible to institutional deal flow, yet the CFB-HSG / UBS succession study estimates that one in three Swiss SME owners expects a transfer within five years, and only two thirds of those successions conclude successfully.",
+      "The gap is not a lack of good businesses; it is the absence of a buyer model built for this segment. These deals require hands-on transition skills, founder empathy, and the willingness to do complex, smaller transactions that cannot be templated. Saha is built for this work.",
     ],
     callout: {
       type: "stat" as const,

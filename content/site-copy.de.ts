@@ -338,12 +338,10 @@ export const investorsPage = {
   },
 
   thesis: {
-    heading: "Die Investitionsthese",
+    heading: "Ein Käufer, eigens für die KMU-Nachfolge gebaut",
     paragraphs: [
-      "Die Schweiz verfügt über ein grosses und wachsendes Segment profitabler, inhabergeführter Unternehmen, die sich der Nachfolge nähern. Sie sind oft gut geführt, cashflow-stark und tief in ihren lokalen Märkten verwurzelt, liegen aber unter der Schwelle, in der die meisten institutionellen Käufer tätig sind.",
-      "Alles unter CHF 10 Mio. Umsatz ist für institutionelle Deal-Flows faktisch unsichtbar. Die CFB-HSG/UBS-Nachfolgestudie schätzt, dass rund jeder dritte Schweizer KMU-Inhaber innerhalb von fünf Jahren eine Übergabe erwartet, und dass nur etwa zwei Drittel dieser Nachfolgen erfolgreich abgeschlossen werden.",
-      "Die Lücke ist kein Mangel an guten Unternehmen. Sie ist das Fehlen eines Erwerbermodells, das speziell für dieses Segment gebaut ist. Diese Deals verlangen praktisches Übergabe-Handwerk, Empathie für Gründerinnen und Gründer und die Bereitschaft, komplexe, kleinere Transaktionen zu machen, die sich nicht standardisieren lassen. Saha wird genau für diese Arbeit aufgebaut.",
-      "Weil wir dauerhaft halten, kumulieren sich unsere Renditen. Jede Übernahme verfeinert Sourcing, Übergabedisziplin und operative Fähigkeiten und macht die nächste effizienter und risikoärmer.",
+      "Die Schweiz verfügt über ein grosses und wachsendes Segment profitabler, inhabergeführter Unternehmen, die vor einer Nachfolge stehen. Sie sind gut geführt, cashflow-stark und tief in ihren lokalen Märkten verwurzelt, liegen aber unter der Schwelle, in der die meisten institutionellen Käufer tätig sind. Alles unter CHF 10 Mio. Umsatz ist für den institutionellen Deal-Flow faktisch unsichtbar, obwohl die CFB-HSG/UBS-Nachfolgestudie schätzt, dass jeder dritte Schweizer KMU-Inhaber innerhalb von fünf Jahren eine Übergabe erwartet und nur zwei Drittel dieser Nachfolgen erfolgreich abgeschlossen werden.",
+      "Die Lücke ist kein Mangel an guten Unternehmen; sie ist das Fehlen eines Käufermodells, das für dieses Segment gebaut ist. Diese Transaktionen verlangen praktisches Übergabe-Handwerk, Empathie für Gründerinnen und Gründer und die Bereitschaft, komplexe, kleinere Geschäfte zu führen, die sich nicht standardisieren lassen. Saha ist genau für diese Arbeit gebaut.",
     ],
     callout: {
       type: "stat" as const,
