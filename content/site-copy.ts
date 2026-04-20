@@ -402,10 +402,10 @@ export const investorsPage = {
   },
 
   howModelCompounds: {
-    heading: "How the model compounds",
+    heading: "Infrastructure, not a portfolio",
     paragraphs: [
-      "Saha is not simply assembling a portfolio of small businesses. It is building the infrastructure that makes this segment acquirable, transitionable, and strengthenable at scale.",
-      "Each acquisition makes the next one cheaper to source, faster to transition, and better supported. That is the compounding logic behind the model, and what separates Saha from a well-intentioned holding company with capital.",
+      "Saha isn't assembling a portfolio; it is building the infrastructure that makes this segment scalable without losing the craft each deal requires.",
+      "Every acquisition makes the next cheaper to source, faster to transition, and more measurably strengthened. The pillars below are where that compounding lives.",
     ],
     pillars: [
       {

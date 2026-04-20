@@ -403,10 +403,10 @@ export const investorsPage = {
   },
 
   howModelCompounds: {
-    heading: "Wie sich das Modell kumuliert",
+    heading: "Infrastruktur, kein Portfolio",
     paragraphs: [
-      "Saha stellt nicht einfach ein Portfolio kleiner Unternehmen zusammen. Saha baut die Infrastruktur auf, die dieses Segment erwerbbar, übertragbar und stärkbar im Massstab macht.",
-      "Jede Akquisition macht die nächste günstiger im Sourcing, schneller in der Übergabe und besser begleitet. Das ist die Kumulationslogik hinter dem Modell, und sie unterscheidet Saha von einer wohlmeinenden Beteiligungsgesellschaft mit Kapital.",
+      "Saha baut kein Portfolio auf. Saha baut die Infrastruktur, die dieses Segment skalierbar macht, ohne das Handwerk zu verlieren, das jeder Deal verlangt.",
+      "Jede Akquisition macht die nächste günstiger im Sourcing, schneller in der Übergabe und messbar besser zu stärken. Die Säulen unten zeigen, wo diese Kumulation entsteht.",
     ],
     pillars: [
       {

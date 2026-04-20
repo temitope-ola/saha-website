@@ -394,10 +394,10 @@ export const investorsPage = {
   },
 
   howModelCompounds: {
-    heading: "Comment le modèle se renforce avec le temps",
+    heading: "Une infrastructure, pas un portefeuille",
     paragraphs: [
-      "Saha ne se contente pas d'assembler un portefeuille de petites entreprises. Elle bâtit l'infrastructure qui rend ce segment acquérable, transférable et renforçable à grande échelle.",
-      "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à accompagner et mieux encadrée. C'est la logique de composition derrière le modèle, et ce qui distingue Saha d'une holding bien intentionnée disposant de capital.",
+      "Saha ne construit pas un portefeuille ; Saha construit l'infrastructure qui permet à ce segment de passer à l'échelle sans perdre le savoir-faire que chaque opération exige.",
+      "Chaque acquisition rend la suivante moins coûteuse à sourcer, plus rapide à reprendre et plus mesurablement renforcée. Les piliers ci-dessous montrent où se construit cette composition.",
     ],
     pillars: [
       {
