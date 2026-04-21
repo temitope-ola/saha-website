@@ -557,7 +557,7 @@ export const talentPage = {
         number: "04",
         title: "Stewardship",
         description:
-          "Years in, the role deepens. The company compounds, the relationships mature, the operational craft sharpens. You join a growing bench of Saha General Managers: peers who learn from one another, mentor incoming operators, and help shape how we find and support the next generation. Permanence becomes a way of working, not just a promise.",
+          "Years in, the role deepens. The company compounds, the relationships mature, the operational craft sharpens. You join a growing bench of Saha General Managers: peers who learn from one another, mentor incoming operators, and help shape how we find and support the next generation.",
       },
     ],
   },

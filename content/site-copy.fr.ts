@@ -550,7 +550,7 @@ export const talentPage = {
         number: "04",
         title: "Responsabilité durable",
         description:
-          "Au fil des années, le rôle s'approfondit. L'entreprise se consolide, les relations mûrissent, le savoir-faire opérationnel s'affine. Vous rejoignez un cercle croissant de directrices et directeurs généraux Saha : des pairs qui apprennent les uns des autres, accompagnent les nouveaux dirigeants et contribuent à la manière dont nous trouvons et soutenons la prochaine génération. La permanence devient une manière de travailler, pas seulement une promesse.",
+          "Au fil des années, le rôle s'approfondit. L'entreprise se consolide, les relations mûrissent, le savoir-faire opérationnel s'affine. Vous rejoignez un cercle croissant de directrices et directeurs généraux Saha : des pairs qui apprennent les uns des autres, accompagnent les nouveaux dirigeants et contribuent à la manière dont nous trouvons et soutenons la prochaine génération.",
       },
     ],
   },

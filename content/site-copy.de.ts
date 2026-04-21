@@ -561,7 +561,7 @@ export const talentPage = {
         number: "04",
         title: "Langfristige Verantwortung",
         description:
-          "Mit den Jahren vertieft sich die Rolle. Das Unternehmen reift, die Beziehungen wachsen, das operative Handwerk schärft sich. Sie werden Teil einer wachsenden Gruppe von Saha-Geschäftsführerinnen und -Geschäftsführern: Peers, die voneinander lernen, neue Führungskräfte begleiten und mitgestalten, wie wir die nächste Generation finden und unterstützen. Dauerhaftigkeit wird zur Arbeitsweise, nicht nur zum Versprechen.",
+          "Mit den Jahren vertieft sich die Rolle. Das Unternehmen reift, die Beziehungen wachsen, das operative Handwerk schärft sich. Sie werden Teil einer wachsenden Gruppe von Saha-Geschäftsführerinnen und -Geschäftsführern: Peers, die voneinander lernen, neue Führungskräfte begleiten und mitgestalten, wie wir die nächste Generation finden und unterstützen.",
       },
     ],
   },
