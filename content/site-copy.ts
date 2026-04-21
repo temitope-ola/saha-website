@@ -741,7 +741,7 @@ export const aboutPage = {
 
   foundingTeam: {
     heading: "The founding team",
-    intro: "Saha is being assembled by a small group of people with complementary skills across acquisition, research, and infrastructure.",
+    intro: "Saha is being assembled by a small group of people with complementary skills across acquisition, research, platform, and build-up.",
     members: [
       {
         name: "Temitope Ola",

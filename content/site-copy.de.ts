@@ -742,7 +742,7 @@ export const aboutPage = {
 
   foundingTeam: {
     heading: "Das Gründungsteam",
-    intro: "Saha wird von einer kleinen Gruppe mit komplementären Fähigkeiten in Akquisition, Forschung und Infrastruktur aufgebaut.",
+    intro: "Saha entsteht aus einer kleinen Gruppe mit komplementären Fähigkeiten in Akquisition, Forschung, Plattform und Aufbau.",
     members: [
       {
         name: "Temitope Ola",

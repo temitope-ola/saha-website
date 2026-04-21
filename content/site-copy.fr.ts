@@ -709,7 +709,7 @@ export const aboutPage = {
 
   foundingTeam: {
     heading: "L'équipe fondatrice",
-    intro: "Saha est assemblée par un petit groupe de personnes aux compétences complémentaires en acquisition, recherche et infrastructure.",
+    intro: "Saha est assemblée par un petit groupe de personnes aux compétences complémentaires en acquisition, recherche, plateforme et build-up.",
     members: [
       {
         name: "Temitope Ola",
