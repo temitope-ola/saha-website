@@ -719,9 +719,9 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "About Saha",
-    headline: "Why Saha exists",
+    headline: "A permanent home for Swiss SMEs worth keeping",
     subheadline:
-      "Too many good Swiss businesses disappear not because they fail, but because their founders retire without a clear path forward. Saha was created to change that.",
+      "Many good businesses disappear at succession, not because they fail, but because few buyers are structured to keep them. Saha is built to be that buyer.",
   },
 
   founderNote: {

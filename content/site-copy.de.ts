@@ -720,9 +720,9 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "Über Saha",
-    headline: "Warum Saha existiert",
+    headline: "Ein dauerhaftes Zuhause für erhaltenswerte Schweizer KMU",
     subheadline:
-      "Zu viele gute Schweizer Unternehmen verschwinden nicht, weil sie scheitern, sondern weil ihre Gründerinnen und Gründer ohne klare Nachfolgelösung in den Ruhestand gehen. Saha wurde geschaffen, um das zu ändern.",
+      "Viele gute Unternehmen verschwinden bei der Nachfolge, nicht weil sie scheitern, sondern weil nur wenige Käufer darauf ausgelegt sind, sie zu behalten. Saha wurde gebaut, um dieser Käufer zu sein.",
   },
 
   founderNote: {

@@ -687,9 +687,9 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "À propos",
-    headline: "Pourquoi Saha existe",
+    headline: "Un foyer durable pour les PME suisses qui méritent d'être conservées",
     subheadline:
-      "Trop d'excellentes entreprises suisses disparaissent non parce qu'elles échouent, mais parce que leurs fondateurs prennent leur retraite sans solution de succession claire. Saha a été créée pour changer cela.",
+      "De nombreuses bonnes entreprises disparaissent au moment de la succession, non parce qu'elles échouent, mais parce que peu d'acquéreurs sont structurés pour les conserver. Saha est conçue pour être cet acquéreur.",
   },
 
   founderNote: {
