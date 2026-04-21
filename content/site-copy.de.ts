@@ -725,21 +725,6 @@ export const aboutPage = {
       "Viele gute Unternehmen verschwinden bei der Nachfolge, nicht weil sie scheitern, sondern weil nur wenige Käufer darauf ausgelegt sind, sie zu behalten. Saha wurde gebaut, um dieser Käufer zu sein.",
   },
 
-  founderNote: {
-    heading: "Ein Wort des Gründers",
-    paragraphs: [
-      "Ich habe 35 Jahre in der Schweiz verbracht, Unternehmen in Technologie und Finanzen aufgebaut und beraten. 2014 habe ich ein Schweizer Technologieunternehmen, das ich gegründet hatte, an einen an der Zürcher Börse kotierten strategischen Käufer verkauft. Wenn man selbst etwas aufgebaut und übergeben hat, versteht man klarer, was wirklich auf dem Spiel steht.",
-      "Zwei Momente sind mir geblieben. Ein Gründer schloss ein Unternehmen, das er über dreissig Jahre geführt hatte (profitabel, gut geführt, von seiner Gemeinschaft geschätzt), weil niemand da war, um es weiterzuführen. Kurz darauf sah ich das Gegenteil: Zwei ehemalige Lehrlinge kehrten Jahre später zurück, kauften ihrem Gründer das Unternehmen ab und bauten etwas Stärkeres als das, was sie geerbt hatten.",
-      "Derselbe Markt. Sehr unterschiedliche Ergebnisse. Der Unterschied lag nicht in der Qualität des Unternehmens. Er lag darin, ob der richtige Käufer im richtigen Moment existierte.",
-      "Saha wurde geschaffen, um dieser Käufer zu sein: systematisch und auf Dauer.",
-    ],
-    attribution: "Temitope Ola, Gründer",
-    callout: {
-      type: "quote" as const,
-      text: "Gute Unternehmen sollten nicht verschwinden, bloss weil das Zeitfenster fehlt.",
-    },
-  },
-
   foundingTeam: {
     heading: "Das Gründungsteam",
     intro: "Saha entsteht aus einer kleinen Gruppe mit komplementären Fähigkeiten in Akquisition, Forschung, Plattform und Aufbau.",

@@ -30,25 +30,19 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
         subheadline={aboutPage.hero.subheadline}
       />
 
-      {/* ── A note from the founder ────────── */}
+      {/* ── The problem we set out to solve ── */}
       <section className="section-padding">
         <div className="container-content">
-          <SectionIntro heading={aboutPage.founderNote.heading} />
+          <SectionIntro heading={aboutPage.story.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
-            <div>
-              <div className="space-y-5">
-                {aboutPage.founderNote.paragraphs.map((p, i) => (
-                  <p key={i} className="text-body-lg text-pierre">
-                    {p}
-                  </p>
-                ))}
-              </div>
-              <p className="mt-8 text-body-lg font-serif text-encre">
-                {aboutPage.founderNote.attribution}
-              </p>
-              {/* Bio removed — attribution only */}
+            <div className="space-y-5">
+              {aboutPage.story.paragraphs.map((p, i) => (
+                <p key={i} className="text-body-lg text-pierre">
+                  {p}
+                </p>
+              ))}
             </div>
-            <CalloutBox {...aboutPage.founderNote.callout} />
+            <CalloutBox {...aboutPage.story.callout} />
           </div>
         </div>
       </section>
@@ -88,25 +82,8 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
         </div>
       </section>
 
-      {/* ── The problem we set out to solve ── */}
-      <section className="section-padding divider">
-        <div className="container-content">
-          <SectionIntro heading={aboutPage.story.heading} />
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
-            <div className="space-y-5">
-              {aboutPage.story.paragraphs.map((p, i) => (
-                <p key={i} className="text-body-lg text-pierre">
-                  {p}
-                </p>
-              ))}
-            </div>
-            <CalloutBox {...aboutPage.story.callout} />
-          </div>
-        </div>
-      </section>
-
       {/* ── Why this segment needs a different buyer ── */}
-      <section className="section-padding divider bg-cuivre-50/30">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whyDifferentBuyer.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
@@ -123,7 +100,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Our approach ──────────────────── */}
-      <section className="section-padding divider">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.approach.heading} />
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-16">
@@ -140,7 +117,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── What we believe ───────────────── */}
-      <section className="section-padding divider bg-cuivre-50/30">
+      <section className="section-padding divider">
         <div className="container-content">
           <SectionIntro heading={aboutPage.principles.heading} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -159,7 +136,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* ── Where we are today ────────────── */}
-      <section className="section-padding divider">
+      <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.whereWeAreToday.heading} />
           <div className="max-w-prose space-y-5">

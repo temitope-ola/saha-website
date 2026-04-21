@@ -724,21 +724,6 @@ export const aboutPage = {
       "Many good businesses disappear at succession, not because they fail, but because few buyers are structured to keep them. Saha is built to be that buyer.",
   },
 
-  founderNote: {
-    heading: "A note from the founder",
-    paragraphs: [
-      "I have spent 35 years in Switzerland, building and advising companies across technology and finance. In 2014, I sold a Swiss tech company I had founded to a Zurich-listed strategic buyer. Once you have built something and handed it over, you understand more clearly what is truly at stake.",
-      "Two moments stayed with me. A founder closed a business he had run for more than thirty years (profitable, well managed, and trusted by its community) because no one was there to take it forward. Not long after, I saw the opposite: two former apprentices returned years later, bought out their founder, and built something even stronger than what they had inherited.",
-      "Same market. Very different outcomes. The difference was not the quality of the business. It was whether the right buyer existed at the right moment.",
-      "Saha was created to be that buyer: systematically, and for the long term.",
-    ],
-    attribution: "Temitope Ola, Founder",
-    callout: {
-      type: "quote" as const,
-      text: "Good businesses should not disappear because of a timing problem.",
-    },
-  },
-
   foundingTeam: {
     heading: "The founding team",
     intro: "Saha is being assembled by a small group of people with complementary skills across acquisition, research, platform, and build-up.",

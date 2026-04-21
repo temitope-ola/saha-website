@@ -692,21 +692,6 @@ export const aboutPage = {
       "De nombreuses bonnes entreprises disparaissent au moment de la succession, non parce qu'elles échouent, mais parce que peu d'acquéreurs sont structurés pour les conserver. Saha est conçue pour être cet acquéreur.",
   },
 
-  founderNote: {
-    heading: "Un mot du fondateur",
-    paragraphs: [
-      "J'ai passé 35 ans en Suisse à créer et conseiller des entreprises dans la technologie et la finance. En 2014, j'ai cédé à un acquéreur stratégique coté à Zurich une entreprise technologique suisse que j'avais fondée. Quand on a soi-même bâti quelque chose et qu'on l'a transmis, on comprend plus clairement ce qui est véritablement en jeu.",
-      "Deux moments me restent en mémoire. Un fondateur a fermé une entreprise qu'il dirigeait depuis plus de trente ans (rentable, bien gérée, appréciée par sa communauté) parce que personne n'était là pour prendre la relève. Peu après, j'ai vu l'inverse : deux anciens apprentis sont revenus des années plus tard, ont racheté leur fondateur et ont bâti quelque chose de plus solide que ce dont ils avaient hérité.",
-      "Le même marché. Des issues très différentes. La différence ne tenait pas à la qualité de l'entreprise. Elle tenait à la présence du bon repreneur au bon moment.",
-      "Saha a été créée pour être ce repreneur : de manière systématique et dans la durée.",
-    ],
-    attribution: "Temitope Ola, Fondateur",
-    callout: {
-      type: "quote" as const,
-      text: "Les bonnes entreprises ne devraient pas disparaître à cause d'un problème de calendrier.",
-    },
-  },
-
   foundingTeam: {
     heading: "L'équipe fondatrice",
     intro: "Saha est assemblée par un petit groupe de personnes aux compétences complémentaires en acquisition, recherche, plateforme et build-up.",
