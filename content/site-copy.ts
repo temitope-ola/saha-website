@@ -18,7 +18,7 @@ export const nav = {
     { label: "Founders", href: "/founders" },
     { label: "Advisors", href: "/advisors" },
     { label: "Investors", href: "/investors" },
-    { label: "Join Saha", href: "/join" },
+    { label: "Talent", href: "/talent" },
     { label: "About", href: "/about" },
     { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
@@ -90,7 +90,7 @@ export const homepage = {
     heading: "Help build Saha from the ground up",
     description:
       "We are assembling a small, focused team to shape our first acquisitions, diligence process, and operating model. If you want to build something from the ground up, this is early, real work.",
-    cta: { label: "Learn more", href: "/join" },
+    cta: { label: "Learn more", href: "/talent" },
   },
 
   modelSectionLabel: "How we work",
@@ -501,102 +501,109 @@ export const investorsPage = {
   },
 };
 
-/* ── Join Saha ──────────────────────────────── */
+/* ── Talent ─────────────────────────────────── */
 
-export const joinPage = {
+export const talentPage = {
   hero: {
-    eyebrow: "Join Saha",
-    headline: "Build something from the ground up",
+    eyebrow: "Talent",
+    headline: "Lead a Swiss business beyond its founder.",
     subheadline:
-      "We are assembling a small team to shape the sourcing model, diligence process, transition approach, and operating culture, before our first acquisition. If you think in decades and care about craft, this is early, meaningful work.",
-    cta: { label: "Tell us about yourself", href: "/contact?pathway=builder" },
+      "Step into the CEO seat of an established Swiss business. Lead its next chapter, backed by a permanent owner and a community of fellow leaders.",
+    cta: { label: "Apply now", href: "/contact?pathway=talent" },
   },
 
-  whyJoin: {
-    heading: "Why join at this stage",
+  opportunity: {
+    heading: "A first-of-its-kind opportunity",
     paragraphs: [
-      "Most professional opportunities are about optimising within existing structures. Saha is different. We are building a long-term ownership company for Swiss businesses from scratch. The strategy, the culture, the systems, the values are all being shaped right now.",
-      "The people who join at this stage will not just fill roles; they will define what Saha becomes. The first acquisition, the first transition, the first operating playbook. This is the kind of work where everything you do matters.",
-      "Saha is not a search fund. We do not back individual searchers to buy and run a single business. We are building a long-term home for many businesses, and we look for people who want to shape that home: not to own one company, but to help build the operating system that stewards many.",
+      "Running a profitable Swiss SME as its CEO has rarely been a path available to outside operators. Family succession favors heirs. Private equity favors short-dated plays. Most acquisitions come with an exit clock above the new CEO's head.",
+      "The Future CEO Program is different. You lead an established Swiss business into its next chapter, with real equity, real autonomy, and a permanent owner behind you who will not resell the company. For the right operator, it is the seat of a career.",
     ],
     callout: {
       type: "quote" as const,
-      text: "The people who join now will define what Saha becomes.",
+      text: "A career-defining seat, by design.",
     },
   },
 
-  foundingRoles: {
-    heading: "Open founding roles",
-    intro: "We are recruiting for founding roles that will shape how Saha operates from day one. These are not employee positions. They are co-builder roles.",
-    roles: [
-      {
-        title: "Finance Lead, Capital & Reporting",
-        description: "Will own the financial architecture across Saha and its portfolio: capital structuring, acquisition modelling, portfolio-level reporting, and the administrative backbone that allows a growing family of businesses to operate with clarity and discipline.",
-        ctaLabel: "Express interest →",
-        ctaHref: "/contact",
-      },
+  whoYouAre: {
+    heading: "Who you are",
+    paragraphs: [
+      "You have already run something. Maybe you founded and exited a business. Maybe you led a division with full P&L accountability. Maybe you were the number two at a family SME, an operator inside a consultancy, or returning to Switzerland after an international run.",
+      "What sets you apart is less on your CV and more in how you work. You bring generalist instincts to complex problems. You think like an owner, not an employee. You listen before you change things. You can earn the trust of a founder handing over a life's work, and the team who will follow you. You are patient enough for a long-term horizon, and honest enough to know when you are not.",
     ],
   },
 
-  roles: {
-    heading: "What we need",
-    description:
-      "We are not hiring for job titles. We are looking for people with the right skills, disposition, and ambition to build alongside us at the very beginning.",
-    profiles: [
-      {
-        title: "Deal and diligence",
-        description:
-          "People who can source, evaluate, and structure acquisitions in the sub-CHF 10M Swiss market. You understand what makes a small business work, you can read financials and assess risk, and you know how to build trust with founders and advisors.",
-      },
-      {
-        title: "Transition and operations",
-        description:
-          "People who can step into an acquired business and guide it through the handover. You manage the founder exit, steady the team, maintain customer relationships, and lay the foundation for long-term health.",
-      },
-      {
-        title: "Finance and infrastructure",
-        description:
-          "People who can build the financial reporting, administrative systems, and operational processes that hold a growing family of businesses together. The quiet infrastructure that makes everything else possible.",
-      },
-    ],
-  },
-
-  values: {
-    heading: "What we value",
+  program: {
+    heading: "The Future CEO Program",
     steps: [
       {
         number: "01",
-        title: "Long-term thinking",
-        description: "We make decisions for decades, not quarters.",
+        title: "Formation",
+        description:
+          "Work alongside the Saha team on live sourcing, diligence, and thesis-building in the sectors you would consider running. The phase is flexible and unpaid, and ends when you are matched with a specific acquisition.",
       },
       {
         number: "02",
-        title: "Craft and rigour",
-        description: "We care about doing things well, not just doing them quickly.",
+        title: "Transition",
+        description:
+          "You are paired with a target business and its outgoing founder. Compensation begins. You shadow the founder, learn the company, and take responsibility in stages across a structured handover.",
       },
       {
         number: "03",
-        title: "Quiet ambition",
-        description: "We aim to build something significant without needing to be loud about it.",
+        title: "General Manager",
+        description:
+          "You run the company as CEO, with meaningful equity in the business and full autonomy to lead. The role is stewardship as much as operation: growing the company forward while preserving what made it worth keeping.",
+      },
+    ],
+  },
+
+  offer: {
+    heading: "What the program offers",
+    paragraphs: [
+      "The program is built to align your upside with the business you run. Compensation begins when you match at transition, and you receive meaningful equity in the specific company you lead. Because Saha holds permanently, you can build for the long term rather than manage toward an exit.",
+      "You are not doing this alone. Saha supports you with back-office infrastructure so you can focus on the business. And as the portfolio grows, you join a network of Future CEO alumni and sitting GMs across other Saha businesses, operators working on similar problems under the same owner, with the same long horizon. Experience travels between seats.",
+    ],
+    callout: {
+      type: "quote" as const,
+      text: "A permanent owner behind you. A community of operators beside you.",
+    },
+  },
+
+  commitment: {
+    heading: "What we ask in return",
+    paragraphs: [
+      "A real multi-year commitment. You do not enter the program to run a business for three years and move on. Permanence works both ways. You will live the Swiss business context, take full accountability for outcomes, and stay long enough to see the effects of your decisions compound. In return, you get something rare in this market: time.",
+    ],
+  },
+
+  process: {
+    heading: "The process",
+    steps: [
+      {
+        number: "01",
+        title: "Apply",
+        description:
+          "A short note on what you have run, why Saha, and the kind of business you would want to lead.",
       },
       {
-        number: "04",
-        title: "Empathy and respect",
-        description: "We work with founders, teams, and communities. Relationships matter.",
+        number: "02",
+        title: "Conversations",
+        description:
+          "One or two sessions with the Saha founding team. Mutual qualification on fit, horizon, and operating thesis.",
       },
       {
-        number: "05",
-        title: "Ownership mentality",
-        description: "Everyone who builds Saha should think and act like an owner.",
+        number: "03",
+        title: "Thesis and commitment",
+        description:
+          "You develop a short thesis on where you would want to operate. We review it together, check references, and decide mutually whether to enter the program.",
       },
     ],
   },
 
   closingCta: {
-    heading: "This might be for you",
+    heading: "Join the first cohort",
     description:
-      "If what you have read resonates, even if you do not fit neatly into one of the profiles above, we would like to hear from you. Tell us who you are and what draws you to Saha.",
-    cta: { label: "Reach out", href: "/contact?pathway=builder" },
+      "We are forming our first Future CEO Program cohort now. If the seat sounds like yours, tell us.",
+    cta: { label: "Apply now", href: "/contact?pathway=talent" },
   },
 };
 
@@ -1134,7 +1141,7 @@ export const footer = {
         { label: "Founders", href: "/founders" },
         { label: "Advisors", href: "/advisors" },
         { label: "Investors", href: "/investors" },
-        { label: "Join Saha", href: "/join" },
+        { label: "Talent", href: "/talent" },
       ],
     },
     {
@@ -1172,10 +1179,10 @@ export const metadata = {
     description:
       "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10M. Structured transitions, disciplined sourcing, compounding value.",
   },
-  join: {
-    title: "Join Saha | Build from the ground up",
+  talent: {
+    title: "Talent | Future CEO Program at Saha",
     description:
-      "Saha is at the formation stage, assembling a team to build a long-term ownership company for Swiss businesses. Deal, transition, operations, and finance roles.",
+      "The Future CEO Program prepares experienced operators to run the Swiss businesses Saha acquires. Equity, autonomy, and a permanent owner behind you.",
   },
   about: {
     title: "About Saha | Why we exist",

@@ -16,7 +16,7 @@ export const nav = {
     { label: "Fondateurs", href: "/founders" },
     { label: "Conseillers", href: "/advisors" },
     { label: "Investisseurs", href: "/investors" },
-    { label: "Rejoindre Saha", href: "/join" },
+    { label: "Talent", href: "/talent" },
     { label: "À propos", href: "/about" },
     { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
@@ -86,7 +86,7 @@ export const homepage = {
     heading: "Aider à construire Saha dès le départ",
     description:
       "Nous constituons une équipe resserrée pour façonner nos premières acquisitions, notre processus de diligence et notre modèle opérationnel. Pour qui veut construire quelque chose de neuf, c'est un travail précoce et substantiel.",
-    cta: { label: "En savoir plus", href: "/join" },
+    cta: { label: "En savoir plus", href: "/talent" },
   },
 
   modelSectionLabel: "Notre approche",
@@ -493,80 +493,114 @@ export const investorsPage = {
   },
 };
 
-export const joinPage = {
+export const talentPage = {
   hero: {
-    eyebrow: "Rejoindre Saha",
-    headline: "Construire quelque chose de neuf",
+    eyebrow: "Talent",
+    headline: "Dirigez une entreprise suisse au-delà de son fondateur.",
     subheadline:
-      "Nous assemblons une petite équipe pour façonner le modèle de sourcing, le processus de diligence, l'approche de transition et la culture opérationnelle, avant notre première acquisition. Si vous pensez en décennies et que vous avez le goût du travail bien fait, c'est un travail précoce et qui a du sens.",
-    cta: { label: "Parlez-nous de vous", href: "/contact?pathway=builder" },
+      "Prenez place au siège de direction d'une entreprise suisse établie. Dirigez son prochain chapitre, soutenu par un propriétaire permanent et une communauté de dirigeants qui partagent votre engagement.",
+    cta: { label: "Postuler maintenant", href: "/contact?pathway=talent" },
   },
 
-  whyJoin: {
-    heading: "Pourquoi nous rejoindre à ce stade",
+  opportunity: {
+    heading: "Une opportunité sans précédent",
     paragraphs: [
-      "La plupart des parcours professionnels consistent à optimiser au sein de structures existantes. Saha est différent. Nous bâtissons, à partir de zéro, une société de détention à long terme pour des entreprises suisses. La stratégie, la culture, les systèmes, les valeurs : tout se façonne en ce moment même.",
-      "Ceux qui nous rejoignent à ce stade ne se contentent pas d'occuper un poste : ils définissent ce que Saha deviendra. La première acquisition, la première transition, le premier référentiel opérationnel. C'est le type de travail où tout ce que vous faites compte.",
-      "Saha n'est pas un search fund. Nous ne soutenons pas des chercheurs individuels qui achètent puis dirigent une seule entreprise. Nous bâtissons une maison durable pour de nombreuses entreprises, et nous cherchons des personnes qui veulent contribuer à la façonner : non pour posséder une société, mais pour construire le système d'exploitation qui en porte beaucoup.",
+      "En Suisse, des milliers d'entreprises rentables et dirigées par leur fondateur changeront de mains au cours des prochaines années. La plupart n'ont pas besoin d'être réinventées. Elles ont besoin de quelqu'un qui prenne les rênes et les conduise avec soin.",
+      "Saha forme les dirigeantes et dirigeants qui reprendront ces entreprises. Le Future CEO Program est notre manière de préparer la prochaine génération de directrices et directeurs généraux pour un segment négligé de l'économie suisse : non pas des fondateurs, mais des successeurs prêts à reprendre une entreprise qui fonctionne et à la mener sur la durée.",
+      "Pour les bonnes personnes, c'est une opportunité rare. Vous prenez la responsabilité d'une entreprise suisse établie, portée par un propriétaire permanent qui ne cherche pas à revendre. Vous pouvez bâtir pour le long terme plutôt que de gérer en vue d'une sortie.",
     ],
     callout: {
       type: "quote" as const,
-      text: "Celles et ceux qui nous rejoignent maintenant définissent ce que Saha devient.",
+      text: "Un siège qui peut définir une carrière. Par conception.",
     },
   },
 
-  foundingRoles: {
-    heading: "Rôles fondateurs ouverts",
-    intro: "Nous recrutons pour des rôles fondateurs qui façonneront le fonctionnement de Saha dès le premier jour. Ce ne sont pas des postes classiques. Ce sont des rôles de co-fondateurs opérationnels.",
-    roles: [
-      {
-        title: "Responsable Finance, Capital & Reporting",
-        description: "Prendra en charge l'architecture financière de Saha et de son portefeuille : structuration du capital, modélisation des acquisitions, reporting consolidé et infrastructure administrative permettant à une famille croissante d'entreprises de fonctionner avec clarté et discipline.",
-        ctaLabel: "Exprimer mon intérêt →",
-        ctaHref: "/contact",
-      },
+  whoYouAre: {
+    heading: "Qui vous êtes",
+    paragraphs: [
+      "Vous êtes une dirigeante ou un dirigeant opérationnel expérimenté, une manageuse ou un manager avec une responsabilité de compte de résultat, peut-être une entrepreneuse ou un entrepreneur qui a cédé une entreprise et cherche son prochain chapitre. Vous comprenez ce qui fait tourner une entreprise de taille modeste : les clients, l'équipe, la trésorerie, la culture.",
+      "Vous avez dirigé des équipes, pris des décisions difficiles et appris ce qui soutient une entreprise et ce qui la fait trébucher. Vous savez que bien diriger dépasse la maîtrise technique : il faut écouter, bâtir la confiance, tenir face à l'incertitude et laisser de la place à celles et ceux qui vous entourent.",
+      "Vous voulez diriger une entreprise qui fonctionne déjà, pas en construire une à partir de zéro. Vous pensez en années, pas en trimestres. Vous appréciez la discipline discrète d'une bonne PME suisse plus que l'effervescence d'une start-up.",
+      "Une maîtrise courante du français, de l'allemand ou de l'italien est requise, selon la région de Suisse où vous dirigerez. Une expérience entrepreneuriale ou la direction d'une business unit rentable constituent un avantage marqué.",
     ],
   },
 
-  roles: {
-    heading: "Les profils que nous recherchons",
-    description:
-      "Nous ne recrutons pas sur la base de titres. Nous cherchons des personnes ayant les bonnes compétences, la bonne disposition et l'ambition de construire à nos côtés dès le début.",
-    profiles: [
-      {
-        title: "Origination et due diligence",
-        description:
-          "Des personnes capables de sourcer, d'évaluer et de structurer des acquisitions sur le marché suisse sous CHF 10 millions. Vous comprenez ce qui fait fonctionner une petite entreprise, vous lisez les états financiers et évaluez les risques, et vous savez bâtir la confiance avec les fondateurs et les conseillers.",
-      },
-      {
-        title: "Transmission et opérations",
-        description:
-          "Des personnes capables d'entrer dans une entreprise acquise et de l'accompagner dans la passation. Vous gérez le retrait du fondateur, stabilisez l'équipe, entretenez les relations clients et posez les bases de la santé à long terme.",
-      },
-      {
-        title: "Finance et infrastructure",
-        description:
-          "Des personnes capables de bâtir le reporting financier, les systèmes administratifs et les processus opérationnels qui maintiennent ensemble une famille croissante d'entreprises. L'infrastructure discrète qui rend tout le reste possible.",
-      },
-    ],
-  },
-
-  values: {
-    heading: "Nos valeurs",
+  program: {
+    heading: "Le Future CEO Program",
     steps: [
-      { number: "01", title: "Vision à long terme", description: "Nous prenons les décisions pour les décennies, pas les trimestres." },
-      { number: "02", title: "Exigence et rigueur", description: "Nous tenons à faire les choses bien, pas seulement rapidement." },
-      { number: "03", title: "Ambition discrète", description: "Nous visons à construire quelque chose de significatif sans chercher la mise en avant." },
-      { number: "04", title: "Empathie et respect", description: "Nous travaillons avec les fondateurs, les équipes et les communautés. Les relations comptent." },
-      { number: "05", title: "Mentalité d'entrepreneur", description: "Chez Saha, chacun pense et agit en propriétaire." },
+      {
+        number: "01",
+        title: "Préparation",
+        description:
+          "Vous travaillez à nos côtés pendant que nous identifions et évaluons des entreprises cibles. Vous apprenez à connaître notre thèse d'investissement, notre lecture des transitions et notre discipline opérationnelle. Vous nous aidez à affiner le modèle et nous apprenons comment vous pensez et dirigez. Cette phase est flexible et non rémunérée : vous gardez votre poste principal et nous découvrons ensemble si l'alignement est là.",
+      },
+      {
+        number: "02",
+        title: "Transmission",
+        description:
+          "Une fois que nous avons identifié une entreprise ensemble, vous rejoignez l'équipe à plein temps et vous êtes rémunéré. Vous travaillez aux côtés de la personne fondatrice sortante dans un processus structuré de transmission : vous apprenez à connaître les clients, l'équipe et les opérations, vous prenez progressivement la responsabilité et vous vous préparez à assumer pleinement la direction.",
+      },
+      {
+        number: "03",
+        title: "Direction générale",
+        description:
+          "Vous dirigez l'entreprise en tant que directrice ou directeur général, avec une pleine responsabilité opérationnelle et une participation significative au succès. Saha détient l'entreprise de manière permanente, ce qui vous permet de bâtir pour le long terme plutôt que de gérer en vue d'une sortie. Vous devenez la gardienne ou le gardien de l'entreprise : de ses clients, de son équipe, de sa place dans la communauté.",
+      },
+    ],
+  },
+
+  offer: {
+    heading: "Ce que le programme offre",
+    paragraphs: [
+      "Un siège de direction dans une entreprise suisse établie et rentable, choisie ensemble avec nous. Pas de page blanche. Une entreprise réelle, avec des clients, une équipe et un parcours.",
+      "Un propriétaire permanent derrière vous. Saha détient sur la durée, il ne s'agit donc pas d'optimiser l'entreprise en vue d'une sortie. Vous pouvez bâtir pour le long terme : relations, culture et qualité opérationnelle qui s'accumulent au fil des années.",
+      "Une communauté de pairs dirigeants. Vous ne dirigerez pas seul. Vous rejoignez un groupe croissant de directrices et directeurs généraux Saha qui se font confiance, apprennent les uns des autres et partagent les mêmes défis. Un échange entre pairs, des outils communs et un siège qui gère le sourcing, la finance et l'infrastructure pour que vous puissiez vous concentrer sur l'entreprise.",
+      "Une participation économique significative dans l'entreprise que vous dirigez. Si vous bâtissez bien, vous gagnez. Si l'entreprise gagne, nous gagnons tous.",
+    ],
+    callout: {
+      type: "quote" as const,
+      text: "Un propriétaire permanent derrière vous. Une communauté de dirigeants à vos côtés.",
+    },
+  },
+
+  commitment: {
+    heading: "Ce que nous attendons en retour",
+    paragraphs: [
+      "Du sérieux. Ce n'est pas une incursion dans le monde des PME. Vous vous engagez à diriger l'entreprise que vous reprenez, non pour un an ou deux, mais aussi longtemps qu'elle aura besoin de vous et que vous pourrez la servir.",
+      "Du soin. Vous héritez d'une communauté de clients, de collaborateurs, de fournisseurs qui ont tous bâti sur le travail d'une personne fondatrice. Ces relations méritent la même attention que celle qu'elles ont reçue au fil des années.",
+      "Du discernement. Saha apporte le capital, la discipline et l'accompagnement. La direction au quotidien vous revient. Nous cherchons des personnes capables de décider par elles-mêmes et de savoir quand demander conseil.",
+    ],
+  },
+
+  process: {
+    heading: "Le processus",
+    steps: [
+      {
+        number: "01",
+        title: "Postuler",
+        description:
+          "Dites-nous qui vous êtes, ce que vous avez dirigé et pourquoi le siège de direction d'une PME suisse a du sens pour vous. Une lettre courte suffit, un CV aide. Le ton peut rester informel.",
+      },
+      {
+        number: "02",
+        title: "Conversations",
+        description:
+          "Nous aurons plusieurs échanges pour apprendre à nous connaître. Nous partageons ce que nous bâtissons et où nous allons. Vous partagez votre manière de penser, ce que vous avez dirigé et ce qui vous attire dans ce type de travail.",
+      },
+      {
+        number: "03",
+        title: "Thèse et engagement",
+        description:
+          "Si l'alignement est là, nous définissons ensemble le type d'entreprise que vous voulez diriger : secteur, région, taille, profil. Nous lançons la recherche ensemble et nous nous engageons à vous accompagner jusqu'à la bonne entreprise.",
+      },
     ],
   },
 
   closingCta: {
-    heading: "Cela vous parle ?",
+    heading: "Rejoignez la première cohorte",
     description:
-      "Si ce que vous avez lu vous parle, même sans correspondre précisément à l'un des profils ci-dessus, nous aimerions vous entendre. Dites-nous qui vous êtes et ce qui vous attire chez Saha.",
-    cta: { label: "Nous contacter", href: "/contact?pathway=builder" },
+      "Nous formons en ce moment la première cohorte du Future CEO Program. Si vous pensez que ce siège pourrait être le vôtre, dites-le-nous.",
+    cta: { label: "Postuler maintenant", href: "/contact?pathway=talent" },
   },
 };
 
@@ -930,7 +964,7 @@ export const footer = {
   tagline: "Une maison durable pour les entreprises suisses en transmission.",
   columns: [
     { title: "Entreprise", links: [{ label: "À propos", href: "/about" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
-    { title: "Pour vous", links: [{ label: "Fondateurs", href: "/founders" }, { label: "Conseillers", href: "/advisors" }, { label: "Investisseurs", href: "/investors" }, { label: "Rejoindre Saha", href: "/join" }] },
+    { title: "Pour vous", links: [{ label: "Fondateurs", href: "/founders" }, { label: "Conseillers", href: "/advisors" }, { label: "Investisseurs", href: "/investors" }, { label: "Talent", href: "/talent" }] },
     { title: "Juridique", links: [{ label: "Confidentialité", href: "/privacy" }, { label: "Conditions", href: "/terms" }] },
   ],
   copyright: `© ${new Date().getFullYear()} Saha. Tous droits réservés.`,
@@ -942,7 +976,7 @@ export const metadata = {
   founders: { title: "Pour les fondateurs | Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par leurs fondateurs sous CHF 10 millions avec soin, structure et engagement à long terme." },
   advisors: { title: "Pour les conseillers | Saha", description: "Lorsque vous présentez un client à Saha, votre réputation est protégée. Nous offrons un processus clair, une transparence totale et une détention permanente pour les successions de PME suisses." },
   investors: { title: "Pour les investisseurs | Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10 millions. Transitions structurées, sourcing discipliné, valeur composée." },
-  join: { title: "Rejoindre Saha | Construire à partir de zéro", description: "Saha est au stade de la formation et assemble une équipe pour bâtir une société de détention à long terme pour les entreprises suisses. Rôles en deal, transition, opérations et finance." },
+  talent: { title: "Talent | Future CEO Program chez Saha", description: "Dirigez une entreprise suisse établie dans son prochain chapitre. Le Future CEO Program de Saha forme les directrices et directeurs généraux qui prendront les rênes des entreprises que nous acquérons : un propriétaire permanent, une communauté de dirigeants et la mission de diriger sur la durée." },
   about: { title: "À propos de Saha | Pourquoi nous existons", description: "Trop de bonnes PME suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour offrir un acquéreur réfléchi et de long terme au segment de transmission mal desservi." },
   contact: { title: "Contact | Saha", description: "Engagez une conversation avec Saha. Que vous soyez fondateur, investisseur ou futur membre de l'équipe, nous serions heureux d'avoir de vos nouvelles." },
   faq: { title: "FAQ | Saha", description: "Réponses aux questions courantes sur Saha de la part des fondateurs, investisseurs et futurs membres de l'équipe." },

@@ -19,7 +19,7 @@ export const nav = {
     { label: "Gründer", href: "/founders" },
     { label: "Berater", href: "/advisors" },
     { label: "Investoren", href: "/investors" },
-    { label: "Saha beitreten", href: "/join" },
+    { label: "Talent", href: "/talent" },
     { label: "Über uns", href: "/about" },
     { label: "FAQ", href: "/faq" },
     { label: "Kontakt", href: "/contact" },
@@ -91,7 +91,7 @@ export const homepage = {
     heading: "Helfen Sie uns, Saha von Grund auf aufzubauen",
     description:
       "Wir stellen ein kleines, fokussiertes Team zusammen, um unsere ersten Akquisitionen, den Due-Diligence-Prozess und das Betriebsmodell zu gestalten. Wer etwas von Grund auf aufbauen will, findet hier frühe, substanzielle Arbeit.",
-    cta: { label: "Mehr erfahren", href: "/join" },
+    cta: { label: "Mehr erfahren", href: "/talent" },
   },
 
   modelSectionLabel: "So arbeiten wir",
@@ -502,102 +502,116 @@ export const investorsPage = {
   },
 };
 
-/* ── Join Saha ──────────────────────────────── */
+/* ── Talent ─────────────────────────────────── */
 
-export const joinPage = {
+export const talentPage = {
   hero: {
-    eyebrow: "Saha beitreten",
-    headline: "Etwas von Grund auf aufbauen",
+    eyebrow: "Talent",
+    headline: "Führen Sie ein Schweizer Unternehmen über seinen Gründer hinaus.",
     subheadline:
-      "Wir stellen ein kleines Team zusammen, um das Sourcing-Modell, den Due-Diligence-Prozess, den Übergabe-Ansatz und die Betriebskultur vor unserer ersten Akquisition zu prägen. Wer in Jahrzehnten denkt und sich um Handwerk kümmert, findet hier frühe, bedeutungsvolle Arbeit.",
-    cta: { label: "Stellen Sie sich vor", href: "/contact?pathway=builder" },
+      "Treten Sie in den Geschäftsführersitz eines etablierten Schweizer Unternehmens. Führen Sie sein nächstes Kapitel, getragen von einem dauerhaften Eigentümer und einer Gemeinschaft gleichgesinnter Führungskräfte.",
+    cta: { label: "Jetzt bewerben", href: "/contact?pathway=talent" },
   },
 
-  whyJoin: {
-    heading: "Warum in dieser Phase beitreten",
+  opportunity: {
+    heading: "Eine Gelegenheit, die es so bisher nicht gab",
     paragraphs: [
-      "Die meisten beruflichen Gelegenheiten bestehen darin, bestehende Strukturen zu optimieren. Saha ist anders. Wir bauen ein Unternehmen für langfristiges Eigentum von Schweizer Unternehmen von Grund auf auf. Die Strategie, die Kultur, die Systeme, die Werte: all das wird gerade geformt.",
-      "Wer jetzt einsteigt, füllt keine Rolle aus, sondern definiert mit, was Saha wird. Die erste Akquisition, die erste Übergabe, das erste Betriebs-Playbook. Das ist die Art von Arbeit, bei der alles zählt, was Sie tun.",
-      "Saha ist kein Search Fund. Wir finanzieren keine einzelnen Sucher, die ein einziges Unternehmen kaufen und führen. Wir bauen eine langfristige Heimat für viele Unternehmen und suchen Menschen, die diese Heimat mitgestalten wollen: nicht ein Unternehmen zu besitzen, sondern das Betriebssystem mit aufzubauen, das viele in ihrer Obhut führt.",
+      "In der Schweiz werden in den kommenden Jahren Tausende profitabler, inhabergeführter Unternehmen den Eigentümer wechseln. Die meisten brauchen keine Reorganisation. Sie brauchen jemanden, der das Steuer übernimmt und das Unternehmen sorgfältig weiterführt.",
+      "Saha bildet die Führungskräfte aus, die diese Unternehmen übernehmen werden. Das Future CEO Program ist unser Weg, die nächste Generation von Geschäftsführerinnen und Geschäftsführern für ein unterversorgtes Segment der Schweizer Wirtschaft heranzubilden: nicht Gründerinnen oder Gründer, sondern Nachfolgerinnen und Nachfolger, die bereit sind, ein funktionierendes Unternehmen zu übernehmen und langfristig zu führen.",
+      "Für die richtigen Menschen ist dies eine seltene Chance. Sie übernehmen die Verantwortung für ein etabliertes Schweizer Unternehmen, getragen von einem dauerhaften Eigentümer, der keinen Exit anstrebt. Sie können für die lange Frist aufbauen, statt auf einen Verkauf hinzuarbeiten.",
     ],
     callout: {
       type: "quote" as const,
-      text: "Wer jetzt einsteigt, definiert, was Saha wird.",
+      text: "Eine Position, die eine Karriere prägt. Mit Absicht.",
     },
   },
 
-  foundingRoles: {
-    heading: "Offene Gründungsrollen",
-    intro: "Wir rekrutieren für Gründungsrollen, die von Tag eins an prägen werden, wie Saha arbeitet. Keine Angestelltenpositionen. Mitgründerrollen.",
-    roles: [
-      {
-        title: "Finance Lead, Kapital & Reporting",
-        description: "Verantwortet die Finanzarchitektur über Saha und das gesamte Portfolio hinweg: Kapitalstrukturierung, Akquisitionsmodellierung, Portfolio-Reporting und das administrative Rückgrat, mit dem eine wachsende Unternehmensfamilie mit Klarheit und Disziplin arbeitet.",
-        ctaLabel: "Interesse bekunden →",
-        ctaHref: "/contact",
-      },
+  whoYouAre: {
+    heading: "Wer Sie sind",
+    paragraphs: [
+      "Sie sind eine erfahrene operative Führungskraft, eine Managerin oder ein Manager mit P&L-Verantwortung, vielleicht eine Unternehmerin oder ein Unternehmer, die oder der ein Unternehmen verkauft hat und die nächste Herausforderung sucht. Sie verstehen, wie kleinere Unternehmen funktionieren: Kundinnen und Kunden, Team, Cashflow, Kultur.",
+      "Sie haben Menschen geführt, schwierige Entscheidungen getroffen und gelernt, was ein Unternehmen trägt und was es stolpern lässt. Sie wissen, dass gute Führung mehr ist als Fachwissen: Zuhören, Vertrauen aufbauen, Unsicherheit aushalten, und den Menschen um Sie herum Raum geben.",
+      "Sie wollen ein Unternehmen führen, das bereits funktioniert, nicht eines von Grund auf aufbauen. Sie denken in Jahren, nicht in Quartalen. Sie schätzen die leise Disziplin eines gut geführten Schweizer KMU mehr als den Lärm eines Start-ups.",
+      "Sprachkenntnisse auf Deutsch, Französisch oder Italienisch sind erforderlich, abhängig davon, wo in der Schweiz Sie führen. Unternehmerische Erfahrung oder Führung eines profitablen Geschäftsbereichs ist ein deutlicher Vorteil.",
     ],
   },
 
-  roles: {
-    heading: "Was wir brauchen",
-    description:
-      "Wir rekrutieren nicht nach Titeln. Wir suchen Menschen mit den richtigen Fähigkeiten, der richtigen Haltung und dem Ehrgeiz, von Beginn an mit uns aufzubauen.",
-    profiles: [
-      {
-        title: "Deal und Due Diligence",
-        description:
-          "Menschen, die im Schweizer Markt unter CHF 10 Mio. Transaktionen identifizieren, beurteilen und strukturieren können. Sie verstehen, was ein kleineres Unternehmen ausmacht, lesen Finanzberichte und Risiken, und wissen, wie man Vertrauen zu Gründerinnen, Gründern und Beratern aufbaut.",
-      },
-      {
-        title: "Übergabe und Betrieb",
-        description:
-          "Menschen, die in ein übernommenes Unternehmen einsteigen und es durch die Übergabe führen. Sie begleiten den Rückzug der Gründungsperson, stabilisieren das Team, pflegen Kundenbeziehungen und legen das Fundament für langfristige Gesundheit.",
-      },
-      {
-        title: "Finanzen und Infrastruktur",
-        description:
-          "Menschen, die Finanz-Reporting, Administration und operative Prozesse bauen, die eine wachsende Unternehmensfamilie zusammenhalten. Die stille Infrastruktur, die alles andere möglich macht.",
-      },
-    ],
-  },
-
-  values: {
-    heading: "Was wir schätzen",
+  program: {
+    heading: "Das Future CEO Program",
     steps: [
       {
         number: "01",
-        title: "Langfristiges Denken",
-        description: "Wir treffen Entscheidungen für Jahrzehnte, nicht Quartale.",
+        title: "Vorbereitung",
+        description:
+          "Sie arbeiten an unserer Seite, während wir Zielunternehmen identifizieren und prüfen. Sie lernen unsere Investmentthese, unser Übergabeverständnis und unsere Betriebsdisziplin kennen. Sie helfen uns, das Modell zu schärfen, und wir lernen, wie Sie denken und führen. Diese Phase ist flexibel und unbezahlt: Sie behalten Ihre Hauptrolle und wir finden gemeinsam heraus, ob es passt.",
       },
       {
         number: "02",
-        title: "Handwerk und Rigor",
-        description: "Uns liegt daran, Dinge gut zu machen, nicht bloss schnell.",
+        title: "Übergabe",
+        description:
+          "Sobald wir ein Unternehmen gemeinsam identifiziert haben, steigen Sie in Vollzeit ein und werden bezahlt. Sie arbeiten Seite an Seite mit der scheidenden Gründungsperson durch einen strukturierten Übergabeprozess: Sie lernen Kundinnen, Kunden, Team und Abläufe kennen, übernehmen schrittweise die Verantwortung und bereiten sich darauf vor, die Leitung vollständig zu übernehmen.",
       },
       {
         number: "03",
-        title: "Leise Ambition",
-        description: "Wir bauen etwas Bedeutsames, ohne laut darum sein zu müssen.",
+        title: "Geschäftsführung",
+        description:
+          "Sie führen das Unternehmen als Geschäftsführerin oder Geschäftsführer, mit voller operativer Verantwortung und bedeutsamer Beteiligung am Erfolg. Saha hält das Unternehmen dauerhaft, sodass Sie für die lange Frist aufbauen können, statt auf einen Verkauf hinzuarbeiten. Sie werden zur Hüterin oder zum Hüter des Unternehmens: seiner Kundinnen und Kunden, seines Teams, seines Platzes in der Gemeinschaft.",
+      },
+    ],
+  },
+
+  offer: {
+    heading: "Was das Programm bietet",
+    paragraphs: [
+      "Einen Geschäftsführersitz in einem etablierten, profitablen Schweizer Unternehmen, das Sie gemeinsam mit uns ausgewählt haben. Kein leeres Blatt. Ein reales Unternehmen mit Kundinnen und Kunden, einem Team und einem Leistungsausweis.",
+      "Einen dauerhaften Eigentümer hinter Ihnen. Saha hält auf Dauer, also geht es nicht darum, das Unternehmen auf einen Exit hin zu optimieren. Sie können für die lange Frist aufbauen: Beziehungen, Kultur und operative Qualität, die sich über Jahre kumulieren.",
+      "Eine Gemeinschaft von Mit-Führungskräften. Sie werden nicht alleine führen. Sie sind Teil einer wachsenden Gruppe von Saha-Geschäftsführerinnen und -Geschäftsführern, die sich gegenseitig vertrauen, voneinander lernen und dieselben Herausforderungen teilen. Peer-Austausch, gemeinsame Werkzeuge und eine Zentrale, die Sourcing, Finanzen und Infrastruktur übernimmt, damit Sie sich auf das Unternehmen konzentrieren können.",
+      "Eine bedeutsame wirtschaftliche Beteiligung am Unternehmen, das Sie führen. Wenn Sie gut bauen, gewinnen Sie. Wenn das Unternehmen gewinnt, gewinnen wir alle.",
+    ],
+    callout: {
+      type: "quote" as const,
+      text: "Ein dauerhafter Eigentümer hinter Ihnen. Eine Gemeinschaft von Führungskräften an Ihrer Seite.",
+    },
+  },
+
+  commitment: {
+    heading: "Was wir dafür erwarten",
+    paragraphs: [
+      "Ernsthaftigkeit. Dies ist kein Ausflug in die Welt der KMU. Sie verpflichten sich, das Unternehmen zu führen, das Sie übernehmen, nicht für ein Jahr oder zwei, sondern so lange, wie es Sie braucht und Sie ihm dienen können.",
+      "Sorgfalt. Sie übernehmen eine Gemeinschaft von Kundinnen, Kunden, Mitarbeitenden, Lieferantinnen und Lieferanten, die alle auf das Werk einer Gründungsperson gebaut haben. Diese Beziehungen verdienen dieselbe Sorgfalt, die sie sich über Jahre erarbeitet haben.",
+      "Urteilsvermögen. Saha liefert Kapital, Disziplin und Unterstützung. Die tägliche Führung liegt bei Ihnen. Wir suchen Menschen, die selbstständig entscheiden können und wissen, wann sie Rat einholen.",
+    ],
+  },
+
+  process: {
+    heading: "Der Prozess",
+    steps: [
+      {
+        number: "01",
+        title: "Bewerben",
+        description:
+          "Erzählen Sie uns, wer Sie sind, was Sie geführt haben und warum der Geschäftsführersitz eines Schweizer KMU für Sie bedeutungsvoll ist. Ein kurzes Schreiben genügt, ein Lebenslauf hilft. Formell muss es nicht sein.",
       },
       {
-        number: "04",
-        title: "Empathie und Respekt",
-        description: "Wir arbeiten mit Gründerinnen, Gründern, Teams und Gemeinschaften. Beziehungen zählen.",
+        number: "02",
+        title: "Gespräche",
+        description:
+          "Wir führen mehrere Gespräche, um einander kennenzulernen. Wir teilen, was wir bauen und wohin wir wollen. Sie teilen, wie Sie denken, wie Sie geführt haben und was Sie an dieser Art von Arbeit reizt.",
       },
       {
-        number: "05",
-        title: "Eigentumsmentalität",
-        description: "Wer Saha mit aufbaut, sollte wie eine Eigentümerin oder ein Eigentümer denken und handeln.",
+        number: "03",
+        title: "These und Zusage",
+        description:
+          "Passt es, definieren wir gemeinsam die Art von Unternehmen, die Sie führen wollen: Branche, Region, Grösse, Profil. Wir beginnen gemeinsam mit der Suche und verpflichten uns, Sie zu begleiten, bis wir das richtige Unternehmen finden.",
       },
     ],
   },
 
   closingCta: {
-    heading: "Das könnte etwas für Sie sein",
+    heading: "Werden Sie Teil der ersten Kohorte",
     description:
-      "Wenn das Gelesene bei Ihnen anklingt, auch wenn Sie nicht sauber in eines der Profile oben passen, würden wir gerne von Ihnen hören. Erzählen Sie uns, wer Sie sind und was Sie zu Saha zieht.",
-    cta: { label: "Kontaktieren Sie uns", href: "/contact?pathway=builder" },
+      "Wir formen gerade die erste Kohorte des Future CEO Programs. Wenn Sie glauben, dass dieser Sitz Ihrer sein könnte, melden Sie sich.",
+    cta: { label: "Jetzt bewerben", href: "/contact?pathway=talent" },
   },
 };
 
@@ -1135,7 +1149,7 @@ export const footer = {
         { label: "Gründer", href: "/founders" },
         { label: "Berater", href: "/advisors" },
         { label: "Investoren", href: "/investors" },
-        { label: "Saha beitreten", href: "/join" },
+        { label: "Talent", href: "/talent" },
       ],
     },
     {
@@ -1173,10 +1187,10 @@ export const metadata = {
     description:
       "Ein Modell permanenten Eigentums für das unterversorgte Segment der Schweizer Nachfolgetransaktionen unter CHF 10 Mio. Strukturierte Übergaben, disziplinierte Sourcing, sich kumulierender Wert.",
   },
-  join: {
-    title: "Saha beitreten | Von Grund auf aufbauen",
+  talent: {
+    title: "Talent | Future CEO Program bei Saha",
     description:
-      "Saha ist in der Gründungsphase und stellt ein Team zusammen, um ein langfristiges Eigentümer-Unternehmen für Schweizer Firmen aufzubauen. Deal-, Übergabe-, Betriebs- und Finanzrollen.",
+      "Führen Sie ein etabliertes Schweizer Unternehmen in sein nächstes Kapitel. Das Future CEO Program von Saha entwickelt Geschäftsführerinnen und Geschäftsführer für die Unternehmen, die wir erwerben: ein dauerhafter Eigentümer, eine Gemeinschaft von Führungskräften und der Auftrag, langfristig zu führen.",
   },
   about: {
     title: "Über Saha | Warum wir existieren",

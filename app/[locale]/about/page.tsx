@@ -73,10 +73,10 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
           <p className="mt-8 text-body-lg text-pierre max-w-prose">
             {aboutPage.foundingTeam.closingLine}{" "}
             <Link
-              href={localePath(locale, "/join")}
+              href={localePath(locale, "/talent")}
               className="text-cuivre-700 hover:text-cuivre-800 underline underline-offset-2 transition-colors"
             >
-              {locale === "fr" ? "Voir les rôles" : locale === "de" ? "Rollen ansehen" : "View roles"}
+              {locale === "fr" ? "Voir le programme" : locale === "de" ? "Programm ansehen" : "See the program"}
             </Link>
           </p>
         </div>

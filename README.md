@@ -34,7 +34,8 @@ The site runs at `http://localhost:3000`.
 │   ├── page.tsx            # Homepage
 │   ├── founders/page.tsx   # For Founders
 │   ├── investors/page.tsx  # For Investors
-│   ├── join/page.tsx       # Join Saha
+│   ├── talent/page.tsx     # Talent / Future CEO Program
+│   ├── join/page.tsx       # Redirect → /talent (legacy path)
 │   ├── about/page.tsx      # About
 │   ├── contact/page.tsx    # Contact (three inquiry paths)
 │   ├── privacy/page.tsx    # Privacy Policy (placeholder)
