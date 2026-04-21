@@ -496,14 +496,14 @@ export const investorsPage = {
 export const talentPage = {
   hero: {
     eyebrow: "Talent",
-    headline: "Dirigez une entreprise suisse au-delà de son fondateur.",
+    headline: "Dirigez une entreprise suisse au-delà de son fondateur",
     subheadline:
       "Prenez place au siège de direction d'une entreprise suisse établie. Dirigez son prochain chapitre, soutenu par un propriétaire permanent et une communauté de dirigeants qui partagent votre engagement.",
     cta: { label: "Postuler maintenant", href: "/contact?pathway=talent" },
   },
 
   opportunity: {
-    heading: "Une opportunité sans précédent",
+    heading: "Une opportunité vraiment unique",
     paragraphs: [
       "En Suisse, des milliers d'entreprises rentables et dirigées par leur fondateur changeront de mains au cours des prochaines années. La plupart n'ont pas besoin d'être réinventées. Elles ont besoin de quelqu'un qui prenne les rênes et les conduise avec soin.",
       "Saha forme les dirigeantes et dirigeants qui reprendront ces entreprises. Le Future CEO Program est notre manière de préparer la prochaine génération de directrices et directeurs généraux pour un segment négligé de l'économie suisse : non pas des fondateurs, mais des successeurs prêts à reprendre une entreprise qui fonctionne et à la mener sur la durée.",
@@ -545,6 +545,12 @@ export const talentPage = {
         title: "Direction générale",
         description:
           "Vous dirigez l'entreprise en tant que directrice ou directeur général, avec une pleine responsabilité opérationnelle et une participation significative au succès. Saha détient l'entreprise de manière permanente, ce qui vous permet de bâtir pour le long terme plutôt que de gérer en vue d'une sortie. Vous devenez la gardienne ou le gardien de l'entreprise : de ses clients, de son équipe, de sa place dans la communauté.",
+      },
+      {
+        number: "04",
+        title: "Responsabilité durable",
+        description:
+          "Au fil des années, le rôle s'approfondit. L'entreprise se consolide, les relations mûrissent, le savoir-faire opérationnel s'affine. Vous rejoignez un cercle croissant de directrices et directeurs généraux Saha : des pairs qui apprennent les uns des autres, accompagnent les nouveaux dirigeants et contribuent à la manière dont nous trouvons et soutenons la prochaine génération. La permanence devient une manière de travailler, pas seulement une promesse.",
       },
     ],
   },
@@ -592,6 +598,12 @@ export const talentPage = {
         title: "Thèse et engagement",
         description:
           "Si l'alignement est là, nous définissons ensemble le type d'entreprise que vous voulez diriger : secteur, région, taille, profil. Nous lançons la recherche ensemble et nous nous engageons à vous accompagner jusqu'à la bonne entreprise.",
+      },
+      {
+        number: "04",
+        title: "Offre",
+        description:
+          "Lorsque nous convergeons ensemble sur une entreprise précise, nous vous adressons une offre formelle : rémunération, participation et chemin vers le siège, par écrit. Dès lors, la transmission commence.",
       },
     ],
   },
@@ -857,14 +869,14 @@ export const contactPage = {
       ],
     },
     {
-      id: "builder",
-      title: "Je veux construire avec Saha",
-      description: "Si vous êtes opérateur, investisseur ou entrepreneur et que vous souhaitez aider à construire Saha dès le départ, nous aimerions vous entendre.",
+      id: "talent",
+      title: "Je postule au Future CEO Program",
+      description: "Si vous voulez diriger une entreprise suisse établie dans son prochain chapitre via le Future CEO Program de Saha, dites-nous qui vous êtes et ce qui vous attire dans ce siège.",
       fields: [
         { name: "name", label: "Votre nom", type: "text" as const, required: true },
         { name: "email", label: "Adresse e-mail", type: "email" as const, required: true },
         { name: "linkedin", label: "Profil LinkedIn (facultatif)", type: "url" as const, required: false },
-        { name: "message", label: "Qui êtes-vous et qu'est-ce qui vous attire chez Saha ?", type: "textarea" as const, required: false },
+        { name: "message", label: "Parlez-nous de votre parcours et de ce qui vous attire dans le Future CEO Program", type: "textarea" as const, required: false },
       ],
     },
     {

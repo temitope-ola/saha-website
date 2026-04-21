@@ -33,7 +33,7 @@ export default function TalentPage({ params }: { params: { locale: string } }) {
         }}
       />
 
-      {/* ── A first-of-its-kind opportunity ── */}
+      {/* ── A truly unique opportunity ─────── */}
       <section className="section-padding">
         <div className="container-content">
           <SectionIntro heading={talentPage.opportunity.heading} />

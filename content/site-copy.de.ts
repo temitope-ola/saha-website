@@ -507,14 +507,14 @@ export const investorsPage = {
 export const talentPage = {
   hero: {
     eyebrow: "Talent",
-    headline: "Führen Sie ein Schweizer Unternehmen über seinen Gründer hinaus.",
+    headline: "Führen Sie ein Schweizer Unternehmen über seinen Gründer hinaus",
     subheadline:
       "Treten Sie in den Geschäftsführersitz eines etablierten Schweizer Unternehmens. Führen Sie sein nächstes Kapitel, getragen von einem dauerhaften Eigentümer und einer Gemeinschaft gleichgesinnter Führungskräfte.",
     cta: { label: "Jetzt bewerben", href: "/contact?pathway=talent" },
   },
 
   opportunity: {
-    heading: "Eine Gelegenheit, die es so bisher nicht gab",
+    heading: "Eine wirklich einzigartige Gelegenheit",
     paragraphs: [
       "In der Schweiz werden in den kommenden Jahren Tausende profitabler, inhabergeführter Unternehmen den Eigentümer wechseln. Die meisten brauchen keine Reorganisation. Sie brauchen jemanden, der das Steuer übernimmt und das Unternehmen sorgfältig weiterführt.",
       "Saha bildet die Führungskräfte aus, die diese Unternehmen übernehmen werden. Das Future CEO Program ist unser Weg, die nächste Generation von Geschäftsführerinnen und Geschäftsführern für ein unterversorgtes Segment der Schweizer Wirtschaft heranzubilden: nicht Gründerinnen oder Gründer, sondern Nachfolgerinnen und Nachfolger, die bereit sind, ein funktionierendes Unternehmen zu übernehmen und langfristig zu führen.",
@@ -556,6 +556,12 @@ export const talentPage = {
         title: "Geschäftsführung",
         description:
           "Sie führen das Unternehmen als Geschäftsführerin oder Geschäftsführer, mit voller operativer Verantwortung und bedeutsamer Beteiligung am Erfolg. Saha hält das Unternehmen dauerhaft, sodass Sie für die lange Frist aufbauen können, statt auf einen Verkauf hinzuarbeiten. Sie werden zur Hüterin oder zum Hüter des Unternehmens: seiner Kundinnen und Kunden, seines Teams, seines Platzes in der Gemeinschaft.",
+      },
+      {
+        number: "04",
+        title: "Langfristige Verantwortung",
+        description:
+          "Mit den Jahren vertieft sich die Rolle. Das Unternehmen reift, die Beziehungen wachsen, das operative Handwerk schärft sich. Sie werden Teil einer wachsenden Gruppe von Saha-Geschäftsführerinnen und -Geschäftsführern: Peers, die voneinander lernen, neue Führungskräfte begleiten und mitgestalten, wie wir die nächste Generation finden und unterstützen. Dauerhaftigkeit wird zur Arbeitsweise, nicht nur zum Versprechen.",
       },
     ],
   },
@@ -603,6 +609,12 @@ export const talentPage = {
         title: "These und Zusage",
         description:
           "Passt es, definieren wir gemeinsam die Art von Unternehmen, die Sie führen wollen: Branche, Region, Grösse, Profil. Wir beginnen gemeinsam mit der Suche und verpflichten uns, Sie zu begleiten, bis wir das richtige Unternehmen finden.",
+      },
+      {
+        number: "04",
+        title: "Angebot",
+        description:
+          "Sobald wir gemeinsam ein bestimmtes Unternehmen identifiziert haben, unterbreiten wir Ihnen ein formelles Angebot: Vergütung, Beteiligung und der Weg ins Unternehmen schriftlich festgehalten. Von da an beginnt die Übergabe.",
       },
     ],
   },
@@ -892,15 +904,15 @@ export const contactPage = {
       ],
     },
     {
-      id: "builder",
-      title: "Ich möchte mit Saha mit aufbauen",
+      id: "talent",
+      title: "Ich bewerbe mich für das Future CEO Program",
       description:
-        "Wenn Sie Operatorin, Investor oder Unternehmer sind und Saha von Grund auf mit aufbauen möchten, würden wir gerne von Ihnen hören.",
+        "Wenn Sie ein etabliertes Schweizer Unternehmen durch Sahas Future CEO Program in sein nächstes Kapitel führen möchten, erzählen Sie uns, wer Sie sind und was Sie zu diesem Sitz zieht.",
       fields: [
         { name: "name", label: "Ihr Name", type: "text" as const, required: true },
         { name: "email", label: "E-Mail-Adresse", type: "email" as const, required: true },
         { name: "linkedin", label: "LinkedIn-Profil (optional)", type: "url" as const, required: false },
-        { name: "message", label: "Wer sind Sie und was zieht Sie zu Saha?", type: "textarea" as const, required: false },
+        { name: "message", label: "Erzählen Sie uns von Ihrem Werdegang und was Sie zum Future CEO Program zieht", type: "textarea" as const, required: false },
       ],
     },
     {

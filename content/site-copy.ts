@@ -506,14 +506,14 @@ export const investorsPage = {
 export const talentPage = {
   hero: {
     eyebrow: "Talent",
-    headline: "Lead a Swiss business beyond its founder.",
+    headline: "Lead a Swiss business beyond its founder",
     subheadline:
       "Step into the CEO seat of an established Swiss business. Lead its next chapter, backed by a permanent owner and a community of fellow leaders.",
     cta: { label: "Apply now", href: "/contact?pathway=talent" },
   },
 
   opportunity: {
-    heading: "A first-of-its-kind opportunity",
+    heading: "A truly unique opportunity",
     paragraphs: [
       "Running a profitable Swiss SME as its CEO has rarely been a path available to outside operators. Family succession favors heirs. Private equity favors short-dated plays. Most acquisitions come with an exit clock above the new CEO's head.",
       "The Future CEO Program is different. You lead an established Swiss business into its next chapter, with real equity, real autonomy, and a permanent owner behind you who will not resell the company. For the right operator, it is the seat of a career.",
@@ -552,6 +552,12 @@ export const talentPage = {
         title: "General Manager",
         description:
           "You run the company as CEO, with meaningful equity in the business and full autonomy to lead. The role is stewardship as much as operation: growing the company forward while preserving what made it worth keeping.",
+      },
+      {
+        number: "04",
+        title: "Stewardship",
+        description:
+          "Years in, the role deepens. The company compounds, the relationships mature, the operational craft sharpens. You join a growing bench of Saha General Managers: peers who learn from one another, mentor incoming operators, and help shape how we find and support the next generation. Permanence becomes a way of working, not just a promise.",
       },
     ],
   },
@@ -595,6 +601,12 @@ export const talentPage = {
         title: "Thesis and commitment",
         description:
           "You develop a short thesis on where you would want to operate. We review it together, check references, and decide mutually whether to enter the program.",
+      },
+      {
+        number: "04",
+        title: "Offer extended",
+        description:
+          "Once we converge on a specific company together, we extend a formal offer and the program becomes real. Compensation, equity and the path to the seat are set in writing. From there, the transition begins.",
       },
     ],
   },
@@ -884,15 +896,15 @@ export const contactPage = {
       ],
     },
     {
-      id: "builder",
-      title: "I want to build with Saha",
+      id: "talent",
+      title: "I am applying to the Future CEO Program",
       description:
-        "If you are an operator, investor, or entrepreneur interested in helping build Saha from the ground up, we would like to hear from you.",
+        "If you want to lead an established Swiss business into its next chapter through Saha's Future CEO Program, tell us who you are and what draws you to the seat.",
       fields: [
         { name: "name", label: "Your name", type: "text" as const, required: true },
         { name: "email", label: "Email address", type: "email" as const, required: true },
         { name: "linkedin", label: "LinkedIn profile (optional)", type: "url" as const, required: false },
-        { name: "message", label: "Who are you and what draws you to Saha?", type: "textarea" as const, required: false },
+        { name: "message", label: "Tell us about your background and what draws you to the Future CEO Program", type: "textarea" as const, required: false },
       ],
     },
     {
