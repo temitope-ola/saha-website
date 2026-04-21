@@ -759,6 +759,11 @@ export const aboutPage = {
         subtitle: "Gründer, Plattform & Daten",
         description: "Bringt tiefe Expertise in IT-Architektur und Data Governance mit, verwurzelt in Softwareentwicklung und Führungsverantwortung bei der HOCH Health Ostschweiz. Er hat komplexe digitale und Enterprise-IT-Transformationen in einer regulierten, mehrgliedrigen Schweizer Organisation geleitet. Diese Erfahrung prägt, wie Saha seine interne Plattform für Sourcing, Due Diligence, Übergabe und Portfolio-Reporting aufbaut.",
       },
+      {
+        name: "Benjamin Kaleja",
+        subtitle: "Gründer, Übergabe & Wachstum",
+        description: "Gründer-Operator mit über einem Jahrzehnt Erfahrung in Produkt, Technologie und Enterprise-KI. Mitgründer von ZenAdmin, einem B2B-SaaS für IT-Automatisierung, den er von null bis zum Verkauf 2024 skaliert hat. Er hat Produkt- und Engineering-Teams bei Fortune-500-Unternehmen und VC-finanzierten KI-Start-ups geführt. Er bringt die Produkt-, Technologie- und KI-Fähigkeit hinter der Aufbau-These von Saha ein.",
+      },
     ],
     closingLine: "Wenn Sie die Erfahrung und die Haltung mitbringen, sich uns anzuschliessen, würden wir uns freuen, von Ihnen zu hören.",
   },
