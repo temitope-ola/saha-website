@@ -83,10 +83,10 @@ export const homepage = {
   ],
 
   buildersStrip: {
-    heading: "Aider à construire Saha dès le départ",
+    heading: "Dirigez une entreprise suisse au-delà de son fondateur",
     description:
-      "Nous constituons une équipe resserrée pour façonner nos premières acquisitions, notre processus de diligence et notre modèle opérationnel. Pour qui veut construire quelque chose de neuf, c'est un travail précoce et substantiel.",
-    cta: { label: "En savoir plus", href: "/talent" },
+      "Le Future CEO Program prépare des dirigeants expérimentés à prendre les rênes des entreprises que nous acquérons. Si vous voulez diriger une entreprise pour le long terme, et non en vue d'une sortie, nous aimerions vous entendre.",
+    cta: { label: "Voir le programme", href: "/talent" },
   },
 
   modelSectionLabel: "Notre approche",

@@ -87,10 +87,10 @@ export const homepage = {
   ],
 
   buildersStrip: {
-    heading: "Help build Saha from the ground up",
+    heading: "Lead a Swiss business beyond its founder",
     description:
-      "We are assembling a small, focused team to shape our first acquisitions, diligence process, and operating model. If you want to build something from the ground up, this is early, real work.",
-    cta: { label: "Learn more", href: "/talent" },
+      "The Future CEO Program prepares experienced operators to take the helm of the businesses we acquire. If you want to run a company for the long term, not toward an exit, we would like to hear from you.",
+    cta: { label: "See the program", href: "/talent" },
   },
 
   modelSectionLabel: "How we work",

@@ -88,10 +88,10 @@ export const homepage = {
   ],
 
   buildersStrip: {
-    heading: "Helfen Sie uns, Saha von Grund auf aufzubauen",
+    heading: "Führen Sie ein Schweizer Unternehmen über seinen Gründer hinaus",
     description:
-      "Wir stellen ein kleines, fokussiertes Team zusammen, um unsere ersten Akquisitionen, den Due-Diligence-Prozess und das Betriebsmodell zu gestalten. Wer etwas von Grund auf aufbauen will, findet hier frühe, substanzielle Arbeit.",
-    cta: { label: "Mehr erfahren", href: "/talent" },
+      "Das Future CEO Program bereitet erfahrene Führungskräfte darauf vor, die Leitung der Unternehmen zu übernehmen, die wir erwerben. Wenn Sie ein Unternehmen langfristig führen wollen, statt es auf einen Verkauf hin zu optimieren, würden wir gerne von Ihnen hören.",
+    cta: { label: "Programm ansehen", href: "/talent" },
   },
 
   modelSectionLabel: "So arbeiten wir",
