@@ -733,7 +733,7 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "À propos",
-    headline: "Un foyer durable pour les PME suisses qui méritent d'être conservées",
+    headline: "Un foyer durable pour les PME suisses",
     subheadline:
       "De nombreuses bonnes entreprises disparaissent au moment de la succession, non parce qu'elles échouent, mais parce que peu d'acquéreurs sont structurés pour les conserver. Saha est conçue pour être cet acquéreur.",
   },

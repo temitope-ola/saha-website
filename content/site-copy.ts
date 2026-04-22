@@ -738,7 +738,7 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "About Saha",
-    headline: "A permanent home for Swiss SMEs worth keeping",
+    headline: "A permanent home for Swiss SMEs",
     subheadline:
       "Many good businesses disappear at succession, not because they fail, but because few buyers are structured to keep them. Saha is built to be that buyer.",
   },

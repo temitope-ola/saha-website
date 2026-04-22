@@ -746,7 +746,7 @@ export const advisorsPage = {
 export const aboutPage = {
   hero: {
     eyebrow: "Über Saha",
-    headline: "Ein dauerhaftes Zuhause für erhaltenswerte Schweizer KMU",
+    headline: "Ein dauerhaftes Zuhause für Schweizer KMU",
     subheadline:
       "Viele gute Unternehmen verschwinden bei der Nachfolge, nicht weil sie scheitern, sondern weil nur wenige Käufer darauf ausgelegt sind, sie zu behalten. Saha wurde gebaut, um dieser Käufer zu sein.",
   },
