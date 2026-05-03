@@ -47,7 +47,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
         </div>
       </section>
 
-      {/* ── The founding team ─────────────── */}
+      {/* ── The founding team (unpublished — uncomment to restore) ──
       <section className="section-padding divider bg-cuivre-50/30">
         <div className="container-content">
           <SectionIntro heading={aboutPage.foundingTeam.heading} />
@@ -66,7 +66,6 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
                 <p className="text-body text-pierre">
                   {member.description}
                 </p>
-                {/* Status badge removed — no open roles displayed here */}
               </div>
             ))}
           </div>
@@ -81,6 +80,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
           </p>
         </div>
       </section>
+      ── */}
 
       {/* ── Why this segment needs a different buyer ── */}
       <section className="section-padding divider">
