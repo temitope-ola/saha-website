@@ -8,7 +8,7 @@ export const siteConfig = {
   name: "Saha",
   tagline: "Zeit. Talent. Technologie. Ein systematisches Nachfolgesystem für Schweizer Kleinunternehmen.",
   url: "https://saha.ch",
-  email: "hello@saha.ch",
+  email: "hello@sahaholding.ch",
   location: "Switzerland",
 };
 
@@ -737,7 +737,7 @@ export const advisorsPage = {
     description:
       "Wenn Sie eine Situation besprechen möchten, auch in einem frühen Stadium und ohne Verpflichtung, freuen wir uns auf das Gespräch. Alles ist vom ersten Kontakt an vertraulich.",
     cta: { label: "Eine Situation vermitteln", href: "/contact?pathway=advisor" },
-    directContact: "Oder erreichen Sie uns direkt unter hello@saha.ch. Wir antworten innerhalb von 48 Stunden.",
+    directContact: "Oder erreichen Sie uns direkt unter hello@sahaholding.ch. Wir antworten innerhalb von 48 Stunden.",
   },
 };
 
@@ -1072,7 +1072,7 @@ export const faqPage = {
         {
           question: "Wie kann ich Kontakt aufnehmen?",
           answer:
-            "Wir heissen Gespräche mit Gründerinnen, Gründern, Investoren und künftigen Team-Mitgliedern willkommen. Sie erreichen uns über unsere Kontaktseite oder per E-Mail an hello@saha.ch. Jede Anfrage behandeln wir mit Vertraulichkeit und Respekt.",
+            "Wir heissen Gespräche mit Gründerinnen, Gründern, Investoren und künftigen Team-Mitgliedern willkommen. Sie erreichen uns über unsere Kontaktseite oder per E-Mail an hello@sahaholding.ch. Jede Anfrage behandeln wir mit Vertraulichkeit und Respekt.",
         },
       ],
     },

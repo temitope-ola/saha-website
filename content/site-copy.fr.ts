@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "Saha",
   tagline: "Temps. Talent. Technologie. Un système de succession structuré pour les petites entreprises suisses.",
   url: "https://saha.ch",
-  email: "hello@saha.ch",
+  email: "hello@sahaholding.ch",
   location: "Switzerland",
 };
 
@@ -724,7 +724,7 @@ export const advisorsPage = {
     description:
       "Si vous avez une situation à aborder, même à un stade précoce et sans engagement, nous accueillons la conversation. Tout est confidentiel dès le premier contact.",
     cta: { label: "Référer une situation", href: "/contact?pathway=advisor" },
-    directContact: "Ou contactez-nous directement à hello@saha.ch. Nous répondons sous 48 heures.",
+    directContact: "Ou contactez-nous directement à hello@sahaholding.ch. Nous répondons sous 48 heures.",
   },
 };
 
@@ -941,7 +941,7 @@ export const faqPage = {
         { question: "D'où vient le nom Saha ?", answer: "Saha est un mot enraciné dans la patience, l'endurance et la capacité à porter avec soin. Il reflète la mentalité de long terme qui est au cœur de tout ce que nous faisons : acquérir et préserver les entreprises non pour un cycle, mais pour une génération." },
         { question: "Saha est-il un fonds ou une entreprise ?", answer: "Saha est une holding permanente. À la différence d'un fonds, il n'y a pas d'horizon de sortie prédéterminé. Les entreprises que nous acquérons rejoignent durablement la famille Saha. Cette structure aligne nos incitations sur la santé à long terme de chaque entreprise que nous possédons." },
         { question: "Combien d'entreprises Saha possède-t-il aujourd'hui ?", answer: "Nous bâtissons délibérément les fondations (équipe, processus et capital) avant de mener nos premières acquisitions. Nous croyons qu'il importe plus de bien faire le modèle que d'aller vite." },
-        { question: "Comment puis-je vous contacter ?", answer: "Nous accueillons les conversations de fondateurs, d'investisseurs et de futurs membres de l'équipe. Vous pouvez nous joindre via notre page de contact ou en écrivant à hello@saha.ch. Chaque demande est traitée avec confidentialité et respect." },
+        { question: "Comment puis-je vous contacter ?", answer: "Nous accueillons les conversations de fondateurs, d'investisseurs et de futurs membres de l'équipe. Vous pouvez nous joindre via notre page de contact ou en écrivant à hello@sahaholding.ch. Chaque demande est traitée avec confidentialité et respect." },
       ],
     },
   ],

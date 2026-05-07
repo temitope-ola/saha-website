@@ -24,6 +24,7 @@ interface ContactPathwaysProps {
   thankYouHeading?: string;
   thankYouDescription?: string;
   sendAnother?: string;
+  errorMessage?: string;
 }
 
 export default function ContactPathways({
@@ -34,15 +35,43 @@ export default function ContactPathways({
   thankYouHeading = "Thank you for reaching out",
   thankYouDescription = "We have received your message and will be in touch soon.",
   sendAnother = "Send another message",
+  errorMessage = "Something went wrong. Please try again or email us directly.",
 }: ContactPathwaysProps) {
   const [selected, setSelected] = useState<string | null>(initialPathway ?? null);
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState(false);
 
   const activePathway = pathways.find((p) => p.id === selected);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    setError(false);
+
+    const formData = new FormData(e.currentTarget);
+    const data: Record<string, string> = { pathway: activePathway?.title ?? "" };
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(true);
+      }
+    } catch {
+      setError(true);
+    } finally {
+      setSending(false);
+    }
   };
 
   if (submitted) {
@@ -129,9 +158,16 @@ export default function ContactPathways({
                 )}
               </div>
             ))}
+            {error && (
+              <p className="text-body-sm text-red-600">{errorMessage}</p>
+            )}
             <div className="pt-4">
-              <button type="submit" className="btn-primary">
-                {submitLabel}
+              <button
+                type="submit"
+                className="btn-primary"
+                disabled={sending}
+              >
+                {sending ? "Sending…" : submitLabel}
               </button>
             </div>
           </form>

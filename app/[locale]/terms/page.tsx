@@ -36,8 +36,8 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
                   {section.heading === "Contact" && (
                     <>
                       {" "}
-                      <a href="mailto:hello@saha.ch" className="link-underline">
-                        hello@saha.ch
+                      <a href="mailto:hello@sahaholding.ch" className="link-underline">
+                        hello@sahaholding.ch
                       </a>
                       .
                     </>
