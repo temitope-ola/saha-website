@@ -21,6 +21,7 @@ export const nav = {
     { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
   ],
+  loginLabel: "Connexion",
 };
 
 export const homepage = {

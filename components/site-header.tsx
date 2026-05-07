@@ -13,7 +13,7 @@ interface NavLink {
 
 interface SiteHeaderProps {
   locale: Locale;
-  nav: { links: NavLink[] };
+  nav: { links: NavLink[]; loginLabel?: string };
   siteName: string;
 }
 
@@ -90,6 +90,16 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
               </Link>
             ))}
           </div>
+
+          {/* Login button */}
+          <a
+            href="https://app.sahaholding.ch/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-body-sm !py-2 !px-5"
+          >
+            {nav.loginLabel ?? "Login"}
+          </a>
         </nav>
 
         {/* Mobile menu toggle */}
@@ -151,6 +161,17 @@ export default function SiteHeader({ locale, nav, siteName }: SiteHeaderProps) {
                 {link.label}
               </Link>
             ))}
+
+            {/* Login button (mobile) */}
+            <a
+              href="https://app.sahaholding.ch/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-center text-body-lg mt-2"
+              onClick={() => setMenuOpen(false)}
+            >
+              {nav.loginLabel ?? "Login"}
+            </a>
 
             {/* Mobile language switcher */}
             <div className="border-t border-stone-200 pt-4 mt-2 flex flex-col gap-3">

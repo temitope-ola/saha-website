@@ -24,6 +24,7 @@ export const nav = {
     { label: "FAQ", href: "/faq" },
     { label: "Kontakt", href: "/contact" },
   ],
+  loginLabel: "Anmelden",
 };
 
 /* ── Homepage ───────────────────────────────── */
