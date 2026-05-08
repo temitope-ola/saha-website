@@ -4,6 +4,8 @@ import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import { locales, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
+import { OrganizationSchema, WebSiteSchema } from "@/components/json-ld";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -36,18 +38,12 @@ export async function generateMetadata({
   const locale = (params.locale ?? "en") as Locale;
   const dict = getDictionary(locale);
 
-  return {
+  return buildPageMetadata({
+    locale,
+    path: "/",
     title: dict.metadata.home.title,
     description: dict.metadata.home.description,
-    metadataBase: new URL(dict.siteConfig.url),
-    openGraph: {
-      title: dict.metadata.home.title,
-      description: dict.metadata.home.description,
-      siteName: dict.siteConfig.name,
-      locale: locale === "fr" ? "fr_CH" : locale === "de" ? "de_CH" : "en_CH",
-      type: "website",
-    },
-  };
+  });
 }
 
 export default function LocaleLayout({
@@ -63,6 +59,14 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className={`${fraunces.variable} ${figtree.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <OrganizationSchema
+          name={dict.siteConfig.name}
+          url="https://sahaholding.ch"
+          description={dict.metadata.home.description}
+          email={dict.siteConfig.email}
+          location={dict.siteConfig.location}
+        />
+        <WebSiteSchema name={dict.siteConfig.name} url="https://sahaholding.ch" />
         <SiteHeader locale={locale} nav={dict.nav} siteName={dict.siteConfig.name} />
         <main className="flex-1">{children}</main>
         <SiteFooter locale={locale} footer={dict.footer} siteConfig={dict.siteConfig} />

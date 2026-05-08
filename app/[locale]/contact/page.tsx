@@ -3,14 +3,12 @@ import PageHero from "@/components/page-hero";
 import ContactPathways from "@/components/contact-pathways";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const dict = getDictionary((params.locale ?? "en") as Locale);
-  return {
-    title: dict.metadata.contact.title,
-    description: dict.metadata.contact.description,
-    openGraph: { title: dict.metadata.contact.title, description: dict.metadata.contact.description },
-  };
+  const locale = (params.locale ?? "en") as Locale;
+  const dict = getDictionary(locale);
+  return buildPageMetadata({ locale, path: "/contact", title: dict.metadata.contact.title, description: dict.metadata.contact.description });
 }
 
 export default function ContactPage({

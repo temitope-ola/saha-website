@@ -5,14 +5,13 @@ import CtaBanner from "@/components/cta-banner";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
+import { FaqSchema } from "@/components/json-ld";
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const dict = getDictionary((params.locale ?? "en") as Locale);
-  return {
-    title: dict.metadata.faq.title,
-    description: dict.metadata.faq.description,
-    openGraph: { title: dict.metadata.faq.title, description: dict.metadata.faq.description },
-  };
+  const locale = (params.locale ?? "en") as Locale;
+  const dict = getDictionary(locale);
+  return buildPageMetadata({ locale, path: "/faq", title: dict.metadata.faq.title, description: dict.metadata.faq.description });
 }
 
 export default function FaqPage({ params }: { params: { locale: string } }) {
@@ -21,6 +20,7 @@ export default function FaqPage({ params }: { params: { locale: string } }) {
 
   return (
     <>
+      <FaqSchema groups={faqPage.groups} />
       <PageHero
         eyebrow={faqPage.hero.eyebrow}
         headline={faqPage.hero.headline}

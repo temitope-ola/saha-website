@@ -7,14 +7,12 @@ import CalloutBox from "@/components/callout-box";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const dict = getDictionary((params.locale ?? "en") as Locale);
-  return {
-    title: dict.metadata.talent.title,
-    description: dict.metadata.talent.description,
-    openGraph: { title: dict.metadata.talent.title, description: dict.metadata.talent.description },
-  };
+  const locale = (params.locale ?? "en") as Locale;
+  const dict = getDictionary(locale);
+  return buildPageMetadata({ locale, path: "/talent", title: dict.metadata.talent.title, description: dict.metadata.talent.description });
 }
 
 export default function TalentPage({ params }: { params: { locale: string } }) {

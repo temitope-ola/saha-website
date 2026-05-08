@@ -8,14 +8,12 @@ import CalloutBox from "@/components/callout-box";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const dict = getDictionary((params.locale ?? "en") as Locale);
-  return {
-    title: dict.metadata.founders.title,
-    description: dict.metadata.founders.description,
-    openGraph: { title: dict.metadata.founders.title, description: dict.metadata.founders.description },
-  };
+  const locale = (params.locale ?? "en") as Locale;
+  const dict = getDictionary(locale);
+  return buildPageMetadata({ locale, path: "/founders", title: dict.metadata.founders.title, description: dict.metadata.founders.description });
 }
 
 export default function FoundersPage({ params }: { params: { locale: string } }) {

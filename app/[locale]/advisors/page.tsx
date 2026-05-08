@@ -6,14 +6,12 @@ import CtaBanner from "@/components/cta-banner";
 import type { Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/i18n";
 import { getDictionary } from "@/lib/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const dict = getDictionary((params.locale ?? "en") as Locale);
-  return {
-    title: dict.metadata.advisors.title,
-    description: dict.metadata.advisors.description,
-    openGraph: { title: dict.metadata.advisors.title, description: dict.metadata.advisors.description },
-  };
+  const locale = (params.locale ?? "en") as Locale;
+  const dict = getDictionary(locale);
+  return buildPageMetadata({ locale, path: "/advisors", title: dict.metadata.advisors.title, description: dict.metadata.advisors.description });
 }
 
 export default function AdvisorsPage({ params }: { params: { locale: string } }) {
