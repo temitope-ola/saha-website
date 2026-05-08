@@ -40,7 +40,7 @@ export const homepage = {
     paragraphs: [
       "En Suisse, des milliers d'entreprises rentables font face à un avenir incertain. Non pas parce qu'elles échouent, mais parce que leurs fondateurs partent à la retraite sans successeur.",
       "La plupart des acquéreurs institutionnels ciblent le haut du marché. Les entreprises dont le chiffre d'affaires est inférieur à CHF 10 millions sont trop petites pour le capital-investissement classique et souvent trop complexes pour les acquéreurs individuels. Elles passent entre les mailles du filet : non pas faute de valeur, mais parce que personne n'a construit un modèle pour elles.",
-      "Saha construit ce modèle : un repreneur suisse discipliné pour les PME rentables dirigées par leurs fondateurs. Nous acquérons de manière sélective, accompagnons le fondateur jusqu'à une transmission réussie, et faisons croître l'entreprise dans la durée.",
+      "Saha construit ce modèle : un repreneur suisse discipliné spécialisé dans la succession d'entreprise pour les PME rentables et les entreprises familiales. Nous acquérons de manière sélective, accompagnons chaque transmission d'entreprise avec soin, et faisons croître l'entreprise dans la durée.",
     ],
     callout: {
       type: "stat" as const,
@@ -208,8 +208,8 @@ export const foundersPage = {
   intro: {
     heading: "Nous comprenons ce qui est en jeu",
     paragraphs: [
-      "Vendre une entreprise que vous avez bâtie à partir de rien n'est pas seulement une décision financière. C'est personnel. Votre nom y est attaché. Votre équipe vous fait confiance. Vos clients comptent sur les standards que vous avez fixés. Trouver le bon prochain propriétaire est l'une des décisions les plus importantes de votre vie.",
-      "Saha a été construite par des gens qui le comprennent. Notre modèle est pensé pour honorer ce que vous avez créé : le préserver, le soutenir, et le porter avec le même sérieux que celui que vous y avez mis. Nous ne sommes pas là pour rebaptiser, restructurer ou revendre. Nous sommes là pour continuer ce que vous avez commencé.",
+      "Quand vous décidez de vendre votre entreprise, ce n'est pas seulement une décision financière. C'est personnel. Votre nom y est attaché. Votre équipe vous fait confiance. Vos clients comptent sur les standards que vous avez fixés. La cession d'entreprise est l'une des décisions les plus importantes de votre vie.",
+      "Saha a été construite par des gens qui le comprennent. Notre modèle est pensé pour honorer ce que vous avez créé : le préserver, le soutenir, et le porter avec le même sérieux que celui que vous y avez mis. Nous ne sommes pas là pour rebaptiser, restructurer ou revendre. Nous sommes là pour assurer une succession d'entreprise menée avec soin.",
     ],
     callout: {
       type: "quote" as const,
@@ -986,13 +986,13 @@ export const footer = {
 
 export const metadata = {
   home: { title: "Saha | La succession systématique des PME suisses", description: "Temps. Talent. Technologie. Un système de succession structuré pour les petites entreprises suisses. Saha acquiert des entreprises rentables sous CHF 10 millions, les accompagne avec soin dans la transition et les renforce dans la durée." },
-  founders: { title: "Pour les fondateurs | Saha", description: "Vous avez créé quelque chose qui mérite d'être préservé. Saha acquiert et conserve les entreprises suisses dirigées par leurs fondateurs sous CHF 10 millions avec soin, structure et engagement à long terme." },
-  advisors: { title: "Pour les conseillers | Saha", description: "Lorsque vous présentez un client à Saha, votre réputation est protégée. Nous offrons un processus clair, une transparence totale et une détention permanente pour les successions de PME suisses." },
-  investors: { title: "Pour les investisseurs | Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions suisses sous CHF 10 millions. Transitions structurées, sourcing discipliné, valeur composée." },
-  talent: { title: "Talent | Future CEO Program chez Saha", description: "Dirigez une entreprise suisse établie dans son prochain chapitre. Le Future CEO Program de Saha forme les directrices et directeurs généraux qui prendront les rênes des entreprises que nous acquérons : un propriétaire permanent, une communauté de dirigeants et la mission de diriger sur la durée." },
-  about: { title: "À propos de Saha | Pourquoi nous existons", description: "Trop de bonnes PME suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour offrir un acquéreur réfléchi et de long terme au segment de transmission mal desservi." },
-  contact: { title: "Contact | Saha", description: "Engagez une conversation avec Saha. Que vous soyez fondateur, investisseur ou futur membre de l'équipe, nous serions heureux d'avoir de vos nouvelles." },
-  faq: { title: "FAQ | Saha", description: "Réponses aux questions courantes sur Saha de la part des fondateurs, investisseurs et futurs membres de l'équipe." },
+  founders: { title: "Vendre son entreprise en Suisse — Succession d'entreprise | Saha", description: "Prêt à céder votre entreprise ? Saha acquiert et conserve les PME suisses dirigées par leurs fondateurs sous CHF 10 millions. Une transmission d'entreprise structurée, respectueuse et pérenne." },
+  advisors: { title: "Partenaire de cession d'entreprise pour conseillers | Saha", description: "Orientez vos clients vers un acquéreur de confiance pour leur succession d'entreprise. Saha offre un processus clair, une transparence totale et une détention permanente pour les PME suisses." },
+  investors: { title: "Investir dans la succession d'entreprise suisse | Saha", description: "Un modèle de détention permanente pour le segment mal desservi des transmissions d'entreprise suisses sous CHF 10 millions. Transitions structurées, sourcing discipliné, valeur composée." },
+  talent: { title: "Diriger une PME suisse — Future CEO Program | Saha", description: "Le Future CEO Program prépare des dirigeants expérimentés à reprendre les entreprises suisses en succession. Équité, autonomie et un propriétaire permanent derrière vous." },
+  about: { title: "À propos de Saha | Transmission d'entreprise familiale en Suisse", description: "Trop de bonnes entreprises familiales suisses disparaissent quand leurs fondateurs prennent leur retraite. Saha a été créée pour offrir un acquéreur de long terme pour la succession d'entreprise." },
+  contact: { title: "Contactez Saha — Parlons de votre cession d'entreprise", description: "Engagez une conversation avec Saha. Que vous souhaitiez vendre votre entreprise, investir ou rejoindre notre équipe, nous serions heureux d'échanger." },
+  faq: { title: "FAQ — Succession et transmission d'entreprise suisse | Saha", description: "Réponses aux questions courantes sur la cession d'entreprise, la succession de PME et le modèle d'acquisition de Saha." },
   privacy: { title: "Politique de confidentialité | Saha", description: "Politique de confidentialité de Saha et pratiques de traitement des données." },
   terms: { title: "Conditions d'utilisation | Saha", description: "Conditions d'utilisation du site Saha." },
 };

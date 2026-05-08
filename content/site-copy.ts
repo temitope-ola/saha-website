@@ -44,7 +44,7 @@ export const homepage = {
     paragraphs: [
       "Across Switzerland, thousands of profitable businesses face an uncertain future. Not because they are failing, but because their founders are retiring without a successor.",
       "Most institutional acquirers focus higher up the market. Businesses below CHF 10M in revenue are too small for traditional private equity, and often too complex for individual buyers. They fall through the cracks, not because they lack value, but because no one has built a model for them.",
-      "Saha is building that model: a disciplined Swiss succession buyer for profitable, founder-led SMEs. We buy selectively, see the founder through a successful transition, and grow the business for the long term.",
+      "Saha is building that model: a disciplined Swiss business succession buyer for profitable, founder-led family businesses. We buy selectively, guide each business transfer with care, and grow the company for the long term.",
     ],
     callout: {
       type: "stat" as const,
@@ -214,8 +214,8 @@ export const foundersPage = {
   intro: {
     heading: "We understand what is at stake",
     paragraphs: [
-      "Selling a business you built from nothing is not just a financial decision. It is personal. Your name is on it. Your team trusts you. Your customers rely on the standards you set. Finding the right next owner is one of the most important decisions you will ever make.",
-      "Saha was built by people who understand this. Our model is designed to honour what you created: by preserving it, supporting it, and carrying it forward with the same seriousness you brought to building it. We are not here to rebrand, restructure, or flip. We are here to continue what you started.",
+      "When you decide to sell your business, it is not just a financial decision. It is personal. Your name is on it. Your team trusts you. Your customers rely on the standards you set. Succession planning for a family business or founder-led company is one of the most important decisions you will ever make.",
+      "Saha was built by people who understand this. Our model is designed to honour what you created: by preserving it, supporting it, and carrying it forward with the same seriousness you brought to building it. We are not here to rebrand, restructure, or flip. We are here to ensure your business succession is handled with care.",
     ],
     callout: {
       type: "quote" as const,
@@ -1178,39 +1178,39 @@ export const metadata = {
       "Time. Talent. Technology. A systematic succession system for Swiss small businesses. Saha acquires profitable businesses below CHF 10M, transitions them with care, and strengthens them for the long term.",
   },
   founders: {
-    title: "For Founders | Saha",
+    title: "Sell Your Swiss Business to a Long-Term Buyer | Saha",
     description:
-      "You built something worth preserving. Saha acquires and keeps founder-built Swiss businesses below CHF 10M with care, structure, and a long-term commitment.",
+      "Ready to sell your business? Saha acquires founder-built Swiss SMEs below CHF 10M and keeps them intact. A structured business succession with care, transparency, and permanent ownership.",
   },
   advisors: {
-    title: "For Advisors | Saha",
+    title: "Swiss SME Succession Partner for Advisors | Saha",
     description:
-      "When you introduce a client to Saha, your reputation is protected. We offer a clear process, full transparency, and permanent ownership for Swiss SME successions.",
+      "Refer your clients to a trusted business succession buyer. Saha offers a clear process, full transparency, and permanent ownership for Swiss SME transfers below CHF 10M.",
   },
   investors: {
-    title: "For Investors | Saha",
+    title: "Invest in Swiss Business Succession | Saha",
     description:
-      "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10M. Structured transitions, disciplined sourcing, compounding value.",
+      "A permanent ownership model for the underserved segment of Swiss succession deals below CHF 10M. Structured business transfers, disciplined sourcing, compounding value.",
   },
   talent: {
-    title: "Talent | Future CEO Program at Saha",
+    title: "Run a Swiss SME — Future CEO Program | Saha",
     description:
-      "The Future CEO Program prepares experienced operators to run the Swiss businesses Saha acquires. Equity, autonomy, and a permanent owner behind you.",
+      "The Future CEO Program prepares experienced operators to lead Swiss businesses through succession. Equity, autonomy, and a permanent owner behind you.",
   },
   about: {
-    title: "About Saha | Why we exist",
+    title: "About Saha | Succession Planning for Swiss Family Businesses",
     description:
-      "Too many good Swiss businesses disappear when their founders retire. Saha was created to provide a thoughtful, long-term buyer for the underserved succession segment.",
+      "Too many good Swiss family businesses disappear when their founders retire. Saha was created to provide a thoughtful, long-term buyer for business succession below CHF 10M.",
   },
   contact: {
-    title: "Contact Saha",
+    title: "Contact Saha — Start Your Business Succession Conversation",
     description:
-      "Start a conversation with Saha. Whether you are a founder, investor, or prospective team member, we would welcome hearing from you.",
+      "Start a conversation with Saha about selling your business, investing, or joining our team. We welcome founders, advisors, and prospective team members.",
   },
   faq: {
-    title: "FAQ | Saha",
+    title: "Business Succession FAQ — Swiss SME Questions Answered | Saha",
     description:
-      "Answers to common questions about Saha from founders, investors, and prospective team members.",
+      "Answers to common questions about selling your business, succession planning, and how Saha acquires and grows Swiss SMEs.",
   },
   privacy: {
     title: "Privacy Policy | Saha",

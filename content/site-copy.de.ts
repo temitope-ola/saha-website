@@ -45,7 +45,7 @@ export const homepage = {
     paragraphs: [
       "In der Schweiz stehen Tausende profitabler Unternehmen vor einer ungewissen Zukunft. Nicht weil sie scheitern, sondern weil ihre Gründerinnen und Gründer ohne Nachfolge in den Ruhestand gehen.",
       "Die meisten institutionellen Käufer konzentrieren sich auf das obere Marktsegment. Unternehmen mit weniger als CHF 10 Mio. Umsatz sind für klassisches Private Equity zu klein und für Einzelkäufer oft zu komplex. Sie fallen durch die Maschen: nicht weil sie keinen Wert haben, sondern weil bisher niemand ein Modell für sie gebaut hat.",
-      "Saha baut dieses Modell: ein disziplinierter Schweizer Nachfolge-Erwerber für profitable, inhabergeführte KMU. Wir kaufen gezielt, begleiten die Gründerin oder den Gründer durch eine gelungene Übergabe und lassen das Unternehmen langfristig wachsen.",
+      "Saha baut dieses Modell: ein disziplinierter Käufer für die Unternehmensnachfolge profitabler, inhabergeführter Familienunternehmen. Wir kaufen gezielt, begleiten jede Unternehmensübergabe sorgfältig und bieten eine langfristige Nachfolgelösung für Schweizer KMU.",
     ],
     callout: {
       type: "stat" as const,
@@ -215,8 +215,8 @@ export const foundersPage = {
   intro: {
     heading: "Wir verstehen, was auf dem Spiel steht",
     paragraphs: [
-      "Ein Unternehmen zu verkaufen, das Sie aus dem Nichts aufgebaut haben, ist nicht bloss eine finanzielle Entscheidung. Es ist persönlich. Ihr Name steht dafür. Ihr Team vertraut Ihnen. Ihre Kundinnen und Kunden verlassen sich auf die Standards, die Sie setzen. Den richtigen nächsten Eigentümer zu finden, gehört zu den wichtigsten Entscheidungen, die Sie je treffen werden.",
-      "Saha wurde von Menschen aufgebaut, die das verstehen. Unser Modell ist darauf ausgelegt, zu ehren, was Sie geschaffen haben: es zu bewahren, zu unterstützen und mit derselben Ernsthaftigkeit voranzutragen, die Sie beim Aufbau mitgebracht haben. Wir sind nicht hier, um umzubenennen, zu restrukturieren oder weiterzuverkaufen. Wir sind hier, um weiterzuführen, was Sie begonnen haben.",
+      "Wenn Sie Ihre Firma verkaufen möchten, ist das nicht bloss eine finanzielle Entscheidung. Es ist persönlich. Ihr Name steht dafür. Ihr Team vertraut Ihnen. Ihre Kundinnen und Kunden verlassen sich auf die Standards, die Sie setzen. Die Nachfolgeplanung für ein Familienunternehmen gehört zu den wichtigsten Entscheidungen, die Sie je treffen werden.",
+      "Saha wurde von Menschen aufgebaut, die das verstehen. Unser Modell ist darauf ausgelegt, zu ehren, was Sie geschaffen haben: es zu bewahren, zu unterstützen und mit derselben Ernsthaftigkeit voranzutragen, die Sie beim Aufbau mitgebracht haben. Wir sind nicht hier, um umzubenennen, zu restrukturieren oder weiterzuverkaufen. Wir sind hier, damit Ihre Unternehmensnachfolge mit Sorgfalt gelingt.",
     ],
     callout: {
       type: "quote" as const,
@@ -1186,39 +1186,39 @@ export const metadata = {
       "Zeit. Talent. Technologie. Ein systematisches Nachfolgesystem für Schweizer Kleinunternehmen. Saha erwirbt profitable Unternehmen unter CHF 10 Mio., führt sie sorgfältig durch die Übergabe und stärkt sie langfristig.",
   },
   founders: {
-    title: "Für Gründer | Saha",
+    title: "Firma verkaufen in der Schweiz — Unternehmensnachfolge | Saha",
     description:
-      "Sie haben etwas Bewahrenswertes aufgebaut. Saha erwirbt und hält gründergeführte Schweizer Unternehmen unter CHF 10 Mio. mit Sorgfalt, Struktur und langfristigem Engagement.",
+      "Bereit für die Unternehmensübergabe? Saha erwirbt gründergeführte Schweizer KMU unter CHF 10 Mio. und erhält sie langfristig. Eine strukturierte Nachfolgelösung mit Sorgfalt und Transparenz.",
   },
   advisors: {
-    title: "Für Berater | Saha",
+    title: "Partner für Unternehmensnachfolge — Für Berater | Saha",
     description:
-      "Wenn Sie einen Klienten an Saha vermitteln, ist Ihr Ruf geschützt. Wir bieten einen klaren Prozess, volle Transparenz und dauerhaftes Eigentum für Schweizer KMU-Nachfolgen.",
+      "Vermitteln Sie Ihre Klienten an einen vertrauenswürdigen Nachfolgekäufer. Saha bietet einen klaren Prozess, volle Transparenz und dauerhaftes Eigentum für Schweizer KMU-Nachfolgen.",
   },
   investors: {
-    title: "Für Investoren | Saha",
+    title: "In Schweizer Unternehmensnachfolge investieren | Saha",
     description:
-      "Ein Modell permanenten Eigentums für das unterversorgte Segment der Schweizer Nachfolgetransaktionen unter CHF 10 Mio. Strukturierte Übergaben, disziplinierte Sourcing, sich kumulierender Wert.",
+      "Ein Modell permanenten Eigentums für das unterversorgte Segment der Schweizer Nachfolgetransaktionen unter CHF 10 Mio. Strukturierte Unternehmensübergaben, diszipliniertes Sourcing, wachsender Wert.",
   },
   talent: {
-    title: "Talent | Future CEO Program bei Saha",
+    title: "Schweizer KMU führen — Future CEO Program | Saha",
     description:
-      "Führen Sie ein etabliertes Schweizer Unternehmen in sein nächstes Kapitel. Das Future CEO Program von Saha entwickelt Geschäftsführerinnen und Geschäftsführer für die Unternehmen, die wir erwerben: ein dauerhafter Eigentümer, eine Gemeinschaft von Führungskräften und der Auftrag, langfristig zu führen.",
+      "Das Future CEO Program bereitet erfahrene Führungskräfte darauf vor, Schweizer Unternehmen durch die Nachfolge zu leiten. Beteiligung, Autonomie und ein dauerhafter Eigentümer hinter Ihnen.",
   },
   about: {
-    title: "Über Saha | Warum wir existieren",
+    title: "Über Saha | Nachfolgeplanung für Schweizer Familienunternehmen",
     description:
-      "Zu viele gute Schweizer Unternehmen verschwinden, wenn ihre Gründerinnen und Gründer in den Ruhestand gehen. Saha wurde geschaffen, um einen überlegten, langfristigen Käufer für das unterversorgte Nachfolgesegment zu bieten.",
+      "Zu viele gute Schweizer Familienunternehmen verschwinden, wenn ihre Gründer in den Ruhestand gehen. Saha wurde geschaffen, um eine langfristige Nachfolgelösung für Unternehmensnachfolge unter CHF 10 Mio. zu bieten.",
   },
   contact: {
-    title: "Kontakt | Saha",
+    title: "Kontakt — Sprechen Sie mit Saha über Ihre Unternehmensnachfolge",
     description:
-      "Beginnen Sie ein Gespräch mit Saha. Ob als Gründerin, Gründer, Investor oder künftiges Team-Mitglied: Wir freuen uns, von Ihnen zu hören.",
+      "Beginnen Sie ein Gespräch mit Saha. Ob Sie Ihre Firma verkaufen, investieren oder unserem Team beitreten möchten — wir freuen uns, von Ihnen zu hören.",
   },
   faq: {
-    title: "FAQ | Saha",
+    title: "FAQ — Unternehmensnachfolge und Firmenverkauf in der Schweiz | Saha",
     description:
-      "Antworten auf häufig gestellte Fragen zu Saha von Gründerinnen, Gründern, Investoren und künftigen Team-Mitgliedern.",
+      "Antworten auf häufige Fragen zum Firma verkaufen, zur Nachfolgeplanung und wie Saha Schweizer KMU erwirbt und weiterentwickelt.",
   },
   privacy: {
     title: "Datenschutzrichtlinie | Saha",
